@@ -1,0 +1,97 @@
+<cropmarker:MainPage bxml:id="mainPage" title="Crop Marker" maximized="true"
+                   xmlns:bxml="http://pivot.apache.org/bxml"
+                   xmlns:content="org.apache.pivot.wtk.content"
+                   xmlns:menus="org.apache.pivot.wtk.menus"
+                   xmlns:cropmarker="org.agmip.ui.cropmarker"
+                   xmlns="org.apache.pivot.wtk">
+
+    <bxml:define>
+        <bxml:include bxml:id="configDialog" src="dialog_config.bxml"/>
+    </bxml:define>
+    <actionMappings>
+        <Window.ActionMapping action="fileQuit" keyStroke="CMD-Q" />
+    </actionMappings>
+
+    <TablePane styles="{horizontalSpacing:6, verticalSpacing:6, showVerticalGridLines:true, padding:2}">
+        <columns>
+            <TablePane.Column width="1*" />
+        </columns>
+
+        <TablePane.Row height="-1">
+            <MenuBar>
+                <MenuBar.Item buttonData="File">
+                    <Menu>
+                        <Menu.Section>
+                            <Menu.Item action="fileQuit">
+                                <buttonData>
+                                    <content:MenuItemData text="Quit" keyboardShortcut="CMD-Q" />
+                                </buttonData>
+                            </Menu.Item>
+                        </Menu.Section>
+                    </Menu>
+                </MenuBar.Item>
+            </MenuBar>
+        </TablePane.Row>
+
+        <TablePane.Row height="1*">
+            <Border styles="{padding:2, color: '#777777'}">
+                <BoxPane orientation="vertical" styles="{padding:{bottom:16, left: 6}}">
+                    <Label text="Dataset List" styles="{font:{bold:true}}"/>
+                    <Border styles="{color:10}">
+                        <ScrollPane horizontalScrollBarPolicy="fill_to_capacity" preferredWidth="420">
+                            <TableView bxml:id="datasetListTableView" selectMode="multi"
+                                       styles="{showHorizontalGridLines:false}">
+                                <columns>
+                                    <TableView.Column name="checkFlg" width="-1">
+                                        <headerData>
+                                            <content:TableViewHeaderData icon="@flag_red.png"/>
+                                        </headerData>
+
+                                        <cellRenderer>
+                                            <content:TableViewBooleanCellRenderer/>
+                                        </cellRenderer>
+                                    </TableView.Column>
+                                    <TableView.Column name="icon" width="32" headerData="Icon">
+                                        <cellRenderer>
+                                            <content:TableViewImageCellRenderer/>
+                                        </cellRenderer>
+                                    </TableView.Column>
+                                    <TableView.Column name="crop" width="-1" headerData="Crop" minimumWidth="40"/>
+                                    <TableView.Column name="name" width="-1" headerData="Name" minimumWidth="85"/>
+                                    <TableView.Column name="description" width="-1" headerData="Description" minimumWidth="200"/>
+                                </columns>
+
+                                <tableViewSortListeners>
+                                    function sortChanged(tableView) {
+                                    var tableData = tableView.getTableData();
+                                    tableData.setComparator(new org.apache.pivot.wtk.content.TableViewRowComparator(tableView));
+                                    }
+                                </tableViewSortListeners>
+                            </TableView>
+
+                            <columnHeader>
+                                <TableViewHeader tableView="$datasetListTableView" sortMode="multi_column" />
+                            </columnHeader>
+                        </ScrollPane>
+                    </Border>
+                </BoxPane>
+                <BoxPane orientation="vertical" styles="{padding: 6}">
+                    <BoxPane orientation="horizontal">
+                        <PushButton bxml:id="nextBtn" buttonData="Next" styles="{padding:{left:16,right:16}}"/>
+                        <PushButton bxml:id="configBtn" buttonData="Config" styles="{padding:{left:16,right:16}}">
+                            <buttonPressListeners>
+                                importPackage(org.apache.pivot.wtk);
+                                function buttonPressed(button) {
+                                configDialog.open(mainPage, null);
+                                }
+                            </buttonPressListeners>
+                        </PushButton>
+                    </BoxPane>
+                </BoxPane>
+            </Border>
+        </TablePane.Row>
+        <TablePane.Row height="-1">
+            <Label bxml:id="txtVersion" />
+        </TablePane.Row>
+    </TablePane>
+</cropmarker:MainPage>

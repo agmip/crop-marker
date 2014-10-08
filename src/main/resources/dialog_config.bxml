@@ -1,0 +1,54 @@
+<cropmarker:PathConfigDialog bxml:id="configDialog" title="Configuration" modal="true"
+                             xmlns:bxml="http://pivot.apache.org/bxml"
+                             xmlns:cropmarker="org.agmip.ui.cropmarker"
+                             xmlns="org.apache.pivot.wtk">
+    <TablePane preferredWidth="420" preferredHeight="310">
+        <columns>
+            <TablePane.Column width="1*"/>
+        </columns>
+ 
+        <TablePane.Row>
+            <BoxPane orientation="vertical" styles="{padding: 6}">
+                <Label text="QuadUI Executable Path:" styles="{font:{bold:true}}" />
+                <BoxPane orientation="horizontal">
+                    <TextInput bxml:id="quaduiPathText" editable="false" preferredWidth="350"/>
+                    <PushButton bxml:id="quaduiPathBtn" buttonData="Browse"/>
+                </BoxPane>
+            </BoxPane>
+        </TablePane.Row>
+        <TablePane.Row>
+            <BoxPane orientation="vertical" styles="{padding: 6}">
+                <Label text="ACMOUI Executable Path:" styles="{font:{bold:true}}" />
+                <BoxPane orientation="horizontal">
+                    <TextInput bxml:id="acmouiPathText" editable="false" preferredWidth="350"/>
+                    <PushButton bxml:id="acmouiPathBtn" buttonData="Browse"/>
+                </BoxPane>
+            </BoxPane>
+        </TablePane.Row>
+        <TablePane.Row>
+            <BoxPane orientation="vertical" styles="{padding: 6}">
+                <Label text="DSSAT 4.5 Executable Path:" styles="{font:{bold:true}}" />
+                <BoxPane orientation="horizontal">
+                    <TextInput bxml:id="dssat45ExePathText" editable="false" preferredWidth="350"/>
+                    <PushButton bxml:id="dssat45ExePathBtn" buttonData="Browse"/>
+                </BoxPane>
+            </BoxPane>
+        </TablePane.Row>
+        <TablePane.Row height="1*">
+            <BoxPane orientation="vertical" styles="{padding: 6}">
+                <Label text="APSIM 7.5 Executable Path:" styles="{font:{bold:true}}" />
+                <BoxPane orientation="horizontal">
+                    <TextInput bxml:id="apsim75ExePathText" editable="false" preferredWidth="350"/>
+                    <PushButton bxml:id="apsim75ExePathBtn" buttonData="Browse"/>
+                </BoxPane>
+            </BoxPane>
+        </TablePane.Row>
+ 
+        <TablePane.Row height="-1">
+            <BoxPane styles="{horizontalAlignment:'right'}">
+                <PushButton buttonData="Close"
+                            ButtonPressListener.buttonPressed="configDialog.close()"/>
+            </BoxPane>
+        </TablePane.Row>
+    </TablePane>
+</cropmarker:PathConfigDialog>

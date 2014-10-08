@@ -1,0 +1,91 @@
+<cropmarker:BuildTestPage title="Crop Marker" maximized="true"
+                        xmlns:bxml="http://pivot.apache.org/bxml"
+                        xmlns:content="org.apache.pivot.wtk.content"
+                        xmlns:menus="org.apache.pivot.wtk.menus"
+                        xmlns:cropmarker="org.agmip.ui.cropmarker"
+                        xmlns="org.apache.pivot.wtk">
+
+    <actionMappings>
+        <Window.ActionMapping action="fileQuit" keyStroke="CMD-Q" />
+    </actionMappings>
+
+    <TablePane styles="{horizontalSpacing:6, verticalSpacing:6, showVerticalGridLines:true, padding:2}">
+        <columns>
+            <TablePane.Column width="1*" />
+        </columns>
+
+        <TablePane.Row height="-1">
+            <MenuBar>
+                <MenuBar.Item buttonData="File">
+                    <Menu>
+                        <Menu.Section>
+                            <Menu.Item action="fileQuit">
+                                <buttonData>
+                                    <content:MenuItemData text="Quit" keyboardShortcut="CMD-Q" />
+                                </buttonData>
+                            </Menu.Item>
+                        </Menu.Section>
+                    </Menu>
+                </MenuBar.Item>
+            </MenuBar>
+        </TablePane.Row>
+
+        <TablePane.Row height="1*">
+            <Border styles="{padding:2, color: '#777777'}">
+                <BoxPane orientation="vertical" styles="{padding:{bottom:16, left: 6}}">
+                    <BoxPane orientation="vertical" styles="{padding: 6}">
+                        <BoxPane orientation="horizontal">
+                            <Label text="Test Configuration for Source Data:" styles="{font:{bold:true}}" />
+                            <ImageView image="/info_s.jpg" tooltipDelay="200" tooltipText="Switch between data sets to make particular configuration for each test" />
+                        </BoxPane>
+                        <BoxPane orientation="horizontal">
+                            <ListButton bxml:id="testDataList"/>
+                        </BoxPane>
+                    </BoxPane>
+                    <BoxPane orientation="vertical" styles="{padding: 6}">
+                        <Label text="Working Directory:" styles="{font:{bold:true}}" />
+                        <BoxPane orientation="horizontal">
+                            <TextInput bxml:id="outputText" editable="false"/>
+                            <PushButton bxml:id="browseOutputButton" buttonData="Browse" enabled="false"/>
+                        </BoxPane>
+                        <BoxPane orientation="horizontal">
+                            <Checkbox bxml:id="outputCB" buttonData="Use default working Directory" state="selected"/>
+                        </BoxPane>
+                    </BoxPane>
+                    <BoxPane orientation="horizontal" styles="{padding:6, spacing:16}">
+                        <Border title="Model for test:" styles="{padding:6}">
+                            <BoxPane orientation="vertical">
+                                <bxml:define>
+                                    <ButtonGroup bxml:id="models"/>
+                                </bxml:define>
+                                <Checkbox bxml:id="model-dssat" buttonData="DSSAT45"/>
+                                <Checkbox bxml:id="model-apsim" buttonData="APSIM75" />
+                                <Checkbox bxml:id="model-stics"  buttonData="STICS" visible="false" />
+                                <Checkbox bxml:id="model-wofost"  buttonData="WOFOST" visible="false"/>
+                                <Checkbox bxml:id="model-cgnau"  buttonData="CropGrow-NAU" visible="false"/>
+                                <Checkbox bxml:id="model-json"  buttonData="JSON" tooltipDelay="200" tooltipText="Only generate JSON for debug purpose"/>
+                            </BoxPane>
+                        </Border>
+                    </BoxPane>
+                    <BoxPane orientation="vertical" styles="{padding: 6}">
+                        <BoxPane orientation="horizontal">
+                            <PushButton bxml:id="backToMain" buttonData="Back" styles="{padding:{left:16,right:16}}"/>
+                            <PushButton bxml:id="startButton" buttonData="Start" styles="{padding:{left:16,right:16}}"/>
+                            <ActivityIndicator bxml:id="testIndicator" preferredWidth="16" preferredHeight="16" styles="{color:'#777777'}"/>
+                            <Label bxml:id="txtAutoDomeApplyMsg" styles="{font:{bold:true}, color:'#FF0000'}"/>
+                        </BoxPane>    
+                    </BoxPane>
+                    <BoxPane orientation="vertical" styles="{padding:6}">
+                        <BoxPane orientation="horizontal">
+                            <Label text="Status:" styles="{font:{bold:true}}" />
+                            <Label bxml:id="txtStatus" />
+                        </BoxPane>
+                    </BoxPane>
+                </BoxPane>
+            </Border>
+        </TablePane.Row>
+        <TablePane.Row height="-1">
+            <Label bxml:id="txtVersion" />
+        </TablePane.Row>
+    </TablePane>
+</cropmarker:BuildTestPage>
