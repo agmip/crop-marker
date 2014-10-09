@@ -66,6 +66,15 @@
                                 <Checkbox bxml:id="model-json"  buttonData="JSON" tooltipDelay="200" tooltipText="Only generate JSON for debug purpose"/>
                             </BoxPane>
                         </Border>
+                        <Border title="Result Comparator:" styles="{padding:6}">
+                            <BoxPane orientation="vertical">
+                                <bxml:define>
+                                    <ButtonGroup bxml:id="comparators"/>
+                                </bxml:define>
+                                <Checkbox bxml:id="comparator-acmo" buttonData="ACMO"/>
+                                <Checkbox bxml:id="comparator-yield" buttonData="Yield" />
+                            </BoxPane>
+                        </Border>
                     </BoxPane>
                     <BoxPane orientation="vertical" styles="{padding: 6}">
                         <BoxPane orientation="horizontal">

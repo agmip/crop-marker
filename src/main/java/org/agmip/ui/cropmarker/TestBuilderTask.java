@@ -3,6 +3,7 @@ package org.agmip.ui.cropmarker;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import org.agmip.common.Functions;
 import org.agmip.ui.cropmarker.BuildTestPage.DataSpecConfig;
 import static org.agmip.ui.cropmarker.Page.DEF_DATA_PATH;
@@ -92,7 +93,7 @@ public class TestBuilderTask extends Task<TestDefBuilder> {
                     dssat.setTitle(model);
                     dssat.setArguments("b", dssat45BatchFileName);
                     // ACMO and comparator
-                    setupAcmoAndComp(builder, dataName, model, true);
+                    setupAcmoAndComp(builder, dataName, model, testConfig);
                 } // APSIM
                 else if (model.equals("APSIM75")) {
                     String workPath = String.format(modelWorkDir, quaduiTitle, "APSIM");
@@ -100,7 +101,7 @@ public class TestBuilderTask extends Task<TestDefBuilder> {
                     apsim.setTitle(model);
                     apsim.setArguments("AgMip.apsim");
                     // ACMO and comparator
-                    setupAcmoAndComp(builder, dataName, model, true);
+                    setupAcmoAndComp(builder, dataName, model, testConfig);
                 } // WOFOST
                 else if (model.equals("WOFOST")) {
                     // TODO
@@ -111,7 +112,7 @@ public class TestBuilderTask extends Task<TestDefBuilder> {
         return builder;
     }
 
-    private void setupAcmoAndComp(TestDefBuilder builder, String dataName, String model, boolean... flgs) {
+    private void setupAcmoAndComp(TestDefBuilder builder, String dataName, String model, DataSpecConfig testConfig) {
         // ACMO for Model
         JarRunner acmo = (JarRunner) builder.addAppRunner(JAR, acmouiPath);
         String acmoTitle = "ACMO_" + model;
@@ -126,7 +127,7 @@ public class TestBuilderTask extends Task<TestDefBuilder> {
             modelName = "APSIM";
         }
         acmo.setArguments("-cli", modelArg, String.format(acmoInputDir, model));
-        if (flgs.length > 0 && flgs[0]) {
+        if (testConfig.isComparatorSelected("ACMO")) {
             // Preparing result comparators
             try {
                 String expectedPath = String.format(actualAcmoCsvPath, dataName, model, "ACMO", "ACMO-MACHAKOS-1-0XFX-0-0-" + modelName + ".csv");
@@ -136,6 +137,8 @@ public class TestBuilderTask extends Task<TestDefBuilder> {
             } catch (Exception ex) {
                 LOG.error(Functions.getStackTrace(ex));
             }
+        } else if (testConfig.isComparatorSelected("Yield")) {
+            // TODO
         }
     }
 }

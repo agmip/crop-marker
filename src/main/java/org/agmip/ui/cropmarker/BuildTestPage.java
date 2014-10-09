@@ -59,12 +59,13 @@ public class BuildTestPage extends Page {
     private Checkbox modelWofost = null;
 //    private Checkbox modelCgnau = null; 
     private Checkbox modelJson = null;
-//    private Checkbox optionCompress = null;
-//    private Checkbox optionOverwrite = null;
+    private Checkbox comparatorAcmo = null;
+    private Checkbox comparatorYield = null;
     private Label txtStatus = null;
 //    private Label txtAutoDomeApplyMsg = null;
     private TextInput outputText = null;
-    private final ArrayList<Checkbox> checkboxGroup = new ArrayList<Checkbox>();
+    private final ArrayList<Checkbox> modelCBGroup = new ArrayList<Checkbox>();
+    private final ArrayList<Checkbox> comparatorCBGroup = new ArrayList<Checkbox>();
 // TODO    private Preferences pref = Preferences.userNodeForPackage(getClass());
     private final HashMap<String, DataSpecConfig> dataSpecConfig = new HashMap();
     private DataSpecConfig curConfig = new DataSpecConfig();
@@ -74,7 +75,8 @@ public class BuildTestPage extends Page {
     private ArrayList<String> validateInputs() {
         ArrayList<String> errs = new ArrayList<String>();
         boolean anyModelChecked = false;
-        for (Checkbox cbox : checkboxGroup) {
+        boolean anyComparatorChecked = false;
+        for (Checkbox cbox : modelCBGroup) {
             if (cbox.isSelected()) {
                 anyModelChecked = true;
             }
@@ -82,11 +84,15 @@ public class BuildTestPage extends Page {
         if (!anyModelChecked) {
             errs.add("You need to select a model for test");
         }
-//        File convertFile = new File(convertText.getText());
+        for (Checkbox cbox : comparatorCBGroup) {
+            if (cbox.isSelected()) {
+                anyComparatorChecked = true;
+            }
+        }
+        if (!anyComparatorChecked) {
+            errs.add("You need to select a comparator for test");
+        }
         File outputDir = new File(outputText.getText());
-//        if (!convertFile.exists()) {
-//            errs.add("You need to select a file to convert");
-//        }
         if (!outputDir.exists() || !outputDir.isDirectory()) {
             errs.add("You need to select an output directory");
         }
@@ -111,15 +117,17 @@ public class BuildTestPage extends Page {
         modelWofost = (Checkbox) ns.get("model-wofost");
 //        modelCgnau          = (Checkbox) ns.get("model-cgnau");
         modelJson = (Checkbox) ns.get("model-json");
-//        optionCompress      = (Checkbox) ns.get("option-compress");
-//        optionOverwrite     = (Checkbox) ns.get("option-overwrite");
+        comparatorAcmo      = (Checkbox) ns.get("comparator-acmo");
+        comparatorYield     = (Checkbox) ns.get("comparator-yield");
 
-        checkboxGroup.add(modelApsim);
-        checkboxGroup.add(modelDssat);
+        modelCBGroup.add(modelApsim);
+        modelCBGroup.add(modelDssat);
 //        checkboxGroup.add(modelStics);
-        checkboxGroup.add(modelWofost);
+        modelCBGroup.add(modelWofost);
 //        checkboxGroup.add(modelCgnau);
-        checkboxGroup.add(modelJson);
+        modelCBGroup.add(modelJson);
+        comparatorCBGroup.add(comparatorAcmo);
+        comparatorCBGroup.add(comparatorYield);
 
         File f;
         if (!(f = new File(DEF_WORK_PATH)).exists()) {
@@ -237,8 +245,8 @@ public class BuildTestPage extends Page {
 //        initCheckBox(modelStics, "last_model_select_stics");
         initModelCheckBox(modelWofost, "last_model_select_wofost");
         initModelCheckBox(modelJson, "last_model_select_json");
-//        initCheckBox(optionCompress, "last_option_select_compress");
-//        initCheckBox(optionOverwrite, "last_option_select_overwrite");
+        initComparatorCheckBox(comparatorAcmo, "last_comparator_select_acmo");
+        initComparatorCheckBox(comparatorYield, "last_comparator_select_yield");
     }
 
     private void switchDataConfig(String dataName) {
@@ -254,14 +262,21 @@ public class BuildTestPage extends Page {
             curConfig = MapUtil.getObjectOr(dataSpecConfig, DEF_SELECTED_DATA_NAME, new DataSpecConfig()).copy();
             dataSpecConfig.put(curDataName, curConfig);
         }
-        switchModelSelection();
+        switchCheckboxesSelection();
 //        switchOutputBox(config.getIsOutputUseDef());
         outputCB.setSelected(curConfig.getIsOutputUseDef());
     }
 
-    private void switchModelSelection() {
-        for (Checkbox cbox : checkboxGroup) {
+    private void switchCheckboxesSelection() {
+        for (Checkbox cbox : modelCBGroup) {
             if (curConfig.isModelSelected((String) cbox.getButtonData())) {
+                cbox.setSelected(true);
+            } else {
+                cbox.setSelected(false);
+            }
+        }
+        for (Checkbox cbox : comparatorCBGroup) {
+            if (curConfig.isComparatorSelected((String) cbox.getButtonData())) {
                 cbox.setSelected(true);
             } else {
                 cbox.setSelected(false);
@@ -402,7 +417,10 @@ public class BuildTestPage extends Page {
         startButton.setEnabled(!enabled);
         backButton.setEnabled(!enabled);
         testDataListBtn.setEnabled(!enabled);
-        for (Checkbox c : checkboxGroup) {
+        for (Checkbox c : modelCBGroup) {
+            c.setEnabled(!enabled);
+        }
+        for (Checkbox c : comparatorCBGroup) {
             c.setEnabled(!enabled);
         }
         outputCB.setEnabled(!enabled);
@@ -484,12 +502,31 @@ public class BuildTestPage extends Page {
             }
         });
     }
+    
+    private void initComparatorCheckBox(Checkbox cb, final String lastSelectId) {
+//        cb.setSelected(pref.getBoolean(lastSelectId, false));
+        cb.getButtonPressListeners().add(new ButtonPressListener() {
+
+            @Override
+            public void buttonPressed(Button button) {
+
+//                pref.putBoolean(lastSelectId, button.isSelected());
+                String model = (String) button.getButtonData();
+                if (button.isSelected()) {
+                    curConfig.selecteComparator(model);
+                } else {
+                    curConfig.unselecteComparator(model);
+                }
+            }
+        });
+    }
 
     protected class DataSpecConfig {
 
         private boolean isOutputUseDef = true;
         private String outputDir = DEF_WORK_PATH;
         private HashSet<String> models = new HashSet();
+        private HashSet<String> comparators = new HashSet();
 
         public void setIsOutputUseDef(boolean isOutputUseDef) {
             this.isOutputUseDef = isOutputUseDef;
@@ -527,6 +564,26 @@ public class BuildTestPage extends Page {
             models.remove(model);
         }
 
+        public ArrayList<String> getComparators() {
+            return new ArrayList<String>(comparators);
+        }
+
+        public void setComparators(ArrayList<String> comparators) {
+            this.comparators = new HashSet(comparators);
+        }
+
+        public boolean isComparatorSelected(String comparator) {
+            return comparators.contains(comparator);
+        }
+
+        public void selecteComparator(String comparator) {
+            comparators.add(comparator);
+        }
+
+        public void unselecteComparator(String comparator) {
+            comparators.remove(comparator);
+        }
+
         @Override
         public String toString() {
             StringBuilder sb = new StringBuilder();
@@ -536,6 +593,8 @@ public class BuildTestPage extends Page {
             sb.append(outputDir);
             sb.append("], Models:[");
             sb.append(models);
+            sb.append("], Comparators:[");
+            sb.append(comparators);
             sb.append("]");
             return sb.toString();
         }
@@ -545,6 +604,7 @@ public class BuildTestPage extends Page {
             ret.setIsOutputUseDef(this.isOutputUseDef);
             ret.setOutputDir(this.outputDir);
             ret.setModels(this.getModels());
+            ret.setComparators(this.getComparators());
             return ret;
         }
     }
