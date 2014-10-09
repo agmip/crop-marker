@@ -10,3 +10,4 @@ run.sh
 *.log
 /src/main/resources/git.properties
 *.jar
+work/*
