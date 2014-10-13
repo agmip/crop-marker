@@ -1,0 +1,1999 @@
+<folder version="29" name="simulations">
+    <folder name="Soils">
+        <soil name="IBWH980018">
+            <Comment type="multiedit" description="Comments">ICASA Classification: Coarse-silty, mixed,calcareous,mesic Typ Udifluven</Comment>
+            <ASC_Order description="Australian Soil Classification Order" />
+            <ASC_Sub-order description="Australian Soil Classification Sub-Order" />
+            <SoilType description="Soil description"/>
+            <LocalName/>
+            <Site>?</Site>
+            <NearestTown description="Nearest town"/>
+            <Region/>
+            <State />
+            <Country />
+            <NaturalVegetation description="Natural vegetation"/>
+            <ApsoilNumber description="Apsoil number" />
+            <Latitude description="Latitude (WGS84)">-99.999</Latitude>
+            <Longitude>-99.999</Longitude>
+            <LocationAccuracy description="Location accuracy" />
+            <DataSource type="multiedit" description="Data source">SCS</DataSource>
+            <Comments />
+            <Water>
+                <Layer>
+                    <Thickness units="mm">150.0</Thickness>
+                    <KS units="mm/day"></KS>
+                    <BD units="g/cc">1.15</BD>
+                    <AirDry units="mm/mm">0.0288</AirDry>
+                    <LL15 units="mm/mm">0.072</LL15>
+                    <DUL units="mm/mm">0.225</DUL>
+                    <SAT units="mm/mm">0.275</SAT>
+                </Layer>
+                <Layer>
+                    <Thickness units="mm">150.0</Thickness>
+                    <KS units="mm/day"></KS>
+                    <BD units="g/cc">1.16</BD>
+                    <AirDry units="mm/mm">0.028</AirDry>
+                    <LL15 units="mm/mm">0.07</LL15>
+                    <DUL units="mm/mm">0.24</DUL>
+                    <SAT units="mm/mm">0.29</SAT>
+                </Layer>
+                <Layer>
+                    <Thickness units="mm">300.0</Thickness>
+                    <KS units="mm/day"></KS>
+                    <BD units="g/cc">1.21</BD>
+                    <AirDry units="mm/mm">0.016</AirDry>
+                    <LL15 units="mm/mm">0.04</LL15>
+                    <DUL units="mm/mm">0.154</DUL>
+                    <SAT units="mm/mm">0.194</SAT>
+                </Layer>
+                <Layer>
+                    <Thickness units="mm">300.0</Thickness>
+                    <KS units="mm/day"></KS>
+                    <BD units="g/cc">1.23</BD>
+                    <AirDry units="mm/mm">0.0128</AirDry>
+                    <LL15 units="mm/mm">0.032</LL15>
+                    <DUL units="mm/mm">0.091</DUL>
+                    <SAT units="mm/mm">0.141</SAT>
+                </Layer>
+                <Layer>
+                    <Thickness units="mm">300.0</Thickness>
+                    <KS units="mm/day"></KS>
+                    <BD units="g/cc">1.31</BD>
+                    <AirDry units="mm/mm">0.0128</AirDry>
+                    <LL15 units="mm/mm">0.032</LL15>
+                    <DUL units="mm/mm">0.087</DUL>
+                    <SAT units="mm/mm">0.137</SAT>
+                </Layer>
+                <Layer>
+                    <Thickness units="mm">300.0</Thickness>
+                    <KS units="mm/day"></KS>
+                    <BD units="g/cc">1.31</BD>
+                    <AirDry units="mm/mm">0.0128</AirDry>
+                    <LL15 units="mm/mm">0.032</LL15>
+                    <DUL units="mm/mm">0.087</DUL>
+                    <SAT units="mm/mm">0.137</SAT>
+                </Layer>
+                <Layer>
+                    <Thickness units="mm">300.0</Thickness>
+                    <KS units="mm/day"></KS>
+                    <BD units="g/cc">1.31</BD>
+                    <AirDry units="mm/mm">0.0128</AirDry>
+                    <LL15 units="mm/mm">0.032</LL15>
+                    <DUL units="mm/mm">0.087</DUL>
+                    <SAT units="mm/mm">0.137</SAT>
+                </Layer>
+                <SoilCrop name="wheat">
+                    <Layer>
+                        <Thickness units="mm">150.0</Thickness>
+                        <LL units="mm/mm">0.072</LL>
+                        <KL units="/day">0.06</KL>
+                        <XF units="0-1">1.0</XF>
+                    </Layer>
+                    <Layer>
+                        <Thickness units="mm">150.0</Thickness>
+                        <LL units="mm/mm">0.07</LL>
+                        <KL units="/day">0.06</KL>
+                        <XF units="0-1">0.7</XF>
+                    </Layer>
+                    <Layer>
+                        <Thickness units="mm">300.0</Thickness>
+                        <LL units="mm/mm">0.04</LL>
+                        <KL units="/day">0.06</KL>
+                        <XF units="0-1">0.2</XF>
+                    </Layer>
+                    <Layer>
+                        <Thickness units="mm">300.0</Thickness>
+                        <LL units="mm/mm">0.032</LL>
+                        <KL units="/day">0.06</KL>
+                        <XF units="0-1">0.05</XF>
+                    </Layer>
+                    <Layer>
+                        <Thickness units="mm">300.0</Thickness>
+                        <LL units="mm/mm">0.032</LL>
+                        <KL units="/day">0.06</KL>
+                        <XF units="0-1">0.03</XF>
+                    </Layer>
+                    <Layer>
+                        <Thickness units="mm">300.0</Thickness>
+                        <LL units="mm/mm">0.032</LL>
+                        <KL units="/day">0.06</KL>
+                        <XF units="0-1">0.01</XF>
+                    </Layer>
+                    <Layer>
+                        <Thickness units="mm">300.0</Thickness>
+                        <LL units="mm/mm">0.032</LL>
+                        <KL units="/day">0.06</KL>
+                        <XF units="0-1">0.01</XF>
+                    </Layer>
+                </SoilCrop>
+            </Water>
+            <SoilWat>
+                <SummerCona>3.5</SummerCona>
+                <SummerU>5.0</SummerU>
+                <SummerDate>21-Mar</SummerDate>
+                <WinterCona>3.5</WinterCona>
+                <WinterU>5.0</WinterU>
+                <WinterDate>21-Sep</WinterDate>
+                <DiffusConst>40.0</DiffusConst>
+                <DiffusSlope>16.0</DiffusSlope>
+                <Salb>0.14</Salb>
+                <Cn2Bare>60.0</Cn2Bare>
+                <CnRed>20</CnRed>
+                <CnCov>0.8</CnCov>
+                <Slope>
+                </Slope>
+                <DischargeWidth>
+                </DischargeWidth>
+                <CatchmentArea>
+                </CatchmentArea>
+                <MaxPond>
+                </MaxPond>
+                <Layer>
+                    <Thickness units="mm">150.0</Thickness>
+                    <SWCON units="0-1">0.6</SWCON>
+                    <MWCON units="0-1" />
+                    <KLAT units="mm/d" />
+                </Layer>
+                <Layer>
+                    <Thickness units="mm">150.0</Thickness>
+                    <SWCON units="0-1">0.6</SWCON>
+                    <MWCON units="0-1" />
+                    <KLAT units="mm/d" />
+                </Layer>
+                <Layer>
+                    <Thickness units="mm">300.0</Thickness>
+                    <SWCON units="0-1">0.6</SWCON>
+                    <MWCON units="0-1" />
+                    <KLAT units="mm/d" />
+                </Layer>
+                <Layer>
+                    <Thickness units="mm">300.0</Thickness>
+                    <SWCON units="0-1">0.6</SWCON>
+                    <MWCON units="0-1" />
+                    <KLAT units="mm/d" />
+                </Layer>
+                <Layer>
+                    <Thickness units="mm">300.0</Thickness>
+                    <SWCON units="0-1">0.6</SWCON>
+                    <MWCON units="0-1" />
+                    <KLAT units="mm/d" />
+                </Layer>
+                <Layer>
+                    <Thickness units="mm">300.0</Thickness>
+                    <SWCON units="0-1">0.6</SWCON>
+                    <MWCON units="0-1" />
+                    <KLAT units="mm/d" />
+                </Layer>
+                <Layer>
+                    <Thickness units="mm">300.0</Thickness>
+                    <SWCON units="0-1">0.6</SWCON>
+                    <MWCON units="0-1" />
+                    <KLAT units="mm/d" />
+                </Layer>
+            </SoilWat>
+            <SoilOrganicMatter>
+                <RootCn>45</RootCn>  
+                <RootWt>500</RootWt>  
+                <SoilCn>14.5</SoilCn> 
+                <EnrACoeff>7.4</EnrACoeff>
+                <EnrBCoeff>0.2</EnrBCoeff>
+                <Layer>                                            
+                    <Thickness units="mm">150.0</Thickness>                                                
+                    <OC units="Total %">0.61</OC>
+                    <FBiom units="0-1">0.03278688524590164</FBiom>
+                    <FInert units="0-1">0.8820000000000001</FInert>
+                </Layer>
+                <Layer>                                            
+                    <Thickness units="mm">150.0</Thickness>                                                
+                    <OC units="Total %">0.61</OC>
+                    <FBiom units="0-1">0.03278688524590164</FBiom>
+                    <FInert units="0-1">0.8820000000000001</FInert>
+                </Layer>
+                <Layer>                                            
+                    <Thickness units="mm">300.0</Thickness>                                                
+                    <OC units="Total %">0.59</OC>
+                    <FBiom units="0-1">0.03389830508474576</FBiom>
+                    <FInert units="0-1">0.882</FInert>
+                </Layer>
+                <Layer>                                            
+                    <Thickness units="mm">300.0</Thickness>                                                
+                    <OC units="Total %">0.29</OC>
+                    <FBiom units="0-1">0.06896551724137932</FBiom>
+                    <FInert units="0-1">0.8820000000000001</FInert>
+                </Layer>
+                <Layer>                                            
+                    <Thickness units="mm">300.0</Thickness>                                                
+                    <OC units="Total %">0.24</OC>
+                    <FBiom units="0-1">0.08333333333333334</FBiom>
+                    <FInert units="0-1">0.8820000000000001</FInert>
+                </Layer>
+                <Layer>                                            
+                    <Thickness units="mm">300.0</Thickness>                                                
+                    <OC units="Total %">0.2</OC>
+                    <FBiom units="0-1">0.09999999999999999</FBiom>
+                    <FInert units="0-1">0.882</FInert>
+                </Layer>
+                <Layer>                                            
+                    <Thickness units="mm">300.0</Thickness>                                                
+                    <OC units="Total %">0.2</OC>
+                    <FBiom units="0-1">0.09999999999999999</FBiom>
+                    <FInert units="0-1">0.882</FInert>
+                </Layer>
+            </SoilOrganicMatter>
+            <Analysis>
+                <Layer>
+                    <Thickness units="mm">150.0</Thickness>
+                    <Rocks units="%" />
+                    <Texture/>
+                    <MunsellColour/>
+                    <EC units="1:5 dS/m"/>
+                    <PH units="1:5 water">7.0</PH>
+                    <CL units="mg/kg" />
+                    <Boron units="Hot water mg/kg" />
+                    <CEC units="cmol+/kg" />
+                    <Ca units="cmol+/kg" />
+                    <Mg units="cmol+/kg" />
+                    <Na units="cmol+/kg" />
+                    <K units="cmol+/kg" />
+                    <ESP units="%" />
+                    <Mn units="mg/kg" />
+                    <Al units="cmol+/kg" />
+                    <ParticleSizeSand units="%" />
+                    <ParticleSizeSilt units="%" />
+                    <ParticleSizeClay units="%" />
+                </Layer>
+                <Layer>
+                    <Thickness units="mm">150.0</Thickness>
+                    <Rocks units="%" />
+                    <Texture/>
+                    <MunsellColour/>
+                    <EC units="1:5 dS/m"/>
+                    <PH units="1:5 water">7.0</PH>
+                    <CL units="mg/kg" />
+                    <Boron units="Hot water mg/kg" />
+                    <CEC units="cmol+/kg" />
+                    <Ca units="cmol+/kg" />
+                    <Mg units="cmol+/kg" />
+                    <Na units="cmol+/kg" />
+                    <K units="cmol+/kg" />
+                    <ESP units="%" />
+                    <Mn units="mg/kg" />
+                    <Al units="cmol+/kg" />
+                    <ParticleSizeSand units="%" />
+                    <ParticleSizeSilt units="%" />
+                    <ParticleSizeClay units="%" />
+                </Layer>
+                <Layer>
+                    <Thickness units="mm">300.0</Thickness>
+                    <Rocks units="%" />
+                    <Texture/>
+                    <MunsellColour/>
+                    <EC units="1:5 dS/m"/>
+                    <PH units="1:5 water">7.0</PH>
+                    <CL units="mg/kg" />
+                    <Boron units="Hot water mg/kg" />
+                    <CEC units="cmol+/kg" />
+                    <Ca units="cmol+/kg" />
+                    <Mg units="cmol+/kg" />
+                    <Na units="cmol+/kg" />
+                    <K units="cmol+/kg" />
+                    <ESP units="%" />
+                    <Mn units="mg/kg" />
+                    <Al units="cmol+/kg" />
+                    <ParticleSizeSand units="%" />
+                    <ParticleSizeSilt units="%" />
+                    <ParticleSizeClay units="%" />
+                </Layer>
+                <Layer>
+                    <Thickness units="mm">300.0</Thickness>
+                    <Rocks units="%" />
+                    <Texture/>
+                    <MunsellColour/>
+                    <EC units="1:5 dS/m"/>
+                    <PH units="1:5 water">7.0</PH>
+                    <CL units="mg/kg" />
+                    <Boron units="Hot water mg/kg" />
+                    <CEC units="cmol+/kg" />
+                    <Ca units="cmol+/kg" />
+                    <Mg units="cmol+/kg" />
+                    <Na units="cmol+/kg" />
+                    <K units="cmol+/kg" />
+                    <ESP units="%" />
+                    <Mn units="mg/kg" />
+                    <Al units="cmol+/kg" />
+                    <ParticleSizeSand units="%" />
+                    <ParticleSizeSilt units="%" />
+                    <ParticleSizeClay units="%" />
+                </Layer>
+                <Layer>
+                    <Thickness units="mm">300.0</Thickness>
+                    <Rocks units="%" />
+                    <Texture/>
+                    <MunsellColour/>
+                    <EC units="1:5 dS/m"/>
+                    <PH units="1:5 water">7.0</PH>
+                    <CL units="mg/kg" />
+                    <Boron units="Hot water mg/kg" />
+                    <CEC units="cmol+/kg" />
+                    <Ca units="cmol+/kg" />
+                    <Mg units="cmol+/kg" />
+                    <Na units="cmol+/kg" />
+                    <K units="cmol+/kg" />
+                    <ESP units="%" />
+                    <Mn units="mg/kg" />
+                    <Al units="cmol+/kg" />
+                    <ParticleSizeSand units="%" />
+                    <ParticleSizeSilt units="%" />
+                    <ParticleSizeClay units="%" />
+                </Layer>
+                <Layer>
+                    <Thickness units="mm">300.0</Thickness>
+                    <Rocks units="%" />
+                    <Texture/>
+                    <MunsellColour/>
+                    <EC units="1:5 dS/m"/>
+                    <PH units="1:5 water">7.0</PH>
+                    <CL units="mg/kg" />
+                    <Boron units="Hot water mg/kg" />
+                    <CEC units="cmol+/kg" />
+                    <Ca units="cmol+/kg" />
+                    <Mg units="cmol+/kg" />
+                    <Na units="cmol+/kg" />
+                    <K units="cmol+/kg" />
+                    <ESP units="%" />
+                    <Mn units="mg/kg" />
+                    <Al units="cmol+/kg" />
+                    <ParticleSizeSand units="%" />
+                    <ParticleSizeSilt units="%" />
+                    <ParticleSizeClay units="%" />
+                </Layer>
+                <Layer>
+                    <Thickness units="mm">300.0</Thickness>
+                    <Rocks units="%" />
+                    <Texture/>
+                    <MunsellColour/>
+                    <EC units="1:5 dS/m"/>
+                    <PH units="1:5 water">7.0</PH>
+                    <CL units="mg/kg" />
+                    <Boron units="Hot water mg/kg" />
+                    <CEC units="cmol+/kg" />
+                    <Ca units="cmol+/kg" />
+                    <Mg units="cmol+/kg" />
+                    <Na units="cmol+/kg" />
+                    <K units="cmol+/kg" />
+                    <ESP units="%" />
+                    <Mn units="mg/kg" />
+                    <Al units="cmol+/kg" />
+                    <ParticleSizeSand units="%" />
+                    <ParticleSizeSilt units="%" />
+                    <ParticleSizeClay units="%" />
+                </Layer>
+            </Analysis>           
+        </soil>    
+    </folder>
+
+   	<simulation name="KSAS8101_1-DRYLAND  - 0 KG N_HA">
+		<memo name="LOG">
+This .apsim file was created by the APSIM AgMIP translator.
+Log messages:
+  * Met WARNING: No CO2 found in weather data (aco2 or co2y).
+   
+		</memo>
+		<clock>
+			<start_date type="date" description="Enter the start date of the simulation">06/10/1981</start_date>
+			<end_date type="date" description="Enter the end date of the simulation">16/10/1982</end_date>
+		</clock>
+		<metfile name="met">
+			<filename name="filename" input="yes">KSAS.met</filename>
+		</metfile>
+		<summaryfile />
+		<area name="paddock">
+			<soil name="Soil" shortcut="/simulations/Soils/IBWH980018">
+                <Water shortcut="/simulations/Soils/IBWH980018/Water">
+                    <SoilCrop name="wheat" shortcut="/simulations/Soils/IBWH980018/Water/wheat" />
+                </Water>
+                <SoilWat shortcut="/simulations/Soils/IBWH980018/SoilWat" />
+                <SoilOrganicMatter shortcut="/simulations/Soils/IBWH980018/SoilOrganicMatter" />
+                <Analysis shortcut="/simulations/Soils/IBWH980018/Analysis" />
+				<Sample name="Initial nitrogen">
+					<Date type="date" description="Sample date:">19811006</Date>
+					<Layer>
+						<Thickness units="mm">150.0</Thickness>
+						<NO3 units="ppm">9.8</NO3>
+						<NH4 units="ppm">3.4</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">150.0</Thickness>
+						<NO3 units="ppm">7.3</NO3>
+						<NH4 units="ppm">3.2</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">5.1</NO3>
+						<NH4 units="ppm">2.5</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">4.7</NO3>
+						<NH4 units="ppm">2.2</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">4.3</NO3>
+						<NH4 units="ppm">2.7</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">4.3</NO3>
+						<NH4 units="ppm">2.7</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">4.3</NO3>
+						<NH4 units="ppm">2.7</NH4>
+					</Layer>
+				</Sample>
+				<Sample name="Initial water">
+					<Date type="date" description="Sample date:">19811006</Date>
+					<Layer>
+						<Thickness units="mm">150.0</Thickness>
+						<SW units="mm/mm">0.205</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">150.0</Thickness>
+						<SW units="mm/mm">0.17</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.092</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.065</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.066</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.066</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.066</SW>
+					</Layer>
+				</Sample>            
+			</soil>
+			<surfaceom name="SurfaceOrganicMatter">
+				<PoolName type="text" description="Organic Matter pool name">OrganicMatter</PoolName>
+				<type type="list" listvalues="bambatsi,barley,base_type,broccoli,camaldulensis,canola,centro,chickpea,chikenmanure_base,cm,cmA,cmB,constants,cotton,cowpea,danthonia,fababean,fieldpea,fym,gbean,globulus,goatmanure,grandis,grass,horsegram,inert,lablab,lentil,lucerne,lupin,maize,manB,manure,medic,millet,mucuna,nativepasture,navybean,oats,orobanche,peanut,pigeonpea,potato,rice,sorghum,soybean,stylo,sugar,sunflower,sweetcorn,sweetsorghum,tillage,tithonia,vetch,weed,wheat" description="Organic Matter type">wheat</type>
+				<mass type="text" description="Initial surface residue (kg/ha)">6500.0</mass>
+				<cnr type="text" description="C:N ratio of initial residue">35.08771929824562</cnr>
+				<standing_fraction type="text" description="Fraction of residue standing">0</standing_fraction>
+			</surfaceom>
+			<fertiliser />
+			<irrigation name="Irrigation">
+				<automatic_irrigation type="list" listvalues="on,off" description="Automatic irrigation">off</automatic_irrigation>
+				<asw_depth type="text" description="Depth to which ASW is calculated. (mm)">600</asw_depth>
+				<crit_fr_asw type="text" description="Fraction of ASW below which irrigation is applied (0-1.0)">0.5</crit_fr_asw>
+				<irrigation_efficiency type="text" description="Efficiency of the irrigation. (0-1.0)">1</irrigation_efficiency>
+				<irrigation_allocation type="list" listvalues="on,off" description="Allocation limits">off</irrigation_allocation>
+				<allocation type="text" description="Allocation in mm">0</allocation>
+				<default_no3_conc type="text" description="Nitrate concentration (ppm N)">0.0</default_no3_conc>
+				<default_nh4_conc type="text" description="Ammonium concentration (ppm N)">0.0</default_nh4_conc>
+				<default_cl_conc type="text" description="Chloride concentration (ppm Cl)">0.0</default_cl_conc>
+			</irrigation>
+			<wheat>
+            <ini>
+               <filename>wheat.xml</filename>
+            </ini>
+            </wheat>
+			<folder name="Manager folder">
+				<operations name="Operations">
+					<operation condition="start_of_day">
+						<date>16/10/1981</date>
+						<action>wheat sow plants = 162.0, sowing_depth = 55.0 (mm), cultivar = CASSIUS, row_spacing = 160.0 (mm), crop_class = plant</action>
+					</operation>
+					<operation condition="start_of_day">
+						<date>16/10/1981</date>
+						<action>fertiliser apply amount = 0.0 (kg/ha), type = no3_n (), depth = 15.0 (mm)</action>
+					</operation>
+				</operations>
+                <manager name="Harvesting rule">
+                    <ui>
+                        <category type="category" description="Harvesting criteria" />
+                        <crop type="crop" description="Enter name of crop to harvest when ripe : ">wheat</crop>
+                    </ui>
+                    <script><text>if [crop].StageName = 'harvest_ripe'  or [crop].plant_status = 'dead' then
+   acmo do_output
+   [crop] harvest
+   [crop] end_crop
+endif
+</text><event>end_of_day</event></script>
+                </manager>
+			</folder>
+			<outputfile>
+				<filename output="yes">AgMIP.out</filename>
+				<title>AgMIP</title>
+				<variables name="Variables">
+					<variable name="dd/mm/yyyy as Date"></variable>
+					<variable name="biomass"></variable>
+					<variable name="yield"></variable>
+					<variable name="esw"></variable>
+					<variable name="lai"></variable>
+				</variables>
+				<events name="Reporting Frequency">
+					<event name="daily"></event>
+				</events>
+				<Graph name="Yield and Biomass">
+					<Legend>
+						<CheckedTitles> biomass</CheckedTitles>
+						<CheckedTitles> yield</CheckedTitles>
+					</Legend>
+					<Plot>
+						<SeriesType>Solid line</SeriesType>
+						<PointType>Circle</PointType>
+						<colour/>
+						<X>Date</X><Y>biomass</Y><Y>yield</Y>
+						<YRight>lai</YRight>
+						<GDApsimFileReader name="ApsimFileReader" />
+					</Plot>
+				</Graph>		
+			</outputfile>
+         <outputfile name="ACMO">
+            <filename output="yes">MACH0001_1__1 ACMO.out</filename>
+            <title>MACH0001_1__1 ACMO</title>
+            <variables name="Variables">
+               <variable name="yield" />
+               <variable name="biomass" />
+               <variable name="AnthesisDate format yyyy-mm-dd" />
+               <variable name="MaturityDate format yyyy-mm-dd" />
+               <variable name="Today as HarvestDate format yyyy-mm-dd" />
+               <variable name="LAIMax" />
+               <variable name="InCropRain" />
+               <variable name="SumEP" />
+               <variable name="SumNO3Uptake" />
+               <variable name="SumLeachNO3" />
+               <constants>
+                  <constant name="format">csv</constant>
+               </constants>
+            </variables>
+            <events name="Reporting Frequency">
+            </events>
+         </outputfile>
+         <manager2 name="ACMOVariables">
+            <text><![CDATA[
+using System;
+using ModelFramework;
+using CSGeneral;
+
+public class Script 
+{      
+   [Link] Paddock MyPaddock; 
+   [Input] DateTime Today;
+   
+   [Input] double LAI;
+   [Input] double ep;
+   [Input] double Rain;
+   [Input] double[] flow_no3;
+   [Input] DateTime Simulation_end_date;
+   [Output] DateTime AnthesisDate;
+   [Output] DateTime MaturityDate;
+   [Units("m2/m2")]
+   [Output] double LAIMax = 0;
+   [Units("mm")]
+   [Output] double InCropRain = 0;
+   [Units("mm")]
+   [Output] double SumEP = 0;
+   [Units("kg/ha")]
+   [Output] double SumNO3Uptake = 0;
+   [Units("kg/ha")]
+   [Output] double SumLeachNO3 = 0;
+   
+   private bool ACMOHasWritten = false;
+   
+   // The following event handler will be called each time a crop is sown.
+   [EventHandler] public void OnSowing()
+   {
+      LAIMax = 0.0;
+      InCropRain = 0.0;
+      SumEP = 0.0;
+      SumNO3Uptake = 0;
+      SumLeachNO3 = 0;
+      ACMOHasWritten = false;
+   }   
+      
+   // The following event handler will be called each day at the beginning of the day
+   [EventHandler] public void OnPost()
+   {
+      // Work out flowering and maturity dates.
+            string StageName;
+      MyPaddock.Get("StageName", out StageName);
+      if (StageName.ToLower() == "flowering") AnthesisDate = Today;
+      if (StageName.ToLower() == "maturity") MaturityDate = Today;      
+            
+      // Get no3_uptake for whole profile (as a positive number)
+      double no3_uptake = 0;
+            double[] no3_uptake_array;
+      MyPaddock.Get("no3_uptake", out no3_uptake_array);
+      no3_uptake = -MathUtility.Sum(no3_uptake_array);  //change from negative number to positive
+            LAIMax = Math.Max(LAIMax, LAI);
+      SumEP = SumEP + ep;
+      SumNO3Uptake = SumNO3Uptake + no3_uptake;
+      InCropRain = InCropRain + Rain;
+      SumLeachNO3 = SumLeachNO3 + flow_no3[flow_no3.Length - 1];
+      
+      
+   }
+   
+}
+            ]]></text>
+         </manager2>         
+		</area>
+	</simulation>
+   	<simulation name="KSAS8101_2-DRYLAND  - 60 KG N_HA">
+		<memo name="LOG">
+This .apsim file was created by the APSIM AgMIP translator.
+Log messages:
+  * Met WARNING: No CO2 found in weather data (aco2 or co2y).
+   
+		</memo>
+		<clock>
+			<start_date type="date" description="Enter the start date of the simulation">06/10/1981</start_date>
+			<end_date type="date" description="Enter the end date of the simulation">16/10/1982</end_date>
+		</clock>
+		<metfile name="met">
+			<filename name="filename" input="yes">KSAS.met</filename>
+		</metfile>
+		<summaryfile />
+		<area name="paddock">
+			<soil name="Soil" shortcut="/simulations/Soils/IBWH980018">
+                <Water shortcut="/simulations/Soils/IBWH980018/Water">
+                    <SoilCrop name="wheat" shortcut="/simulations/Soils/IBWH980018/Water/wheat" />
+                </Water>
+                <SoilWat shortcut="/simulations/Soils/IBWH980018/SoilWat" />
+                <SoilOrganicMatter shortcut="/simulations/Soils/IBWH980018/SoilOrganicMatter" />
+                <Analysis shortcut="/simulations/Soils/IBWH980018/Analysis" />
+				<Sample name="Initial nitrogen">
+					<Date type="date" description="Sample date:">19811006</Date>
+					<Layer>
+						<Thickness units="mm">150.0</Thickness>
+						<NO3 units="ppm">9.8</NO3>
+						<NH4 units="ppm">3.4</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">150.0</Thickness>
+						<NO3 units="ppm">7.3</NO3>
+						<NH4 units="ppm">3.2</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">5.1</NO3>
+						<NH4 units="ppm">2.5</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">4.7</NO3>
+						<NH4 units="ppm">2.2</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">4.3</NO3>
+						<NH4 units="ppm">2.7</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">4.3</NO3>
+						<NH4 units="ppm">2.7</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">4.3</NO3>
+						<NH4 units="ppm">2.7</NH4>
+					</Layer>
+				</Sample>
+				<Sample name="Initial water">
+					<Date type="date" description="Sample date:">19811006</Date>
+					<Layer>
+						<Thickness units="mm">150.0</Thickness>
+						<SW units="mm/mm">0.205</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">150.0</Thickness>
+						<SW units="mm/mm">0.17</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.092</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.065</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.066</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.066</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.066</SW>
+					</Layer>
+				</Sample>            
+			</soil>
+			<surfaceom name="SurfaceOrganicMatter">
+				<PoolName type="text" description="Organic Matter pool name">OrganicMatter</PoolName>
+				<type type="list" listvalues="bambatsi,barley,base_type,broccoli,camaldulensis,canola,centro,chickpea,chikenmanure_base,cm,cmA,cmB,constants,cotton,cowpea,danthonia,fababean,fieldpea,fym,gbean,globulus,goatmanure,grandis,grass,horsegram,inert,lablab,lentil,lucerne,lupin,maize,manB,manure,medic,millet,mucuna,nativepasture,navybean,oats,orobanche,peanut,pigeonpea,potato,rice,sorghum,soybean,stylo,sugar,sunflower,sweetcorn,sweetsorghum,tillage,tithonia,vetch,weed,wheat" description="Organic Matter type">wheat</type>
+				<mass type="text" description="Initial surface residue (kg/ha)">6500.0</mass>
+				<cnr type="text" description="C:N ratio of initial residue">35.08771929824562</cnr>
+				<standing_fraction type="text" description="Fraction of residue standing">0</standing_fraction>
+			</surfaceom>
+			<fertiliser />
+			<irrigation name="Irrigation">
+				<automatic_irrigation type="list" listvalues="on,off" description="Automatic irrigation">off</automatic_irrigation>
+				<asw_depth type="text" description="Depth to which ASW is calculated. (mm)">600</asw_depth>
+				<crit_fr_asw type="text" description="Fraction of ASW below which irrigation is applied (0-1.0)">0.5</crit_fr_asw>
+				<irrigation_efficiency type="text" description="Efficiency of the irrigation. (0-1.0)">1</irrigation_efficiency>
+				<irrigation_allocation type="list" listvalues="on,off" description="Allocation limits">off</irrigation_allocation>
+				<allocation type="text" description="Allocation in mm">0</allocation>
+				<default_no3_conc type="text" description="Nitrate concentration (ppm N)">0.0</default_no3_conc>
+				<default_nh4_conc type="text" description="Ammonium concentration (ppm N)">0.0</default_nh4_conc>
+				<default_cl_conc type="text" description="Chloride concentration (ppm Cl)">0.0</default_cl_conc>
+			</irrigation>
+			<wheat>
+            <ini>
+               <filename>wheat.xml</filename>
+            </ini>
+            </wheat>
+			<folder name="Manager folder">
+				<operations name="Operations">
+					<operation condition="start_of_day">
+						<date>16/10/1981</date>
+						<action>wheat sow plants = 162.0, sowing_depth = 55.0 (mm), cultivar = CASSIUS, row_spacing = 160.0 (mm), crop_class = plant</action>
+					</operation>
+					<operation condition="start_of_day">
+						<date>16/10/1981</date>
+						<action>fertiliser apply amount = 60.0 (kg/ha), type = no3_n (), depth = 15.0 (mm)</action>
+					</operation>
+				</operations>
+                <manager name="Harvesting rule">
+                    <ui>
+                        <category type="category" description="Harvesting criteria" />
+                        <crop type="crop" description="Enter name of crop to harvest when ripe : ">wheat</crop>
+                    </ui>
+                    <script><text>if [crop].StageName = 'harvest_ripe'  or [crop].plant_status = 'dead' then
+   acmo do_output
+   [crop] harvest
+   [crop] end_crop
+endif
+</text><event>end_of_day</event></script>
+                </manager>
+			</folder>
+			<outputfile>
+				<filename output="yes">AgMIP.out</filename>
+				<title>AgMIP</title>
+				<variables name="Variables">
+					<variable name="dd/mm/yyyy as Date"></variable>
+					<variable name="biomass"></variable>
+					<variable name="yield"></variable>
+					<variable name="esw"></variable>
+					<variable name="lai"></variable>
+				</variables>
+				<events name="Reporting Frequency">
+					<event name="daily"></event>
+				</events>
+				<Graph name="Yield and Biomass">
+					<Legend>
+						<CheckedTitles> biomass</CheckedTitles>
+						<CheckedTitles> yield</CheckedTitles>
+					</Legend>
+					<Plot>
+						<SeriesType>Solid line</SeriesType>
+						<PointType>Circle</PointType>
+						<colour/>
+						<X>Date</X><Y>biomass</Y><Y>yield</Y>
+						<YRight>lai</YRight>
+						<GDApsimFileReader name="ApsimFileReader" />
+					</Plot>
+				</Graph>		
+			</outputfile>
+         <outputfile name="ACMO">
+            <filename output="yes">MACH0001_1__1 ACMO.out</filename>
+            <title>MACH0001_1__1 ACMO</title>
+            <variables name="Variables">
+               <variable name="yield" />
+               <variable name="biomass" />
+               <variable name="AnthesisDate format yyyy-mm-dd" />
+               <variable name="MaturityDate format yyyy-mm-dd" />
+               <variable name="Today as HarvestDate format yyyy-mm-dd" />
+               <variable name="LAIMax" />
+               <variable name="InCropRain" />
+               <variable name="SumEP" />
+               <variable name="SumNO3Uptake" />
+               <variable name="SumLeachNO3" />
+               <constants>
+                  <constant name="format">csv</constant>
+               </constants>
+            </variables>
+            <events name="Reporting Frequency">
+            </events>
+         </outputfile>
+         <manager2 name="ACMOVariables">
+            <text><![CDATA[
+using System;
+using ModelFramework;
+using CSGeneral;
+
+public class Script 
+{      
+   [Link] Paddock MyPaddock; 
+   [Input] DateTime Today;
+   
+   [Input] double LAI;
+   [Input] double ep;
+   [Input] double Rain;
+   [Input] double[] flow_no3;
+   [Input] DateTime Simulation_end_date;
+   [Output] DateTime AnthesisDate;
+   [Output] DateTime MaturityDate;
+   [Units("m2/m2")]
+   [Output] double LAIMax = 0;
+   [Units("mm")]
+   [Output] double InCropRain = 0;
+   [Units("mm")]
+   [Output] double SumEP = 0;
+   [Units("kg/ha")]
+   [Output] double SumNO3Uptake = 0;
+   [Units("kg/ha")]
+   [Output] double SumLeachNO3 = 0;
+   
+   private bool ACMOHasWritten = false;
+   
+   // The following event handler will be called each time a crop is sown.
+   [EventHandler] public void OnSowing()
+   {
+      LAIMax = 0.0;
+      InCropRain = 0.0;
+      SumEP = 0.0;
+      SumNO3Uptake = 0;
+      SumLeachNO3 = 0;
+      ACMOHasWritten = false;
+   }   
+      
+   // The following event handler will be called each day at the beginning of the day
+   [EventHandler] public void OnPost()
+   {
+      // Work out flowering and maturity dates.
+            string StageName;
+      MyPaddock.Get("StageName", out StageName);
+      if (StageName.ToLower() == "flowering") AnthesisDate = Today;
+      if (StageName.ToLower() == "maturity") MaturityDate = Today;      
+            
+      // Get no3_uptake for whole profile (as a positive number)
+      double no3_uptake = 0;
+            double[] no3_uptake_array;
+      MyPaddock.Get("no3_uptake", out no3_uptake_array);
+      no3_uptake = -MathUtility.Sum(no3_uptake_array);  //change from negative number to positive
+            LAIMax = Math.Max(LAIMax, LAI);
+      SumEP = SumEP + ep;
+      SumNO3Uptake = SumNO3Uptake + no3_uptake;
+      InCropRain = InCropRain + Rain;
+      SumLeachNO3 = SumLeachNO3 + flow_no3[flow_no3.Length - 1];
+      
+      
+   }
+   
+}
+            ]]></text>
+         </manager2>         
+		</area>
+	</simulation>
+   	<simulation name="KSAS8101_3-DRYLAND  - 180 KG N_HA SP">
+		<memo name="LOG">
+This .apsim file was created by the APSIM AgMIP translator.
+Log messages:
+  * Met WARNING: No CO2 found in weather data (aco2 or co2y).
+   
+		</memo>
+		<clock>
+			<start_date type="date" description="Enter the start date of the simulation">06/10/1981</start_date>
+			<end_date type="date" description="Enter the end date of the simulation">16/10/1982</end_date>
+		</clock>
+		<metfile name="met">
+			<filename name="filename" input="yes">KSAS.met</filename>
+		</metfile>
+		<summaryfile />
+		<area name="paddock">
+			<soil name="Soil" shortcut="/simulations/Soils/IBWH980018">
+                <Water shortcut="/simulations/Soils/IBWH980018/Water">
+                    <SoilCrop name="wheat" shortcut="/simulations/Soils/IBWH980018/Water/wheat" />
+                </Water>
+                <SoilWat shortcut="/simulations/Soils/IBWH980018/SoilWat" />
+                <SoilOrganicMatter shortcut="/simulations/Soils/IBWH980018/SoilOrganicMatter" />
+                <Analysis shortcut="/simulations/Soils/IBWH980018/Analysis" />
+				<Sample name="Initial nitrogen">
+					<Date type="date" description="Sample date:">19811006</Date>
+					<Layer>
+						<Thickness units="mm">150.0</Thickness>
+						<NO3 units="ppm">9.8</NO3>
+						<NH4 units="ppm">3.4</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">150.0</Thickness>
+						<NO3 units="ppm">7.3</NO3>
+						<NH4 units="ppm">3.2</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">5.1</NO3>
+						<NH4 units="ppm">2.5</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">4.7</NO3>
+						<NH4 units="ppm">2.2</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">4.3</NO3>
+						<NH4 units="ppm">2.7</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">4.3</NO3>
+						<NH4 units="ppm">2.7</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">4.3</NO3>
+						<NH4 units="ppm">2.7</NH4>
+					</Layer>
+				</Sample>
+				<Sample name="Initial water">
+					<Date type="date" description="Sample date:">19811006</Date>
+					<Layer>
+						<Thickness units="mm">150.0</Thickness>
+						<SW units="mm/mm">0.205</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">150.0</Thickness>
+						<SW units="mm/mm">0.17</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.092</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.065</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.066</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.066</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.066</SW>
+					</Layer>
+				</Sample>            
+			</soil>
+			<surfaceom name="SurfaceOrganicMatter">
+				<PoolName type="text" description="Organic Matter pool name">OrganicMatter</PoolName>
+				<type type="list" listvalues="bambatsi,barley,base_type,broccoli,camaldulensis,canola,centro,chickpea,chikenmanure_base,cm,cmA,cmB,constants,cotton,cowpea,danthonia,fababean,fieldpea,fym,gbean,globulus,goatmanure,grandis,grass,horsegram,inert,lablab,lentil,lucerne,lupin,maize,manB,manure,medic,millet,mucuna,nativepasture,navybean,oats,orobanche,peanut,pigeonpea,potato,rice,sorghum,soybean,stylo,sugar,sunflower,sweetcorn,sweetsorghum,tillage,tithonia,vetch,weed,wheat" description="Organic Matter type">wheat</type>
+				<mass type="text" description="Initial surface residue (kg/ha)">6500.0</mass>
+				<cnr type="text" description="C:N ratio of initial residue">35.08771929824562</cnr>
+				<standing_fraction type="text" description="Fraction of residue standing">0</standing_fraction>
+			</surfaceom>
+			<fertiliser />
+			<irrigation name="Irrigation">
+				<automatic_irrigation type="list" listvalues="on,off" description="Automatic irrigation">off</automatic_irrigation>
+				<asw_depth type="text" description="Depth to which ASW is calculated. (mm)">600</asw_depth>
+				<crit_fr_asw type="text" description="Fraction of ASW below which irrigation is applied (0-1.0)">0.5</crit_fr_asw>
+				<irrigation_efficiency type="text" description="Efficiency of the irrigation. (0-1.0)">1</irrigation_efficiency>
+				<irrigation_allocation type="list" listvalues="on,off" description="Allocation limits">off</irrigation_allocation>
+				<allocation type="text" description="Allocation in mm">0</allocation>
+				<default_no3_conc type="text" description="Nitrate concentration (ppm N)">0.0</default_no3_conc>
+				<default_nh4_conc type="text" description="Ammonium concentration (ppm N)">0.0</default_nh4_conc>
+				<default_cl_conc type="text" description="Chloride concentration (ppm Cl)">0.0</default_cl_conc>
+			</irrigation>
+			<wheat>
+            <ini>
+               <filename>wheat.xml</filename>
+            </ini>
+            </wheat>
+			<folder name="Manager folder">
+				<operations name="Operations">
+					<operation condition="start_of_day">
+						<date>16/10/1981</date>
+						<action>wheat sow plants = 162.0, sowing_depth = 55.0 (mm), cultivar = CASSIUS, row_spacing = 160.0 (mm), crop_class = plant</action>
+					</operation>
+					<operation condition="start_of_day">
+						<date>16/10/1981</date>
+						<action>fertiliser apply amount = 90.0 (kg/ha), type = no3_n (), depth = 15.0 (mm)</action>
+					</operation>
+					<operation condition="start_of_day">
+						<date>25/02/1982</date>
+						<action>fertiliser apply amount = 90.0 (kg/ha), type = no3_n (), depth = 1.0 (mm)</action>
+					</operation>
+				</operations>
+                <manager name="Harvesting rule">
+                    <ui>
+                        <category type="category" description="Harvesting criteria" />
+                        <crop type="crop" description="Enter name of crop to harvest when ripe : ">wheat</crop>
+                    </ui>
+                    <script><text>if [crop].StageName = 'harvest_ripe'  or [crop].plant_status = 'dead' then
+   acmo do_output
+   [crop] harvest
+   [crop] end_crop
+endif
+</text><event>end_of_day</event></script>
+                </manager>
+			</folder>
+			<outputfile>
+				<filename output="yes">AgMIP.out</filename>
+				<title>AgMIP</title>
+				<variables name="Variables">
+					<variable name="dd/mm/yyyy as Date"></variable>
+					<variable name="biomass"></variable>
+					<variable name="yield"></variable>
+					<variable name="esw"></variable>
+					<variable name="lai"></variable>
+				</variables>
+				<events name="Reporting Frequency">
+					<event name="daily"></event>
+				</events>
+				<Graph name="Yield and Biomass">
+					<Legend>
+						<CheckedTitles> biomass</CheckedTitles>
+						<CheckedTitles> yield</CheckedTitles>
+					</Legend>
+					<Plot>
+						<SeriesType>Solid line</SeriesType>
+						<PointType>Circle</PointType>
+						<colour/>
+						<X>Date</X><Y>biomass</Y><Y>yield</Y>
+						<YRight>lai</YRight>
+						<GDApsimFileReader name="ApsimFileReader" />
+					</Plot>
+				</Graph>		
+			</outputfile>
+         <outputfile name="ACMO">
+            <filename output="yes">MACH0001_1__1 ACMO.out</filename>
+            <title>MACH0001_1__1 ACMO</title>
+            <variables name="Variables">
+               <variable name="yield" />
+               <variable name="biomass" />
+               <variable name="AnthesisDate format yyyy-mm-dd" />
+               <variable name="MaturityDate format yyyy-mm-dd" />
+               <variable name="Today as HarvestDate format yyyy-mm-dd" />
+               <variable name="LAIMax" />
+               <variable name="InCropRain" />
+               <variable name="SumEP" />
+               <variable name="SumNO3Uptake" />
+               <variable name="SumLeachNO3" />
+               <constants>
+                  <constant name="format">csv</constant>
+               </constants>
+            </variables>
+            <events name="Reporting Frequency">
+            </events>
+         </outputfile>
+         <manager2 name="ACMOVariables">
+            <text><![CDATA[
+using System;
+using ModelFramework;
+using CSGeneral;
+
+public class Script 
+{      
+   [Link] Paddock MyPaddock; 
+   [Input] DateTime Today;
+   
+   [Input] double LAI;
+   [Input] double ep;
+   [Input] double Rain;
+   [Input] double[] flow_no3;
+   [Input] DateTime Simulation_end_date;
+   [Output] DateTime AnthesisDate;
+   [Output] DateTime MaturityDate;
+   [Units("m2/m2")]
+   [Output] double LAIMax = 0;
+   [Units("mm")]
+   [Output] double InCropRain = 0;
+   [Units("mm")]
+   [Output] double SumEP = 0;
+   [Units("kg/ha")]
+   [Output] double SumNO3Uptake = 0;
+   [Units("kg/ha")]
+   [Output] double SumLeachNO3 = 0;
+   
+   private bool ACMOHasWritten = false;
+   
+   // The following event handler will be called each time a crop is sown.
+   [EventHandler] public void OnSowing()
+   {
+      LAIMax = 0.0;
+      InCropRain = 0.0;
+      SumEP = 0.0;
+      SumNO3Uptake = 0;
+      SumLeachNO3 = 0;
+      ACMOHasWritten = false;
+   }   
+      
+   // The following event handler will be called each day at the beginning of the day
+   [EventHandler] public void OnPost()
+   {
+      // Work out flowering and maturity dates.
+            string StageName;
+      MyPaddock.Get("StageName", out StageName);
+      if (StageName.ToLower() == "flowering") AnthesisDate = Today;
+      if (StageName.ToLower() == "maturity") MaturityDate = Today;      
+            
+      // Get no3_uptake for whole profile (as a positive number)
+      double no3_uptake = 0;
+            double[] no3_uptake_array;
+      MyPaddock.Get("no3_uptake", out no3_uptake_array);
+      no3_uptake = -MathUtility.Sum(no3_uptake_array);  //change from negative number to positive
+            LAIMax = Math.Max(LAIMax, LAI);
+      SumEP = SumEP + ep;
+      SumNO3Uptake = SumNO3Uptake + no3_uptake;
+      InCropRain = InCropRain + Rain;
+      SumLeachNO3 = SumLeachNO3 + flow_no3[flow_no3.Length - 1];
+      
+      
+   }
+   
+}
+            ]]></text>
+         </manager2>         
+		</area>
+	</simulation>
+   	<simulation name="KSAS8101_4-IRRIGATED - 0 KG N_HA">
+		<memo name="LOG">
+This .apsim file was created by the APSIM AgMIP translator.
+Log messages:
+  * Met WARNING: No CO2 found in weather data (aco2 or co2y).
+   
+		</memo>
+		<clock>
+			<start_date type="date" description="Enter the start date of the simulation">06/10/1981</start_date>
+			<end_date type="date" description="Enter the end date of the simulation">16/10/1982</end_date>
+		</clock>
+		<metfile name="met">
+			<filename name="filename" input="yes">KSAS.met</filename>
+		</metfile>
+		<summaryfile />
+		<area name="paddock">
+			<soil name="Soil" shortcut="/simulations/Soils/IBWH980018">
+                <Water shortcut="/simulations/Soils/IBWH980018/Water">
+                    <SoilCrop name="wheat" shortcut="/simulations/Soils/IBWH980018/Water/wheat" />
+                </Water>
+                <SoilWat shortcut="/simulations/Soils/IBWH980018/SoilWat" />
+                <SoilOrganicMatter shortcut="/simulations/Soils/IBWH980018/SoilOrganicMatter" />
+                <Analysis shortcut="/simulations/Soils/IBWH980018/Analysis" />
+				<Sample name="Initial nitrogen">
+					<Date type="date" description="Sample date:">19811006</Date>
+					<Layer>
+						<Thickness units="mm">150.0</Thickness>
+						<NO3 units="ppm">9.8</NO3>
+						<NH4 units="ppm">3.4</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">150.0</Thickness>
+						<NO3 units="ppm">7.3</NO3>
+						<NH4 units="ppm">3.2</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">5.1</NO3>
+						<NH4 units="ppm">2.5</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">4.7</NO3>
+						<NH4 units="ppm">2.2</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">4.3</NO3>
+						<NH4 units="ppm">2.7</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">4.3</NO3>
+						<NH4 units="ppm">2.7</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">4.3</NO3>
+						<NH4 units="ppm">2.7</NH4>
+					</Layer>
+				</Sample>
+				<Sample name="Initial water">
+					<Date type="date" description="Sample date:">19811006</Date>
+					<Layer>
+						<Thickness units="mm">150.0</Thickness>
+						<SW units="mm/mm">0.205</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">150.0</Thickness>
+						<SW units="mm/mm">0.17</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.092</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.065</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.066</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.066</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.066</SW>
+					</Layer>
+				</Sample>            
+			</soil>
+			<surfaceom name="SurfaceOrganicMatter">
+				<PoolName type="text" description="Organic Matter pool name">OrganicMatter</PoolName>
+				<type type="list" listvalues="bambatsi,barley,base_type,broccoli,camaldulensis,canola,centro,chickpea,chikenmanure_base,cm,cmA,cmB,constants,cotton,cowpea,danthonia,fababean,fieldpea,fym,gbean,globulus,goatmanure,grandis,grass,horsegram,inert,lablab,lentil,lucerne,lupin,maize,manB,manure,medic,millet,mucuna,nativepasture,navybean,oats,orobanche,peanut,pigeonpea,potato,rice,sorghum,soybean,stylo,sugar,sunflower,sweetcorn,sweetsorghum,tillage,tithonia,vetch,weed,wheat" description="Organic Matter type">wheat</type>
+				<mass type="text" description="Initial surface residue (kg/ha)">6500.0</mass>
+				<cnr type="text" description="C:N ratio of initial residue">35.08771929824562</cnr>
+				<standing_fraction type="text" description="Fraction of residue standing">0</standing_fraction>
+			</surfaceom>
+			<fertiliser />
+			<irrigation name="Irrigation">
+				<automatic_irrigation type="list" listvalues="on,off" description="Automatic irrigation">off</automatic_irrigation>
+				<asw_depth type="text" description="Depth to which ASW is calculated. (mm)">600</asw_depth>
+				<crit_fr_asw type="text" description="Fraction of ASW below which irrigation is applied (0-1.0)">0.5</crit_fr_asw>
+				<irrigation_efficiency type="text" description="Efficiency of the irrigation. (0-1.0)">1</irrigation_efficiency>
+				<irrigation_allocation type="list" listvalues="on,off" description="Allocation limits">off</irrigation_allocation>
+				<allocation type="text" description="Allocation in mm">0</allocation>
+				<default_no3_conc type="text" description="Nitrate concentration (ppm N)">0.0</default_no3_conc>
+				<default_nh4_conc type="text" description="Ammonium concentration (ppm N)">0.0</default_nh4_conc>
+				<default_cl_conc type="text" description="Chloride concentration (ppm Cl)">0.0</default_cl_conc>
+			</irrigation>
+			<wheat>
+            <ini>
+               <filename>wheat.xml</filename>
+            </ini>
+            </wheat>
+			<folder name="Manager folder">
+				<operations name="Operations">
+					<operation condition="start_of_day">
+						<date>16/10/1981</date>
+						<action>wheat sow plants = 162.0, sowing_depth = 55.0 (mm), cultivar = CASSIUS, row_spacing = 160.0 (mm), crop_class = plant</action>
+					</operation>
+					<operation condition="start_of_day">
+						<date>16/10/1981</date>
+						<action>fertiliser apply amount = 0.0 (kg/ha), type = no3_n (), depth = 15.0 (mm)</action>
+					</operation>
+					<operation condition="start_of_day">
+						<date>06/04/1982</date>
+						<action>irrigation apply amount = 65.0 (mm) </action>
+					</operation>
+					<operation condition="start_of_day">
+						<date>20/04/1982</date>
+						<action>irrigation apply amount = 78.0 (mm) </action>
+					</operation>
+					<operation condition="start_of_day">
+						<date>27/04/1982</date>
+						<action>irrigation apply amount = 70.0 (mm) </action>
+					</operation>
+				</operations>
+                <manager name="Harvesting rule">
+                    <ui>
+                        <category type="category" description="Harvesting criteria" />
+                        <crop type="crop" description="Enter name of crop to harvest when ripe : ">wheat</crop>
+                    </ui>
+                    <script><text>if [crop].StageName = 'harvest_ripe'  or [crop].plant_status = 'dead' then
+   acmo do_output
+   [crop] harvest
+   [crop] end_crop
+endif
+</text><event>end_of_day</event></script>
+                </manager>
+			</folder>
+			<outputfile>
+				<filename output="yes">AgMIP.out</filename>
+				<title>AgMIP</title>
+				<variables name="Variables">
+					<variable name="dd/mm/yyyy as Date"></variable>
+					<variable name="biomass"></variable>
+					<variable name="yield"></variable>
+					<variable name="esw"></variable>
+					<variable name="lai"></variable>
+				</variables>
+				<events name="Reporting Frequency">
+					<event name="daily"></event>
+				</events>
+				<Graph name="Yield and Biomass">
+					<Legend>
+						<CheckedTitles> biomass</CheckedTitles>
+						<CheckedTitles> yield</CheckedTitles>
+					</Legend>
+					<Plot>
+						<SeriesType>Solid line</SeriesType>
+						<PointType>Circle</PointType>
+						<colour/>
+						<X>Date</X><Y>biomass</Y><Y>yield</Y>
+						<YRight>lai</YRight>
+						<GDApsimFileReader name="ApsimFileReader" />
+					</Plot>
+				</Graph>		
+			</outputfile>
+         <outputfile name="ACMO">
+            <filename output="yes">MACH0001_1__1 ACMO.out</filename>
+            <title>MACH0001_1__1 ACMO</title>
+            <variables name="Variables">
+               <variable name="yield" />
+               <variable name="biomass" />
+               <variable name="AnthesisDate format yyyy-mm-dd" />
+               <variable name="MaturityDate format yyyy-mm-dd" />
+               <variable name="Today as HarvestDate format yyyy-mm-dd" />
+               <variable name="LAIMax" />
+               <variable name="InCropRain" />
+               <variable name="SumEP" />
+               <variable name="SumNO3Uptake" />
+               <variable name="SumLeachNO3" />
+               <constants>
+                  <constant name="format">csv</constant>
+               </constants>
+            </variables>
+            <events name="Reporting Frequency">
+            </events>
+         </outputfile>
+         <manager2 name="ACMOVariables">
+            <text><![CDATA[
+using System;
+using ModelFramework;
+using CSGeneral;
+
+public class Script 
+{      
+   [Link] Paddock MyPaddock; 
+   [Input] DateTime Today;
+   
+   [Input] double LAI;
+   [Input] double ep;
+   [Input] double Rain;
+   [Input] double[] flow_no3;
+   [Input] DateTime Simulation_end_date;
+   [Output] DateTime AnthesisDate;
+   [Output] DateTime MaturityDate;
+   [Units("m2/m2")]
+   [Output] double LAIMax = 0;
+   [Units("mm")]
+   [Output] double InCropRain = 0;
+   [Units("mm")]
+   [Output] double SumEP = 0;
+   [Units("kg/ha")]
+   [Output] double SumNO3Uptake = 0;
+   [Units("kg/ha")]
+   [Output] double SumLeachNO3 = 0;
+   
+   private bool ACMOHasWritten = false;
+   
+   // The following event handler will be called each time a crop is sown.
+   [EventHandler] public void OnSowing()
+   {
+      LAIMax = 0.0;
+      InCropRain = 0.0;
+      SumEP = 0.0;
+      SumNO3Uptake = 0;
+      SumLeachNO3 = 0;
+      ACMOHasWritten = false;
+   }   
+      
+   // The following event handler will be called each day at the beginning of the day
+   [EventHandler] public void OnPost()
+   {
+      // Work out flowering and maturity dates.
+            string StageName;
+      MyPaddock.Get("StageName", out StageName);
+      if (StageName.ToLower() == "flowering") AnthesisDate = Today;
+      if (StageName.ToLower() == "maturity") MaturityDate = Today;      
+            
+      // Get no3_uptake for whole profile (as a positive number)
+      double no3_uptake = 0;
+            double[] no3_uptake_array;
+      MyPaddock.Get("no3_uptake", out no3_uptake_array);
+      no3_uptake = -MathUtility.Sum(no3_uptake_array);  //change from negative number to positive
+            LAIMax = Math.Max(LAIMax, LAI);
+      SumEP = SumEP + ep;
+      SumNO3Uptake = SumNO3Uptake + no3_uptake;
+      InCropRain = InCropRain + Rain;
+      SumLeachNO3 = SumLeachNO3 + flow_no3[flow_no3.Length - 1];
+      
+      
+   }
+   
+}
+            ]]></text>
+         </manager2>         
+		</area>
+	</simulation>
+   	<simulation name="KSAS8101_5-IRRIGATED - 60 KG N_HA">
+		<memo name="LOG">
+This .apsim file was created by the APSIM AgMIP translator.
+Log messages:
+  * Met WARNING: No CO2 found in weather data (aco2 or co2y).
+   
+		</memo>
+		<clock>
+			<start_date type="date" description="Enter the start date of the simulation">06/10/1981</start_date>
+			<end_date type="date" description="Enter the end date of the simulation">16/10/1982</end_date>
+		</clock>
+		<metfile name="met">
+			<filename name="filename" input="yes">KSAS.met</filename>
+		</metfile>
+		<summaryfile />
+		<area name="paddock">
+			<soil name="Soil" shortcut="/simulations/Soils/IBWH980018">
+                <Water shortcut="/simulations/Soils/IBWH980018/Water">
+                    <SoilCrop name="wheat" shortcut="/simulations/Soils/IBWH980018/Water/wheat" />
+                </Water>
+                <SoilWat shortcut="/simulations/Soils/IBWH980018/SoilWat" />
+                <SoilOrganicMatter shortcut="/simulations/Soils/IBWH980018/SoilOrganicMatter" />
+                <Analysis shortcut="/simulations/Soils/IBWH980018/Analysis" />
+				<Sample name="Initial nitrogen">
+					<Date type="date" description="Sample date:">19811006</Date>
+					<Layer>
+						<Thickness units="mm">150.0</Thickness>
+						<NO3 units="ppm">9.8</NO3>
+						<NH4 units="ppm">3.4</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">150.0</Thickness>
+						<NO3 units="ppm">7.3</NO3>
+						<NH4 units="ppm">3.2</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">5.1</NO3>
+						<NH4 units="ppm">2.5</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">4.7</NO3>
+						<NH4 units="ppm">2.2</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">4.3</NO3>
+						<NH4 units="ppm">2.7</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">4.3</NO3>
+						<NH4 units="ppm">2.7</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">4.3</NO3>
+						<NH4 units="ppm">2.7</NH4>
+					</Layer>
+				</Sample>
+				<Sample name="Initial water">
+					<Date type="date" description="Sample date:">19811006</Date>
+					<Layer>
+						<Thickness units="mm">150.0</Thickness>
+						<SW units="mm/mm">0.205</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">150.0</Thickness>
+						<SW units="mm/mm">0.17</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.092</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.065</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.066</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.066</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.066</SW>
+					</Layer>
+				</Sample>            
+			</soil>
+			<surfaceom name="SurfaceOrganicMatter">
+				<PoolName type="text" description="Organic Matter pool name">OrganicMatter</PoolName>
+				<type type="list" listvalues="bambatsi,barley,base_type,broccoli,camaldulensis,canola,centro,chickpea,chikenmanure_base,cm,cmA,cmB,constants,cotton,cowpea,danthonia,fababean,fieldpea,fym,gbean,globulus,goatmanure,grandis,grass,horsegram,inert,lablab,lentil,lucerne,lupin,maize,manB,manure,medic,millet,mucuna,nativepasture,navybean,oats,orobanche,peanut,pigeonpea,potato,rice,sorghum,soybean,stylo,sugar,sunflower,sweetcorn,sweetsorghum,tillage,tithonia,vetch,weed,wheat" description="Organic Matter type">wheat</type>
+				<mass type="text" description="Initial surface residue (kg/ha)">6500.0</mass>
+				<cnr type="text" description="C:N ratio of initial residue">35.08771929824562</cnr>
+				<standing_fraction type="text" description="Fraction of residue standing">0</standing_fraction>
+			</surfaceom>
+			<fertiliser />
+			<irrigation name="Irrigation">
+				<automatic_irrigation type="list" listvalues="on,off" description="Automatic irrigation">off</automatic_irrigation>
+				<asw_depth type="text" description="Depth to which ASW is calculated. (mm)">600</asw_depth>
+				<crit_fr_asw type="text" description="Fraction of ASW below which irrigation is applied (0-1.0)">0.5</crit_fr_asw>
+				<irrigation_efficiency type="text" description="Efficiency of the irrigation. (0-1.0)">1</irrigation_efficiency>
+				<irrigation_allocation type="list" listvalues="on,off" description="Allocation limits">off</irrigation_allocation>
+				<allocation type="text" description="Allocation in mm">0</allocation>
+				<default_no3_conc type="text" description="Nitrate concentration (ppm N)">0.0</default_no3_conc>
+				<default_nh4_conc type="text" description="Ammonium concentration (ppm N)">0.0</default_nh4_conc>
+				<default_cl_conc type="text" description="Chloride concentration (ppm Cl)">0.0</default_cl_conc>
+			</irrigation>
+			<wheat>
+            <ini>
+               <filename>wheat.xml</filename>
+            </ini>
+            </wheat>
+			<folder name="Manager folder">
+				<operations name="Operations">
+					<operation condition="start_of_day">
+						<date>16/10/1981</date>
+						<action>wheat sow plants = 162.0, sowing_depth = 55.0 (mm), cultivar = CASSIUS, row_spacing = 160.0 (mm), crop_class = plant</action>
+					</operation>
+					<operation condition="start_of_day">
+						<date>16/10/1981</date>
+						<action>fertiliser apply amount = 60.0 (kg/ha), type = no3_n (), depth = 15.0 (mm)</action>
+					</operation>
+					<operation condition="start_of_day">
+						<date>06/04/1982</date>
+						<action>irrigation apply amount = 65.0 (mm) </action>
+					</operation>
+					<operation condition="start_of_day">
+						<date>20/04/1982</date>
+						<action>irrigation apply amount = 78.0 (mm) </action>
+					</operation>
+					<operation condition="start_of_day">
+						<date>27/04/1982</date>
+						<action>irrigation apply amount = 70.0 (mm) </action>
+					</operation>
+				</operations>
+                <manager name="Harvesting rule">
+                    <ui>
+                        <category type="category" description="Harvesting criteria" />
+                        <crop type="crop" description="Enter name of crop to harvest when ripe : ">wheat</crop>
+                    </ui>
+                    <script><text>if [crop].StageName = 'harvest_ripe'  or [crop].plant_status = 'dead' then
+   acmo do_output
+   [crop] harvest
+   [crop] end_crop
+endif
+</text><event>end_of_day</event></script>
+                </manager>
+			</folder>
+			<outputfile>
+				<filename output="yes">AgMIP.out</filename>
+				<title>AgMIP</title>
+				<variables name="Variables">
+					<variable name="dd/mm/yyyy as Date"></variable>
+					<variable name="biomass"></variable>
+					<variable name="yield"></variable>
+					<variable name="esw"></variable>
+					<variable name="lai"></variable>
+				</variables>
+				<events name="Reporting Frequency">
+					<event name="daily"></event>
+				</events>
+				<Graph name="Yield and Biomass">
+					<Legend>
+						<CheckedTitles> biomass</CheckedTitles>
+						<CheckedTitles> yield</CheckedTitles>
+					</Legend>
+					<Plot>
+						<SeriesType>Solid line</SeriesType>
+						<PointType>Circle</PointType>
+						<colour/>
+						<X>Date</X><Y>biomass</Y><Y>yield</Y>
+						<YRight>lai</YRight>
+						<GDApsimFileReader name="ApsimFileReader" />
+					</Plot>
+				</Graph>		
+			</outputfile>
+         <outputfile name="ACMO">
+            <filename output="yes">MACH0001_1__1 ACMO.out</filename>
+            <title>MACH0001_1__1 ACMO</title>
+            <variables name="Variables">
+               <variable name="yield" />
+               <variable name="biomass" />
+               <variable name="AnthesisDate format yyyy-mm-dd" />
+               <variable name="MaturityDate format yyyy-mm-dd" />
+               <variable name="Today as HarvestDate format yyyy-mm-dd" />
+               <variable name="LAIMax" />
+               <variable name="InCropRain" />
+               <variable name="SumEP" />
+               <variable name="SumNO3Uptake" />
+               <variable name="SumLeachNO3" />
+               <constants>
+                  <constant name="format">csv</constant>
+               </constants>
+            </variables>
+            <events name="Reporting Frequency">
+            </events>
+         </outputfile>
+         <manager2 name="ACMOVariables">
+            <text><![CDATA[
+using System;
+using ModelFramework;
+using CSGeneral;
+
+public class Script 
+{      
+   [Link] Paddock MyPaddock; 
+   [Input] DateTime Today;
+   
+   [Input] double LAI;
+   [Input] double ep;
+   [Input] double Rain;
+   [Input] double[] flow_no3;
+   [Input] DateTime Simulation_end_date;
+   [Output] DateTime AnthesisDate;
+   [Output] DateTime MaturityDate;
+   [Units("m2/m2")]
+   [Output] double LAIMax = 0;
+   [Units("mm")]
+   [Output] double InCropRain = 0;
+   [Units("mm")]
+   [Output] double SumEP = 0;
+   [Units("kg/ha")]
+   [Output] double SumNO3Uptake = 0;
+   [Units("kg/ha")]
+   [Output] double SumLeachNO3 = 0;
+   
+   private bool ACMOHasWritten = false;
+   
+   // The following event handler will be called each time a crop is sown.
+   [EventHandler] public void OnSowing()
+   {
+      LAIMax = 0.0;
+      InCropRain = 0.0;
+      SumEP = 0.0;
+      SumNO3Uptake = 0;
+      SumLeachNO3 = 0;
+      ACMOHasWritten = false;
+   }   
+      
+   // The following event handler will be called each day at the beginning of the day
+   [EventHandler] public void OnPost()
+   {
+      // Work out flowering and maturity dates.
+            string StageName;
+      MyPaddock.Get("StageName", out StageName);
+      if (StageName.ToLower() == "flowering") AnthesisDate = Today;
+      if (StageName.ToLower() == "maturity") MaturityDate = Today;      
+            
+      // Get no3_uptake for whole profile (as a positive number)
+      double no3_uptake = 0;
+            double[] no3_uptake_array;
+      MyPaddock.Get("no3_uptake", out no3_uptake_array);
+      no3_uptake = -MathUtility.Sum(no3_uptake_array);  //change from negative number to positive
+            LAIMax = Math.Max(LAIMax, LAI);
+      SumEP = SumEP + ep;
+      SumNO3Uptake = SumNO3Uptake + no3_uptake;
+      InCropRain = InCropRain + Rain;
+      SumLeachNO3 = SumLeachNO3 + flow_no3[flow_no3.Length - 1];
+      
+      
+   }
+   
+}
+            ]]></text>
+         </manager2>         
+		</area>
+	</simulation>
+   	<simulation name="KSAS8101_6-IRRIGATED 180 KG N_HA SPL">
+		<memo name="LOG">
+This .apsim file was created by the APSIM AgMIP translator.
+Log messages:
+  * Met WARNING: No CO2 found in weather data (aco2 or co2y).
+   
+		</memo>
+		<clock>
+			<start_date type="date" description="Enter the start date of the simulation">06/10/1981</start_date>
+			<end_date type="date" description="Enter the end date of the simulation">16/10/1982</end_date>
+		</clock>
+		<metfile name="met">
+			<filename name="filename" input="yes">KSAS.met</filename>
+		</metfile>
+		<summaryfile />
+		<area name="paddock">
+			<soil name="Soil" shortcut="/simulations/Soils/IBWH980018">
+                <Water shortcut="/simulations/Soils/IBWH980018/Water">
+                    <SoilCrop name="wheat" shortcut="/simulations/Soils/IBWH980018/Water/wheat" />
+                </Water>
+                <SoilWat shortcut="/simulations/Soils/IBWH980018/SoilWat" />
+                <SoilOrganicMatter shortcut="/simulations/Soils/IBWH980018/SoilOrganicMatter" />
+                <Analysis shortcut="/simulations/Soils/IBWH980018/Analysis" />
+				<Sample name="Initial nitrogen">
+					<Date type="date" description="Sample date:">19811006</Date>
+					<Layer>
+						<Thickness units="mm">150.0</Thickness>
+						<NO3 units="ppm">9.8</NO3>
+						<NH4 units="ppm">3.4</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">150.0</Thickness>
+						<NO3 units="ppm">7.3</NO3>
+						<NH4 units="ppm">3.2</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">5.1</NO3>
+						<NH4 units="ppm">2.5</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">4.7</NO3>
+						<NH4 units="ppm">2.2</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">4.3</NO3>
+						<NH4 units="ppm">2.7</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">4.3</NO3>
+						<NH4 units="ppm">2.7</NH4>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<NO3 units="ppm">4.3</NO3>
+						<NH4 units="ppm">2.7</NH4>
+					</Layer>
+				</Sample>
+				<Sample name="Initial water">
+					<Date type="date" description="Sample date:">19811006</Date>
+					<Layer>
+						<Thickness units="mm">150.0</Thickness>
+						<SW units="mm/mm">0.205</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">150.0</Thickness>
+						<SW units="mm/mm">0.17</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.092</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.065</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.066</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.066</SW>
+					</Layer>
+					<Layer>
+						<Thickness units="mm">300.0</Thickness>
+						<SW units="mm/mm">0.066</SW>
+					</Layer>
+				</Sample>            
+			</soil>
+			<surfaceom name="SurfaceOrganicMatter">
+				<PoolName type="text" description="Organic Matter pool name">OrganicMatter</PoolName>
+				<type type="list" listvalues="bambatsi,barley,base_type,broccoli,camaldulensis,canola,centro,chickpea,chikenmanure_base,cm,cmA,cmB,constants,cotton,cowpea,danthonia,fababean,fieldpea,fym,gbean,globulus,goatmanure,grandis,grass,horsegram,inert,lablab,lentil,lucerne,lupin,maize,manB,manure,medic,millet,mucuna,nativepasture,navybean,oats,orobanche,peanut,pigeonpea,potato,rice,sorghum,soybean,stylo,sugar,sunflower,sweetcorn,sweetsorghum,tillage,tithonia,vetch,weed,wheat" description="Organic Matter type">wheat</type>
+				<mass type="text" description="Initial surface residue (kg/ha)">6500.0</mass>
+				<cnr type="text" description="C:N ratio of initial residue">35.08771929824562</cnr>
+				<standing_fraction type="text" description="Fraction of residue standing">0</standing_fraction>
+			</surfaceom>
+			<fertiliser />
+			<irrigation name="Irrigation">
+				<automatic_irrigation type="list" listvalues="on,off" description="Automatic irrigation">off</automatic_irrigation>
+				<asw_depth type="text" description="Depth to which ASW is calculated. (mm)">600</asw_depth>
+				<crit_fr_asw type="text" description="Fraction of ASW below which irrigation is applied (0-1.0)">0.5</crit_fr_asw>
+				<irrigation_efficiency type="text" description="Efficiency of the irrigation. (0-1.0)">1</irrigation_efficiency>
+				<irrigation_allocation type="list" listvalues="on,off" description="Allocation limits">off</irrigation_allocation>
+				<allocation type="text" description="Allocation in mm">0</allocation>
+				<default_no3_conc type="text" description="Nitrate concentration (ppm N)">0.0</default_no3_conc>
+				<default_nh4_conc type="text" description="Ammonium concentration (ppm N)">0.0</default_nh4_conc>
+				<default_cl_conc type="text" description="Chloride concentration (ppm Cl)">0.0</default_cl_conc>
+			</irrigation>
+			<wheat>
+            <ini>
+               <filename>wheat.xml</filename>
+            </ini>
+            </wheat>
+			<folder name="Manager folder">
+				<operations name="Operations">
+					<operation condition="start_of_day">
+						<date>16/10/1981</date>
+						<action>wheat sow plants = 162.0, sowing_depth = 55.0 (mm), cultivar = CASSIUS, row_spacing = 160.0 (mm), crop_class = plant</action>
+					</operation>
+					<operation condition="start_of_day">
+						<date>16/10/1981</date>
+						<action>fertiliser apply amount = 90.0 (kg/ha), type = no3_n (), depth = 15.0 (mm)</action>
+					</operation>
+					<operation condition="start_of_day">
+						<date>25/02/1982</date>
+						<action>fertiliser apply amount = 90.0 (kg/ha), type = no3_n (), depth = 1.0 (mm)</action>
+					</operation>
+					<operation condition="start_of_day">
+						<date>06/04/1982</date>
+						<action>irrigation apply amount = 65.0 (mm) </action>
+					</operation>
+					<operation condition="start_of_day">
+						<date>20/04/1982</date>
+						<action>irrigation apply amount = 78.0 (mm) </action>
+					</operation>
+					<operation condition="start_of_day">
+						<date>27/04/1982</date>
+						<action>irrigation apply amount = 70.0 (mm) </action>
+					</operation>
+				</operations>
+                <manager name="Harvesting rule">
+                    <ui>
+                        <category type="category" description="Harvesting criteria" />
+                        <crop type="crop" description="Enter name of crop to harvest when ripe : ">wheat</crop>
+                    </ui>
+                    <script><text>if [crop].StageName = 'harvest_ripe'  or [crop].plant_status = 'dead' then
+   acmo do_output
+   [crop] harvest
+   [crop] end_crop
+endif
+</text><event>end_of_day</event></script>
+                </manager>
+			</folder>
+			<outputfile>
+				<filename output="yes">AgMIP.out</filename>
+				<title>AgMIP</title>
+				<variables name="Variables">
+					<variable name="dd/mm/yyyy as Date"></variable>
+					<variable name="biomass"></variable>
+					<variable name="yield"></variable>
+					<variable name="esw"></variable>
+					<variable name="lai"></variable>
+				</variables>
+				<events name="Reporting Frequency">
+					<event name="daily"></event>
+				</events>
+				<Graph name="Yield and Biomass">
+					<Legend>
+						<CheckedTitles> biomass</CheckedTitles>
+						<CheckedTitles> yield</CheckedTitles>
+					</Legend>
+					<Plot>
+						<SeriesType>Solid line</SeriesType>
+						<PointType>Circle</PointType>
+						<colour/>
+						<X>Date</X><Y>biomass</Y><Y>yield</Y>
+						<YRight>lai</YRight>
+						<GDApsimFileReader name="ApsimFileReader" />
+					</Plot>
+				</Graph>		
+			</outputfile>
+         <outputfile name="ACMO">
+            <filename output="yes">MACH0001_1__1 ACMO.out</filename>
+            <title>MACH0001_1__1 ACMO</title>
+            <variables name="Variables">
+               <variable name="yield" />
+               <variable name="biomass" />
+               <variable name="AnthesisDate format yyyy-mm-dd" />
+               <variable name="MaturityDate format yyyy-mm-dd" />
+               <variable name="Today as HarvestDate format yyyy-mm-dd" />
+               <variable name="LAIMax" />
+               <variable name="InCropRain" />
+               <variable name="SumEP" />
+               <variable name="SumNO3Uptake" />
+               <variable name="SumLeachNO3" />
+               <constants>
+                  <constant name="format">csv</constant>
+               </constants>
+            </variables>
+            <events name="Reporting Frequency">
+            </events>
+         </outputfile>
+         <manager2 name="ACMOVariables">
+            <text><![CDATA[
+using System;
+using ModelFramework;
+using CSGeneral;
+
+public class Script 
+{      
+   [Link] Paddock MyPaddock; 
+   [Input] DateTime Today;
+   
+   [Input] double LAI;
+   [Input] double ep;
+   [Input] double Rain;
+   [Input] double[] flow_no3;
+   [Input] DateTime Simulation_end_date;
+   [Output] DateTime AnthesisDate;
+   [Output] DateTime MaturityDate;
+   [Units("m2/m2")]
+   [Output] double LAIMax = 0;
+   [Units("mm")]
+   [Output] double InCropRain = 0;
+   [Units("mm")]
+   [Output] double SumEP = 0;
+   [Units("kg/ha")]
+   [Output] double SumNO3Uptake = 0;
+   [Units("kg/ha")]
+   [Output] double SumLeachNO3 = 0;
+   
+   private bool ACMOHasWritten = false;
+   
+   // The following event handler will be called each time a crop is sown.
+   [EventHandler] public void OnSowing()
+   {
+      LAIMax = 0.0;
+      InCropRain = 0.0;
+      SumEP = 0.0;
+      SumNO3Uptake = 0;
+      SumLeachNO3 = 0;
+      ACMOHasWritten = false;
+   }   
+      
+   // The following event handler will be called each day at the beginning of the day
+   [EventHandler] public void OnPost()
+   {
+      // Work out flowering and maturity dates.
+            string StageName;
+      MyPaddock.Get("StageName", out StageName);
+      if (StageName.ToLower() == "flowering") AnthesisDate = Today;
+      if (StageName.ToLower() == "maturity") MaturityDate = Today;      
+            
+      // Get no3_uptake for whole profile (as a positive number)
+      double no3_uptake = 0;
+            double[] no3_uptake_array;
+      MyPaddock.Get("no3_uptake", out no3_uptake_array);
+      no3_uptake = -MathUtility.Sum(no3_uptake_array);  //change from negative number to positive
+            LAIMax = Math.Max(LAIMax, LAI);
+      SumEP = SumEP + ep;
+      SumNO3Uptake = SumNO3Uptake + no3_uptake;
+      InCropRain = InCropRain + Rain;
+      SumLeachNO3 = SumLeachNO3 + flow_no3[flow_no3.Length - 1];
+      
+      
+   }
+   
+}
+            ]]></text>
+         </manager2>         
+		</area>
+	</simulation>
+   </folder>

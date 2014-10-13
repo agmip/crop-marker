@@ -1,0 +1,296 @@
+*INORGANIC SOIL P BALANCE
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:36
+                                                                                
+*RUN   1        : N0 P0                     MZCER045 GHWA0401    1              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  1   : N0 P0                     MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+!SOIL P BALANCE                                 -----------kg P/ha-----------
+
+
+!  SOIL INORGANIC P
+!   Stable soil P                                4496.691            4564.637
+!   Active soil P                                1124.173            1056.102
+!   Labile soil P                                  86.975              82.412
+!                                                --------            --------
+!   Total Inorganic P in Soil                    5707.839            5703.150
+
+!  ADDITIONS AND REMOVALS:
+!   Fertilizer P                                    0.000
+!   Mineralized P                                   3.414
+!   Immobilized P                                                       4.346
+!   P Uptake From Soil                                                  3.757
+!                                                --------            --------
+!  TOTAL soil inorganic P BALANCE                5711.253            5711.253
+!      Difference:                                                      0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   2        : N0 P60                    MZCER045 GHWA0401    2              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  2   : N0 P60                    MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+!SOIL P BALANCE                                 -----------kg P/ha-----------
+
+
+!  SOIL INORGANIC P
+!   Stable soil P                                4591.453            4660.735
+!   Active soil P                                1147.863            1101.167
+!   Labile soil P                                  90.238              88.859
+!                                                --------            --------
+!   Total Inorganic P in Soil                    5829.554            5850.761
+
+!  ADDITIONS AND REMOVALS:
+!   Fertilizer P                                   26.000
+!   Mineralized P                                   5.552
+!   Immobilized P                                                       4.797
+!   P Uptake From Soil                                                  5.547
+!                                                --------            --------
+!  TOTAL soil inorganic P BALANCE                5861.105            5861.105
+!      Difference:                                                      0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   3        : N0 P90                    MZCER045 GHWA0401    3              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  3   : N0 P90                    MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+!SOIL P BALANCE                                 -----------kg P/ha-----------
+
+
+!  SOIL INORGANIC P
+!   Stable soil P                                4633.992            4703.860
+!   Active soil P                                1158.498            1122.590
+!   Labile soil P                                  91.718              91.873
+!                                                --------            --------
+!   Total Inorganic P in Soil                    5884.208            5918.323
+
+!  ADDITIONS AND REMOVALS:
+!   Fertilizer P                                   39.000
+!   Mineralized P                                   5.552
+!   Immobilized P                                                       4.890
+!   P Uptake From Soil                                                  5.547
+!                                                --------            --------
+!  TOTAL soil inorganic P BALANCE                5928.759            5928.759
+!      Difference:                                                      0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   4        : N60 P0                    MZCER045 GHWA0401    4              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  4   : N60 P0                    MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+!SOIL P BALANCE                                 -----------kg P/ha-----------
+
+
+!  SOIL INORGANIC P
+!   Stable soil P                                4491.368            4559.486
+!   Active soil P                                1122.842            1055.431
+!   Labile soil P                                  86.756              82.189
+!                                                --------            --------
+!   Total Inorganic P in Soil                    5700.966            5697.106
+
+!  ADDITIONS AND REMOVALS:
+!   Fertilizer P                                    0.000
+!   Mineralized P                                   4.644
+!   Immobilized P                                                       4.209
+!   P Uptake From Soil                                                  4.296
+!                                                --------            --------
+!  TOTAL soil inorganic P BALANCE                5705.610            5705.611
+!      Difference:                                                      0.001
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   5        : N60 P60                   MZCER045 GHWA0401    5              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  5   : N60 P60                   MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+!SOIL P BALANCE                                 -----------kg P/ha-----------
+
+
+!  SOIL INORGANIC P
+!   Stable soil P                                4491.125            4560.413
+!   Active soil P                                1122.781            1066.750
+!   Labile soil P                                  86.814              83.296
+!                                                --------            --------
+!   Total Inorganic P in Soil                    5700.721            5710.459
+
+!  ADDITIONS AND REMOVALS:
+!   Fertilizer P                                   26.000
+!   Mineralized P                                  11.359
+!   Immobilized P                                                       6.126
+!   P Uptake From Soil                                                 21.494
+!                                                --------            --------
+!  TOTAL soil inorganic P BALANCE                5738.080            5738.080
+!      Difference:                                                      0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   6        : N60 P90                   MZCER045 GHWA0401    6              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  6   : N60 P90                   MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+!SOIL P BALANCE                                 -----------kg P/ha-----------
+
+
+!  SOIL INORGANIC P
+!   Stable soil P                                4527.445            4597.304
+!   Active soil P                                1131.861            1086.423
+!   Labile soil P                                  88.078              86.053
+!                                                --------            --------
+!   Total Inorganic P in Soil                    5747.384            5769.781
+
+!  ADDITIONS AND REMOVALS:
+!   Fertilizer P                                   39.000
+!   Mineralized P                                  11.409
+!   Immobilized P                                                       6.289
+!   P Uptake From Soil                                                 21.725
+!                                                --------            --------
+!  TOTAL soil inorganic P BALANCE                5797.793            5797.795
+!      Difference:                                                      0.002
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   7        : N120 P0                   MZCER045 GHWA0401    7              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  7   : N120 P0                   MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+!SOIL P BALANCE                                 -----------kg P/ha-----------
+
+
+!  SOIL INORGANIC P
+!   Stable soil P                                4491.368            4559.438
+!   Active soil P                                1122.842            1055.174
+!   Labile soil P                                  86.756              82.158
+!                                                --------            --------
+!   Total Inorganic P in Soil                    5700.966            5696.770
+
+!  ADDITIONS AND REMOVALS:
+!   Fertilizer P                                    0.000
+!   Mineralized P                                   4.283
+!   Immobilized P                                                       4.302
+!   P Uptake From Soil                                                  4.179
+!                                                --------            --------
+!  TOTAL soil inorganic P BALANCE                5705.249            5705.250
+!      Difference:                                                      0.001
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   8        : N120 P60                  MZCER045 GHWA0401    8              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  8   : N120 P60                  MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+!SOIL P BALANCE                                 -----------kg P/ha-----------
+
+
+!  SOIL INORGANIC P
+!   Stable soil P                                4401.709            4470.387
+!   Active soil P                                1100.427            1036.945
+!   Labile soil P                                  83.977              78.775
+!                                                --------            --------
+!   Total Inorganic P in Soil                    5586.114            5586.107
+
+!  ADDITIONS AND REMOVALS:
+!   Fertilizer P                                   26.000
+!   Mineralized P                                  10.001
+!   Immobilized P                                                       6.097
+!   P Uptake From Soil                                                 29.912
+!                                                --------            --------
+!  TOTAL soil inorganic P BALANCE                5622.116            5622.116
+!      Difference:                                                      0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   9        : N120 P90                  MZCER045 GHWA0401    9              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  9   : N120 P90                  MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+!SOIL P BALANCE                                 -----------kg P/ha-----------
+
+
+!  SOIL INORGANIC P
+!   Stable soil P                                4483.269            4552.631
+!   Active soil P                                1120.817            1067.263
+!   Labile soil P                                  86.748              82.730
+!                                                --------            --------
+!   Total Inorganic P in Soil                    5690.834            5702.625
+
+!  ADDITIONS AND REMOVALS:
+!   Fertilizer P                                   39.000
+!   Mineralized P                                  10.401
+!   Immobilized P                                                       6.380
+!   P Uptake From Soil                                                 31.230
+!                                                --------            --------
+!  TOTAL soil inorganic P BALANCE                5740.235            5740.234
+!      Difference:                                                      0.000

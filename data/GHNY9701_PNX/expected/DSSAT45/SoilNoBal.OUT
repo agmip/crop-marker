@@ -1,0 +1,185 @@
+*SOIL ORGANIC N BALANCE
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+                                                                                
+*RUN   1        : 97 DATE1 CHINESE          CRGRO045 GHNY9701    1              
+ MODEL          : CRGRO045 - Peanut                                             
+ EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ DATA PATH      :                                                               
+ TREATMENT  1   : 97 DATE1 CHINESE          CRGRO045                            
+  
+ 1997 148     0   3709.95   0.750   5.300   0.000   0.000   0.000   0.000     0.000     0.000
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                1997/149            1997/248
+!SOIL N BALANCE                                 -----------kg N/ha-----------
+
+!   Soil Humus N                                  3709.95             3687.77
+!   Soil Litter N                                    0.75                1.29
+!   N in Surface Residue                             5.30                9.11
+
+!   Added to / Removed from Soil:
+!   N in Harvest Residues from Previous Crop         0.00
+!   N from Organic Applications                      0.00
+!   N from senesced plant matter                     6.10
+!   N immobilized                                    0.00
+!   N mineralized                                                       23.87
+
+!   Total N balance                               3722.04             3722.04
+!   Balance                                                             0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+                                                                                
+*RUN   2        : 97 DATE1 F-MIX            CRGRO045 GHNY9701    2              
+ MODEL          : CRGRO045 - Peanut                                             
+ EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ DATA PATH      :                                                               
+ TREATMENT  2   : 97 DATE1 F-MIX            CRGRO045                            
+  
+ 1997 148     0   3709.95   0.750   5.300   0.000   0.000   0.000   0.000     0.000     0.000
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                1997/149            1997/270
+!SOIL N BALANCE                                 -----------kg N/ha-----------
+
+!   Soil Humus N                                  3709.95             3682.79
+!   Soil Litter N                                    0.75                1.73
+!   N in Surface Residue                             5.30               12.70
+
+!   Added to / Removed from Soil:
+!   N in Harvest Residues from Previous Crop         0.00
+!   N from Organic Applications                      0.00
+!   N from senesced plant matter                    11.34
+!   N immobilized                                    0.00
+!   N mineralized                                                       30.02
+
+!   Total N balance                               3727.24             3727.24
+!   Balance                                                             0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+                                                                                
+*RUN   3        : 97 DATE2 CHINESE          CRGRO045 GHNY9701    3              
+ MODEL          : CRGRO045 - Peanut                                             
+ EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ DATA PATH      :                                                               
+ TREATMENT  3   : 97 DATE2 CHINESE          CRGRO045                            
+  
+ 1997 176     0   3709.95   0.750   5.300   0.000   0.000   0.000   0.000     0.000     0.000
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                1997/177            1997/277
+!SOIL N BALANCE                                 -----------kg N/ha-----------
+
+!   Soil Humus N                                  3709.95             3686.55
+!   Soil Litter N                                    0.75                1.21
+!   N in Surface Residue                             5.30                9.69
+
+!   Added to / Removed from Soil:
+!   N in Harvest Residues from Previous Crop         0.00
+!   N from Organic Applications                      0.00
+!   N from senesced plant matter                     6.70
+!   N immobilized                                    0.00
+!   N mineralized                                                       25.19
+
+!   Total N balance                               3722.64             3722.64
+!   Balance                                                             0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+                                                                                
+*RUN   4        : 97 DATE2 F-MIX            CRGRO045 GHNY9701    4              
+ MODEL          : CRGRO045 - Peanut                                             
+ EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ DATA PATH      :                                                               
+ TREATMENT  4   : 97 DATE2 F-MIX            CRGRO045                            
+  
+ 1997 176     0   3709.95   0.750   5.300   0.000   0.000   0.000   0.000     0.000     0.000
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                1997/177            1997/298
+!SOIL N BALANCE                                 -----------kg N/ha-----------
+
+!   Soil Humus N                                  3709.95             3681.61
+!   Soil Litter N                                    0.75                1.68
+!   N in Surface Residue                             5.30               12.94
+
+!   Added to / Removed from Soil:
+!   N in Harvest Residues from Previous Crop         0.00
+!   N from Organic Applications                      0.00
+!   N from senesced plant matter                    11.54
+!   N immobilized                                    0.00
+!   N mineralized                                                       31.22
+
+!   Total N balance                               3727.45             3727.45
+!   Balance                                                            -0.001
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+                                                                                
+*RUN   5        : 97 DATE3 CHINESE          CRGRO045 GHNY9701    5              
+ MODEL          : CRGRO045 - Peanut                                             
+ EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ DATA PATH      :                                                               
+ TREATMENT  5   : 97 DATE3 CHINESE          CRGRO045                            
+  
+ 1997 204     0   3709.95   0.750   5.300   0.000   0.000   0.000   0.000     0.000     0.000
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                1997/205            1997/305
+!SOIL N BALANCE                                 -----------kg N/ha-----------
+
+!   Soil Humus N                                  3709.95             3686.08
+!   Soil Litter N                                    0.75                1.19
+!   N in Surface Residue                             5.30                9.56
+
+!   Added to / Removed from Soil:
+!   N in Harvest Residues from Previous Crop         0.00
+!   N from Organic Applications                      0.00
+!   N from senesced plant matter                     6.45
+!   N immobilized                                    0.00
+!   N mineralized                                                       25.56
+
+!   Total N balance                               3722.39             3722.39
+!   Balance                                                             0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+                                                                                
+*RUN   6        : 97 DATE3 F-MIX            CRGRO045 GHNY9701    6              
+ MODEL          : CRGRO045 - Peanut                                             
+ EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ DATA PATH      :                                                               
+ TREATMENT  6   : 97 DATE3 F-MIX            CRGRO045                            
+  
+ 1997 204     0   3709.95   0.750   5.300   0.000   0.000   0.000   0.000     0.000     0.000
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                1997/205            1997/324
+!SOIL N BALANCE                                 -----------kg N/ha-----------
+
+!   Soil Humus N                                  3709.95             3683.38
+!   Soil Litter N                                    0.75                4.44
+!   N in Surface Residue                             5.30               21.08
+
+!   Added to / Removed from Soil:
+!   N in Harvest Residues from Previous Crop         0.00
+!   N from Organic Applications                      0.00
+!   N from senesced plant matter                    23.01
+!   N immobilized                                    0.00
+!   N mineralized                                                       29.05
+
+!   Total N balance                               3737.95             3737.95
+!   Balance                                                             0.000

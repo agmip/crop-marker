@@ -1,0 +1,287 @@
+*SOIL INORGANIC N BALANCE
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:36
+                                                                                
+*RUN   1        : N0 P0                     MZCER045 GHWA0401    1              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  1   : N0 P0                     MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+!SOIL INORGANIC N BALANCE                       -----------kg N/ha-----------
+
+!   Soil NO3                                        40.20                7.08
+!   Soil NH4                                         8.04                2.13
+!   Soil Urea                                        0.00                0.00
+
+!   Added to / Removed from Soil:
+!   Fertilizer N                                     0.00
+!   Mineralized N                                   78.02
+!   Leached NO3                                                         92.53
+!   N Denitrified                                                        0.35
+!   N Uptake From Soil                                                  11.56
+!   Ammonia volatilization                                               0.00
+!   N immobilized                                                       12.59
+
+!   Total N balance                                126.26              126.26
+!   Balance                                                             0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   2        : N0 P60                    MZCER045 GHWA0401    2              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  2   : N0 P60                    MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+!SOIL INORGANIC N BALANCE                       -----------kg N/ha-----------
+
+!   Soil NO3                                        40.20                7.01
+!   Soil NH4                                         8.04                2.05
+!   Soil Urea                                        0.00                0.00
+
+!   Added to / Removed from Soil:
+!   Fertilizer N                                     0.00
+!   Mineralized N                                   97.84
+!   Leached NO3                                                         98.98
+!   N Denitrified                                                        0.36
+!   N Uptake From Soil                                                  15.35
+!   Ammonia volatilization                                               0.00
+!   N immobilized                                                       22.33
+
+!   Total N balance                                146.08              146.08
+!   Balance                                                             0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   3        : N0 P90                    MZCER045 GHWA0401    3              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  3   : N0 P90                    MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+!SOIL INORGANIC N BALANCE                       -----------kg N/ha-----------
+
+!   Soil NO3                                        40.20                7.01
+!   Soil NH4                                         8.04                2.05
+!   Soil Urea                                        0.00                0.00
+
+!   Added to / Removed from Soil:
+!   Fertilizer N                                     0.00
+!   Mineralized N                                   97.84
+!   Leached NO3                                                         98.98
+!   N Denitrified                                                        0.36
+!   N Uptake From Soil                                                  15.35
+!   Ammonia volatilization                                               0.00
+!   N immobilized                                                       22.33
+
+!   Total N balance                                146.08              146.08
+!   Balance                                                             0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   4        : N60 P0                    MZCER045 GHWA0401    4              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  4   : N60 P0                    MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+!SOIL INORGANIC N BALANCE                       -----------kg N/ha-----------
+
+!   Soil NO3                                        40.20                9.68
+!   Soil NH4                                         8.04                2.10
+!   Soil Urea                                        0.00                0.00
+
+!   Added to / Removed from Soil:
+!   Fertilizer N                                    60.00
+!   Mineralized N                                   87.93
+!   Leached NO3                                                        138.35
+!   N Denitrified                                                        0.97
+!   N Uptake From Soil                                                  28.28
+!   Ammonia volatilization                                               0.00
+!   N immobilized                                                       16.80
+
+!   Total N balance                                196.17              196.17
+!   Balance                                                             0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   5        : N60 P60                   MZCER045 GHWA0401    5              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  5   : N60 P60                   MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+!SOIL INORGANIC N BALANCE                       -----------kg N/ha-----------
+
+!   Soil NO3                                        40.20                6.66
+!   Soil NH4                                         8.04                2.00
+!   Soil Urea                                        0.00                0.00
+
+!   Added to / Removed from Soil:
+!   Fertilizer N                                    60.00
+!   Mineralized N                                  154.95
+!   Leached NO3                                                        129.21
+!   N Denitrified                                                        0.94
+!   N Uptake From Soil                                                  75.49
+!   Ammonia volatilization                                               0.00
+!   N immobilized                                                       48.89
+
+!   Total N balance                                263.19              263.19
+!   Balance                                                             0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   6        : N60 P90                   MZCER045 GHWA0401    6              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  6   : N60 P90                   MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+!SOIL INORGANIC N BALANCE                       -----------kg N/ha-----------
+
+!   Soil NO3                                        40.20                6.67
+!   Soil NH4                                         8.04                2.00
+!   Soil Urea                                        0.00                0.00
+
+!   Added to / Removed from Soil:
+!   Fertilizer N                                    60.00
+!   Mineralized N                                  156.43
+!   Leached NO3                                                        130.13
+!   N Denitrified                                                        0.96
+!   N Uptake From Soil                                                  75.76
+!   Ammonia volatilization                                               0.00
+!   N immobilized                                                       49.16
+
+!   Total N balance                                264.67              264.67
+!   Balance                                                             0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   7        : N120 P0                   MZCER045 GHWA0401    7              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  7   : N120 P0                   MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+!SOIL INORGANIC N BALANCE                       -----------kg N/ha-----------
+
+!   Soil NO3                                        40.20               13.99
+!   Soil NH4                                         8.04                2.11
+!   Soil Urea                                        0.00                0.00
+
+!   Added to / Removed from Soil:
+!   Fertilizer N                                   120.00
+!   Mineralized N                                   85.14
+!   Leached NO3                                                        191.86
+!   N Denitrified                                                        1.74
+!   N Uptake From Soil                                                  27.89
+!   Ammonia volatilization                                               0.00
+!   N immobilized                                                       15.79
+
+!   Total N balance                                253.38              253.38
+!   Balance                                                             0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   8        : N120 P60                  MZCER045 GHWA0401    8              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  8   : N120 P60                  MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+!SOIL INORGANIC N BALANCE                       -----------kg N/ha-----------
+
+!   Soil NO3                                        40.20                6.72
+!   Soil NH4                                         8.04                2.18
+!   Soil Urea                                        0.00                0.00
+
+!   Added to / Removed from Soil:
+!   Fertilizer N                                   120.00
+!   Mineralized N                                  146.59
+!   Leached NO3                                                        129.60
+!   N Denitrified                                                        1.04
+!   N Uptake From Soil                                                 131.35
+!   Ammonia volatilization                                               0.00
+!   N immobilized                                                       43.93
+
+!   Total N balance                                314.83              314.83
+!   Balance                                                             0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   9        : N120 P90                  MZCER045 GHWA0401    9              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  9   : N120 P90                  MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+!SOIL INORGANIC N BALANCE                       -----------kg N/ha-----------
+
+!   Soil NO3                                        40.20                6.59
+!   Soil NH4                                         8.04                2.21
+!   Soil Urea                                        0.00                0.00
+
+!   Added to / Removed from Soil:
+!   Fertilizer N                                   120.00
+!   Mineralized N                                  150.33
+!   Leached NO3                                                        131.17
+!   N Denitrified                                                        1.05
+!   N Uptake From Soil                                                 131.63
+!   Ammonia volatilization                                               0.00
+!   N immobilized                                                       45.92
+
+!   Total N balance                                318.57              318.57
+!   Balance                                                             0.000

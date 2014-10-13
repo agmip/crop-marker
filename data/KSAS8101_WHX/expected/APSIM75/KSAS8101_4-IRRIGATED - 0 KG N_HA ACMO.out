@@ -1,0 +1,6 @@
+ApsimVersion = 7.5
+format = csv
+Title = KSAS8101_4-IRRIGATED - 0 KG N_HA ACMO
+yield,biomass,AnthesisDate,MaturityDate,HarvestDate,LAIMax,InCropRain,SumEP,SumNO3Uptake,SumLeachNO3
+(kg/ha),(kg/ha),(yyyy-mm-dd),(yyyy-mm-dd),(yyyy-mm-dd),(m2/m2),(mm),(mm),(kg/ha),(kg/ha)
+345.339081,1417.211548,1982-06-04,1982-07-02,1982-07-03,0.666942,663.400002,26.539491,10.214772,156.097896

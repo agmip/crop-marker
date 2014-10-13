@@ -1,0 +1,258 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:36
+                                                                                
+*RUN   1        : N0 P0                     MZCER045 GHWA0401    1              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  1   : N0 P0                     MZCER045                            
+  
+
+ SOILNI  YEAR DOY = 2003 283
+ P content of residue was changed from value in initial conditions             
+   section of experiment file to maintain allowable C:P ratio.                 
+   - Previous crop code                 :    MZ                                
+   - Recommended P content for surface residue (%):   0.3                      
+   - Value read from file               : 0.100%                               
+   - Value changed to                   : 0.256%                               
+ To change allowable P content, modify SCP parameter                           
+   in RESCH045.SDA file.                                                       
+
+ NCHECK  YEAR DOY = 2004 180
+ The carbon/nutrient ratio (C/N or C/P) of the residue                         
+ or senesced biomass that was added to the soil                                
+ is outside the common range to which the CESTR                                
+ parameter in the file SOMFX045.SDA applies. You have a                        
+ residue with an extremely low nutrient concentration.                         
+ Please check your data and/or adapt the CESTR value.                          
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   2        : N0 P60                    MZCER045 GHWA0401    2              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  2   : N0 P60                    MZCER045                            
+  
+
+ SOILNI  YEAR DOY = 2003 283
+ P content of residue was changed from value in initial conditions             
+   section of experiment file to maintain allowable C:P ratio.                 
+   - Previous crop code                 :    MZ                                
+   - Recommended P content for surface residue (%):   0.3                      
+   - Value read from file               : 0.100%                               
+   - Value changed to                   : 0.256%                               
+ To change allowable P content, modify SCP parameter                           
+   in RESCH045.SDA file.                                                       
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   3        : N0 P90                    MZCER045 GHWA0401    3              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  3   : N0 P90                    MZCER045                            
+  
+
+ SOILNI  YEAR DOY = 2003 283
+ P content of residue was changed from value in initial conditions             
+   section of experiment file to maintain allowable C:P ratio.                 
+   - Previous crop code                 :    MZ                                
+   - Recommended P content for surface residue (%):   0.3                      
+   - Value read from file               : 0.100%                               
+   - Value changed to                   : 0.256%                               
+ To change allowable P content, modify SCP parameter                           
+   in RESCH045.SDA file.                                                       
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   4        : N60 P0                    MZCER045 GHWA0401    4              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  4   : N60 P0                    MZCER045                            
+  
+
+ SOILNI  YEAR DOY = 2003 283
+ P content of residue was changed from value in initial conditions             
+   section of experiment file to maintain allowable C:P ratio.                 
+   - Previous crop code                 :    MZ                                
+   - Recommended P content for surface residue (%):   0.3                      
+   - Value read from file               : 0.100%                               
+   - Value changed to                   : 0.256%                               
+ To change allowable P content, modify SCP parameter                           
+   in RESCH045.SDA file.                                                       
+
+ FPLACE  YEAR DOY = 2004 187
+ Fertilizer type   5; Depth  5.00                                              
+ Deep placement of fertilizer could not be accomodated.                        
+ Model is forcing deep placement into second layer.                            
+
+ FPLACE  YEAR DOY = 2004 197
+ Fertilizer type   5; Depth  5.00                                              
+ Deep placement of fertilizer could not be accomodated.                        
+ Model is forcing deep placement into second layer.                            
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   5        : N60 P60                   MZCER045 GHWA0401    5              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  5   : N60 P60                   MZCER045                            
+  
+
+ SOILNI  YEAR DOY = 2003 283
+ P content of residue was changed from value in initial conditions             
+   section of experiment file to maintain allowable C:P ratio.                 
+   - Previous crop code                 :    MZ                                
+   - Recommended P content for surface residue (%):   0.3                      
+   - Value read from file               : 0.100%                               
+   - Value changed to                   : 0.256%                               
+ To change allowable P content, modify SCP parameter                           
+   in RESCH045.SDA file.                                                       
+
+ FPLACE  YEAR DOY = 2004 187
+ Fertilizer type   5; Depth  5.00                                              
+ Deep placement of fertilizer could not be accomodated.                        
+ Model is forcing deep placement into second layer.                            
+
+ FPLACE  YEAR DOY = 2004 197
+ Fertilizer type   5; Depth  5.00                                              
+ Deep placement of fertilizer could not be accomodated.                        
+ Model is forcing deep placement into second layer.                            
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   6        : N60 P90                   MZCER045 GHWA0401    6              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  6   : N60 P90                   MZCER045                            
+  
+
+ SOILNI  YEAR DOY = 2003 283
+ P content of residue was changed from value in initial conditions             
+   section of experiment file to maintain allowable C:P ratio.                 
+   - Previous crop code                 :    MZ                                
+   - Recommended P content for surface residue (%):   0.3                      
+   - Value read from file               : 0.100%                               
+   - Value changed to                   : 0.256%                               
+ To change allowable P content, modify SCP parameter                           
+   in RESCH045.SDA file.                                                       
+
+ FPLACE  YEAR DOY = 2004 187
+ Fertilizer type   5; Depth  5.00                                              
+ Deep placement of fertilizer could not be accomodated.                        
+ Model is forcing deep placement into second layer.                            
+
+ FPLACE  YEAR DOY = 2004 197
+ Fertilizer type   5; Depth  5.00                                              
+ Deep placement of fertilizer could not be accomodated.                        
+ Model is forcing deep placement into second layer.                            
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   7        : N120 P0                   MZCER045 GHWA0401    7              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  7   : N120 P0                   MZCER045                            
+  
+
+ SOILNI  YEAR DOY = 2003 283
+ P content of residue was changed from value in initial conditions             
+   section of experiment file to maintain allowable C:P ratio.                 
+   - Previous crop code                 :    MZ                                
+   - Recommended P content for surface residue (%):   0.3                      
+   - Value read from file               : 0.100%                               
+   - Value changed to                   : 0.256%                               
+ To change allowable P content, modify SCP parameter                           
+   in RESCH045.SDA file.                                                       
+
+ FPLACE  YEAR DOY = 2004 187
+ Fertilizer type   5; Depth  5.00                                              
+ Deep placement of fertilizer could not be accomodated.                        
+ Model is forcing deep placement into second layer.                            
+
+ FPLACE  YEAR DOY = 2004 197
+ Fertilizer type   5; Depth  5.00                                              
+ Deep placement of fertilizer could not be accomodated.                        
+ Model is forcing deep placement into second layer.                            
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   8        : N120 P60                  MZCER045 GHWA0401    8              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  8   : N120 P60                  MZCER045                            
+  
+
+ SOILNI  YEAR DOY = 2003 283
+ P content of residue was changed from value in initial conditions             
+   section of experiment file to maintain allowable C:P ratio.                 
+   - Previous crop code                 :    MZ                                
+   - Recommended P content for surface residue (%):   0.3                      
+   - Value read from file               : 0.100%                               
+   - Value changed to                   : 0.256%                               
+ To change allowable P content, modify SCP parameter                           
+   in RESCH045.SDA file.                                                       
+
+ FPLACE  YEAR DOY = 2004 187
+ Fertilizer type   5; Depth  5.00                                              
+ Deep placement of fertilizer could not be accomodated.                        
+ Model is forcing deep placement into second layer.                            
+
+ FPLACE  YEAR DOY = 2004 197
+ Fertilizer type   5; Depth  5.00                                              
+ Deep placement of fertilizer could not be accomodated.                        
+ Model is forcing deep placement into second layer.                            
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   9        : N120 P90                  MZCER045 GHWA0401    9              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  9   : N120 P90                  MZCER045                            
+  
+
+ SOILNI  YEAR DOY = 2003 283
+ P content of residue was changed from value in initial conditions             
+   section of experiment file to maintain allowable C:P ratio.                 
+   - Previous crop code                 :    MZ                                
+   - Recommended P content for surface residue (%):   0.3                      
+   - Value read from file               : 0.100%                               
+   - Value changed to                   : 0.256%                               
+ To change allowable P content, modify SCP parameter                           
+   in RESCH045.SDA file.                                                       
+
+ FPLACE  YEAR DOY = 2004 187
+ Fertilizer type   5; Depth  5.00                                              
+ Deep placement of fertilizer could not be accomodated.                        
+ Model is forcing deep placement into second layer.                            
+
+ FPLACE  YEAR DOY = 2004 197
+ Fertilizer type   5; Depth  5.00                                              
+ Deep placement of fertilizer could not be accomodated.                        
+ Model is forcing deep placement into second layer.                            

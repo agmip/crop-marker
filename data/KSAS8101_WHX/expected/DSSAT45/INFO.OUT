@@ -1,0 +1,394 @@
+*INFO DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+                                                                                
+*RUN   1        : DRYLAND  - 0 KG N/HA      CSCER045 KSAS8101    1              
+ MODEL          : CSCER045 - Wheat                                              
+ EXPERIMENT     : KSAS8101 WH                                                   
+ DATA PATH      :                                                               
+ TREATMENT  1   : DRYLAND  - 0 KG N/HA      CSCER045                            
+  
+
+ CSM     YEAR DOY = 1981 279
+ RNMODE = B                                                                    
+ PATHEX =                                                                      
+ FILEX  = KSAS8101.WHX                                                         
+ FILEB  = dssbatch.v45                                                         
+ FILEIO = DSSAT45.INP                                                          
+ MODEL  = CSCER045                                                             
+ TRTNUM =     1                                                                
+
+ SOILDYN  YEAR DOY = 1981 279
+ The soil file has missing or invalid data.                                    
+ Default values have been used for these variables:                            
+   CEC, STONES, ADCOEF                                                         
+ These defaults may or may not be important to your results.                   
+
+ SOILDYN  YEAR DOY = 1981 279
+ Soil ID: IBWH980018                                                           
+ HAYNIE                                                                        
+ COARSE-SILTY, MIXED,CALCAREOUS,MESIC TYP UDIFLUVEN                            
+   SALB SWCON    CN  DMOD  SLPF SMPX                                           
+   0.14  0.60  60.0  1.00  1.00 IB001                                          
+ Soil layer distribution method: 2                                             
+      DS DLAYR    LL   DUL   SAT  Root    BD    OC  CLAY  SILT  SAND           
+ LYR  cm    cm  frac  frac  frac  Grow g/cm3     %     %     %     %    pH     
+   1   5     5 0.072 0.225 0.275 1.000  1.15  0.61  30.0  30.0  40.0   7.0     
+   2  15    10 0.072 0.225 0.275 1.000  1.15  0.61  30.0  30.0  40.0   7.0     
+   3  30    15 0.070 0.240 0.290 0.700  1.16  0.61  30.0  30.0  40.0   7.0     
+   4  45    15 0.040 0.154 0.194 0.200  1.21  0.59  30.0  30.0  40.0   7.0     
+   5  60    15 0.040 0.154 0.194 0.200  1.21  0.59  30.0  30.0  40.0   7.0     
+   6  90    30 0.032 0.091 0.141 0.050  1.23  0.29  30.0  30.0  40.0   7.0     
+   7 120    30 0.032 0.087 0.137 0.030  1.31  0.24  30.0  30.0  40.0   7.0     
+   8 150    30 0.032 0.087 0.137 0.010  1.31  0.20  30.0  30.0  40.0   7.0     
+   9 180    30 0.032 0.087 0.137 0.010  1.31  0.20  30.0  30.0  40.0   7.0     
+
+ SOILDYN  YEAR DOY = 1981 279
+ Additional soil properties                                                    
+                Convert                                                        
+    Cation Adsrp  ppm /  SLCF                                                  
+   L  Exch  Coef  kg/ha     %                                                  
+   1  15.5   0.0   1.74   0.0                                                  
+   2  15.5   0.0   0.87   0.0                                                  
+   3  15.5   0.0   0.57   0.0                                                  
+   4  15.5   0.0   0.55   0.0                                                  
+   5  15.5   0.0   0.55   0.0                                                  
+   6  15.5   0.0   0.27   0.0                                                  
+   7  15.5   0.0   0.25   0.0                                                  
+   8  15.5   0.0   0.25   0.0                                                  
+   9  15.5   0.0   0.25   0.0                                                  
+
+ IPWTH   YEAR DOY = 1981 279
+ KSAS8102.WTH                                                                  
+ Found daily weather data headers for:                                         
+   SRAD           Col   7 -  11                                                
+   TMAX           Col  13 -  17                                                
+   TMIN           Col  19 -  23                                                
+   RAIN           Col  25 -  29                                                
+   DEWP           Col  31 -  35                                                
+   WIND           Col  37 -  41                                                
+   PAR            Col  43 -  47                                                
+
+ CO2VAL  YEAR DOY = 1981 279
+  643 CO2 data points read from file.                                          
+ C:\DSSAT45\StandardData\CO2045.WDA                                            
+
+ ENDRUN  YEAR DOY = 1982 174
+ Normal end of run        1                                                    
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+                                                                                
+*RUN   2        : DRYLAND  - 60 KG N/HA     CSCER045 KSAS8101    2              
+ MODEL          : CSCER045 - Wheat                                              
+ EXPERIMENT     : KSAS8101 WH                                                   
+ DATA PATH      :                                                               
+ TREATMENT  2   : DRYLAND  - 60 KG N/HA     CSCER045                            
+  
+
+ CSM     YEAR DOY = 1981 279
+ RNMODE = B                                                                    
+ PATHEX =                                                                      
+ FILEX  = KSAS8101.WHX                                                         
+ FILEB  = dssbatch.v45                                                         
+ FILEIO = DSSAT45.INP                                                          
+ MODEL  = CSCER045                                                             
+ TRTNUM =     2                                                                
+
+ SOILDYN  YEAR DOY = 1981 279
+ The soil file has missing or invalid data.                                    
+ Default values have been used for these variables:                            
+   CEC, STONES, ADCOEF                                                         
+ These defaults may or may not be important to your results.                   
+
+ SOILDYN  YEAR DOY = 1981 279
+ Soil ID: IBWH980018                                                           
+ HAYNIE                                                                        
+ COARSE-SILTY, MIXED,CALCAREOUS,MESIC TYP UDIFLUVEN                            
+   SALB SWCON    CN  DMOD  SLPF SMPX                                           
+   0.14  0.60  60.0  1.00  1.00 IB001                                          
+ Soil layer distribution method: 2                                             
+      DS DLAYR    LL   DUL   SAT  Root    BD    OC  CLAY  SILT  SAND           
+ LYR  cm    cm  frac  frac  frac  Grow g/cm3     %     %     %     %    pH     
+   1   5     5 0.072 0.225 0.275 1.000  1.15  0.61  30.0  30.0  40.0   7.0     
+   2  15    10 0.072 0.225 0.275 1.000  1.15  0.61  30.0  30.0  40.0   7.0     
+   3  30    15 0.070 0.240 0.290 0.700  1.16  0.61  30.0  30.0  40.0   7.0     
+   4  45    15 0.040 0.154 0.194 0.200  1.21  0.59  30.0  30.0  40.0   7.0     
+   5  60    15 0.040 0.154 0.194 0.200  1.21  0.59  30.0  30.0  40.0   7.0     
+   6  90    30 0.032 0.091 0.141 0.050  1.23  0.29  30.0  30.0  40.0   7.0     
+   7 120    30 0.032 0.087 0.137 0.030  1.31  0.24  30.0  30.0  40.0   7.0     
+   8 150    30 0.032 0.087 0.137 0.010  1.31  0.20  30.0  30.0  40.0   7.0     
+   9 180    30 0.032 0.087 0.137 0.010  1.31  0.20  30.0  30.0  40.0   7.0     
+
+ SOILDYN  YEAR DOY = 1981 279
+ Additional soil properties                                                    
+                Convert                                                        
+    Cation Adsrp  ppm /  SLCF                                                  
+   L  Exch  Coef  kg/ha     %                                                  
+   1  15.5   0.0   1.74   0.0                                                  
+   2  15.5   0.0   0.87   0.0                                                  
+   3  15.5   0.0   0.57   0.0                                                  
+   4  15.5   0.0   0.55   0.0                                                  
+   5  15.5   0.0   0.55   0.0                                                  
+   6  15.5   0.0   0.27   0.0                                                  
+   7  15.5   0.0   0.25   0.0                                                  
+   8  15.5   0.0   0.25   0.0                                                  
+   9  15.5   0.0   0.25   0.0                                                  
+
+ ENDRUN  YEAR DOY = 1982 174
+ Normal end of run        2                                                    
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+                                                                                
+*RUN   3        : DRYLAND  - 180 KG N/HA SP CSCER045 KSAS8101    3              
+ MODEL          : CSCER045 - Wheat                                              
+ EXPERIMENT     : KSAS8101 WH                                                   
+ DATA PATH      :                                                               
+ TREATMENT  3   : DRYLAND  - 180 KG N/HA SP CSCER045                            
+  
+
+ CSM     YEAR DOY = 1981 279
+ RNMODE = B                                                                    
+ PATHEX =                                                                      
+ FILEX  = KSAS8101.WHX                                                         
+ FILEB  = dssbatch.v45                                                         
+ FILEIO = DSSAT45.INP                                                          
+ MODEL  = CSCER045                                                             
+ TRTNUM =     3                                                                
+
+ SOILDYN  YEAR DOY = 1981 279
+ The soil file has missing or invalid data.                                    
+ Default values have been used for these variables:                            
+   CEC, STONES, ADCOEF                                                         
+ These defaults may or may not be important to your results.                   
+
+ SOILDYN  YEAR DOY = 1981 279
+ Soil ID: IBWH980018                                                           
+ HAYNIE                                                                        
+ COARSE-SILTY, MIXED,CALCAREOUS,MESIC TYP UDIFLUVEN                            
+   SALB SWCON    CN  DMOD  SLPF SMPX                                           
+   0.14  0.60  60.0  1.00  1.00 IB001                                          
+ Soil layer distribution method: 2                                             
+      DS DLAYR    LL   DUL   SAT  Root    BD    OC  CLAY  SILT  SAND           
+ LYR  cm    cm  frac  frac  frac  Grow g/cm3     %     %     %     %    pH     
+   1   5     5 0.072 0.225 0.275 1.000  1.15  0.61  30.0  30.0  40.0   7.0     
+   2  15    10 0.072 0.225 0.275 1.000  1.15  0.61  30.0  30.0  40.0   7.0     
+   3  30    15 0.070 0.240 0.290 0.700  1.16  0.61  30.0  30.0  40.0   7.0     
+   4  45    15 0.040 0.154 0.194 0.200  1.21  0.59  30.0  30.0  40.0   7.0     
+   5  60    15 0.040 0.154 0.194 0.200  1.21  0.59  30.0  30.0  40.0   7.0     
+   6  90    30 0.032 0.091 0.141 0.050  1.23  0.29  30.0  30.0  40.0   7.0     
+   7 120    30 0.032 0.087 0.137 0.030  1.31  0.24  30.0  30.0  40.0   7.0     
+   8 150    30 0.032 0.087 0.137 0.010  1.31  0.20  30.0  30.0  40.0   7.0     
+   9 180    30 0.032 0.087 0.137 0.010  1.31  0.20  30.0  30.0  40.0   7.0     
+
+ SOILDYN  YEAR DOY = 1981 279
+ Additional soil properties                                                    
+                Convert                                                        
+    Cation Adsrp  ppm /  SLCF                                                  
+   L  Exch  Coef  kg/ha     %                                                  
+   1  15.5   0.0   1.74   0.0                                                  
+   2  15.5   0.0   0.87   0.0                                                  
+   3  15.5   0.0   0.57   0.0                                                  
+   4  15.5   0.0   0.55   0.0                                                  
+   5  15.5   0.0   0.55   0.0                                                  
+   6  15.5   0.0   0.27   0.0                                                  
+   7  15.5   0.0   0.25   0.0                                                  
+   8  15.5   0.0   0.25   0.0                                                  
+   9  15.5   0.0   0.25   0.0                                                  
+
+ ENDRUN  YEAR DOY = 1982 174
+ Normal end of run        3                                                    
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+                                                                                
+*RUN   4        : IRRIGATED - 0 KG N/HA     CSCER045 KSAS8101    4              
+ MODEL          : CSCER045 - Wheat                                              
+ EXPERIMENT     : KSAS8101 WH                                                   
+ DATA PATH      :                                                               
+ TREATMENT  4   : IRRIGATED - 0 KG N/HA     CSCER045                            
+  
+
+ CSM     YEAR DOY = 1981 279
+ RNMODE = B                                                                    
+ PATHEX =                                                                      
+ FILEX  = KSAS8101.WHX                                                         
+ FILEB  = dssbatch.v45                                                         
+ FILEIO = DSSAT45.INP                                                          
+ MODEL  = CSCER045                                                             
+ TRTNUM =     4                                                                
+
+ SOILDYN  YEAR DOY = 1981 279
+ The soil file has missing or invalid data.                                    
+ Default values have been used for these variables:                            
+   CEC, STONES, ADCOEF                                                         
+ These defaults may or may not be important to your results.                   
+
+ SOILDYN  YEAR DOY = 1981 279
+ Soil ID: IBWH980018                                                           
+ HAYNIE                                                                        
+ COARSE-SILTY, MIXED,CALCAREOUS,MESIC TYP UDIFLUVEN                            
+   SALB SWCON    CN  DMOD  SLPF SMPX                                           
+   0.14  0.60  60.0  1.00  1.00 IB001                                          
+ Soil layer distribution method: 2                                             
+      DS DLAYR    LL   DUL   SAT  Root    BD    OC  CLAY  SILT  SAND           
+ LYR  cm    cm  frac  frac  frac  Grow g/cm3     %     %     %     %    pH     
+   1   5     5 0.072 0.225 0.275 1.000  1.15  0.61  30.0  30.0  40.0   7.0     
+   2  15    10 0.072 0.225 0.275 1.000  1.15  0.61  30.0  30.0  40.0   7.0     
+   3  30    15 0.070 0.240 0.290 0.700  1.16  0.61  30.0  30.0  40.0   7.0     
+   4  45    15 0.040 0.154 0.194 0.200  1.21  0.59  30.0  30.0  40.0   7.0     
+   5  60    15 0.040 0.154 0.194 0.200  1.21  0.59  30.0  30.0  40.0   7.0     
+   6  90    30 0.032 0.091 0.141 0.050  1.23  0.29  30.0  30.0  40.0   7.0     
+   7 120    30 0.032 0.087 0.137 0.030  1.31  0.24  30.0  30.0  40.0   7.0     
+   8 150    30 0.032 0.087 0.137 0.010  1.31  0.20  30.0  30.0  40.0   7.0     
+   9 180    30 0.032 0.087 0.137 0.010  1.31  0.20  30.0  30.0  40.0   7.0     
+
+ SOILDYN  YEAR DOY = 1981 279
+ Additional soil properties                                                    
+                Convert                                                        
+    Cation Adsrp  ppm /  SLCF                                                  
+   L  Exch  Coef  kg/ha     %                                                  
+   1  15.5   0.0   1.74   0.0                                                  
+   2  15.5   0.0   0.87   0.0                                                  
+   3  15.5   0.0   0.57   0.0                                                  
+   4  15.5   0.0   0.55   0.0                                                  
+   5  15.5   0.0   0.55   0.0                                                  
+   6  15.5   0.0   0.27   0.0                                                  
+   7  15.5   0.0   0.25   0.0                                                  
+   8  15.5   0.0   0.25   0.0                                                  
+   9  15.5   0.0   0.25   0.0                                                  
+
+ ENDRUN  YEAR DOY = 1982 174
+ Normal end of run        4                                                    
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+                                                                                
+*RUN   5        : IRRIGATED - 60 KG N/HA    CSCER045 KSAS8101    5              
+ MODEL          : CSCER045 - Wheat                                              
+ EXPERIMENT     : KSAS8101 WH                                                   
+ DATA PATH      :                                                               
+ TREATMENT  5   : IRRIGATED - 60 KG N/HA    CSCER045                            
+  
+
+ CSM     YEAR DOY = 1981 279
+ RNMODE = B                                                                    
+ PATHEX =                                                                      
+ FILEX  = KSAS8101.WHX                                                         
+ FILEB  = dssbatch.v45                                                         
+ FILEIO = DSSAT45.INP                                                          
+ MODEL  = CSCER045                                                             
+ TRTNUM =     5                                                                
+
+ SOILDYN  YEAR DOY = 1981 279
+ The soil file has missing or invalid data.                                    
+ Default values have been used for these variables:                            
+   CEC, STONES, ADCOEF                                                         
+ These defaults may or may not be important to your results.                   
+
+ SOILDYN  YEAR DOY = 1981 279
+ Soil ID: IBWH980018                                                           
+ HAYNIE                                                                        
+ COARSE-SILTY, MIXED,CALCAREOUS,MESIC TYP UDIFLUVEN                            
+   SALB SWCON    CN  DMOD  SLPF SMPX                                           
+   0.14  0.60  60.0  1.00  1.00 IB001                                          
+ Soil layer distribution method: 2                                             
+      DS DLAYR    LL   DUL   SAT  Root    BD    OC  CLAY  SILT  SAND           
+ LYR  cm    cm  frac  frac  frac  Grow g/cm3     %     %     %     %    pH     
+   1   5     5 0.072 0.225 0.275 1.000  1.15  0.61  30.0  30.0  40.0   7.0     
+   2  15    10 0.072 0.225 0.275 1.000  1.15  0.61  30.0  30.0  40.0   7.0     
+   3  30    15 0.070 0.240 0.290 0.700  1.16  0.61  30.0  30.0  40.0   7.0     
+   4  45    15 0.040 0.154 0.194 0.200  1.21  0.59  30.0  30.0  40.0   7.0     
+   5  60    15 0.040 0.154 0.194 0.200  1.21  0.59  30.0  30.0  40.0   7.0     
+   6  90    30 0.032 0.091 0.141 0.050  1.23  0.29  30.0  30.0  40.0   7.0     
+   7 120    30 0.032 0.087 0.137 0.030  1.31  0.24  30.0  30.0  40.0   7.0     
+   8 150    30 0.032 0.087 0.137 0.010  1.31  0.20  30.0  30.0  40.0   7.0     
+   9 180    30 0.032 0.087 0.137 0.010  1.31  0.20  30.0  30.0  40.0   7.0     
+
+ SOILDYN  YEAR DOY = 1981 279
+ Additional soil properties                                                    
+                Convert                                                        
+    Cation Adsrp  ppm /  SLCF                                                  
+   L  Exch  Coef  kg/ha     %                                                  
+   1  15.5   0.0   1.74   0.0                                                  
+   2  15.5   0.0   0.87   0.0                                                  
+   3  15.5   0.0   0.57   0.0                                                  
+   4  15.5   0.0   0.55   0.0                                                  
+   5  15.5   0.0   0.55   0.0                                                  
+   6  15.5   0.0   0.27   0.0                                                  
+   7  15.5   0.0   0.25   0.0                                                  
+   8  15.5   0.0   0.25   0.0                                                  
+   9  15.5   0.0   0.25   0.0                                                  
+
+ ENDRUN  YEAR DOY = 1982 174
+ Normal end of run        5                                                    
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+                                                                                
+*RUN   6        : IRRIGATED 180 KG N/HA SPL CSCER045 KSAS8101    6              
+ MODEL          : CSCER045 - Wheat                                              
+ EXPERIMENT     : KSAS8101 WH                                                   
+ DATA PATH      :                                                               
+ TREATMENT  6   : IRRIGATED 180 KG N/HA SPL CSCER045                            
+  
+
+ CSM     YEAR DOY = 1981 279
+ RNMODE = B                                                                    
+ PATHEX =                                                                      
+ FILEX  = KSAS8101.WHX                                                         
+ FILEB  = dssbatch.v45                                                         
+ FILEIO = DSSAT45.INP                                                          
+ MODEL  = CSCER045                                                             
+ TRTNUM =     6                                                                
+
+ SOILDYN  YEAR DOY = 1981 279
+ The soil file has missing or invalid data.                                    
+ Default values have been used for these variables:                            
+   CEC, STONES, ADCOEF                                                         
+ These defaults may or may not be important to your results.                   
+
+ SOILDYN  YEAR DOY = 1981 279
+ Soil ID: IBWH980018                                                           
+ HAYNIE                                                                        
+ COARSE-SILTY, MIXED,CALCAREOUS,MESIC TYP UDIFLUVEN                            
+   SALB SWCON    CN  DMOD  SLPF SMPX                                           
+   0.14  0.60  60.0  1.00  1.00 IB001                                          
+ Soil layer distribution method: 2                                             
+      DS DLAYR    LL   DUL   SAT  Root    BD    OC  CLAY  SILT  SAND           
+ LYR  cm    cm  frac  frac  frac  Grow g/cm3     %     %     %     %    pH     
+   1   5     5 0.072 0.225 0.275 1.000  1.15  0.61  30.0  30.0  40.0   7.0     
+   2  15    10 0.072 0.225 0.275 1.000  1.15  0.61  30.0  30.0  40.0   7.0     
+   3  30    15 0.070 0.240 0.290 0.700  1.16  0.61  30.0  30.0  40.0   7.0     
+   4  45    15 0.040 0.154 0.194 0.200  1.21  0.59  30.0  30.0  40.0   7.0     
+   5  60    15 0.040 0.154 0.194 0.200  1.21  0.59  30.0  30.0  40.0   7.0     
+   6  90    30 0.032 0.091 0.141 0.050  1.23  0.29  30.0  30.0  40.0   7.0     
+   7 120    30 0.032 0.087 0.137 0.030  1.31  0.24  30.0  30.0  40.0   7.0     
+   8 150    30 0.032 0.087 0.137 0.010  1.31  0.20  30.0  30.0  40.0   7.0     
+   9 180    30 0.032 0.087 0.137 0.010  1.31  0.20  30.0  30.0  40.0   7.0     
+
+ SOILDYN  YEAR DOY = 1981 279
+ Additional soil properties                                                    
+                Convert                                                        
+    Cation Adsrp  ppm /  SLCF                                                  
+   L  Exch  Coef  kg/ha     %                                                  
+   1  15.5   0.0   1.74   0.0                                                  
+   2  15.5   0.0   0.87   0.0                                                  
+   3  15.5   0.0   0.57   0.0                                                  
+   4  15.5   0.0   0.55   0.0                                                  
+   5  15.5   0.0   0.55   0.0                                                  
+   6  15.5   0.0   0.27   0.0                                                  
+   7  15.5   0.0   0.25   0.0                                                  
+   8  15.5   0.0   0.25   0.0                                                  
+   9  15.5   0.0   0.25   0.0                                                  
+
+ ENDRUN  YEAR DOY = 1982 174
+ Normal end of run        6                                                    

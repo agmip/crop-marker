@@ -1,0 +1,95 @@
+*SOIL INORGANIC N BALANCE
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:42:03
+                                                                                
+*RUN   1        : 0 N check plot            SGCER045 ITHY8001    1              
+ MODEL          : SGCER045 - Grain sorghum                                      
+ EXPERIMENT     : ITHY8001 SG                                                   
+ DATA PATH      :                                                               
+ TREATMENT  1   : 0 N check plot            SGCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                1980/165            1980/278
+!SOIL INORGANIC N BALANCE                       -----------kg N/ha-----------
+
+!   Soil NO3                                        76.49               43.72
+!   Soil NH4                                        65.49                3.42
+!   Soil Urea                                        0.00                0.00
+
+!   Added to / Removed from Soil:
+!   Fertilizer N                                     0.00
+!   Mineralized N                                   30.65
+!   Leached NO3                                                          1.53
+!   N Denitrified                                                        0.44
+!   N Uptake From Soil                                                 108.98
+!   Ammonia volatilization                                               0.00
+!   N immobilized                                                       14.54
+
+!   Total N balance                                172.63              172.63
+!   Balance                                                             0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:42:03
+                                                                                
+*RUN   2        : 80 kg Urea-N Incorporated SGCER045 ITHY8001    2              
+ MODEL          : SGCER045 - Grain sorghum                                      
+ EXPERIMENT     : ITHY8001 SG                                                   
+ DATA PATH      :                                                               
+ TREATMENT  2   : 80 kg Urea-N Incorporated SGCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                1980/165            1980/278
+!SOIL INORGANIC N BALANCE                       -----------kg N/ha-----------
+
+!   Soil NO3                                        69.08               69.26
+!   Soil NH4                                        60.33                3.49
+!   Soil Urea                                        0.00                0.00
+
+!   Added to / Removed from Soil:
+!   Fertilizer N                                    80.00
+!   Mineralized N                                   36.32
+!   Leached NO3                                                          9.25
+!   N Denitrified                                                        4.52
+!   N Uptake From Soil                                                 141.49
+!   Ammonia volatilization                                               0.00
+!   N immobilized                                                       17.72
+
+!   Total N balance                                245.74              245.74
+!   Balance                                                             0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:42:03
+                                                                                
+*RUN   3        : 80 kg Urea-N Split Applic SGCER045 ITHY8001    3              
+ MODEL          : SGCER045 - Grain sorghum                                      
+ EXPERIMENT     : ITHY8001 SG                                                   
+ DATA PATH      :                                                               
+ TREATMENT  3   : 80 kg Urea-N Split Applic SGCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                1980/165            1980/278
+!SOIL INORGANIC N BALANCE                       -----------kg N/ha-----------
+
+!   Soil NO3                                        69.08               69.55
+!   Soil NH4                                        60.33                3.49
+!   Soil Urea                                        0.00                0.00
+
+!   Added to / Removed from Soil:
+!   Fertilizer N                                    80.00
+!   Mineralized N                                   35.78
+!   Leached NO3                                                          9.25
+!   N Denitrified                                                        4.65
+!   N Uptake From Soil                                                 141.48
+!   Ammonia volatilization                                               0.00
+!   N immobilized                                                       16.78
+
+!   Total N balance                                245.20              245.20
+!   Balance                                                             0.000

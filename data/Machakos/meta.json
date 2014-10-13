@@ -1,5 +1,6 @@
 {
   "crop":"Maize",
+  "format":"CSV",
   "icon":"machakos_maize.jpg",
   "description":"Machakos Maize Experiments"
 }

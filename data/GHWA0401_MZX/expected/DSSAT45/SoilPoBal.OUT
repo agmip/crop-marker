@@ -1,0 +1,314 @@
+*SOIL ORGANIC P BALANCE - CENTURY ROUTINES
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:36
+                                                                                
+*RUN   1        : N0 P0                     MZCER045 GHWA0401    1              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  1   : N0 P0                     MZCER045                            
+  
+
+
+                                         INITIAL Year/Doy      FINAL Year/Doy
+                                                 2003/283            2004/294
+SOIL ORGANIC P BALANCE                          -----------kg P/ha-----------
+  SOIL & SURFACE ORGANIC MATTER P
+   Active (= microbial) SOM P                       2.144               5.790
+   Intermediate & passive SOM P                   194.515             193.610
+   Soil Litter P                                    0.240               0.007
+   P in Litter on Top of the Soil                   3.871               0.110
+   P in Microbes on Top of the Soil                 0.000               2.191
+                                                 --------            --------
+   Total Organic P in Soil and Surface Layers      200.77              201.71
+
+  ADDITIONS AND REMOVALS:
+   P in Harvest Residues from Previous Crop
+     (sequential runs only)                         0.000
+   P from Organic Applications                      0.000
+   P in returned senesced material                  0.007
+   P immobilized                                    4.346
+   P mineralized                                                        3.414
+                                                 --------            --------
+  TOTAL P BALANCE                                 205.123             205.123
+   Balance                                                              0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   2        : N0 P60                    MZCER045 GHWA0401    2              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  2   : N0 P60                    MZCER045                            
+  
+
+
+                                         INITIAL Year/Doy      FINAL Year/Doy
+                                                 2003/283            2004/294
+SOIL ORGANIC P BALANCE                          -----------kg P/ha-----------
+  SOIL & SURFACE ORGANIC MATTER P
+   Active (= microbial) SOM P                       2.084               6.508
+   Intermediate & passive SOM P                   194.835             194.300
+   Soil Litter P                                    0.850               0.035
+   P in Litter on Top of the Soil                   6.556               0.183
+   P in Microbes on Top of the Soil                 0.000               2.590
+                                                 --------            --------
+   Total Organic P in Soil and Surface Layers      204.33              203.62
+
+  ADDITIONS AND REMOVALS:
+   P in Harvest Residues from Previous Crop
+     (sequential runs only)                         0.000
+   P from Organic Applications                      0.000
+   P in returned senesced material                  0.045
+   P immobilized                                    4.797
+   P mineralized                                                        5.552
+                                                 --------            --------
+  TOTAL P BALANCE                                 209.168             209.168
+   Balance                                                              0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   3        : N0 P90                    MZCER045 GHWA0401    3              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  3   : N0 P90                    MZCER045                            
+  
+
+
+                                         INITIAL Year/Doy      FINAL Year/Doy
+                                                 2003/283            2004/294
+SOIL ORGANIC P BALANCE                          -----------kg P/ha-----------
+  SOIL & SURFACE ORGANIC MATTER P
+   Active (= microbial) SOM P                       2.084               6.600
+   Intermediate & passive SOM P                   194.835             194.301
+   Soil Litter P                                    0.850               0.035
+   P in Litter on Top of the Soil                   6.556               0.183
+   P in Microbes on Top of the Soil                 0.000               2.590
+                                                 --------            --------
+   Total Organic P in Soil and Surface Layers      204.33              203.71
+
+  ADDITIONS AND REMOVALS:
+   P in Harvest Residues from Previous Crop
+     (sequential runs only)                         0.000
+   P from Organic Applications                      0.000
+   P in returned senesced material                  0.045
+   P immobilized                                    4.890
+   P mineralized                                                        5.552
+                                                 --------            --------
+  TOTAL P BALANCE                                 209.260             209.260
+   Balance                                                              0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   4        : N60 P0                    MZCER045 GHWA0401    4              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  4   : N60 P0                    MZCER045                            
+  
+
+
+                                         INITIAL Year/Doy      FINAL Year/Doy
+                                                 2003/283            2004/294
+SOIL ORGANIC P BALANCE                          -----------kg P/ha-----------
+  SOIL & SURFACE ORGANIC MATTER P
+   Active (= microbial) SOM P                       2.118               5.867
+   Intermediate & passive SOM P                   194.542             193.736
+   Soil Litter P                                    0.323               0.006
+   P in Litter on Top of the Soil                   5.568               0.153
+   P in Microbes on Top of the Soil                 0.000               2.357
+                                                 --------            --------
+   Total Organic P in Soil and Surface Layers      202.55              202.12
+
+  ADDITIONS AND REMOVALS:
+   P in Harvest Residues from Previous Crop
+     (sequential runs only)                         0.000
+   P from Organic Applications                      0.000
+   P in returned senesced material                  0.004
+   P immobilized                                    4.209
+   P mineralized                                                        4.644
+                                                 --------            --------
+  TOTAL P BALANCE                                 206.764             206.764
+   Balance                                                              0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   5        : N60 P60                   MZCER045 GHWA0401    5              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  5   : N60 P60                   MZCER045                            
+  
+
+
+                                         INITIAL Year/Doy      FINAL Year/Doy
+                                                 2003/283            2004/294
+SOIL ORGANIC P BALANCE                          -----------kg P/ha-----------
+  SOIL & SURFACE ORGANIC MATTER P
+   Active (= microbial) SOM P                       1.831               7.513
+   Intermediate & passive SOM P                   195.088             195.448
+   Soil Litter P                                    2.064               0.091
+   P in Litter on Top of the Soil                  15.324               0.421
+   P in Microbes on Top of the Soil                 0.000               5.717
+                                                 --------            --------
+   Total Organic P in Soil and Surface Layers      214.31              209.19
+
+  ADDITIONS AND REMOVALS:
+   P in Harvest Residues from Previous Crop
+     (sequential runs only)                         0.000
+   P from Organic Applications                      0.000
+   P in returned senesced material                  0.114
+   P immobilized                                    6.126
+   P mineralized                                                       11.359
+                                                 --------            --------
+  TOTAL P BALANCE                                 220.548             220.548
+   Balance                                                              0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   6        : N60 P90                   MZCER045 GHWA0401    6              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  6   : N60 P90                   MZCER045                            
+  
+
+
+                                         INITIAL Year/Doy      FINAL Year/Doy
+                                                 2003/283            2004/294
+SOIL ORGANIC P BALANCE                          -----------kg P/ha-----------
+  SOIL & SURFACE ORGANIC MATTER P
+   Active (= microbial) SOM P                       1.957               7.774
+   Intermediate & passive SOM P                   195.753             196.116
+   Soil Litter P                                    2.093               0.091
+   P in Litter on Top of the Soil                  15.324               0.421
+   P in Microbes on Top of the Soil                 0.000               5.717
+                                                 --------            --------
+   Total Organic P in Soil and Surface Layers      215.13              210.12
+
+  ADDITIONS AND REMOVALS:
+   P in Harvest Residues from Previous Crop
+     (sequential runs only)                         0.000
+   P from Organic Applications                      0.000
+   P in returned senesced material                  0.113
+   P immobilized                                    6.289
+   P mineralized                                                       11.409
+                                                 --------            --------
+  TOTAL P BALANCE                                 221.529             221.529
+   Balance                                                              0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   7        : N120 P0                   MZCER045 GHWA0401    7              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  7   : N120 P0                   MZCER045                            
+  
+
+
+                                         INITIAL Year/Doy      FINAL Year/Doy
+                                                 2003/283            2004/294
+SOIL ORGANIC P BALANCE                          -----------kg P/ha-----------
+  SOIL & SURFACE ORGANIC MATTER P
+   Active (= microbial) SOM P                       2.125               5.844
+   Intermediate & passive SOM P                   194.534             193.699
+   Soil Litter P                                    0.294               0.006
+   P in Litter on Top of the Soil                   5.110               0.140
+   P in Microbes on Top of the Soil                 0.000               2.397
+                                                 --------            --------
+   Total Organic P in Soil and Surface Layers      202.06              202.09
+
+  ADDITIONS AND REMOVALS:
+   P in Harvest Residues from Previous Crop
+     (sequential runs only)                         0.000
+   P from Organic Applications                      0.000
+   P in returned senesced material                  0.004
+   P immobilized                                    4.302
+   P mineralized                                                        4.283
+                                                 --------            --------
+  TOTAL P BALANCE                                 206.369             206.369
+   Balance                                                              0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   8        : N120 P60                  MZCER045 GHWA0401    8              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  8   : N120 P60                  MZCER045                            
+  
+
+
+                                         INITIAL Year/Doy      FINAL Year/Doy
+                                                 2003/283            2004/294
+SOIL ORGANIC P BALANCE                          -----------kg P/ha-----------
+  SOIL & SURFACE ORGANIC MATTER P
+   Active (= microbial) SOM P                       2.429               8.270
+   Intermediate & passive SOM P                   196.390             196.355
+   Soil Litter P                                    2.029               0.101
+   P in Litter on Top of the Soil                  12.803               0.357
+   P in Microbes on Top of the Soil                 0.000               4.797
+                                                 --------            --------
+   Total Organic P in Soil and Surface Layers      213.65              209.88
+
+  ADDITIONS AND REMOVALS:
+   P in Harvest Residues from Previous Crop
+     (sequential runs only)                         0.000
+   P from Organic Applications                      0.000
+   P in returned senesced material                  0.134
+   P immobilized                                    6.097
+   P mineralized                                                       10.001
+                                                 --------            --------
+  TOTAL P BALANCE                                 219.882             219.882
+   Balance                                                              0.000
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   9        : N120 P90                  MZCER045 GHWA0401    9              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  9   : N120 P90                  MZCER045                            
+  
+
+
+                                         INITIAL Year/Doy      FINAL Year/Doy
+                                                 2003/283            2004/294
+SOIL ORGANIC P BALANCE                          -----------kg P/ha-----------
+  SOIL & SURFACE ORGANIC MATTER P
+   Active (= microbial) SOM P                       2.370               8.418
+   Intermediate & passive SOM P                   196.449             196.588
+   Soil Litter P                                    2.197               0.104
+   P in Litter on Top of the Soil                  13.345               0.372
+   P in Microbes on Top of the Soil                 0.000               4.991
+                                                 --------            --------
+   Total Organic P in Soil and Surface Layers      214.36              210.47
+
+  ADDITIONS AND REMOVALS:
+   P in Harvest Residues from Previous Crop
+     (sequential runs only)                         0.000
+   P from Organic Applications                      0.000
+   P in returned senesced material                  0.133
+   P immobilized                                    6.380
+   P mineralized                                                       10.401
+                                                 --------            --------
+  TOTAL P BALANCE                                 220.875             220.874
+   Balance                                                              0.000

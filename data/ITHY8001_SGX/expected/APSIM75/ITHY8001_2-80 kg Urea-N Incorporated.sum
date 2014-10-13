@@ -1,0 +1,367 @@
+     ###     ######     #####   #   #     #   
+    #   #    #     #   #        #   ##   ##   
+   #     #   #     #   #        #   ##   ##   
+   #######   ######     #####   #   # # # #   
+   #     #   #              #   #   #  #  #   
+   #     #   #         #####    #   #  #  #   
+                                              
+                                              
+ The Agricultural Production Systems Simulator
+             Copyright(c) APSRU               
+
+Version                = 7.5
+Title                  = ITHY8001_2-80 kg Urea-N Incorporated
+   Component                        "clock" = %apsim%\Model\Clock.dll
+   Component                          "met" = %apsim%\Model\Input.dll
+Paddock:
+   Component                   "outputfile" = %apsim%\Model\Report.dll
+   Component                         "ACMO" = %apsim%\Model\Report.dll
+   Component                        "accum" = %apsim%\Model\Accum.dll
+   Component                   "Operations" = %apsim%\Model\Operations.dll
+   Component                   "fertiliser" = %apsim%\Model\Fertiliser.dll
+   Component                   "Irrigation" = %apsim%\Model\Irrigation.dll
+   Component              "Harvesting rule" = %apsim%\Model\Manager.dll
+   Component                   "Soil Water" = %apsim%\Model\SoilWat.dll
+   Component         "SurfaceOrganicMatter" = %apsim%\Model\SurfaceOM.dll
+   Component                "Soil Nitrogen" = %apsim%\Model\SoilN.dll
+   Component                      "sorghum" = %apsim%\Model\Sorghum.dll
+   Component                "ACMOVariables" = %apsim%\Model\Manager2.dll
+
+------- clock Initialisation --------------------------------------------------
+     Sequencer phases:
+        prepare
+        init_step
+        do_management
+        run_one_step
+        do_pasture_water
+        process
+        do_pasture_growth
+        do_stock
+        post
+        end_step
+     Simulation start date = 13/06/1980
+     Simulation end date   =  3/01/1981
+     Time step =           = 1440 (mins)
+
+------- met Initialisation ----------------------------------------------------
+     Sparse data is not allowed
+     INPUT File name: ITHY.met
+
+------- outputfile Initialisation ---------------------------------------------
+     Output frequency:
+        post
+     Output variables:
+        dd/mm/yyyy as Date
+        biomass
+        yield
+        esw
+        lai
+
+     Output file = ITHY8001_2-80 kg Urea-N Incorporated.out
+     Format = normal
+
+------- ACMO Initialisation ---------------------------------------------------
+     Output variables:
+        yield
+        biomass
+        AnthesisDate format yyyy-mm-dd
+        MaturityDate format yyyy-mm-dd
+        Today as HarvestDate format yyyy-mm-dd
+        LAIMax
+        InCropRain
+        SumEP
+        SumNO3Uptake
+        SumLeachNO3
+
+     Output file = ITHY8001_2-80 kg Urea-N Incorporated ACMO.out
+     Format = csv
+
+------- accum Initialisation --------------------------------------------------
+     Initialising
+
+------- Operations Initialisation ---------------------------------------------
+     Operations Schedule
+     ===================
+      17/06/1980  Prepare      sorghum sow plants = 18.0, sowing_depth = 50.0 (mm), cultivar = MEDIUM, row_spacing = 450.0 (mm), skip = solid, tiller_no_fertile = -99.999
+      03/07/1980  Prepare      fertiliser apply amount = 80.0 (kg/ha), type = no3_n (), depth = 5.0 (mm)
+
+------- Irrigation Initialisation ---------------------------------------------
+      Initialising
+     
+        - Reading Parameters
+                      Irrigation parameters
+          -----------------------------------------------
+           Automatic Irrigation Application (Disabled)
+           critical fraction of available soil water =  0.50
+           depth for calculating available soil water =     600.00
+           Irrigation Allocation Budget (Disabled)
+          -----------------------------------------------
+
+------- Harvesting rule Initialisation ----------------------------------------
+     Manager rules:
+     
+     SECTION:- end_of_day
+     if sorghum.stagename = 'harvest_ripe'  or sorghum.plant_status = 'dead' then
+        acmo do_output
+        sorghum harvest
+        sorghum end_crop
+     endif
+     END of rules
+     
+
+------- Soil Water Initialisation ---------------------------------------------
+     
+         - Reading constants
+     
+        - Reading Soil Property Parameters
+     
+        - Reading Soil Profile Parameters
+     Initial soilwater distributed using "sw" parameter.
+     
+     
+     
+                      Soil Profile Properties
+        ---------------------------------------------------------------------
+              Depth  Air_Dry  LL15   Dul    Sat     Sw     BD   Runoff  SWCON
+                mm     mm/mm  mm/mm  mm/mm  mm/mm  mm/mm  g/cc    wf
+        ---------------------------------------------------------------------
+            0.-  100.  0.032  0.080  0.220  0.310  0.060  1.610  0.613  0.300
+          100.-  220.  0.036  0.090  0.220  0.310  0.060  1.610  0.270  0.300
+          220.-  520.  0.050  0.125  0.245  0.315  0.195  1.620  0.117  0.300
+          520.-  820.  0.060  0.150  0.230  0.290  0.210  1.640  0.000  0.300
+          820.- 1120.  0.064  0.160  0.240  0.310  0.200  1.640  0.000  0.300
+         1120.- 1420.  0.069  0.173  0.240  0.310  0.200  1.640  0.000  0.300
+         1420.- 1720.  0.077  0.193  0.250  0.320  0.200  1.640  0.000  0.300
+        ---------------------------------------------------------------------
+     
+     
+     
+                  Soil Water Holding Capacity
+          ---------------------------------------------------------
+              Depth    Unavailable Available  Max Avail.  Drainable
+                          (LL15)   (SW-LL15)  (DUL-LL15)  (SAT-DUL)
+                            mm        mm          mm         mm
+          ---------------------------------------------------------
+            0.-  100.       8.00       0.00      14.00       9.00
+          100.-  220.      10.80       0.00      15.60      10.80
+          220.-  520.      37.50      21.00      36.00      21.00
+          520.-  820.      45.00      18.00      24.00      18.00
+          820.- 1120.      48.00      12.00      24.00      21.00
+         1120.- 1420.      51.90       8.10      20.10      21.00
+         1420.- 1720.      57.90       2.10      17.10      21.00
+          ---------------------------------------------------------
+               Totals     259.10      61.20     150.80     121.80
+          ---------------------------------------------------------
+     
+     
+     
+     
+     
+     
+                  Initial Soil Parameters
+          ---------------------------------------------------------
+                 Insoil        Salb     Dif_Con   Dif_Slope
+          ---------------------------------------------------------
+                   0.00        0.13       40.00       16.00
+          ---------------------------------------------------------
+     
+     
+     
+                  Runoff is predicted using scs curve number:
+                Cn2  Cn_Red  Cn_Cov   H_Eff_Depth
+                                           mm
+          ---------------------------------------------------------
+              80.00   20.00    0.80  450.00
+          ---------------------------------------------------------
+     
+     
+     
+           Using Ritchie evaporation model
+            Cuml evap (U):            6.00 (mm^0.5)
+            CONA:                     3.50 ()
+            Eo from priestly-taylor
+
+------- SurfaceOrganicMatter Initialisation -----------------------------------
+     
+         - Reading constants
+     
+         - Reading parameters
+     
+     
+     
+                         Initial Surface Organic Matter Data
+         ----------------------------------------------------------------------
+            Name   Type        Dry matter   C        N        P    Cover  Standing_fr
+                                (kg/ha)  (kg/ha)  (kg/ha)  (kg/ha) (0-1)     (0-1)
+         ----------------------------------------------------------------------
+          OrganicMatsorghum       1300.0   520.0     6.5     0.0   0.405     0.0
+         ----------------------------------------------------------------------
+     
+                      Effective Cover from Surface Materials =   0.4
+     
+
+------- Soil Nitrogen Initialisation ------------------------------------------
+     
+        - Reading Parameters
+     
+        - Reading Constants
+     
+     
+     
+           TAV and AMP supplied externally
+     
+     
+     
+                      Soil Profile Properties
+          ------------------------------------------------
+           Layer    pH    OC     NO3     NH4    Urea
+                         (%) (kg/ha) (kg/ha) (kg/ha)
+          ------------------------------------------------
+             1     7.00  0.85    2.90    4.03    0.00
+             2     7.00  0.55    3.48    4.83    0.00
+             3     7.00  0.51   21.87   14.58    0.00
+             4     7.00  0.63   24.60   17.22    0.00
+             5     7.00  0.10    9.84    9.84    0.00
+             6     7.00  0.10    3.44    4.92    0.00
+             7     7.00  0.10    2.95    4.92    0.00
+          ------------------------------------------------
+           Totals               69.08   60.33    0.00
+          ------------------------------------------------
+     
+     
+     
+     
+     
+     
+                  Initial Soil Organic Matter Status
+          ---------------------------------------------------------
+           Layer      Hum-C   Hum-N  Biom-C  Biom-N   FOM-C   FOM-N
+                    (kg/ha) (kg/ha) (kg/ha) (kg/ha) (kg/ha) (kg/ha)
+          ---------------------------------------------------------
+             1      13647.2   941.2    37.8     4.7    68.9     1.5
+             2      10582.4   729.8    43.6     5.4    55.8     1.2
+             3      24676.2  1701.8   109.8    13.7    33.1     0.7
+             4      30882.6  2129.8   113.4    14.2    19.6     0.4
+             5       4823.2   332.6    96.8    12.1    11.6     0.3
+             6       4823.2   332.6    96.8    12.1     6.9     0.2
+             7       4823.2   332.6    96.8    12.1     4.1     0.1
+          ---------------------------------------------------------
+           Totals   94258.1  6500.6   594.9    74.4   200.0     4.4
+          ---------------------------------------------------------
+
+------- ACMOVariables Initialisation ------------------------------------------
+------- Start of simulation  --------------------------------------------------
+17 June 1980(Day of year=169), Operations: 
+      Sending sow message to sorghum
+17 June 1980(Day of year=169), sorghum: 
+     Sowing initiate
+     !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                      APSIM Warning Error
+                      -------------------
+     tiller_no_fertile = -99.999000
+        less than lower limit of 0.000000
+     !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+     
+                 Crop Sowing Data
+         -------------------------------------------------------
+         Sowing   Depth  Plants Spacing Skiprow Cultivar    FTN
+         Day no     mm     m^2    mm     code     name       no
+         -------------------------------------------------------
+            169    50.0    18.0   450    1.0     medium -100.00
+         -------------------------------------------------------
+     
+      - reading constants for plant(sorghum) - medium
+         -------------------------------------------------------
+         tpla_prod_coef           =    0.02
+         tpla_inflection_ratio    =    0.66
+         tt_emerg_to_endjuv       =  157.00
+         tt_flower_to_maturity    =  761.00
+         tt_flag_to_flower        =  170.00
+         tt_flower_to_start_grain =   80.00
+         tt_maturity_to_ripe      =    1.00
+         ------------------------------------------------------
+     
+     
+                            Root Profile
+         ---------------------------------------------------
+              Layer       Kl           Lower    Exploration
+              Depth     Factor         Limit      Factor
+              (mm)         ()        (mm/mm)       (0-1)
+         ---------------------------------------------------
+             100.0     0.060          0.080       1.000
+             120.0     0.060          0.090       0.900
+             300.0     0.060          0.125       0.700
+             300.0     0.060          0.150       0.500
+             300.0     0.060          0.160       0.100
+             300.0     0.060          0.173       0.050
+             300.0     0.060          0.193       0.030
+         ---------------------------------------------------
+     
+18 June 1980(Day of year=170), sorghum: 
+     Stage 2 Germination  DAS = 1
+     		Biomass       =   0.00 		 LAI            =   0.00
+     		Stover N Conc =   0.00 		 Extractable SW =   0.00
+21 June 1980(Day of year=173), sorghum: 
+     Stage 3 Emergence  DAS = 4
+     		Biomass       =   0.00 		 LAI            =   0.00
+     		Stover N Conc =   0.00 		 Extractable SW =   5.67
+28 June 1980(Day of year=180), sorghum: 
+     Stage 4 EndOfJuvenile  DAS = 11
+     		Biomass       =   3.78 		 LAI            =   0.00
+     		Stover N Conc =   0.09 		 Extractable SW =  21.43
+3 July 1980(Day of year=185), Operations: 
+      Sending apply message to fertiliser
+3 July 1980(Day of year=185), fertiliser: 
+     
+   - Reading Fertiliser Type Parameters
+        80.00 of N as nitrate (no3_n)
+                                         added at depth    5.00 (layer   1)
+10 July 1980(Day of year=192), sorghum: 
+     Stage 5 FloralInitiation  DAS = 23
+     		Biomass       =   4.13 		 LAI            =   0.00
+     		Stover N Conc =   0.09 		 Extractable SW =  51.45
+30 July 1980(Day of year=212), sorghum: 
+     Stage 6 FlagLeaf  DAS = 43
+     		Biomass       =   4.67 		 LAI            =   0.00
+     		Stover N Conc =   0.10 		 Extractable SW = 105.37
+31 July 1980(Day of year=213), sorghum: 
+      ********** Crop failed due to loss of leaf area ********     Plant Death. Standing above-ground dm = 46.91 (kg/ha)
+31 July 1980(Day of year=213), Harvesting rule: 
+     Manager sending message :- sorghum harvest
+     
+     Harvest
+     Flowering (DAS)       =  		 Maturity (DAS)          = 
+     Flowering day         =  		 Maturity day            = 
+     Maximum LAI           = 0.0 		 Number of leaves        = 16.9
+     Total above ground biomass    (kg/ha) = 47.3
+     Green above ground biomass    (kg/ha) = 46.3
+     Senesced above ground biomass (kg/ha) = 1.1
+     Stover (kg/ha)        = 47.3 	 Grain yield (kg/ha)     = 0.0
+     Grain % water content = 13.0 		 Grain yield wet (kg/ha) = 0.0
+     Weight 1000 grains(g) = 0.0 		 Grains/m^2              = 0.0
+     Grains/head           = 0.0
+     Grain N percent    (%)     =      0.00 	 Grain N            (kg/ha) =     0.00
+     Total N content    (kg/ha) =      0.99 	 Senesced N content (kg/ha) =     0.03
+     Green N content    (kg/ha) =      1.32
+     
+     Average Stress Indices:                          Water Photo  Water Expan  N Photo
+        Emergence           to End of juvenile           1.0          1.0        1.0
+        End of juvenile     to Floral initiation         1.0          1.0        1.0
+        Floral initiation   to Flag leaf                 1.0          1.0        1.0
+        Flag leaf           to Flowering                 1.0          1.0        1.0
+        Flowering           to Start grain fill          0.0          0.0        0.0
+        Start grain fill    to End grain fill            0.0          0.0        0.0
+     
+     Crop harvested.
+        Organic matter removed from system:-      From Tops		From Roots
+                         DM (kg/ha) =                  0.00		    0.00
+                         N  (kg/ha) =                  0.00		    0.00
+     Manager sending message :- sorghum end_crop
+     Crop ended.
+     Organic matter from crop:-      Tops to surface residue	 Roots to soil FOM
+                         DM (kg/ha) =                 47.31		   25.51
+                         N  (kg/ha) =                  0.99		    0.36
+                         P  (kg/ha) =                  0.00		    0.00
+3 January 1981(Day of year=3), clock: 
+     Simulation is terminating due to end criteria being met.
+

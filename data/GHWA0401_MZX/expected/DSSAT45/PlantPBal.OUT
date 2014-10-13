@@ -1,0 +1,208 @@
+*PLANT P BALANCE
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:36
+                                                                                
+*RUN   1        : N0 P0                     MZCER045 GHWA0401    1              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  1   : N0 P0                     MZCER045                            
+  
+
+
+ Seasonal Plant P balance (kg[P]/ha)
+                                      Total   Shoot    Root   Shell    Seed
+ Initial plant P (at emergence)       0.144
+ P uptake from soil               +   3.691
+ P losses:
+   Senesced / freeze damage       -   0.046   0.039   0.007
+   Pest / disease damage          -   0.000   0.000   0.000   0.000   0.000
+ P in plant tissue at harvest     =   3.789   1.675   0.026   0.085   2.003
+
+ Total P balance                      0.000
+
+********************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   2        : N0 P60                    MZCER045 GHWA0401    2              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  2   : N0 P60                    MZCER045                            
+  
+
+
+ Seasonal Plant P balance (kg[P]/ha)
+                                      Total   Shoot    Root   Shell    Seed
+ Initial plant P (at emergence)       0.144
+ P uptake from soil               +   5.547
+ P losses:
+   Senesced / freeze damage       -   0.138   0.093   0.045
+   Pest / disease damage          -   0.000   0.000   0.000   0.000   0.000
+ P in plant tissue at harvest     =   5.553   3.399   0.210   0.609   1.335
+
+ Total P balance                      0.000
+
+********************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   3        : N0 P90                    MZCER045 GHWA0401    3              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  3   : N0 P90                    MZCER045                            
+  
+
+
+ Seasonal Plant P balance (kg[P]/ha)
+                                      Total   Shoot    Root   Shell    Seed
+ Initial plant P (at emergence)       0.144
+ P uptake from soil               +   5.547
+ P losses:
+   Senesced / freeze damage       -   0.138   0.093   0.045
+   Pest / disease damage          -   0.000   0.000   0.000   0.000   0.000
+ P in plant tissue at harvest     =   5.553   3.399   0.210   0.609   1.335
+
+ Total P balance                      0.000
+
+********************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   4        : N60 P0                    MZCER045 GHWA0401    4              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  4   : N60 P0                    MZCER045                            
+  
+
+
+ Seasonal Plant P balance (kg[P]/ha)
+                                      Total   Shoot    Root   Shell    Seed
+ Initial plant P (at emergence)       0.144
+ P uptake from soil               +   4.220
+ P losses:
+   Senesced / freeze damage       -   0.046   0.042   0.004
+   Pest / disease damage          -   0.000   0.000   0.000   0.000   0.000
+ P in plant tissue at harvest     =   4.318   1.210   0.023   0.098   2.987
+
+ Total P balance                      0.000
+
+********************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   5        : N60 P60                   MZCER045 GHWA0401    5              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  5   : N60 P60                   MZCER045                            
+  
+
+
+ Seasonal Plant P balance (kg[P]/ha)
+                                      Total   Shoot    Root   Shell    Seed
+ Initial plant P (at emergence)       0.144
+ P uptake from soil               +  21.375
+ P losses:
+   Senesced / freeze damage       -   0.280   0.166   0.114
+   Pest / disease damage          -   0.000   0.000   0.000   0.000   0.000
+ P in plant tissue at harvest     =  21.238  12.069   0.781   0.572   7.816
+
+ Total P balance                      0.000
+
+********************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   6        : N60 P90                   MZCER045 GHWA0401    6              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  6   : N60 P90                   MZCER045                            
+  
+
+
+ Seasonal Plant P balance (kg[P]/ha)
+                                      Total   Shoot    Root   Shell    Seed
+ Initial plant P (at emergence)       0.144
+ P uptake from soil               +  21.575
+ P losses:
+   Senesced / freeze damage       -   0.280   0.167   0.113
+   Pest / disease damage          -   0.000   0.000   0.000   0.000   0.000
+ P in plant tissue at harvest     =  21.439  12.267   0.773   0.577   7.822
+
+ Total P balance                      0.000
+
+********************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   7        : N120 P0                   MZCER045 GHWA0401    7              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  7   : N120 P0                   MZCER045                            
+  
+
+
+ Seasonal Plant P balance (kg[P]/ha)
+                                      Total   Shoot    Root   Shell    Seed
+ Initial plant P (at emergence)       0.144
+ P uptake from soil               +   4.106
+ P losses:
+   Senesced / freeze damage       -   0.045   0.041   0.004
+   Pest / disease damage          -   0.000   0.000   0.000   0.000   0.000
+ P in plant tissue at harvest     =   4.205   1.182   0.023   0.097   2.904
+
+ Total P balance                      0.000
+
+********************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   8        : N120 P60                  MZCER045 GHWA0401    8              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  8   : N120 P60                  MZCER045                            
+  
+
+
+ Seasonal Plant P balance (kg[P]/ha)
+                                      Total   Shoot    Root   Shell    Seed
+ Initial plant P (at emergence)       0.144
+ P uptake from soil               +  29.882
+ P losses:
+   Senesced / freeze damage       -   0.305   0.171   0.134
+   Pest / disease damage          -   0.000   0.000   0.000   0.000   0.000
+ P in plant tissue at harvest     =  29.722  12.387   0.943   1.310  15.081
+
+ Total P balance                      0.000
+
+********************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   9        : N120 P90                  MZCER045 GHWA0401    9              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  9   : N120 P90                  MZCER045                            
+  
+
+
+ Seasonal Plant P balance (kg[P]/ha)
+                                      Total   Shoot    Root   Shell    Seed
+ Initial plant P (at emergence)       0.144
+ P uptake from soil               +  30.639
+ P losses:
+   Senesced / freeze damage       -   0.313   0.179   0.133
+   Pest / disease damage          -   0.000   0.000   0.000   0.000   0.000
+ P in plant tissue at harvest     =  30.470  13.313   0.938   1.338  14.880
+
+ Total P balance                      0.000
+
+********************************************************************************

@@ -22,6 +22,7 @@ import org.apache.pivot.wtk.Button;
 import org.apache.pivot.wtk.ButtonPressListener;
 import org.apache.pivot.wtk.Component;
 import org.apache.pivot.wtk.ComponentMouseButtonListener;
+import org.apache.pivot.wtk.Dialog;
 import org.apache.pivot.wtk.Label;
 import org.apache.pivot.wtk.MessageType;
 import org.apache.pivot.wtk.Mouse;
@@ -45,6 +46,7 @@ public class MainPage extends Page {
 //    private ListView dataListview = null;
     private TableView datasetListTableView = null;
     private PushButton nextButton = null;
+    private PushButton testButton = null;
 
     @Override
     protected void init(Map<String, Object> ns, URL url, Resources rsrcs) {
@@ -52,7 +54,42 @@ public class MainPage extends Page {
         datasetListTableView = (TableView) ns.get("datasetListTableView");
         nextButton = (PushButton) ns.get("nextBtn");
 
-//        dataListview.setListData(readDataList());
+//        // For dialog debug
+//        testButton = (PushButton) ns.get("testBtn");
+//        final DiffRetDialog dialog = (DiffRetDialog) ns.get("diffRet");
+//        testButton.getButtonPressListeners().add(new ButtonPressListener() {
+//            @Override
+//            public void buttonPressed(Button button) {
+//                ArrayList<File> files = new ArrayList();
+//                files.add(new File("D:\\SSD_USER\\Documents\\NetBeansProjects\\Develop\\crop-marker\\work\\GHNY9701_PNX\\DSSAT\\ACMO_GHNY9701_PNX_DSSAT45_Comparator-Diff_Report.html"));
+//                files.add(new File("abc1.csv"));
+//                files.add(new File("abc2.csv"));
+//                files.add(new File("abc2.csv"));
+//                files.add(new File("abc2.csv"));
+//                files.add(new File("abc2.csv"));
+//                files.add(new File("abc2.csv"));
+//                files.add(new File("abc2.csv"));
+//                files.add(new File("abc2.csv"));
+//                files.add(new File("abc21111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111.csv"));
+//                files.add(new File("abc2.csv"));
+//                files.add(new File("abc2.csv"));
+//                files.add(new File("abc2.csv"));
+//                files.add(new File("abc2.csv"));
+//                files.add(new File("abc2.csv"));
+//                files.add(new File("abc2.csv"));
+//                files.add(new File("abc2.csv"));
+//                files.add(new File("abc2.csv"));
+//                files.add(new File("abc2.csv"));
+//                files.add(new File("abc2.csv"));
+//                files.add(new File("abc2.csv"));
+//                files.add(new File("abc2.csv"));
+//                files.add(new File("abc2.csv"));
+//                files.add(new File("abc2.csv"));
+//                files.add(new File("abc2.csv"));
+//                dialog.open(button.getWindow());
+//                dialog.setReportFiles(files);
+//            }
+//        });
         nextButton.getButtonPressListeners().add(new ButtonPressListener() {
 
             @Override
@@ -91,6 +128,9 @@ public class MainPage extends Page {
                             = (org.apache.pivot.collections.List<SelectableTableRow>) datasetListTableView.getTableData();
 
                     int curRowIndex = datasetListTableView.getRowAt(y);
+                    if (curRowIndex < 0) {
+                        return false;
+                    }
                     SelectableTableRow curRow = datasetListTableData.get(curRowIndex);
                     boolean flag = !curRow.getCheckFlg();
 
@@ -133,7 +173,7 @@ public class MainPage extends Page {
                     try {
                         HashMap metaInfo = JSONAdapter.fromJSONFile(meta.getPath());
                         row.setCrop(MapUtil.getValueOr(metaInfo, "crop", "N/A"));
-
+                        row.setFormat(MapUtil.getValueOr(metaInfo, "format", "N/A"));
                         row.setDescription(MapUtil.getValueOr(metaInfo, "description", ""));
                         String iconName = MapUtil.getValueOr(metaInfo, "icon", "").trim();
                         if (!iconName.equals("")) {
@@ -216,6 +256,7 @@ public class MainPage extends Page {
 
         private String crop = "";
         private String name = "";
+        private String format = "";
         private String description = "";
         private Image icon = null;
 
@@ -237,6 +278,14 @@ public class MainPage extends Page {
 
         public void setName(String name) {
             this.name = name;
+        }
+
+        public String getFormat() {
+            return this.format;
+        }
+
+        public void setFormat(String format) {
+            this.format = format;
         }
 
         public String getDescription() {

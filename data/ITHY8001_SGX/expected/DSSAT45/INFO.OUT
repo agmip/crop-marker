@@ -1,0 +1,259 @@
+*INFO DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:42:03
+                                                                                
+*RUN   1        : 0 N check plot            SGCER045 ITHY8001    1              
+ MODEL          : SGCER045 - Grain sorghum                                      
+ EXPERIMENT     : ITHY8001 SG                                                   
+ DATA PATH      :                                                               
+ TREATMENT  1   : 0 N check plot            SGCER045                            
+  
+
+ CSM     YEAR DOY = 1980 165
+ RNMODE = B                                                                    
+ PATHEX =                                                                      
+ FILEX  = ITHY8001.SGX                                                         
+ FILEB  = dssbatch.v45                                                         
+ FILEIO = DSSAT45.INP                                                          
+ MODEL  = SGCER045                                                             
+ TRTNUM =     1                                                                
+
+ SOILDYN  YEAR DOY = 1980 165
+ The soil file has missing or invalid data.                                    
+ Default values have been used for these variables:                            
+   CEC, STONES, ADCOEF                                                         
+ These defaults may or may not be important to your results.                   
+
+ SOILDYN  YEAR DOY = 1980 165
+ Soil ID: IBSG910085                                                           
+ PATENCHERU                                                                    
+ ALFISOL UDIC RHODUSTALF, PATENCHERU SERIES                                    
+   SALB SWCON    CN  DMOD  SLPF SMPX                                           
+   0.13  0.30  80.0  1.00  1.00 IB001                                          
+ Soil layer distribution method: 2                                             
+      DS DLAYR    LL   DUL   SAT  Root    BD    OC  CLAY  SILT  SAND           
+ LYR  cm    cm  frac  frac  frac  Grow g/cm3     %     %     %     %    pH     
+   1   5     5 0.080 0.220 0.310 1.000  1.61  0.85  30.0  30.0  40.0   7.0     
+   2  15    10 0.085 0.220 0.310 0.950  1.61  0.70  30.0  30.0  40.0   7.0     
+   3  22     7 0.090 0.220 0.310 0.900  1.61  0.55  30.0  30.0  40.0   7.0     
+   4  37    15 0.125 0.245 0.315 0.700  1.62  0.51  30.0  30.0  40.0   7.0     
+   5  52    15 0.125 0.245 0.315 0.700  1.62  0.51  30.0  30.0  40.0   7.0     
+   6  67    15 0.150 0.230 0.290 0.500  1.64  0.63  30.0  30.0  40.0   7.0     
+   7  82    15 0.150 0.230 0.290 0.500  1.64  0.63  30.0  30.0  40.0   7.0     
+   8 112    30 0.160 0.240 0.310 0.100  1.64  0.10  30.0  30.0  40.0   7.0     
+   9 142    30 0.173 0.240 0.310 0.050  1.64  0.10  30.0  30.0  40.0   7.0     
+  10 172    30 0.193 0.250 0.320 0.030  1.64  0.10  30.0  30.0  40.0   7.0     
+
+ SOILDYN  YEAR DOY = 1980 165
+ Additional soil properties                                                    
+                Convert                                                        
+    Cation Adsrp  ppm /  SLCF                                                  
+   L  Exch  Coef  kg/ha     %                                                  
+   1  15.5   0.0   1.24   0.0                                                  
+   2  15.5   0.0   0.62   0.0                                                  
+   3  15.5   0.0   0.89   0.0                                                  
+   4  15.5   0.0   0.41   0.0                                                  
+   5  15.5   0.0   0.41   0.0                                                  
+   6  15.5   0.0   0.41   0.0                                                  
+   7  15.5   0.0   0.41   0.0                                                  
+   8  15.5   0.0   0.20   0.0                                                  
+   9  15.5   0.0   0.20   0.0                                                  
+  10  15.5   0.0   0.20   0.0                                                  
+
+ SENLIG  YEAR DOY = 1980 165
+ Default values used for plant lignin fractions.                               
+
+ IPWTH   YEAR DOY = 1980 165
+ ITHY8002.WTH                                                                  
+ Found daily weather data headers for:                                         
+   SRAD           Col   7 -  11                                                
+   TMAX           Col  13 -  17                                                
+   TMIN           Col  19 -  23                                                
+   RAIN           Col  25 -  29                                                
+   DEWP           Col  31 -  35                                                
+   WIND           Col  37 -  41                                                
+   PAR            Col  43 -  47                                                
+
+ CO2VAL  YEAR DOY = 1980 165
+  643 CO2 data points read from file.                                          
+ C:\DSSAT45\StandardData\CO2045.WDA                                            
+
+ SOMINI  YEAR DOY = 1980 165
+ Initial SOM fractions (fraction of total soil organic matter):                
+                      SAND   TOC  FOMC  SOMC  SOM1  SOM2  SOM3                 
+  Lyr Dep Texture       %     %     %     %   frac  frac  frac Method          
+   1   5 ClayLoam     40.0 0.850 0.002 0.848 0.001 0.019 0.980 Regression eqn  
+   2  15 ClayLoam     40.0 0.700 0.002 0.698 0.001 0.019 0.980 Regression eqn  
+   3  22 ClayLoam     40.0 0.550 0.002 0.548 0.001 0.019 0.980 Regression eqn  
+   4  37 ClayLoam     40.0 0.510 0.001 0.509 0.001 0.019 0.980 Regression eqn  
+   5  52 ClayLoam     40.0 0.510 0.001 0.509 0.001 0.019 0.980 Regression eqn  
+   6  67 ClayLoam     40.0 0.630 0.001 0.629 0.001 0.019 0.980 Regression eqn  
+   7  82 ClayLoam     40.0 0.630 0.001 0.629 0.001 0.019 0.980 Regression eqn  
+   8 112 ClayLoam     40.0 0.100 0.000 0.100 0.001 0.019 0.980 Regression eqn  
+   9 142 ClayLoam     40.0 0.100 0.000 0.100 0.001 0.019 0.980 Regression eqn  
+  10 172 ClayLoam     40.0 0.100 0.000 0.100 0.001 0.019 0.980 Regression eqn  
+
+ ENDRUN  YEAR DOY = 1980 278
+ Normal end of run        1                                                    
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:42:03
+                                                                                
+*RUN   2        : 80 kg Urea-N Incorporated SGCER045 ITHY8001    2              
+ MODEL          : SGCER045 - Grain sorghum                                      
+ EXPERIMENT     : ITHY8001 SG                                                   
+ DATA PATH      :                                                               
+ TREATMENT  2   : 80 kg Urea-N Incorporated SGCER045                            
+  
+
+ CSM     YEAR DOY = 1980 165
+ RNMODE = B                                                                    
+ PATHEX =                                                                      
+ FILEX  = ITHY8001.SGX                                                         
+ FILEB  = dssbatch.v45                                                         
+ FILEIO = DSSAT45.INP                                                          
+ MODEL  = SGCER045                                                             
+ TRTNUM =     2                                                                
+
+ SOILDYN  YEAR DOY = 1980 165
+ The soil file has missing or invalid data.                                    
+ Default values have been used for these variables:                            
+   CEC, STONES, ADCOEF                                                         
+ These defaults may or may not be important to your results.                   
+
+ SOILDYN  YEAR DOY = 1980 165
+ Soil ID: IBSG910085                                                           
+ PATENCHERU                                                                    
+ ALFISOL UDIC RHODUSTALF, PATENCHERU SERIES                                    
+   SALB SWCON    CN  DMOD  SLPF SMPX                                           
+   0.13  0.30  80.0  1.00  1.00 IB001                                          
+ Soil layer distribution method: 2                                             
+      DS DLAYR    LL   DUL   SAT  Root    BD    OC  CLAY  SILT  SAND           
+ LYR  cm    cm  frac  frac  frac  Grow g/cm3     %     %     %     %    pH     
+   1   5     5 0.080 0.220 0.310 1.000  1.61  0.85  30.0  30.0  40.0   7.0     
+   2  15    10 0.085 0.220 0.310 0.950  1.61  0.70  30.0  30.0  40.0   7.0     
+   3  22     7 0.090 0.220 0.310 0.900  1.61  0.55  30.0  30.0  40.0   7.0     
+   4  37    15 0.125 0.245 0.315 0.700  1.62  0.51  30.0  30.0  40.0   7.0     
+   5  52    15 0.125 0.245 0.315 0.700  1.62  0.51  30.0  30.0  40.0   7.0     
+   6  67    15 0.150 0.230 0.290 0.500  1.64  0.63  30.0  30.0  40.0   7.0     
+   7  82    15 0.150 0.230 0.290 0.500  1.64  0.63  30.0  30.0  40.0   7.0     
+   8 112    30 0.160 0.240 0.310 0.100  1.64  0.10  30.0  30.0  40.0   7.0     
+   9 142    30 0.173 0.240 0.310 0.050  1.64  0.10  30.0  30.0  40.0   7.0     
+  10 172    30 0.193 0.250 0.320 0.030  1.64  0.10  30.0  30.0  40.0   7.0     
+
+ SOILDYN  YEAR DOY = 1980 165
+ Additional soil properties                                                    
+                Convert                                                        
+    Cation Adsrp  ppm /  SLCF                                                  
+   L  Exch  Coef  kg/ha     %                                                  
+   1  15.5   0.0   1.24   0.0                                                  
+   2  15.5   0.0   0.62   0.0                                                  
+   3  15.5   0.0   0.89   0.0                                                  
+   4  15.5   0.0   0.41   0.0                                                  
+   5  15.5   0.0   0.41   0.0                                                  
+   6  15.5   0.0   0.41   0.0                                                  
+   7  15.5   0.0   0.41   0.0                                                  
+   8  15.5   0.0   0.20   0.0                                                  
+   9  15.5   0.0   0.20   0.0                                                  
+  10  15.5   0.0   0.20   0.0                                                  
+
+ SOMINI  YEAR DOY = 1980 165
+ Initial SOM fractions (fraction of total soil organic matter):                
+                      SAND   TOC  FOMC  SOMC  SOM1  SOM2  SOM3                 
+  Lyr Dep Texture       %     %     %     %   frac  frac  frac Method          
+   1   5 ClayLoam     40.0 0.850 0.002 0.848 0.001 0.019 0.980 Regression eqn  
+   2  15 ClayLoam     40.0 0.700 0.002 0.698 0.001 0.019 0.980 Regression eqn  
+   3  22 ClayLoam     40.0 0.550 0.002 0.548 0.001 0.019 0.980 Regression eqn  
+   4  37 ClayLoam     40.0 0.510 0.001 0.509 0.001 0.019 0.980 Regression eqn  
+   5  52 ClayLoam     40.0 0.510 0.001 0.509 0.001 0.019 0.980 Regression eqn  
+   6  67 ClayLoam     40.0 0.630 0.001 0.629 0.001 0.019 0.980 Regression eqn  
+   7  82 ClayLoam     40.0 0.630 0.001 0.629 0.001 0.019 0.980 Regression eqn  
+   8 112 ClayLoam     40.0 0.100 0.000 0.100 0.001 0.019 0.980 Regression eqn  
+   9 142 ClayLoam     40.0 0.100 0.000 0.100 0.001 0.019 0.980 Regression eqn  
+  10 172 ClayLoam     40.0 0.100 0.000 0.100 0.001 0.019 0.980 Regression eqn  
+
+ ENDRUN  YEAR DOY = 1980 278
+ Normal end of run        2                                                    
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:42:03
+                                                                                
+*RUN   3        : 80 kg Urea-N Split Applic SGCER045 ITHY8001    3              
+ MODEL          : SGCER045 - Grain sorghum                                      
+ EXPERIMENT     : ITHY8001 SG                                                   
+ DATA PATH      :                                                               
+ TREATMENT  3   : 80 kg Urea-N Split Applic SGCER045                            
+  
+
+ CSM     YEAR DOY = 1980 165
+ RNMODE = B                                                                    
+ PATHEX =                                                                      
+ FILEX  = ITHY8001.SGX                                                         
+ FILEB  = dssbatch.v45                                                         
+ FILEIO = DSSAT45.INP                                                          
+ MODEL  = SGCER045                                                             
+ TRTNUM =     3                                                                
+
+ SOILDYN  YEAR DOY = 1980 165
+ The soil file has missing or invalid data.                                    
+ Default values have been used for these variables:                            
+   CEC, STONES, ADCOEF                                                         
+ These defaults may or may not be important to your results.                   
+
+ SOILDYN  YEAR DOY = 1980 165
+ Soil ID: IBSG910085                                                           
+ PATENCHERU                                                                    
+ ALFISOL UDIC RHODUSTALF, PATENCHERU SERIES                                    
+   SALB SWCON    CN  DMOD  SLPF SMPX                                           
+   0.13  0.30  80.0  1.00  1.00 IB001                                          
+ Soil layer distribution method: 2                                             
+      DS DLAYR    LL   DUL   SAT  Root    BD    OC  CLAY  SILT  SAND           
+ LYR  cm    cm  frac  frac  frac  Grow g/cm3     %     %     %     %    pH     
+   1   5     5 0.080 0.220 0.310 1.000  1.61  0.85  30.0  30.0  40.0   7.0     
+   2  15    10 0.085 0.220 0.310 0.950  1.61  0.70  30.0  30.0  40.0   7.0     
+   3  22     7 0.090 0.220 0.310 0.900  1.61  0.55  30.0  30.0  40.0   7.0     
+   4  37    15 0.125 0.245 0.315 0.700  1.62  0.51  30.0  30.0  40.0   7.0     
+   5  52    15 0.125 0.245 0.315 0.700  1.62  0.51  30.0  30.0  40.0   7.0     
+   6  67    15 0.150 0.230 0.290 0.500  1.64  0.63  30.0  30.0  40.0   7.0     
+   7  82    15 0.150 0.230 0.290 0.500  1.64  0.63  30.0  30.0  40.0   7.0     
+   8 112    30 0.160 0.240 0.310 0.100  1.64  0.10  30.0  30.0  40.0   7.0     
+   9 142    30 0.173 0.240 0.310 0.050  1.64  0.10  30.0  30.0  40.0   7.0     
+  10 172    30 0.193 0.250 0.320 0.030  1.64  0.10  30.0  30.0  40.0   7.0     
+
+ SOILDYN  YEAR DOY = 1980 165
+ Additional soil properties                                                    
+                Convert                                                        
+    Cation Adsrp  ppm /  SLCF                                                  
+   L  Exch  Coef  kg/ha     %                                                  
+   1  15.5   0.0   1.24   0.0                                                  
+   2  15.5   0.0   0.62   0.0                                                  
+   3  15.5   0.0   0.89   0.0                                                  
+   4  15.5   0.0   0.41   0.0                                                  
+   5  15.5   0.0   0.41   0.0                                                  
+   6  15.5   0.0   0.41   0.0                                                  
+   7  15.5   0.0   0.41   0.0                                                  
+   8  15.5   0.0   0.20   0.0                                                  
+   9  15.5   0.0   0.20   0.0                                                  
+  10  15.5   0.0   0.20   0.0                                                  
+
+ SOMINI  YEAR DOY = 1980 165
+ Initial SOM fractions (fraction of total soil organic matter):                
+                      SAND   TOC  FOMC  SOMC  SOM1  SOM2  SOM3                 
+  Lyr Dep Texture       %     %     %     %   frac  frac  frac Method          
+   1   5 ClayLoam     40.0 0.850 0.002 0.848 0.001 0.019 0.980 Regression eqn  
+   2  15 ClayLoam     40.0 0.700 0.002 0.698 0.001 0.019 0.980 Regression eqn  
+   3  22 ClayLoam     40.0 0.550 0.002 0.548 0.001 0.019 0.980 Regression eqn  
+   4  37 ClayLoam     40.0 0.510 0.001 0.509 0.001 0.019 0.980 Regression eqn  
+   5  52 ClayLoam     40.0 0.510 0.001 0.509 0.001 0.019 0.980 Regression eqn  
+   6  67 ClayLoam     40.0 0.630 0.001 0.629 0.001 0.019 0.980 Regression eqn  
+   7  82 ClayLoam     40.0 0.630 0.001 0.629 0.001 0.019 0.980 Regression eqn  
+   8 112 ClayLoam     40.0 0.100 0.000 0.100 0.001 0.019 0.980 Regression eqn  
+   9 142 ClayLoam     40.0 0.100 0.000 0.100 0.001 0.019 0.980 Regression eqn  
+  10 172 ClayLoam     40.0 0.100 0.000 0.100 0.001 0.019 0.980 Regression eqn  
+
+ ENDRUN  YEAR DOY = 1980 278
+ Normal end of run        3                                                    

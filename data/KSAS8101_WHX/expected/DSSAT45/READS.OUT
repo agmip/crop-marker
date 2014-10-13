@@ -1,0 +1,99 @@
+  
+  File closed and re-opened to avoid generating huge file
+  Nothing found for PLMAG
+  Nothing found for ENAME
+  Nothing found for HDATE
+  Nothing found for HPC
+  Nothing found for HBPC
+  Nothing found for P1
+  Nothing found for P2
+  Nothing found for P2FR1
+  Nothing found for P3
+  Nothing found for P4
+  Nothing found for P4FR1
+  Nothing found for P4FR2
+  Nothing found for VEFF
+  Nothing found for PARUE
+  Nothing found for PARU2
+  Nothing found for LA1S
+  Nothing found for LAFV
+  Nothing found for LAFR
+  Nothing found for TBAM
+  Nothing found for GN%S
+  Nothing found for NCNU
+  Nothing found for RLFNU
+  Nothing found for WFNUU
+  Nothing found for NFPU
+  Nothing found for NFGU
+  Nothing found for NFTU
+  Nothing found for NFPL
+  Nothing found for NFGL
+  Nothing found for NFTL
+  Nothing found for RTNO3
+  Nothing found for RTNH4
+  Nothing found for NSFAC
+  Nothing found for NMNFC
+  Nothing found for NLAB%
+  Nothing found for RDGS
+  Nothing found for GN%MN
+  Nothing found for NFPU
+  Nothing found for NFPL
+  Nothing found for NFGU
+  Nothing found for NFGL
+  Nothing found for RTNO3
+  Nothing found for RTNH4
+  Nothing found for PPFPE
+  Nothing found for SGPHE
+  Nothing found for LLIFE
+  Nothing found for WFPU
+  Nothing found for WFPGF
+  Nothing found for WFGU
+  Nothing found for RDG2
+  Nothing found for WFS
+  Nothing found for NFS
+  Nothing found for WFNUU
+  Nothing found for RLFNU
+  Nothing found for NCNU
+  Nothing found for WFNUL
+  Nothing found for RDGTH
+  
+ FILE   KSAS8101.WHA
+  TRT   6
+   RP              0
+     1  GNAM         95.5                                           
+     2  CWAM         13064                                          
+     3  SNAM         71.0                                           
+     4  ADAT         141                                            
+     5  HWAM         4695                                           
+     6  MDAT         174                                            
+     7  BWAH         8369                                           
+     8  LAIX         2.88                                           
+     9  GN%M         2.04                                           
+    10  CNAM         166.5                                          
+    11  HWUM         23.1                                           
+    12  H#AM         20325                                          
+    13  H#UM         24                                             
+  
+  Reading abbrev file: C:\dssat45\DATA.CDE                                    
+  Nothing found for GWAM
+  Nothing found for HWAH
+  Nothing found for CWAA
+  Nothing found for T#AM
+  Nothing found for L#SM
+  Nothing found for VNAM
+  Nothing found for CNAA
+  Nothing found for LN%A
+  Nothing found for LNCA
+  Nothing found for VN%M
+  Nothing found for VN%D
+  Nothing found for VNCD
+  Nothing found for L#SM
+  Nothing found for LNOSM
+  Nothing found for HIAM
+  Nothing found for EDAT
+  Nothing found for DRDAT
+  Nothing found for TSDAT
+  Nothing found for A1DAT
+  Nothing found for LLDAT
+  Nothing found for SPDAT
+  Nothing found for JDAT

@@ -1,10 +1,13 @@
 <cropmarker:BuildTestPage title="Crop Marker" maximized="true"
-                        xmlns:bxml="http://pivot.apache.org/bxml"
-                        xmlns:content="org.apache.pivot.wtk.content"
-                        xmlns:menus="org.apache.pivot.wtk.menus"
-                        xmlns:cropmarker="org.agmip.ui.cropmarker"
-                        xmlns="org.apache.pivot.wtk">
+                          xmlns:bxml="http://pivot.apache.org/bxml"
+                          xmlns:content="org.apache.pivot.wtk.content"
+                          xmlns:menus="org.apache.pivot.wtk.menus"
+                          xmlns:cropmarker="org.agmip.ui.cropmarker"
+                          xmlns="org.apache.pivot.wtk">
 
+    <bxml:define>
+        <bxml:include bxml:id="diffRet" src="dialog_diff_ret.bxml"/>
+    </bxml:define>
     <actionMappings>
         <Window.ActionMapping action="fileQuit" keyStroke="CMD-Q" />
     </actionMappings>
@@ -22,6 +25,17 @@
                             <Menu.Item action="fileQuit">
                                 <buttonData>
                                     <content:MenuItemData text="Quit" keyboardShortcut="CMD-Q" />
+                                </buttonData>
+                            </Menu.Item>
+                        </Menu.Section>
+                    </Menu>
+                </MenuBar.Item>
+                <MenuBar.Item buttonData="Option">
+                    <Menu>
+                        <Menu.Section>
+                            <Menu.Item action="pathConfig">
+                                <buttonData>
+                                    <content:MenuItemData text="Config" />
                                 </buttonData>
                             </Menu.Item>
                         </Menu.Section>

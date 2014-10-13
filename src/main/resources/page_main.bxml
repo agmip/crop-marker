@@ -1,13 +1,10 @@
 <cropmarker:MainPage bxml:id="mainPage" title="Crop Marker" maximized="true"
-                   xmlns:bxml="http://pivot.apache.org/bxml"
-                   xmlns:content="org.apache.pivot.wtk.content"
-                   xmlns:menus="org.apache.pivot.wtk.menus"
-                   xmlns:cropmarker="org.agmip.ui.cropmarker"
-                   xmlns="org.apache.pivot.wtk">
+                     xmlns:bxml="http://pivot.apache.org/bxml"
+                     xmlns:content="org.apache.pivot.wtk.content"
+                     xmlns:menus="org.apache.pivot.wtk.menus"
+                     xmlns:cropmarker="org.agmip.ui.cropmarker"
+                     xmlns="org.apache.pivot.wtk">
 
-    <bxml:define>
-        <bxml:include bxml:id="configDialog" src="dialog_config.bxml"/>
-    </bxml:define>
     <actionMappings>
         <Window.ActionMapping action="fileQuit" keyStroke="CMD-Q" />
     </actionMappings>
@@ -30,15 +27,28 @@
                         </Menu.Section>
                     </Menu>
                 </MenuBar.Item>
+                <MenuBar.Item buttonData="Option">
+                    <Menu>
+                        <Menu.Section>
+                            <Menu.Item action="pathConfig">
+                                <buttonData>
+                                    <content:MenuItemData text="Config" />
+                                </buttonData>
+                            </Menu.Item>
+                        </Menu.Section>
+                    </Menu>
+                </MenuBar.Item>
             </MenuBar>
         </TablePane.Row>
 
         <TablePane.Row height="1*">
             <Border styles="{padding:2, color: '#777777'}">
-                <BoxPane orientation="vertical" styles="{padding:{bottom:16, left: 6}}">
-                    <Label text="Dataset List" styles="{font:{bold:true}}"/>
+                <BoxPane orientation="vertical" styles="{padding:6}">
+                    <BoxPane orientation="horizontal" styles="{padding:{bottom:6}}">
+                        <Label text="Dataset List" styles="{font:{bold:true}}"/>
+                    </BoxPane>
                     <Border styles="{color:10}">
-                        <ScrollPane horizontalScrollBarPolicy="fill_to_capacity" preferredWidth="420">
+                        <ScrollPane horizontalScrollBarPolicy="fill_to_capacity" verticalScrollBarPolicy="fill_to_capacity" preferredWidth="640" preferredHeight="200">
                             <TableView bxml:id="datasetListTableView" selectMode="multi"
                                        styles="{showHorizontalGridLines:false}">
                                 <columns>
@@ -58,7 +68,8 @@
                                     </TableView.Column>
                                     <TableView.Column name="crop" width="-1" headerData="Crop" minimumWidth="40"/>
                                     <TableView.Column name="name" width="-1" headerData="Name" minimumWidth="85"/>
-                                    <TableView.Column name="description" width="-1" headerData="Description" minimumWidth="200"/>
+                                    <TableView.Column name="format" width="-1" headerData="Format" minimumWidth="40"/>
+                                    <TableView.Column name="description" width="-1" headerData="Description" minimumWidth="310"/>
                                 </columns>
 
                                 <tableViewSortListeners>
@@ -78,14 +89,7 @@
                 <BoxPane orientation="vertical" styles="{padding: 6}">
                     <BoxPane orientation="horizontal">
                         <PushButton bxml:id="nextBtn" buttonData="Next" styles="{padding:{left:16,right:16}}"/>
-                        <PushButton bxml:id="configBtn" buttonData="Config" styles="{padding:{left:16,right:16}}">
-                            <buttonPressListeners>
-                                importPackage(org.apache.pivot.wtk);
-                                function buttonPressed(button) {
-                                configDialog.open(mainPage, null);
-                                }
-                            </buttonPressListeners>
-                        </PushButton>
+                        <!--<PushButton bxml:id="testBtn" buttonData="Test" styles="{padding:{left:16,right:16}}"/>-->
                     </BoxPane>
                 </BoxPane>
             </Border>

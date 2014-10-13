@@ -1,0 +1,109 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+                                                                                
+*RUN   1        : 97 DATE1 CHINESE          CRGRO045 GHNY9701    1              
+ MODEL          : CRGRO045 - Peanut                                             
+ EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ DATA PATH      :                                                               
+ TREATMENT  1   : 97 DATE1 CHINESE          CRGRO045                            
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1997 149
+ Soil photosynthesis factor (SLPF) = 0.86                                      
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+                                                                                
+*RUN   2        : 97 DATE1 F-MIX            CRGRO045 GHNY9701    2              
+ MODEL          : CRGRO045 - Peanut                                             
+ EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ DATA PATH      :                                                               
+ TREATMENT  2   : 97 DATE1 F-MIX            CRGRO045                            
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1997 149
+ Soil photosynthesis factor (SLPF) = 0.86                                      
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+                                                                                
+*RUN   3        : 97 DATE2 CHINESE          CRGRO045 GHNY9701    3              
+ MODEL          : CRGRO045 - Peanut                                             
+ EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ DATA PATH      :                                                               
+ TREATMENT  3   : 97 DATE2 CHINESE          CRGRO045                            
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1997 177
+ Soil photosynthesis factor (SLPF) = 0.86                                      
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+                                                                                
+*RUN   4        : 97 DATE2 F-MIX            CRGRO045 GHNY9701    4              
+ MODEL          : CRGRO045 - Peanut                                             
+ EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ DATA PATH      :                                                               
+ TREATMENT  4   : 97 DATE2 F-MIX            CRGRO045                            
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1997 177
+ Soil photosynthesis factor (SLPF) = 0.86                                      
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+                                                                                
+*RUN   5        : 97 DATE3 CHINESE          CRGRO045 GHNY9701    5              
+ MODEL          : CRGRO045 - Peanut                                             
+ EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ DATA PATH      :                                                               
+ TREATMENT  5   : 97 DATE3 CHINESE          CRGRO045                            
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1997 205
+ Soil photosynthesis factor (SLPF) = 0.86                                      
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+                                                                                
+*RUN   6        : 97 DATE3 F-MIX            CRGRO045 GHNY9701    6              
+ MODEL          : CRGRO045 - Peanut                                             
+ EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ DATA PATH      :                                                               
+ TREATMENT  6   : 97 DATE3 F-MIX            CRGRO045                            
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1997 205
+ Soil photosynthesis factor (SLPF) = 0.86                                      

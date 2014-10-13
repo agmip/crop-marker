@@ -1,0 +1,154 @@
+*MANAGEMENT OPERATIONS EVENT SUMMARY
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:36
+                                                                                
+*RUN   1        : N0 P0                     MZCER045 GHWA0401    1              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  1   : N0 P0                     MZCER045                            
+  
+@RUN Date........  DOY    DAS    DAP  CR  Operation       Quantities
+   1 OCT 10, 2003  283      1      0  MZ  Start Sim
+   1 JUN 17, 2004  169    252      0  MZ  Planting       
+   1 SEP 25, 2004  269    352    100  MZ  Phys. Maturity 
+   1 OCT 20, 2004  294    377    125  MZ  Harvest           572. kg/ha
+ 
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   2        : N0 P60                    MZCER045 GHWA0401    2              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  2   : N0 P60                    MZCER045                            
+  
+@RUN Date........  DOY    DAS    DAP  CR  Operation       Quantities
+   2 OCT 10, 2003  283      1      0  MZ  Start Sim
+   2 JUN 15, 2004  167    250      0  MZ  Fertilizer          0. kg[N]/ha;    26. kg[P]/ha 
+   2 JUN 17, 2004  169    252      0  MZ  Planting       
+   2 SEP 25, 2004  269    352    100  MZ  Phys. Maturity 
+   2 OCT 20, 2004  294    377    125  MZ  Harvest           381. kg/ha
+ 
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   3        : N0 P90                    MZCER045 GHWA0401    3              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  3   : N0 P90                    MZCER045                            
+  
+@RUN Date........  DOY    DAS    DAP  CR  Operation       Quantities
+   3 OCT 10, 2003  283      1      0  MZ  Start Sim
+   3 JUN 15, 2004  167    250      0  MZ  Fertilizer          0. kg[N]/ha;    39. kg[P]/ha 
+   3 JUN 17, 2004  169    252      0  MZ  Planting       
+   3 SEP 25, 2004  269    352    100  MZ  Phys. Maturity 
+   3 OCT 20, 2004  294    377    125  MZ  Harvest           381. kg/ha
+ 
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   4        : N60 P0                    MZCER045 GHWA0401    4              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  4   : N60 P0                    MZCER045                            
+  
+@RUN Date........  DOY    DAS    DAP  CR  Operation       Quantities
+   4 OCT 10, 2003  283      1      0  MZ  Start Sim
+   4 JUN 17, 2004  169    252      0  MZ  Planting       
+   4 JUL  5, 2004  187    270     18  MZ  Fertilizer         30. kg[N]/ha;     0. kg[P]/ha 
+   4 JUL 15, 2004  197    280     28  MZ  Fertilizer         30. kg[N]/ha;     0. kg[P]/ha 
+   4 SEP 25, 2004  269    352    100  MZ  Phys. Maturity 
+   4 OCT 20, 2004  294    377    125  MZ  Harvest           941. kg/ha
+ 
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   5        : N60 P60                   MZCER045 GHWA0401    5              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  5   : N60 P60                   MZCER045                            
+  
+@RUN Date........  DOY    DAS    DAP  CR  Operation       Quantities
+   5 OCT 10, 2003  283      1      0  MZ  Start Sim
+   5 JUN 15, 2004  167    250      0  MZ  Fertilizer          0. kg[N]/ha;    26. kg[P]/ha 
+   5 JUN 17, 2004  169    252      0  MZ  Planting       
+   5 JUL  5, 2004  187    270     18  MZ  Fertilizer         30. kg[N]/ha;     0. kg[P]/ha 
+   5 JUL 15, 2004  197    280     28  MZ  Fertilizer         30. kg[N]/ha;     0. kg[P]/ha 
+   5 SEP 25, 2004  269    352    100  MZ  Phys. Maturity 
+   5 OCT 20, 2004  294    377    125  MZ  Harvest          2233. kg/ha
+ 
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   6        : N60 P90                   MZCER045 GHWA0401    6              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  6   : N60 P90                   MZCER045                            
+  
+@RUN Date........  DOY    DAS    DAP  CR  Operation       Quantities
+   6 OCT 10, 2003  283      1      0  MZ  Start Sim
+   6 JUN 15, 2004  167    250      0  MZ  Fertilizer          0. kg[N]/ha;    39. kg[P]/ha 
+   6 JUN 17, 2004  169    252      0  MZ  Planting       
+   6 JUL  5, 2004  187    270     18  MZ  Fertilizer         30. kg[N]/ha;     0. kg[P]/ha 
+   6 JUL 15, 2004  197    280     28  MZ  Fertilizer         30. kg[N]/ha;     0. kg[P]/ha 
+   6 SEP 25, 2004  269    352    100  MZ  Phys. Maturity 
+   6 OCT 20, 2004  294    377    125  MZ  Harvest          2235. kg/ha
+ 
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   7        : N120 P0                   MZCER045 GHWA0401    7              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  7   : N120 P0                   MZCER045                            
+  
+@RUN Date........  DOY    DAS    DAP  CR  Operation       Quantities
+   7 OCT 10, 2003  283      1      0  MZ  Start Sim
+   7 JUN 17, 2004  169    252      0  MZ  Planting       
+   7 JUL  5, 2004  187    270     18  MZ  Fertilizer         60. kg[N]/ha;     0. kg[P]/ha 
+   7 JUL 15, 2004  197    280     28  MZ  Fertilizer         60. kg[N]/ha;     0. kg[P]/ha 
+   7 SEP 25, 2004  269    352    100  MZ  Phys. Maturity 
+   7 OCT 20, 2004  294    377    125  MZ  Harvest           930. kg/ha
+ 
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   8        : N120 P60                  MZCER045 GHWA0401    8              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  8   : N120 P60                  MZCER045                            
+  
+@RUN Date........  DOY    DAS    DAP  CR  Operation       Quantities
+   8 OCT 10, 2003  283      1      0  MZ  Start Sim
+   8 JUN 15, 2004  167    250      0  MZ  Fertilizer          0. kg[N]/ha;    26. kg[P]/ha 
+   8 JUN 17, 2004  169    252      0  MZ  Planting       
+   8 JUL  5, 2004  187    270     18  MZ  Fertilizer         60. kg[N]/ha;     0. kg[P]/ha 
+   8 JUL 15, 2004  197    280     28  MZ  Fertilizer         60. kg[N]/ha;     0. kg[P]/ha 
+   8 SEP 25, 2004  269    352    100  MZ  Phys. Maturity 
+   8 OCT 20, 2004  294    377    125  MZ  Harvest          4309. kg/ha
+ 
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   9        : N120 P90                  MZCER045 GHWA0401    9              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  9   : N120 P90                  MZCER045                            
+  
+@RUN Date........  DOY    DAS    DAP  CR  Operation       Quantities
+   9 OCT 10, 2003  283      1      0  MZ  Start Sim
+   9 JUN 15, 2004  167    250      0  MZ  Fertilizer          0. kg[N]/ha;    39. kg[P]/ha 
+   9 JUN 17, 2004  169    252      0  MZ  Planting       
+   9 JUL  5, 2004  187    270     18  MZ  Fertilizer         60. kg[N]/ha;     0. kg[P]/ha 
+   9 JUL 15, 2004  197    280     28  MZ  Fertilizer         60. kg[N]/ha;     0. kg[P]/ha 
+   9 SEP 25, 2004  269    352    100  MZ  Phys. Maturity 
+   9 OCT 20, 2004  294    377    125  MZ  Harvest          4251. kg/ha
+ 

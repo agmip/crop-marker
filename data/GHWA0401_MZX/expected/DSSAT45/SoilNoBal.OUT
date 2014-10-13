@@ -1,0 +1,314 @@
+*SOIL ORGANIC N BALANCE - CENTURY ROUTINES
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:36
+                                                                                
+*RUN   1        : N0 P0                     MZCER045 GHWA0401    1              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  1   : N0 P0                     MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+! SOIL N BALANCE                                -----------kg N/ha-----------
+!  SOIL & SURFACE ORGANIC MATTER N
+!   Active (= microbial) SOM N                       6.43                3.25
+!   Intermediate SOM N                              71.89               64.73
+!   Passive SOM N                                 6888.50             6850.47
+!   Soil Litter N                                    1.35                0.05
+!   N in Litter on Top of the Soil                  16.63                0.55
+!   N in Microbes on Top of the Soil                 0.00                0.55
+!                                                --------            --------
+!   Total Organic N in Soil and Surface Layers    6984.81             6919.60
+
+!  ADDITIONS AND REMOVALS:
+!   N in Harvest Residues from Previous Crop         0.00
+!   N from Organic Applications                      0.00
+!   N in returned senesced material                  0.22
+!   N immobilized                                   12.59
+!   N mineralized                                                       78.02
+!                                                --------            --------
+!     TOTAL N BALANCE                             6997.62             6997.62
+!   Balance                                                              0.00
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   2        : N0 P60                    MZCER045 GHWA0401    2              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  2   : N0 P60                    MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+! SOIL N BALANCE                                -----------kg N/ha-----------
+!  SOIL & SURFACE ORGANIC MATTER N
+!   Active (= microbial) SOM N                       6.25                3.69
+!   Intermediate SOM N                              69.88               66.27
+!   Passive SOM N                                 6882.87             6844.84
+!   Soil Litter N                                    4.78                0.18
+!   N in Litter on Top of the Soil                  28.17                0.92
+!   N in Microbes on Top of the Soil                 0.00                0.96
+!                                                --------            --------
+!   Total Organic N in Soil and Surface Layers    6991.96             6916.86
+
+!  ADDITIONS AND REMOVALS:
+!   N in Harvest Residues from Previous Crop         0.00
+!   N from Organic Applications                      0.00
+!   N in returned senesced material                  0.41
+!   N immobilized                                   22.33
+!   N mineralized                                                       97.84
+!                                                --------            --------
+!     TOTAL N BALANCE                             7014.70             7014.70
+!   Balance                                                              0.00
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   3        : N0 P90                    MZCER045 GHWA0401    3              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  3   : N0 P90                    MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+! SOIL N BALANCE                                -----------kg N/ha-----------
+!  SOIL & SURFACE ORGANIC MATTER N
+!   Active (= microbial) SOM N                       6.25                3.69
+!   Intermediate SOM N                              69.88               66.27
+!   Passive SOM N                                 6882.87             6844.84
+!   Soil Litter N                                    4.78                0.18
+!   N in Litter on Top of the Soil                  28.17                0.92
+!   N in Microbes on Top of the Soil                 0.00                0.96
+!                                                --------            --------
+!   Total Organic N in Soil and Surface Layers    6991.96             6916.86
+
+!  ADDITIONS AND REMOVALS:
+!   N in Harvest Residues from Previous Crop         0.00
+!   N from Organic Applications                      0.00
+!   N in returned senesced material                  0.41
+!   N immobilized                                   22.33
+!   N mineralized                                                       97.84
+!                                                --------            --------
+!     TOTAL N BALANCE                             7014.70             7014.70
+!   Balance                                                              0.00
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   4        : N60 P0                    MZCER045 GHWA0401    4              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  4   : N60 P0                    MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+! SOIL N BALANCE                                -----------kg N/ha-----------
+!  SOIL & SURFACE ORGANIC MATTER N
+!   Active (= microbial) SOM N                       6.35                3.26
+!   Intermediate SOM N                              71.01               65.43
+!   Passive SOM N                                 6887.78             6849.58
+!   Soil Litter N                                    1.82                0.04
+!   N in Litter on Top of the Soil                  23.93                0.77
+!   N in Microbes on Top of the Soil                 0.00                0.81
+!                                                --------            --------
+!   Total Organic N in Soil and Surface Layers    6990.89             6919.89
+
+!  ADDITIONS AND REMOVALS:
+!   N in Harvest Residues from Previous Crop         0.00
+!   N from Organic Applications                      0.00
+!   N in returned senesced material                  0.14
+!   N immobilized                                   16.80
+!   N mineralized                                                       87.93
+!                                                --------            --------
+!     TOTAL N BALANCE                             7007.83             7007.83
+!   Balance                                                              0.00
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   5        : N60 P60                   MZCER045 GHWA0401    5              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  5   : N60 P60                   MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+! SOIL N BALANCE                                -----------kg N/ha-----------
+!  SOIL & SURFACE ORGANIC MATTER N
+!   Active (= microbial) SOM N                       5.49                4.85
+!   Intermediate SOM N                              61.40               67.83
+!   Passive SOM N                                 6861.19             6823.75
+!   Soil Litter N                                   11.62                0.54
+!   N in Litter on Top of the Soil                  65.85                2.13
+!   N in Microbes on Top of the Soil                 0.00                2.23
+!                                                --------            --------
+!   Total Organic N in Soil and Surface Layers    7005.55             6901.33
+
+!  ADDITIONS AND REMOVALS:
+!   N in Harvest Residues from Previous Crop         0.00
+!   N from Organic Applications                      0.00
+!   N in returned senesced material                  1.84
+!   N immobilized                                   48.89
+!   N mineralized                                                      154.95
+!                                                --------            --------
+!     TOTAL N BALANCE                             7056.27             7056.28
+!   Balance                                                              0.00
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   6        : N60 P90                   MZCER045 GHWA0401    6              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  6   : N60 P90                   MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+! SOIL N BALANCE                                -----------kg N/ha-----------
+!  SOIL & SURFACE ORGANIC MATTER N
+!   Active (= microbial) SOM N                       5.87                4.87
+!   Intermediate SOM N                              65.63               71.30
+!   Passive SOM N                                 6882.34             6844.81
+!   Soil Litter N                                   11.79                0.53
+!   N in Litter on Top of the Soil                  65.85                2.13
+!   N in Microbes on Top of the Soil                 0.00                2.23
+!                                                --------            --------
+!   Total Organic N in Soil and Surface Layers    7031.48             6925.87
+
+!  ADDITIONS AND REMOVALS:
+!   N in Harvest Residues from Previous Crop         0.00
+!   N from Organic Applications                      0.00
+!   N in returned senesced material                  1.67
+!   N immobilized                                   49.16
+!   N mineralized                                                      156.43
+!                                                --------            --------
+!     TOTAL N BALANCE                             7082.30             7082.30
+!   Balance                                                              0.00
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   7        : N120 P0                   MZCER045 GHWA0401    7              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  7   : N120 P0                   MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+! SOIL N BALANCE                                -----------kg N/ha-----------
+!  SOIL & SURFACE ORGANIC MATTER N
+!   Active (= microbial) SOM N                       6.38                3.33
+!   Intermediate SOM N                              71.26               65.38
+!   Passive SOM N                                 6888.19             6850.02
+!   Soil Litter N                                    1.66                0.04
+!   N in Litter on Top of the Soil                  21.96                0.71
+!   N in Microbes on Top of the Soil                 0.00                0.75
+!                                                --------            --------
+!   Total Organic N in Soil and Surface Layers    6989.43             6920.23
+
+!  ADDITIONS AND REMOVALS:
+!   N in Harvest Residues from Previous Crop         0.00
+!   N from Organic Applications                      0.00
+!   N in returned senesced material                  0.14
+!   N immobilized                                   15.79
+!   N mineralized                                                       85.14
+!                                                --------            --------
+!     TOTAL N BALANCE                             7005.36             7005.36
+!   Balance                                                              0.00
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   8        : N120 P60                  MZCER045 GHWA0401    8              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  8   : N120 P60                  MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+! SOIL N BALANCE                                -----------kg N/ha-----------
+!  SOIL & SURFACE ORGANIC MATTER N
+!   Active (= microbial) SOM N                       7.29                5.52
+!   Intermediate SOM N                              81.45               82.48
+!   Passive SOM N                                 6889.04             6852.03
+!   Soil Litter N                                   11.43                0.75
+!   N in Litter on Top of the Soil                  55.01                1.79
+!   N in Microbes on Top of the Soil                 0.00                1.90
+!                                                --------            --------
+!   Total Organic N in Soil and Surface Layers    7044.22             6944.48
+
+!  ADDITIONS AND REMOVALS:
+!   N in Harvest Residues from Previous Crop         0.00
+!   N from Organic Applications                      0.00
+!   N in returned senesced material                  2.92
+!   N immobilized                                   43.93
+!   N mineralized                                                      146.59
+!                                                --------            --------
+!     TOTAL N BALANCE                             7091.06             7091.06
+!   Balance                                                              0.00
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   9        : N120 P90                  MZCER045 GHWA0401    9              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  9   : N120 P90                  MZCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                2003/283            2004/294
+! SOIL N BALANCE                                -----------kg N/ha-----------
+!  SOIL & SURFACE ORGANIC MATTER N
+!   Active (= microbial) SOM N                       7.11                5.43
+!   Intermediate SOM N                              79.48               81.52
+!   Passive SOM N                                 6888.08             6851.02
+!   Soil Litter N                                   12.37                0.72
+!   N in Litter on Top of the Soil                  57.34                1.87
+!   N in Microbes on Top of the Soil                 0.00                1.98
+!                                                --------            --------
+!   Total Organic N in Soil and Surface Layers    7044.39             6942.54
+
+!  ADDITIONS AND REMOVALS:
+!   N in Harvest Residues from Previous Crop         0.00
+!   N from Organic Applications                      0.00
+!   N in returned senesced material                  2.57
+!   N immobilized                                   45.92
+!   N mineralized                                                      150.33
+!                                                --------            --------
+!     TOTAL N BALANCE                             7092.87             7092.87
+!   Balance                                                              0.00

@@ -1,0 +1,38 @@
+!This soil file is created by DSSAT translator tool on Mon Oct 13 10:48:06 EDT 2014.
+*SOILS: Ghana Soils; Ghana Soils; 
+
+! Waring: There is a variable [sl_source] with oversized content [Naab site1D2], only first 11 bits will be applied.
+! Waring: There is a variable [sltx] with oversized content [3 SALO], only first 5 bits will be applied.
+!The ACE ID is N/A.
+!This soil data is used for the experiment of GHNY9701_9.
+!
+*GH00970002  Naab site1D 3 SAL     9 0 SAVANNA OCHROSOL
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ NYANKPALA   GHANA           9.416   0.966 PALEUSTALF
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN  0.13   6.0  0.65    76  1.00  0.86 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+     5    AP 0.095 0.257 0.359  1.00   -99  1.39  0.41   7.0  18.2   6.2   -99   6.7   -99   -99   -99
+    15    AP 0.060 0.227 0.359  1.00   -99  1.39  0.41   7.0  18.2   6.2   -99   6.7   -99   -99   -99
+    30    B1 0.060 0.228 0.340  0.70   -99  1.59  0.32  11.3  24.5  11.4   -99   6.4   -99   -99   -99
+    45    B2 0.105 0.229 0.342  0.35   -99  1.59  0.28  15.0  27.9  47.1   -99   6.1   -99   -99   -99
+    60    B3 0.120 0.216 0.342  0.25   -99  1.63  0.28  15.5  27.5  47.1   -99   6.1   -99   -99   -99
+    90    B3 0.130 0.216 0.347  0.05   -99  1.45  0.17  18.2  27.7  47.5   -99   6.0   -99   -99   -99
+
+! Waring: There is a variable [sltx] with oversized content [1 SALO], only first 5 bits will be applied.
+!The ACE ID is N/A.
+!This soil data is used for the experiment of GHNY9701_7.
+!
+*GH00970001  Naab site1D 1 SAL     9 0 SAVANNA OCHROSOL
+@SITE        COUNTRY          LAT     LONG SCS FAMILY
+ NYANKPALA   GHANA           9.416   0.966 PALEUSTALF
+@ SCOM  SALB  SLU1  SLDR  SLRO  SLNF  SLPF  SMHB  SMPX  SMKE
+    BN  0.13   6.0  0.40    76  1.00  0.86 IB001 IB001 IB001
+@  SLB  SLMH  SLLL  SDUL  SSAT  SRGF  SSKS  SBDM  SLOC  SLCL  SLSI  SLCF  SLNI  SLHW  SLHB  SCEC  SADC
+     5    AP 0.095 0.257 0.359  1.00   -99  1.39  0.41   7.0  18.2   6.2   -99   6.7   -99   -99   -99
+    15    AP 0.060 0.227 0.359  1.00   -99  1.39  0.41   7.0  18.2   6.2   -99   6.7   -99   -99   -99
+    30    B1 0.060 0.228 0.340  0.70   -99  1.59  0.32  11.3  24.5  11.4   -99   6.4   -99   -99   -99
+    45    B2 0.105 0.229 0.342  0.35   -99  1.59  0.28  15.0  27.9  47.1   -99   6.1   -99   -99   -99
+    60    B3 0.120 0.205 0.342  0.25   -99  1.63  0.28  15.5  27.5  47.1   -99   6.1   -99   -99   -99
+    90    B3 0.130 0.200 0.347  0.05   -99  1.45  0.17  18.2  27.7  47.5   -99   6.0   -99   -99   -99
+
