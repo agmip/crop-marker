@@ -24,6 +24,8 @@ import org.apache.pivot.wtk.Button.State;
 import org.apache.pivot.wtk.ButtonPressListener;
 import org.apache.pivot.wtk.ButtonStateListener;
 import org.apache.pivot.wtk.Checkbox;
+import org.apache.pivot.wtk.Dialog;
+import org.apache.pivot.wtk.DialogCloseListener;
 import org.apache.pivot.wtk.FileBrowserSheet;
 import org.apache.pivot.wtk.Label;
 import org.apache.pivot.wtk.ListButton;
@@ -61,6 +63,7 @@ public class BuildTestPage extends Page {
     private Checkbox modelJson = null;
     private Checkbox comparatorAcmo = null;
     private Checkbox comparatorYield = null;
+    DiffRetDialog diffRetDialog = null;
     private Label txtStatus = null;
 //    private Label txtAutoDomeApplyMsg = null;
     private TextInput outputText = null;
@@ -74,27 +77,30 @@ public class BuildTestPage extends Page {
 
     private ArrayList<String> validateInputs() {
         ArrayList<String> errs = new ArrayList<String>();
-        boolean anyModelChecked = false;
-        boolean anyComparatorChecked = false;
-        for (Checkbox cbox : modelCBGroup) {
-            if (cbox.isSelected()) {
-                anyModelChecked = true;
+        for (String dataName : dataSpecConfig.keySet()) {
+            DataSpecConfig config = dataSpecConfig.get(dataName);
+            if (config.getModels().isEmpty()) {
+                errs.add("Need to select a model for " + dataName);
             }
-        }
-        if (!anyModelChecked) {
-            errs.add("You need to select a model for test");
-        }
-        for (Checkbox cbox : comparatorCBGroup) {
-            if (cbox.isSelected()) {
-                anyComparatorChecked = true;
+            if (config.getComparators().isEmpty()) {
+                errs.add("Need to select a comparator for " + dataName);
             }
-        }
-        if (!anyComparatorChecked) {
-            errs.add("You need to select a comparator for test");
         }
         File outputDir = new File(outputText.getText());
         if (!outputDir.exists() || !outputDir.isDirectory()) {
             errs.add("You need to select an output directory");
+        }
+        if (!new File(ConfigHelper.getAcmouiPath()).exists()) {
+            errs.add("Missing the executable of ACMOUI");
+        }
+        if (!new File(ConfigHelper.getQuaduiPath()).exists()) {
+            errs.add("Missing the executable of QuadUI");
+        }
+        if (!new File(ConfigHelper.getApsim75ExePath()).exists()) {
+            errs.add("Missing the executable of APSIM 7.5");
+        }
+        if (!new File(ConfigHelper.getDssat45ExePath()).exists()) {
+            errs.add("Missing the executable of DSSAT 4.5");
         }
         return errs;
     }
@@ -117,8 +123,9 @@ public class BuildTestPage extends Page {
         modelWofost = (Checkbox) ns.get("model-wofost");
 //        modelCgnau          = (Checkbox) ns.get("model-cgnau");
         modelJson = (Checkbox) ns.get("model-json");
-        comparatorAcmo      = (Checkbox) ns.get("comparator-acmo");
-        comparatorYield     = (Checkbox) ns.get("comparator-yield");
+        comparatorAcmo = (Checkbox) ns.get("comparator-acmo");
+        comparatorYield = (Checkbox) ns.get("comparator-yield");
+        diffRetDialog = (DiffRetDialog) ns.get("diffRet");
 
         modelCBGroup.add(modelApsim);
         modelCBGroup.add(modelDssat);
@@ -384,32 +391,34 @@ public class BuildTestPage extends Page {
 
         LOG.info("Handling comparation...");
         txtStatus.setText("Handling comparation...");
-        TestComparatorTask task = new TestComparatorTask(comparators);
-        TaskListener<Boolean> listener = new TaskListener<Boolean>() {
+        ArrayList<File> reportFiles = new ArrayList();
+        HashMap<File, File> applyFiles = new HashMap();
+        for (TestComparator comparator : comparators) {
+            if (!comparator.getLastCompareResult()) {
+                LOG.info("{}: mismatched result has been detected.", comparator.getTitle());
+                reportFiles.add(comparator.getReport());
+                applyFiles.put(comparator.getActual(), comparator.getExpected());
+            } else {
+                LOG.info("{}: All results matched with expected data", comparator.getTitle());
+            }
+        }
+        if (reportFiles.isEmpty()) {
+            txtStatus.setText("Match with expeceted");
+            Alert.alert(MessageType.INFO, "All tests are passed", BuildTestPage.this);
+            LOG.info("=== Completed test job ===");
+        } else {
+            txtStatus.setText("Mismatch with expeceted");
+            diffRetDialog.setApplyBtn(applyFiles);
+            diffRetDialog.setReportFiles(reportFiles);
+            diffRetDialog.open(BuildTestPage.this, new DialogCloseListener() {
 
-            @Override
-            public void taskExecuted(Task<Boolean> t) {
-                enableConvertIndicator(false);
-                Boolean ret = t.getResult();
-                if (ret) {
-                    txtStatus.setText("Match with expeceted");
-//                    compareResult(comparators);
-                } else {
-                    txtStatus.setText("Mismatch with expeceted");
-                    Alert.alert(MessageType.ERROR, "Results do not match with expected data", BuildTestPage.this);
-                    enableConvertIndicator(false);
+                @Override
+                public void dialogClosed(Dialog dialog, boolean bln) {
+                    txtStatus.setText("Need re-test");
                 }
-                LOG.info("=== Completed test job ===");
-            }
-
-            @Override
-            public void executeFailed(Task<Boolean> arg0) {
-                Alert.alert(MessageType.ERROR, arg0.getFault().toString(), BuildTestPage.this);
-                LOG.error(Functions.getStackTrace(arg0.getFault()));
-                enableConvertIndicator(false);
-            }
-        };
-        task.execute(new TaskAdapter<Boolean>(listener));
+            });
+        }
+        enableConvertIndicator(false);
     }
 
     private void enableConvertIndicator(boolean enabled) {
@@ -502,7 +511,7 @@ public class BuildTestPage extends Page {
             }
         });
     }
-    
+
     private void initComparatorCheckBox(Checkbox cb, final String lastSelectId) {
 //        cb.setSelected(pref.getBoolean(lastSelectId, false));
         cb.getButtonPressListeners().add(new ButtonPressListener() {
