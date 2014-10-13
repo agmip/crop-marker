@@ -7,7 +7,7 @@ import org.agmip.common.Functions;
 import org.agmip.ui.cropmarker.BuildTestPage.DataSpecConfig;
 import static org.agmip.ui.cropmarker.Page.DEF_DATA_PATH;
 import org.agmip.utility.testframe.comparator.TestComparator;
-import static org.agmip.utility.testframe.comparator.TestComparator.Type.FILE;
+import static org.agmip.utility.testframe.comparator.TestComparator.Type.*;
 import org.agmip.utility.testframe.model.TestDefBuilder;
 import static org.agmip.utility.testframe.runner.AppRunner.Type.*;
 import org.agmip.utility.testframe.runner.ApsimRunner;
@@ -143,8 +143,22 @@ public class TestBuilderTask extends Task<TestDefBuilder> {
         acmo.setArguments("-cli", modelArg, String.format(acmoInputDir, dataName, model));
 
         // Comparators
+        if (testConfig.getComparators().contains("None")) {
+            LOG.info("None of comparator for {} data set will be load based on user configuration.", dataName);
+            return;
+        }
         for (String comparatorName : testConfig.getComparators()) {
-            if (comparatorName.equalsIgnoreCase("ACMO")) {
+            if (comparatorName.equalsIgnoreCase("ALL")) {
+                try {
+//                    String expectedPath = String.format(expectedDataPath, dataName, model, "ACMO", "ACMO-MACHAKOS-1-0XFX-0-0-" + modelName + ".csv");
+                    String expectedPath = String.format(expectedDataPath, dataName, model);
+                    String actualPath = String.format(acmoInputDir, dataName, model);
+                    TestComparator comparator = builder.addTestComparator(FOLDER, expectedPath, actualPath);
+                    comparator.setTitle(comparatorName + "_" + dataName + "_" + model + "_Comparator");
+                } catch (Exception ex) {
+                    LOG.error(Functions.getStackTrace(ex));
+                }
+            } else if (comparatorName.equalsIgnoreCase("ACMO")) {
                 // Preparing ACMO CSV file comparator
                 try {
 //                    String expectedPath = String.format(expectedDataPath, dataName, model, "ACMO", "ACMO-MACHAKOS-1-0XFX-0-0-" + modelName + ".csv");
