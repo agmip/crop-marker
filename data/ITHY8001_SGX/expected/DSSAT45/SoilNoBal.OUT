@@ -1,0 +1,104 @@
+*SOIL ORGANIC N BALANCE - CENTURY ROUTINES
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:42:03
+                                                                                
+*RUN   1        : 0 N check plot            SGCER045 ITHY8001    1              
+ MODEL          : SGCER045 - Grain sorghum                                      
+ EXPERIMENT     : ITHY8001 SG                                                   
+ DATA PATH      :                                                               
+ TREATMENT  1   : 0 N check plot            SGCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                1980/165            1980/278
+! SOIL N BALANCE                                -----------kg N/ha-----------
+!  SOIL & SURFACE ORGANIC MATTER N
+!   Active (= microbial) SOM N                       9.47               17.17
+!   Intermediate SOM N                             105.79              108.73
+!   Passive SOM N                                13251.42            13240.29
+!   Soil Litter N                                   15.98                1.83
+!   N in Litter on Top of the Soil                   0.00                0.00
+!   N in Microbes on Top of the Soil                 0.00                0.00
+!                                                --------            --------
+!   Total Organic N in Soil and Surface Layers   13382.66            13368.01
+
+!  ADDITIONS AND REMOVALS:
+!   N in Harvest Residues from Previous Crop         0.00
+!   N from Organic Applications                      0.00
+!   N in returned senesced material                  1.47
+!   N immobilized                                   14.54
+!   N mineralized                                                       30.65
+!                                                --------            --------
+!     TOTAL N BALANCE                            13398.66            13398.66
+!   Balance                                                              0.00
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:42:03
+                                                                                
+*RUN   2        : 80 kg Urea-N Incorporated SGCER045 ITHY8001    2              
+ MODEL          : SGCER045 - Grain sorghum                                      
+ EXPERIMENT     : ITHY8001 SG                                                   
+ DATA PATH      :                                                               
+ TREATMENT  2   : 80 kg Urea-N Incorporated SGCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                1980/165            1980/278
+! SOIL N BALANCE                                -----------kg N/ha-----------
+!  SOIL & SURFACE ORGANIC MATTER N
+!   Active (= microbial) SOM N                       9.47               17.89
+!   Intermediate SOM N                             105.79              109.43
+!   Passive SOM N                                13251.42            13236.47
+!   Soil Litter N                                   15.97                1.72
+!   N in Litter on Top of the Soil                   0.00                0.00
+!   N in Microbes on Top of the Soil                 0.00                0.00
+!                                                --------            --------
+!   Total Organic N in Soil and Surface Layers   13382.64            13365.52
+
+!  ADDITIONS AND REMOVALS:
+!   N in Harvest Residues from Previous Crop         0.00
+!   N from Organic Applications                      0.00
+!   N in returned senesced material                  1.47
+!   N immobilized                                   17.72
+!   N mineralized                                                       36.32
+!                                                --------            --------
+!     TOTAL N BALANCE                            13401.84            13401.84
+!   Balance                                                              0.00
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:42:03
+                                                                                
+*RUN   3        : 80 kg Urea-N Split Applic SGCER045 ITHY8001    3              
+ MODEL          : SGCER045 - Grain sorghum                                      
+ EXPERIMENT     : ITHY8001 SG                                                   
+ DATA PATH      :                                                               
+ TREATMENT  3   : 80 kg Urea-N Split Applic SGCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                1980/165            1980/278
+! SOIL N BALANCE                                -----------kg N/ha-----------
+!  SOIL & SURFACE ORGANIC MATTER N
+!   Active (= microbial) SOM N                       9.47               17.49
+!   Intermediate SOM N                             105.79              109.42
+!   Passive SOM N                                13251.42            13236.47
+!   Soil Litter N                                   15.97                1.72
+!   N in Litter on Top of the Soil                   0.00                0.00
+!   N in Microbes on Top of the Soil                 0.00                0.00
+!                                                --------            --------
+!   Total Organic N in Soil and Surface Layers   13382.64            13365.11
+
+!  ADDITIONS AND REMOVALS:
+!   N in Harvest Residues from Previous Crop         0.00
+!   N from Organic Applications                      0.00
+!   N in returned senesced material                  1.48
+!   N immobilized                                   16.78
+!   N mineralized                                                       35.78
+!                                                --------            --------
+!     TOTAL N BALANCE                            13400.89            13400.89
+!   Balance                                                              0.00

@@ -1,0 +1,6 @@
+ApsimVersion = 7.5
+format = csv
+Title = ITHY8001_1-0 N check plot ACMO
+yield,biomass,AnthesisDate,MaturityDate,HarvestDate,LAIMax,InCropRain,SumEP,SumNO3Uptake,SumLeachNO3
+(kg/ha),(kg/ha),(yyyy-mm-dd),(yyyy-mm-dd),(yyyy-mm-dd),(m2/m2),(mm),(mm),(kg/ha),(kg/ha)
+0.000000,48.018212,0-12-30,0-12-30,1980-07-31,0.003600,132.499999,0.174007,0.075024,0.000000

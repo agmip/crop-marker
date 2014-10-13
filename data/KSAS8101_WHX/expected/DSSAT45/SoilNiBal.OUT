@@ -1,0 +1,191 @@
+*SOIL INORGANIC N BALANCE
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+                                                                                
+*RUN   1        : DRYLAND  - 0 KG N/HA      CSCER045 KSAS8101    1              
+ MODEL          : CSCER045 - Wheat                                              
+ EXPERIMENT     : KSAS8101 WH                                                   
+ DATA PATH      :                                                               
+ TREATMENT  1   : DRYLAND  - 0 KG N/HA      CSCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                1981/279            1982/174
+!SOIL INORGANIC N BALANCE                       -----------kg N/ha-----------
+
+!   Soil NO3                                       116.16               54.04
+!   Soil NH4                                        60.46                9.70
+!   Soil Urea                                        0.00                0.00
+
+!   Added to / Removed from Soil:
+!   Fertilizer N                                     0.00
+!   Mineralized N                                   82.07
+!   Leached NO3                                                        118.63
+!   N Denitrified                                                        1.14
+!   N Uptake From Soil                                                  76.41
+!   Ammonia volatilization                                               0.00
+!   N immobilized                                                        0.05
+
+!   Total N balance                                258.69              259.98
+!   Balance                                                             1.287
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+                                                                                
+*RUN   2        : DRYLAND  - 60 KG N/HA     CSCER045 KSAS8101    2              
+ MODEL          : CSCER045 - Wheat                                              
+ EXPERIMENT     : KSAS8101 WH                                                   
+ DATA PATH      :                                                               
+ TREATMENT  2   : DRYLAND  - 60 KG N/HA     CSCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                1981/279            1982/174
+!SOIL INORGANIC N BALANCE                       -----------kg N/ha-----------
+
+!   Soil NO3                                       116.16               78.69
+!   Soil NH4                                        60.46                9.77
+!   Soil Urea                                        0.00                0.00
+
+!   Added to / Removed from Soil:
+!   Fertilizer N                                    60.00
+!   Mineralized N                                   82.01
+!   Leached NO3                                                        124.11
+!   N Denitrified                                                        1.53
+!   N Uptake From Soil                                                 104.50
+!   Ammonia volatilization                                               1.22
+!   N immobilized                                                        0.05
+
+!   Total N balance                                318.63              319.86
+!   Balance                                                             1.232
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+                                                                                
+*RUN   3        : DRYLAND  - 180 KG N/HA SP CSCER045 KSAS8101    3              
+ MODEL          : CSCER045 - Wheat                                              
+ EXPERIMENT     : KSAS8101 WH                                                   
+ DATA PATH      :                                                               
+ TREATMENT  3   : DRYLAND  - 180 KG N/HA SP CSCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                1981/279            1982/174
+!SOIL INORGANIC N BALANCE                       -----------kg N/ha-----------
+
+!   Soil NO3                                       116.16              169.61
+!   Soil NH4                                        60.46                9.69
+!   Soil Urea                                        0.00                0.00
+
+!   Added to / Removed from Soil:
+!   Fertilizer N                                   180.00
+!   Mineralized N                                   81.72
+!   Leached NO3                                                        129.98
+!   N Denitrified                                                        2.12
+!   N Uptake From Soil                                                 127.88
+!   Ammonia volatilization                                               2.60
+!   N immobilized                                                        0.05
+
+!   Total N balance                                438.34              441.93
+!   Balance                                                             3.589
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+                                                                                
+*RUN   4        : IRRIGATED - 0 KG N/HA     CSCER045 KSAS8101    4              
+ MODEL          : CSCER045 - Wheat                                              
+ EXPERIMENT     : KSAS8101 WH                                                   
+ DATA PATH      :                                                               
+ TREATMENT  4   : IRRIGATED - 0 KG N/HA     CSCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                1981/279            1982/174
+!SOIL INORGANIC N BALANCE                       -----------kg N/ha-----------
+
+!   Soil NO3                                       116.16               14.54
+!   Soil NH4                                        60.46                9.82
+!   Soil Urea                                        0.00                0.00
+
+!   Added to / Removed from Soil:
+!   Fertilizer N                                     0.00
+!   Mineralized N                                   84.47
+!   Leached NO3                                                        184.06
+!   N Denitrified                                                        1.28
+!   N Uptake From Soil                                                  52.28
+!   Ammonia volatilization                                               0.00
+!   N immobilized                                                        0.05
+
+!   Total N balance                                261.09              262.03
+!   Balance                                                             0.939
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+                                                                                
+*RUN   5        : IRRIGATED - 60 KG N/HA    CSCER045 KSAS8101    5              
+ MODEL          : CSCER045 - Wheat                                              
+ EXPERIMENT     : KSAS8101 WH                                                   
+ DATA PATH      :                                                               
+ TREATMENT  5   : IRRIGATED - 60 KG N/HA    CSCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                1981/279            1982/174
+!SOIL INORGANIC N BALANCE                       -----------kg N/ha-----------
+
+!   Soil NO3                                       116.16               16.64
+!   Soil NH4                                        60.46                9.79
+!   Soil Urea                                        0.00                0.00
+
+!   Added to / Removed from Soil:
+!   Fertilizer N                                    60.00
+!   Mineralized N                                   84.71
+!   Leached NO3                                                        223.88
+!   N Denitrified                                                        1.74
+!   N Uptake From Soil                                                  68.64
+!   Ammonia volatilization                                               1.33
+!   N immobilized                                                        0.05
+
+!   Total N balance                                321.33              322.06
+!   Balance                                                             0.736
+
+!===============================================================================
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+                                                                                
+*RUN   6        : IRRIGATED 180 KG N/HA SPL CSCER045 KSAS8101    6              
+ MODEL          : CSCER045 - Wheat                                              
+ EXPERIMENT     : KSAS8101 WH                                                   
+ DATA PATH      :                                                               
+ TREATMENT  6   : IRRIGATED 180 KG N/HA SPL CSCER045                            
+  
+
+
+!                                        INITIAL Year/Doy      FINAL Year/Doy
+!                                                1981/279            1982/174
+!SOIL INORGANIC N BALANCE                       -----------kg N/ha-----------
+
+!   Soil NO3                                       116.16               43.31
+!   Soil NH4                                        60.46                9.76
+!   Soil Urea                                        0.00                0.00
+
+!   Added to / Removed from Soil:
+!   Fertilizer N                                   180.00
+!   Mineralized N                                   84.75
+!   Leached NO3                                                        288.45
+!   N Denitrified                                                        2.74
+!   N Uptake From Soil                                                  96.17
+!   Ammonia volatilization                                               1.68
+!   N immobilized                                                        0.05
+
+!   Total N balance                                441.37              442.16
+!   Balance                                                             0.784

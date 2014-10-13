@@ -1,0 +1,6 @@
+ApsimVersion = 7.5
+format = csv
+Title = KSAS8101_2-DRYLAND  - 60 KG N_HA ACMO
+yield,biomass,AnthesisDate,MaturityDate,HarvestDate,LAIMax,InCropRain,SumEP,SumNO3Uptake,SumLeachNO3
+(kg/ha),(kg/ha),(yyyy-mm-dd),(yyyy-mm-dd),(yyyy-mm-dd),(m2/m2),(mm),(mm),(kg/ha),(kg/ha)
+786.470154,2881.135986,1982-06-04,1982-07-02,1982-07-03,1.297479,663.400002,55.355336,21.831867,196.363779

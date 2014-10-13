@@ -1,0 +1,451 @@
+*PLANT N BALANCE
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+                                                                                
+*RUN   1        : 97 DATE1 CHINESE          CRGRO045 GHNY9701    1              
+ MODEL          : CRGRO045 - Peanut                                             
+ EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ DATA PATH      :                                                               
+ TREATMENT  1   : 97 DATE1 CHINESE          CRGRO045                            
+                                                                                
+                                                                                
+ CROP           : Peanut           CULTIVAR : CHINESE TMV2 TAM ECOTYPE :PN0019  
+ STARTING DATE  : MAY 29 1997                                                   
+ PLANTING DATE  : MAY 29 1997        PLANTS/m2 : 10.0     ROW SPACING :  50.cm  
+ WEATHER        : GHNY   1997                                                   
+ SOIL           : GH00970001     TEXTURE : SAL   - 0 SAVANNA OCHROSOL           
+ SOIL INITIAL C : DEPTH: 90cm EXTR. H2O:102.4mm  NO3:  0.1kg/ha  NH4:  0.1kg/ha 
+ WATER BALANCE  : IRRIGATE ON REPORTED DATE(S)                                  
+ IRRIGATION     :        0 mm IN     0 APPLICATIONS                             
+ NITROGEN BAL.  : SOIL-N, N-UPTAKE & DYNAMIC N-FIXATION SIMULATION              
+ N-FERTILIZER   : NO N-FERTILIZER APPLIED                                       
+ RESIDUE/MANURE : INITIAL :  1000 kg/ha ;       0 kg/ha IN     0 APPLICATIONS   
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00    
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00    
+ SIMULATION OPT : WATER   :Y  NITROGEN:Y  N-FIX:Y  PHOSPH :N  PESTS  :Y         
+                  PHOTO   :L  ET      :R  INFIL:S  HYDROL :R  SOM    :G         
+                  CO2 364ppm  NSWIT   :1  EVAP :S  SOIL   :2                    
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :R  FERT :N  RESIDUE:N  HARVEST:M         
+                  WEATHER :M  TILLAGE :N                                        
+                                                                                
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS                                   
+                                                                                
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG 
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C  
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %  
+------------------------------------------------------------------------------- 
+  0-  5 0.095 0.257 0.359 0.162 0.108   1.00   1.39   6.70   0.01   0.01   0.41 
+  5- 15 0.060 0.227 0.359 0.167 0.108   1.00   1.39   6.70   0.01   0.01   0.41 
+ 15- 30 0.060 0.228 0.340 0.168 0.108   0.70   1.59   6.40   0.01   0.01   0.32 
+ 30- 45 0.105 0.229 0.342 0.124 0.227   0.35   1.59   6.10   0.01   0.01   0.28 
+ 45- 60 0.120 0.205 0.342 0.085 0.213   0.25   1.63   6.10   0.01   0.01   0.28 
+ 60- 90 0.130 0.200 0.347 0.070 0.196   0.05   1.45   6.00   0.01   0.01   0.17 
+                                                                                
+TOT- 90   9.2  19.5  31.2  10.2  15.7  <--cm   -  kg/ha-->    0.1    0.1  37100 
+SOIL ALBEDO    : 0.13      EVAPORATION LIMIT : 6.00         MIN. FACTOR  : 1.00 
+RUNOFF CURVE # :76.00      DRAINAGE RATE     : 0.40         FERT. FACTOR : 0.86 
+                                                                                
+ Peanut     CULTIVAR :GH0001-CHINESE TMV2 TAM   ECOTYPE :PN0019                 
+ CSDVAR :11.84  PPSEN  : 0.00  EMG-FLW:17.00  FLW-FSD:17.50  FSD-PHM : 53.00    
+ WTPSD  :0.360  SDPDVR : 1.65  SDFDUR :29.00  PODDUR :14.00  XFRUIT  :  0.76    
+ THRESH : 74.5  SDPRO  :0.270  SDLIP   : 0.510                                  
+
+
+   PLANT COMPONENT  HARVEST     LOST*   TOTAL  BALANCE
+   ---------------  -------- kg[N]/ha -------  -------
+   Leaf N             26.50     3.16    29.66
+   Stem N             16.25     0.27    16.51
+   Shell N             9.98     0.41    10.39
+   Seed N             98.79     0.00    98.79
+   Root N              2.55     2.28     4.83
+   Nodule N            3.58     0.00     3.58
+   Total N           157.64     6.12   163.76
+   N leakage                             0.06
+   TOTAL N                                      163.81
+
+
+   N INPUTS TO SYSTEM                kg[N]/ha
+   ------------------                --------
+   Seed N At Planting                    1.17
+   N2 Fixed                            152.22
+   N Uptake from Soil                   10.44
+   TOTAL N                                      163.82
+
+   * Lost due to senescence, freeze, pest or disease damage.
+
+*******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+                                                                                
+*RUN   2        : 97 DATE1 F-MIX            CRGRO045 GHNY9701    2              
+ MODEL          : CRGRO045 - Peanut                                             
+ EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ DATA PATH      :                                                               
+ TREATMENT  2   : 97 DATE1 F-MIX            CRGRO045                            
+                                                                                
+                                                                                
+ CROP           : Peanut           CULTIVAR : F_MIX3,short bun ECOTYPE :PN0020  
+ STARTING DATE  : MAY 29 1997                                                   
+ PLANTING DATE  : MAY 29 1997        PLANTS/m2 : 10.0     ROW SPACING :  50.cm  
+ WEATHER        : GHNY   1997                                                   
+ SOIL           : GH00970001     TEXTURE : SAL   - 0 SAVANNA OCHROSOL           
+ SOIL INITIAL C : DEPTH: 90cm EXTR. H2O:102.4mm  NO3:  0.1kg/ha  NH4:  0.1kg/ha 
+ WATER BALANCE  : IRRIGATE ON REPORTED DATE(S)                                  
+ IRRIGATION     :        0 mm IN     0 APPLICATIONS                             
+ NITROGEN BAL.  : SOIL-N, N-UPTAKE & DYNAMIC N-FIXATION SIMULATION              
+ N-FERTILIZER   : NO N-FERTILIZER APPLIED                                       
+ RESIDUE/MANURE : INITIAL :  1000 kg/ha ;       0 kg/ha IN     0 APPLICATIONS   
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00    
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00    
+ SIMULATION OPT : WATER   :Y  NITROGEN:Y  N-FIX:Y  PHOSPH :N  PESTS  :Y         
+                  PHOTO   :L  ET      :R  INFIL:S  HYDROL :R  SOM    :G         
+                  CO2 364ppm  NSWIT   :1  EVAP :S  SOIL   :2                    
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :R  FERT :N  RESIDUE:N  HARVEST:M         
+                  WEATHER :M  TILLAGE :N                                        
+                                                                                
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS                                   
+                                                                                
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG 
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C  
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %  
+------------------------------------------------------------------------------- 
+  0-  5 0.095 0.257 0.359 0.162 0.108   1.00   1.39   6.70   0.01   0.01   0.41 
+  5- 15 0.060 0.227 0.359 0.167 0.108   1.00   1.39   6.70   0.01   0.01   0.41 
+ 15- 30 0.060 0.228 0.340 0.168 0.108   0.70   1.59   6.40   0.01   0.01   0.32 
+ 30- 45 0.105 0.229 0.342 0.124 0.227   0.35   1.59   6.10   0.01   0.01   0.28 
+ 45- 60 0.120 0.205 0.342 0.085 0.213   0.25   1.63   6.10   0.01   0.01   0.28 
+ 60- 90 0.130 0.200 0.347 0.070 0.196   0.05   1.45   6.00   0.01   0.01   0.17 
+                                                                                
+TOT- 90   9.2  19.5  31.2  10.2  15.7  <--cm   -  kg/ha-->    0.1    0.1  37100 
+SOIL ALBEDO    : 0.13      EVAPORATION LIMIT : 6.00         MIN. FACTOR  : 1.00 
+RUNOFF CURVE # :76.00      DRAINAGE RATE     : 0.40         FERT. FACTOR : 0.86 
+                                                                                
+ Peanut     CULTIVAR :GH0002-F_MIX3,short bun   ECOTYPE :PN0020                 
+ CSDVAR :11.84  PPSEN  : 0.00  EMG-FLW:19.00  FLW-FSD:19.00  FSD-PHM : 69.00    
+ WTPSD  :0.450  SDPDVR : 1.65  SDFDUR :36.00  PODDUR :26.00  XFRUIT  :  0.77    
+ THRESH : 74.0  SDPRO  :0.270  SDLIP   : 0.510                                  
+
+
+   PLANT COMPONENT  HARVEST     LOST*   TOTAL  BALANCE
+   ---------------  -------- kg[N]/ha -------  -------
+   Leaf N             47.27     6.46    53.73
+   Stem N             37.43     0.54    37.97
+   Shell N            15.63     0.47    16.09
+   Seed N            127.27     0.00   127.27
+   Root N              3.62     3.81     7.43
+   Nodule N            4.42     0.09     4.51
+   Total N           235.63    11.37   247.00
+   N leakage                             0.08
+   TOTAL N                                      247.08
+
+
+   N INPUTS TO SYSTEM                kg[N]/ha
+   ------------------                --------
+   Seed N At Planting                    1.46
+   N2 Fixed                            231.98
+   N Uptake from Soil                   13.67
+   TOTAL N                                      247.10
+
+   * Lost due to senescence, freeze, pest or disease damage.
+
+*******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+                                                                                
+*RUN   3        : 97 DATE2 CHINESE          CRGRO045 GHNY9701    3              
+ MODEL          : CRGRO045 - Peanut                                             
+ EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ DATA PATH      :                                                               
+ TREATMENT  3   : 97 DATE2 CHINESE          CRGRO045                            
+                                                                                
+                                                                                
+ CROP           : Peanut           CULTIVAR : CHINESE TMV2 TAM ECOTYPE :PN0019  
+ STARTING DATE  : JUN 26 1997                                                   
+ PLANTING DATE  : JUN 26 1997        PLANTS/m2 : 10.0     ROW SPACING :  50.cm  
+ WEATHER        : GHNY   1997                                                   
+ SOIL           : GH00970002     TEXTURE : SAL   - 0 SAVANNA OCHROSOL           
+ SOIL INITIAL C : DEPTH: 90cm EXTR. H2O:108.8mm  NO3:  0.1kg/ha  NH4:  0.1kg/ha 
+ WATER BALANCE  : IRRIGATE ON REPORTED DATE(S)                                  
+ IRRIGATION     :        0 mm IN     0 APPLICATIONS                             
+ NITROGEN BAL.  : SOIL-N, N-UPTAKE & DYNAMIC N-FIXATION SIMULATION              
+ N-FERTILIZER   : NO N-FERTILIZER APPLIED                                       
+ RESIDUE/MANURE : INITIAL :  1000 kg/ha ;       0 kg/ha IN     0 APPLICATIONS   
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00    
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00    
+ SIMULATION OPT : WATER   :Y  NITROGEN:Y  N-FIX:Y  PHOSPH :N  PESTS  :Y         
+                  PHOTO   :L  ET      :R  INFIL:S  HYDROL :R  SOM    :G         
+                  CO2 364ppm  NSWIT   :1  EVAP :S  SOIL   :2                    
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :R  FERT :N  RESIDUE:N  HARVEST:M         
+                  WEATHER :M  TILLAGE :N                                        
+                                                                                
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS                                   
+                                                                                
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG 
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C  
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %  
+------------------------------------------------------------------------------- 
+  0-  5 0.095 0.257 0.359 0.162 0.225   1.00   1.39   6.70   0.01   0.01   0.41 
+  5- 15 0.060 0.227 0.359 0.167 0.225   1.00   1.39   6.70   0.01   0.01   0.41 
+ 15- 30 0.060 0.228 0.340 0.168 0.225   0.70   1.59   6.40   0.01   0.01   0.32 
+ 30- 45 0.105 0.229 0.342 0.124 0.232   0.35   1.59   6.10   0.01   0.01   0.28 
+ 45- 60 0.120 0.216 0.342 0.096 0.216   0.25   1.63   6.10   0.01   0.01   0.28 
+ 60- 90 0.130 0.216 0.347 0.086 0.226   0.05   1.45   6.00   0.01   0.01   0.17 
+                                                                                
+TOT- 90   9.2  20.1  31.2  10.9  20.2  <--cm   -  kg/ha-->    0.1    0.1  37100 
+SOIL ALBEDO    : 0.13      EVAPORATION LIMIT : 6.00         MIN. FACTOR  : 1.00 
+RUNOFF CURVE # :76.00      DRAINAGE RATE     : 0.65         FERT. FACTOR : 0.86 
+                                                                                
+ Peanut     CULTIVAR :GH0001-CHINESE TMV2 TAM   ECOTYPE :PN0019                 
+ CSDVAR :11.84  PPSEN  : 0.00  EMG-FLW:17.00  FLW-FSD:17.50  FSD-PHM : 53.00    
+ WTPSD  :0.360  SDPDVR : 1.65  SDFDUR :29.00  PODDUR :14.00  XFRUIT  :  0.76    
+ THRESH : 74.5  SDPRO  :0.270  SDLIP   : 0.510                                  
+
+
+   PLANT COMPONENT  HARVEST     LOST*   TOTAL  BALANCE
+   ---------------  -------- kg[N]/ha -------  -------
+   Leaf N             28.97     3.39    32.36
+   Stem N             19.35     0.28    19.64
+   Shell N            10.92     0.76    11.68
+   Seed N             98.94     0.00    98.94
+   Root N              2.72     2.28     5.00
+   Nodule N            3.62     0.00     3.63
+   Total N           164.53     6.72   171.25
+   N leakage                             0.07
+   TOTAL N                                      171.32
+
+
+   N INPUTS TO SYSTEM                kg[N]/ha
+   ------------------                --------
+   Seed N At Planting                    1.17
+   N2 Fixed                            161.63
+   N Uptake from Soil                    8.54
+   TOTAL N                                      171.33
+
+   * Lost due to senescence, freeze, pest or disease damage.
+
+*******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+                                                                                
+*RUN   4        : 97 DATE2 F-MIX            CRGRO045 GHNY9701    4              
+ MODEL          : CRGRO045 - Peanut                                             
+ EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ DATA PATH      :                                                               
+ TREATMENT  4   : 97 DATE2 F-MIX            CRGRO045                            
+                                                                                
+                                                                                
+ CROP           : Peanut           CULTIVAR : F_MIX3,short bun ECOTYPE :PN0020  
+ STARTING DATE  : JUN 26 1997                                                   
+ PLANTING DATE  : JUN 26 1997        PLANTS/m2 : 10.0     ROW SPACING :  50.cm  
+ WEATHER        : GHNY   1997                                                   
+ SOIL           : GH00970002     TEXTURE : SAL   - 0 SAVANNA OCHROSOL           
+ SOIL INITIAL C : DEPTH: 90cm EXTR. H2O:108.8mm  NO3:  0.1kg/ha  NH4:  0.1kg/ha 
+ WATER BALANCE  : IRRIGATE ON REPORTED DATE(S)                                  
+ IRRIGATION     :        0 mm IN     0 APPLICATIONS                             
+ NITROGEN BAL.  : SOIL-N, N-UPTAKE & DYNAMIC N-FIXATION SIMULATION              
+ N-FERTILIZER   : NO N-FERTILIZER APPLIED                                       
+ RESIDUE/MANURE : INITIAL :  1000 kg/ha ;       0 kg/ha IN     0 APPLICATIONS   
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00    
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00    
+ SIMULATION OPT : WATER   :Y  NITROGEN:Y  N-FIX:Y  PHOSPH :N  PESTS  :Y         
+                  PHOTO   :L  ET      :R  INFIL:S  HYDROL :R  SOM    :G         
+                  CO2 364ppm  NSWIT   :1  EVAP :S  SOIL   :2                    
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :R  FERT :N  RESIDUE:N  HARVEST:M         
+                  WEATHER :M  TILLAGE :N                                        
+                                                                                
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS                                   
+                                                                                
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG 
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C  
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %  
+------------------------------------------------------------------------------- 
+  0-  5 0.095 0.257 0.359 0.162 0.225   1.00   1.39   6.70   0.01   0.01   0.41 
+  5- 15 0.060 0.227 0.359 0.167 0.225   1.00   1.39   6.70   0.01   0.01   0.41 
+ 15- 30 0.060 0.228 0.340 0.168 0.225   0.70   1.59   6.40   0.01   0.01   0.32 
+ 30- 45 0.105 0.229 0.342 0.124 0.232   0.35   1.59   6.10   0.01   0.01   0.28 
+ 45- 60 0.120 0.216 0.342 0.096 0.216   0.25   1.63   6.10   0.01   0.01   0.28 
+ 60- 90 0.130 0.216 0.347 0.086 0.226   0.05   1.45   6.00   0.01   0.01   0.17 
+                                                                                
+TOT- 90   9.2  20.1  31.2  10.9  20.2  <--cm   -  kg/ha-->    0.1    0.1  37100 
+SOIL ALBEDO    : 0.13      EVAPORATION LIMIT : 6.00         MIN. FACTOR  : 1.00 
+RUNOFF CURVE # :76.00      DRAINAGE RATE     : 0.65         FERT. FACTOR : 0.86 
+                                                                                
+ Peanut     CULTIVAR :GH0002-F_MIX3,short bun   ECOTYPE :PN0020                 
+ CSDVAR :11.84  PPSEN  : 0.00  EMG-FLW:19.00  FLW-FSD:19.00  FSD-PHM : 69.00    
+ WTPSD  :0.450  SDPDVR : 1.65  SDFDUR :36.00  PODDUR :26.00  XFRUIT  :  0.77    
+ THRESH : 74.0  SDPRO  :0.270  SDLIP   : 0.510                                  
+
+
+   PLANT COMPONENT  HARVEST     LOST*   TOTAL  BALANCE
+   ---------------  -------- kg[N]/ha -------  -------
+   Leaf N             46.53     6.53    53.06
+   Stem N             35.94     0.55    36.49
+   Shell N            14.87     0.62    15.49
+   Seed N            134.18     0.00   134.18
+   Root N              3.52     3.86     7.39
+   Nodule N            4.51     0.00     4.52
+   Total N           239.56    11.56   251.12
+   N leakage                             0.07
+   TOTAL N                                      251.19
+
+
+   N INPUTS TO SYSTEM                kg[N]/ha
+   ------------------                --------
+   Seed N At Planting                    1.46
+   N2 Fixed                            236.35
+   N Uptake from Soil                   13.41
+   TOTAL N                                      251.22
+
+   * Lost due to senescence, freeze, pest or disease damage.
+
+*******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+                                                                                
+*RUN   5        : 97 DATE3 CHINESE          CRGRO045 GHNY9701    5              
+ MODEL          : CRGRO045 - Peanut                                             
+ EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ DATA PATH      :                                                               
+ TREATMENT  5   : 97 DATE3 CHINESE          CRGRO045                            
+                                                                                
+                                                                                
+ CROP           : Peanut           CULTIVAR : CHINESE TMV2 TAM ECOTYPE :PN0019  
+ STARTING DATE  : JUL 24 1997                                                   
+ PLANTING DATE  : JUL 24 1997        PLANTS/m2 : 10.0     ROW SPACING :  50.cm  
+ WEATHER        : GHNY   1997                                                   
+ SOIL           : GH00970002     TEXTURE : SAL   - 0 SAVANNA OCHROSOL           
+ SOIL INITIAL C : DEPTH: 90cm EXTR. H2O:108.8mm  NO3:  0.1kg/ha  NH4:  0.1kg/ha 
+ WATER BALANCE  : IRRIGATE ON REPORTED DATE(S)                                  
+ IRRIGATION     :        0 mm IN     0 APPLICATIONS                             
+ NITROGEN BAL.  : SOIL-N, N-UPTAKE & DYNAMIC N-FIXATION SIMULATION              
+ N-FERTILIZER   : NO N-FERTILIZER APPLIED                                       
+ RESIDUE/MANURE : INITIAL :  1000 kg/ha ;       0 kg/ha IN     0 APPLICATIONS   
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00    
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00    
+ SIMULATION OPT : WATER   :Y  NITROGEN:Y  N-FIX:Y  PHOSPH :N  PESTS  :Y         
+                  PHOTO   :L  ET      :R  INFIL:S  HYDROL :R  SOM    :G         
+                  CO2 364ppm  NSWIT   :1  EVAP :S  SOIL   :2                    
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :R  FERT :N  RESIDUE:N  HARVEST:M         
+                  WEATHER :M  TILLAGE :N                                        
+                                                                                
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS                                   
+                                                                                
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG 
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C  
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %  
+------------------------------------------------------------------------------- 
+  0-  5 0.095 0.257 0.359 0.162 0.160   1.00   1.39   6.70   0.01   0.01   0.41 
+  5- 15 0.060 0.227 0.359 0.167 0.160   1.00   1.39   6.70   0.01   0.01   0.41 
+ 15- 30 0.060 0.228 0.340 0.168 0.160   0.70   1.59   6.40   0.01   0.01   0.32 
+ 30- 45 0.105 0.229 0.342 0.124 0.213   0.35   1.59   6.10   0.01   0.01   0.28 
+ 45- 60 0.120 0.216 0.342 0.096 0.202   0.25   1.63   6.10   0.01   0.01   0.28 
+ 60- 90 0.130 0.216 0.347 0.086 0.217   0.05   1.45   6.00   0.01   0.01   0.17 
+                                                                                
+TOT- 90   9.2  20.1  31.2  10.9  17.5  <--cm   -  kg/ha-->    0.1    0.1  37100 
+SOIL ALBEDO    : 0.13      EVAPORATION LIMIT : 6.00         MIN. FACTOR  : 1.00 
+RUNOFF CURVE # :76.00      DRAINAGE RATE     : 0.65         FERT. FACTOR : 0.86 
+                                                                                
+ Peanut     CULTIVAR :GH0001-CHINESE TMV2 TAM   ECOTYPE :PN0019                 
+ CSDVAR :11.84  PPSEN  : 0.00  EMG-FLW:17.00  FLW-FSD:17.50  FSD-PHM : 53.00    
+ WTPSD  :0.360  SDPDVR : 1.65  SDFDUR :29.00  PODDUR :14.00  XFRUIT  :  0.76    
+ THRESH : 74.5  SDPRO  :0.270  SDLIP   : 0.510                                  
+
+
+   PLANT COMPONENT  HARVEST     LOST*   TOTAL  BALANCE
+   ---------------  -------- kg[N]/ha -------  -------
+   Leaf N             27.60     3.31    30.90
+   Stem N             18.47     0.28    18.75
+   Shell N             9.84     0.71    10.55
+   Seed N            100.70     0.00   100.70
+   Root N              2.47     2.17     4.63
+   Nodule N            3.58     0.00     3.58
+   Total N           162.66     6.47   169.13
+   N leakage                             0.07
+   TOTAL N                                      169.20
+
+
+   N INPUTS TO SYSTEM                kg[N]/ha
+   ------------------                --------
+   Seed N At Planting                    1.17
+   N2 Fixed                            159.69
+   N Uptake from Soil                    8.35
+   TOTAL N                                      169.21
+
+   * Lost due to senescence, freeze, pest or disease damage.
+
+*******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+                                                                                
+*RUN   6        : 97 DATE3 F-MIX            CRGRO045 GHNY9701    6              
+ MODEL          : CRGRO045 - Peanut                                             
+ EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ DATA PATH      :                                                               
+ TREATMENT  6   : 97 DATE3 F-MIX            CRGRO045                            
+                                                                                
+                                                                                
+ CROP           : Peanut           CULTIVAR : F_MIX3,short bun ECOTYPE :PN0020  
+ STARTING DATE  : JUL 24 1997                                                   
+ PLANTING DATE  : JUL 24 1997        PLANTS/m2 : 10.0     ROW SPACING :  50.cm  
+ WEATHER        : GHNY   1997                                                   
+ SOIL           : GH00970002     TEXTURE : SAL   - 0 SAVANNA OCHROSOL           
+ SOIL INITIAL C : DEPTH: 90cm EXTR. H2O:108.8mm  NO3:  0.1kg/ha  NH4:  0.1kg/ha 
+ WATER BALANCE  : IRRIGATE ON REPORTED DATE(S)                                  
+ IRRIGATION     :        0 mm IN     0 APPLICATIONS                             
+ NITROGEN BAL.  : SOIL-N, N-UPTAKE & DYNAMIC N-FIXATION SIMULATION              
+ N-FERTILIZER   : NO N-FERTILIZER APPLIED                                       
+ RESIDUE/MANURE : INITIAL :  1000 kg/ha ;       0 kg/ha IN     0 APPLICATIONS   
+ ENVIRONM. OPT. : DAYL=    0.00  SRAD=    0.00  TMAX=    0.00  TMIN=    0.00    
+                  RAIN=    0.00  CO2 =    0.00  DEW =    0.00  WIND=    0.00    
+ SIMULATION OPT : WATER   :Y  NITROGEN:Y  N-FIX:Y  PHOSPH :N  PESTS  :Y         
+                  PHOTO   :L  ET      :R  INFIL:S  HYDROL :R  SOM    :G         
+                  CO2 364ppm  NSWIT   :1  EVAP :S  SOIL   :2                    
+ MANAGEMENT OPT : PLANTING:R  IRRIG   :R  FERT :N  RESIDUE:N  HARVEST:M         
+                  WEATHER :M  TILLAGE :N                                        
+                                                                                
+*SUMMARY OF SOIL AND GENETIC INPUT PARAMETERS                                   
+                                                                                
+   SOIL LOWER UPPER   SAT  EXTR  INIT   ROOT   BULK     pH    NO3    NH4    ORG 
+  DEPTH LIMIT LIMIT    SW    SW    SW   DIST   DENS                          C  
+   cm   cm3/cm3    cm3/cm3    cm3/cm3         g/cm3         ugN/g  ugN/g     %  
+------------------------------------------------------------------------------- 
+  0-  5 0.095 0.257 0.359 0.162 0.160   1.00   1.39   6.70   0.01   0.01   0.41 
+  5- 15 0.060 0.227 0.359 0.167 0.160   1.00   1.39   6.70   0.01   0.01   0.41 
+ 15- 30 0.060 0.228 0.340 0.168 0.160   0.70   1.59   6.40   0.01   0.01   0.32 
+ 30- 45 0.105 0.229 0.342 0.124 0.213   0.35   1.59   6.10   0.01   0.01   0.28 
+ 45- 60 0.120 0.216 0.342 0.096 0.202   0.25   1.63   6.10   0.01   0.01   0.28 
+ 60- 90 0.130 0.216 0.347 0.086 0.217   0.05   1.45   6.00   0.01   0.01   0.17 
+                                                                                
+TOT- 90   9.2  20.1  31.2  10.9  17.5  <--cm   -  kg/ha-->    0.1    0.1  37100 
+SOIL ALBEDO    : 0.13      EVAPORATION LIMIT : 6.00         MIN. FACTOR  : 1.00 
+RUNOFF CURVE # :76.00      DRAINAGE RATE     : 0.65         FERT. FACTOR : 0.86 
+                                                                                
+ Peanut     CULTIVAR :GH0002-F_MIX3,short bun   ECOTYPE :PN0020                 
+ CSDVAR :11.84  PPSEN  : 0.00  EMG-FLW:19.00  FLW-FSD:19.00  FSD-PHM : 69.00    
+ WTPSD  :0.450  SDPDVR : 1.65  SDFDUR :36.00  PODDUR :26.00  XFRUIT  :  0.77    
+ THRESH : 74.0  SDPRO  :0.270  SDLIP   : 0.510                                  
+
+
+   PLANT COMPONENT  HARVEST     LOST*   TOTAL  BALANCE
+   ---------------  -------- kg[N]/ha -------  -------
+   Leaf N             45.67    14.59    60.25
+   Stem N             39.74     1.23    40.98
+   Shell N            17.83     0.85    18.68
+   Seed N             85.46     0.00    85.46
+   Root N              3.98     4.27     8.24
+   Nodule N            2.46     2.08     4.55
+   Total N           195.13    23.03   218.16
+   N leakage                             0.08
+   TOTAL N                                      218.24
+
+
+   N INPUTS TO SYSTEM                kg[N]/ha
+   ------------------                --------
+   Seed N At Planting                    1.46
+   N2 Fixed                            206.97
+   N Uptake from Soil                    9.83
+   TOTAL N                                      218.27
+
+   * Lost due to senescence, freeze, pest or disease damage.
+
+*******************************************************************************

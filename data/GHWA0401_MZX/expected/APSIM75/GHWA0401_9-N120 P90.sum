@@ -1,0 +1,409 @@
+     ###     ######     #####   #   #     #   
+    #   #    #     #   #        #   ##   ##   
+   #     #   #     #   #        #   ##   ##   
+   #######   ######     #####   #   # # # #   
+   #     #   #              #   #   #  #  #   
+   #     #   #         #####    #   #  #  #   
+                                              
+                                              
+ The Agricultural Production Systems Simulator
+             Copyright(c) APSRU               
+
+Version                = 7.5
+Title                  = GHWA0401_9-N120 P90
+   Component                        "clock" = %apsim%\Model\Clock.dll
+   Component                          "met" = %apsim%\Model\Input.dll
+Paddock:
+   Component                   "outputfile" = %apsim%\Model\Report.dll
+   Component                         "ACMO" = %apsim%\Model\Report.dll
+   Component                        "accum" = %apsim%\Model\Accum.dll
+   Component                   "Operations" = %apsim%\Model\Operations.dll
+   Component                   "fertiliser" = %apsim%\Model\Fertiliser.dll
+   Component                   "Irrigation" = %apsim%\Model\Irrigation.dll
+   Component              "Harvesting rule" = %apsim%\Model\Manager.dll
+   Component                   "Soil Water" = %apsim%\Model\SoilWat.dll
+   Component         "SurfaceOrganicMatter" = %apsim%\Model\SurfaceOM.dll
+   Component                "Soil Nitrogen" = %apsim%\Model\SoilN.dll
+   Component                        "maize" = %apsim%\Model\Maize.dll
+   Component                "ACMOVariables" = %apsim%\Model\Manager2.dll
+
+------- clock Initialisation --------------------------------------------------
+     Sequencer phases:
+        prepare
+        init_step
+        do_management
+        run_one_step
+        do_pasture_water
+        process
+        do_pasture_growth
+        do_stock
+        post
+        end_step
+     Simulation start date = 10/10/2003
+     Simulation end date   = 20/10/2004
+     Time step =           = 1440 (mins)
+
+------- met Initialisation ----------------------------------------------------
+     Sparse data is not allowed
+     INPUT File name: GHWA.met
+
+------- outputfile Initialisation ---------------------------------------------
+     Output frequency:
+        post
+     Output variables:
+        dd/mm/yyyy as Date
+        biomass
+        yield
+        esw
+        lai
+
+     Output file = GHWA0401_9-N120 P90.out
+     Format = normal
+
+------- ACMO Initialisation ---------------------------------------------------
+     Output variables:
+        yield
+        biomass
+        AnthesisDate format yyyy-mm-dd
+        MaturityDate format yyyy-mm-dd
+        Today as HarvestDate format yyyy-mm-dd
+        LAIMax
+        InCropRain
+        SumEP
+        SumNO3Uptake
+        SumLeachNO3
+
+     Output file = GHWA0401_9-N120 P90 ACMO.out
+     Format = csv
+
+------- accum Initialisation --------------------------------------------------
+     Initialising
+
+------- Operations Initialisation ---------------------------------------------
+     Operations Schedule
+     ===================
+      15/06/2004  Prepare      fertiliser apply amount = 0.0 (kg/ha), type = no3_n (), depth = 10.0 (mm)
+      17/06/2004  Prepare      maize sow plants = 5.0, sowing_depth = 50.0 (mm), cultivar = SC401, row_spacing = 750.0 (mm)
+      05/07/2004  Prepare      fertiliser apply amount = 60.0 (kg/ha), type = no3_n (), depth = 5.0 (mm)
+      15/07/2004  Prepare      fertiliser apply amount = 60.0 (kg/ha), type = no3_n (), depth = 5.0 (mm)
+
+------- Irrigation Initialisation ---------------------------------------------
+      Initialising
+     
+        - Reading Parameters
+                      Irrigation parameters
+          -----------------------------------------------
+           Automatic Irrigation Application (Disabled)
+           critical fraction of available soil water =  0.50
+           depth for calculating available soil water =     600.00
+           Irrigation Allocation Budget (Disabled)
+          -----------------------------------------------
+
+------- Harvesting rule Initialisation ----------------------------------------
+     Manager rules:
+     
+     SECTION:- end_of_day
+     if maize.stagename = 'harvest_ripe'  or maize.plant_status = 'dead' then
+        acmo do_output
+        maize harvest
+        maize end_crop
+     endif
+     END of rules
+     
+
+------- Soil Water Initialisation ---------------------------------------------
+     
+         - Reading constants
+     
+        - Reading Soil Property Parameters
+     
+        - Reading Soil Profile Parameters
+     Initial soilwater distributed using "sw" parameter.
+     
+     
+     
+                      Soil Profile Properties
+        ---------------------------------------------------------------------
+              Depth  Air_Dry  LL15   Dul    Sat     Sw     BD   Runoff  SWCON   Ks
+                mm     mm/mm  mm/mm  mm/mm  mm/mm  mm/mm  g/cc    wf           mm/day
+        ---------------------------------------------------------------------
+            0.-   50.  0.034  0.085  0.155  0.383  0.150  1.540  0.376  0.600621.600
+           50.-  200.  0.034  0.085  0.155  0.383  0.150  1.540  0.480  0.600621.600
+          200.-  400.  0.049  0.122  0.190  0.362  0.190  1.570  0.135  0.600621.600
+          400.-  600.  0.050  0.124  0.170  0.204  0.170  1.520  0.009  0.600 28.800
+          600.-  900.  0.024  0.059  0.079  0.088  0.070  1.380  0.000  0.600 14.400
+        ---------------------------------------------------------------------
+     
+     
+     
+                  Soil Water Holding Capacity
+          ---------------------------------------------------------
+              Depth    Unavailable Available  Max Avail.  Drainable
+                          (LL15)   (SW-LL15)  (DUL-LL15)  (SAT-DUL)
+                            mm        mm          mm         mm
+          ---------------------------------------------------------
+            0.-   50.       4.25       3.25       3.50      11.40
+           50.-  200.      12.75       9.75      10.50      34.20
+          200.-  400.      24.40      13.60      13.60      34.40
+          400.-  600.      24.80       9.20       9.20       6.80
+          600.-  900.      17.70       3.30       6.00       2.70
+          ---------------------------------------------------------
+               Totals      83.90      39.10      42.80      89.50
+          ---------------------------------------------------------
+     
+     
+     
+     
+     
+     
+                  Initial Soil Parameters
+          ---------------------------------------------------------
+                 Insoil        Salb     Dif_Con   Dif_Slope
+          ---------------------------------------------------------
+                   0.00        0.13       40.00       16.00
+          ---------------------------------------------------------
+     
+     
+     
+                  Runoff is predicted using scs curve number:
+                Cn2  Cn_Red  Cn_Cov   H_Eff_Depth
+                                           mm
+          ---------------------------------------------------------
+              73.00   20.00    0.80  450.00
+          ---------------------------------------------------------
+     
+     
+     
+           Using Ritchie evaporation model
+            Cuml evap (U):            6.00 (mm^0.5)
+            CONA:                     3.50 ()
+            Eo from priestly-taylor
+
+------- SurfaceOrganicMatter Initialisation -----------------------------------
+     
+         - Reading constants
+     
+         - Reading parameters
+     
+     
+     
+                         Initial Surface Organic Matter Data
+         ----------------------------------------------------------------------
+            Name   Type        Dry matter   C        N        P    Cover  Standing_fr
+                                (kg/ha)  (kg/ha)  (kg/ha)  (kg/ha) (0-1)     (0-1)
+         ----------------------------------------------------------------------
+          OrganicMatmaize         5213.0  2085.2    57.3     0.0   0.876     0.0
+         ----------------------------------------------------------------------
+     
+                      Effective Cover from Surface Materials =   0.9
+     
+
+------- Soil Nitrogen Initialisation ------------------------------------------
+     
+        - Reading Parameters
+     
+        - Reading Constants
+     
+     
+     
+           TAV and AMP supplied externally
+     
+     
+     
+                      Soil Profile Properties
+          ------------------------------------------------
+           Layer    pH    OC     NO3     NH4    Urea
+                         (%) (kg/ha) (kg/ha) (kg/ha)
+          ------------------------------------------------
+             1     6.30  0.49    2.31    0.46    0.00
+             2     6.30  0.45    6.93    1.39    0.00
+             3     6.30  0.36    9.42    1.88    0.00
+             4     5.90  0.35    9.12    1.82    0.00
+             5     6.00  0.34   12.42    2.48    0.00
+          ------------------------------------------------
+           Totals               40.20    8.04    0.00
+          ------------------------------------------------
+     
+     
+     
+     
+     
+     
+                  Initial Soil Organic Matter Status
+          ---------------------------------------------------------
+           Layer      Hum-C   Hum-N  Biom-C  Biom-N   FOM-C   FOM-N
+                    (kg/ha) (kg/ha) (kg/ha) (kg/ha) (kg/ha) (kg/ha)
+          ---------------------------------------------------------
+             1       3752.6   258.8    20.4     2.5    93.6     2.1
+             2      10333.7   712.7    61.3     7.7    56.8     1.3
+             3      11214.1   773.4    89.9    11.2    29.1     0.6
+             4      10567.7   728.8    72.3     9.0    15.0     0.3
+             5      13977.2   963.9    98.8    12.4     5.5     0.1
+          ---------------------------------------------------------
+           Totals   49845.3  3437.6   342.7    42.8   200.0     4.4
+          ---------------------------------------------------------
+
+------- maize Initialisation --------------------------------------------------
+      Initialising, V1.0 2000.01.21
+     
+         - Reading constants
+     
+         - Reading constants
+
+------- ACMOVariables Initialisation ------------------------------------------
+------- Start of simulation  --------------------------------------------------
+15 June 2004(Day of year=167), Operations: 
+      Sending apply message to fertiliser
+17 June 2004(Day of year=169), Operations: 
+      Sending sow message to maize
+17 June 2004(Day of year=169), maize: 
+     Sowing initiate
+     
+     
+     
+                      Crop Sowing Data
+         -------------------------------------------------------
+         Sowing   Depth  Plants Spacing Skiprow Cultivar    FTN
+         Day no    mm      m^2    m      code     name       no
+         -------------------------------------------------------
+            169   50.0    5.0    0.8    0.0   sc401         0.00
+         -------------------------------------------------------
+     
+        - Reading root profile parameters
+     Uptake of NO3 and water calculated by maize
+     
+     
+     
+     
+                         Root Profile
+         ------------------------------------------------
+           Layer      Kl      Lower Exploration
+           Depth              limit   Factor
+           (mm)       ()     (mm/mm)    ()
+         ------------------------------------------------
+           50.000    0.060    0.085    1.000
+          150.000    0.060    0.085    1.000
+          200.000    0.060    0.122    0.549
+          200.000    0.060    0.124    0.368
+          300.000    0.060    0.059    0.000
+          ------------------------------------------------
+     
+            Crop factor for bounding water use is set to  100.0  times eo.
+     
+     
+     
+     
+        - Reading Cultivar Parameters
+         ------------------------------------------------
+         Cultivar                 = sc401
+         est_days_endjuv_to_init  =      20
+         tt_emerg_to_endjuv       =  230.00
+         tt_flower_to_maturity    =  730.00
+         head_grain_no_max        =  500.00
+         grain_gth_rate           =    9.00
+         tt_flag_to_flower        =   10.00
+         tt_flower_to_start_grain =  170.00
+         tt_maturity_to_ripe      =    1.00
+         x_stem_wt      =     0.0   80.0
+         y_height      =     0.0 2000.0
+         ------------------------------------------------
+     
+     
+     
+26 June 2004(Day of year=178), maize: 
+      stage    2.0 germination
+28 June 2004(Day of year=180), maize: 
+      stage    3.0 emergence
+                          biomass =          0.9999999E-01   lai =    0.1900000E-02
+                          stover N conc =    4.400000       extractable sw =    0.000000
+5 July 2004(Day of year=187), Operations: 
+      Sending apply message to fertiliser
+5 July 2004(Day of year=187), fertiliser: 
+     
+   - Reading Fertiliser Type Parameters
+        60.00 of N as nitrate (no3_n)
+                                         added at depth    5.00 (layer   1)
+11 July 2004(Day of year=193), maize: 
+      stage    4.0 end_of_juvenile
+                          biomass =           1.450467       lai =    0.3294329E-01
+                          stover N conc =    3.438349       extractable sw =    30.92306
+13 July 2004(Day of year=195), maize: 
+      stage    5.0 floral_initiation
+                          biomass =           2.458030       lai =    0.4889726E-01
+                          stover N conc =    3.120437       extractable sw =    40.84636
+15 July 2004(Day of year=197), Operations: 
+      Sending apply message to fertiliser
+15 July 2004(Day of year=197), fertiliser: 
+     
+   - Reading Fertiliser Type Parameters
+        60.00 of N as nitrate (no3_n)
+                                         added at depth    5.00 (layer   1)
+16 August 2004(Day of year=229), maize: 
+      stage    6.0 flag_leaf
+                          biomass =           283.9468       lai =     2.253268
+                          stover N conc =    2.047756       extractable sw =    56.46867
+17 August 2004(Day of year=230), maize: 
+      stage    7.0 flowering
+                          biomass =           297.9148       lai =     2.245619
+                          stover N conc =    1.998517       extractable sw =    47.92276
+27 August 2004(Day of year=240), maize: 
+      stage    8.0 start_grain_fill
+                          biomass =           444.4590       lai =     2.128984
+                          stover N conc =    1.465636       extractable sw =    43.88699
+26 September 2004(Day of year=270), maize: 
+      stage    9.0 end_grain_fill
+                          biomass =           748.8477       lai =     1.481772
+                          stover N conc =   0.9618728       extractable sw =    39.44102
+27 September 2004(Day of year=271), maize: 
+      stage   10.0 maturity
+                          biomass =           756.4861       lai =     1.453542
+                          stover N conc =   0.9554555       extractable sw =    37.52691
+28 September 2004(Day of year=272), maize: 
+      stage   11.0 harvest_ripe
+                          biomass =           756.4861       lai =    0.1899242E-02
+                          stover N conc =   0.9817852       extractable sw =    33.53239
+28 September 2004(Day of year=272), Harvesting rule: 
+     Manager sending message :- maize harvest
+     
+     
+     
+     flowering (DAS) =   61                                maturity (DAS)  =     102
+      flowering day  =  230                                 stover (kg/ha) =    4154.6
+      maturity day        =  271                            grain yield (kg/ha) =    3410.2
+      grain % water content   =   15.5                      grain yield wet (kg/ha) =    4035.8
+      grain wt (g) =     0.264                              grains/m^2   =  1290.480
+      grains/head = 258.1                                   maximum lai = 2.268
+      total above ground biomass (kg/ha) =    7564.9
+      live above ground biomass (kg/ha) =    7564.9
+      green above ground biomass (kg/ha) =    6910.4
+      senesced above ground biomass (kg/ha) =     654.4
+      dead above ground biomass (kg/ha) =       0.0
+      number of leaves =  17.9
+      grain N percent =      1.37                           total N content (kg/ha) =     71.12
+      grain N uptake (kg/ha) =     46.71                    senesced N content (kg/ha) =      3.27
+      green N content (kg/ha) =     21.13                   dead N content (kg/ha) =      0.00
+     
+     
+      Average Stress Indices:                          Water Photo  Water Expan  N Photo      N grain conc
+         emergence           to end_of_juvenile         0.074        0.074        0.000        0.106
+         end_of_juvenile     to floral_initiation       0.000        0.000        0.000        0.117
+         floral_initiation   to flag_leaf               0.021        0.062        0.000        0.062
+         flag_leaf           to flowering               0.000        0.021        0.000        0.086
+         flowering           to start_grain_fill        0.062        0.154        0.005        0.156
+         start_grain_fill    to end_grain_fill          0.021        0.052        0.264        0.411
+     
+     Crop harvested.
+         Organic matter removed from system:-      From Tops               From Roots
+                          DM (kg/ha) =               3410.23                    0.00
+                          N  (kg/ha) =                 46.71                    0.00
+     
+     Manager sending message :- maize end_crop
+         Crop ended. Yield (dw) =     0.0
+         Organic matter from crop:-      Tops to surface residue     Roots to soil FOM
+                          DM (kg/ha) =               4154.63                  971.92
+                          N  (kg/ha) =                 24.40                    9.20
+                          P  (kg/ha) =                  0.00                    0.00
+     
+20 October 2004(Day of year=294), clock: 
+     Simulation is terminating due to end criteria being met.
+

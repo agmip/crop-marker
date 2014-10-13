@@ -1,0 +1,280 @@
+*WATER BALANCE OUTPUT FILE
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:36
+                                                                                
+*RUN   1        : N0 P0                     MZCER045 GHWA0401    1              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  1   : N0 P0                     MZCER045                            
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2003/283    123.00
+!     Soil H20 (final) on Year/day 2004/294    115.13
+!     Effective Irrigation                       0.00
+!     Precipitation                           1154.90
+!     Water added with new mulch                 0.00
+!     Drainage                                 412.56
+!     Tiledrain flow                             0.00
+!     Runoff                                    27.59
+!     Mulch evaporation                          4.36
+!     Soil Evaporation                         648.34
+!     Transpiration                             70.13
+!     Potential ET                            2153.25
+
+!     Initial mulch water content                0.26
+!     Final mulch water content                  0.04
+
+!     Final Balance                             0.010
+
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   2        : N0 P60                    MZCER045 GHWA0401    2              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  2   : N0 P60                    MZCER045                            
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2003/283    123.00
+!     Soil H20 (final) on Year/day 2004/294    109.40
+!     Effective Irrigation                       0.00
+!     Precipitation                           1154.90
+!     Water added with new mulch                 0.00
+!     Drainage                                 412.81
+!     Tiledrain flow                             0.00
+!     Runoff                                    22.03
+!     Mulch evaporation                          9.25
+!     Soil Evaporation                         605.06
+!     Transpiration                            119.74
+!     Potential ET                            2085.43
+
+!     Initial mulch water content                0.45
+!     Final mulch water content                  0.05
+
+!     Final Balance                             0.014
+
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   3        : N0 P90                    MZCER045 GHWA0401    3              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  3   : N0 P90                    MZCER045                            
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2003/283    123.00
+!     Soil H20 (final) on Year/day 2004/294    109.40
+!     Effective Irrigation                       0.00
+!     Precipitation                           1154.90
+!     Water added with new mulch                 0.00
+!     Drainage                                 412.81
+!     Tiledrain flow                             0.00
+!     Runoff                                    22.03
+!     Mulch evaporation                          9.25
+!     Soil Evaporation                         605.06
+!     Transpiration                            119.74
+!     Potential ET                            2085.43
+
+!     Initial mulch water content                0.45
+!     Final mulch water content                  0.05
+
+!     Final Balance                             0.014
+
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   4        : N60 P0                    MZCER045 GHWA0401    4              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  4   : N60 P0                    MZCER045                            
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2003/283    123.00
+!     Soil H20 (final) on Year/day 2004/294    111.15
+!     Effective Irrigation                       0.00
+!     Precipitation                           1154.90
+!     Water added with new mulch                 0.00
+!     Drainage                                 424.18
+!     Tiledrain flow                             0.00
+!     Runoff                                    24.13
+!     Mulch evaporation                          7.36
+!     Soil Evaporation                         630.43
+!     Transpiration                             80.97
+!     Potential ET                            2111.52
+
+!     Initial mulch water content                0.38
+!     Final mulch water content                  0.05
+
+!     Final Balance                             0.010
+
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   5        : N60 P60                   MZCER045 GHWA0401    5              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  5   : N60 P60                   MZCER045                            
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2003/283    123.00
+!     Soil H20 (final) on Year/day 2004/294     92.52
+!     Effective Irrigation                       0.00
+!     Precipitation                           1154.90
+!     Water added with new mulch                 0.00
+!     Drainage                                 447.68
+!     Tiledrain flow                             0.00
+!     Runoff                                    13.47
+!     Mulch evaporation                         27.62
+!     Soil Evaporation                         431.93
+!     Transpiration                            265.66
+!     Potential ET                            1918.19
+
+!     Initial mulch water content                1.05
+!     Final mulch water content                  0.06
+
+!     Final Balance                             0.010
+
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   6        : N60 P90                   MZCER045 GHWA0401    6              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  6   : N60 P90                   MZCER045                            
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2003/283    123.00
+!     Soil H20 (final) on Year/day 2004/294     92.39
+!     Effective Irrigation                       0.00
+!     Precipitation                           1154.90
+!     Water added with new mulch                 0.00
+!     Drainage                                 447.56
+!     Tiledrain flow                             0.00
+!     Runoff                                    13.47
+!     Mulch evaporation                         27.62
+!     Soil Evaporation                         430.54
+!     Transpiration                            267.30
+!     Potential ET                            1917.97
+
+!     Initial mulch water content                1.05
+!     Final mulch water content                  0.06
+
+!     Final Balance                             0.009
+
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   7        : N120 P0                   MZCER045 GHWA0401    7              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  7   : N120 P0                   MZCER045                            
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2003/283    123.00
+!     Soil H20 (final) on Year/day 2004/294    111.06
+!     Effective Irrigation                       0.00
+!     Precipitation                           1154.90
+!     Water added with new mulch                 0.00
+!     Drainage                                 421.20
+!     Tiledrain flow                             0.00
+!     Runoff                                    24.99
+!     Mulch evaporation                          6.52
+!     Soil Evaporation                         632.97
+!     Transpiration                             81.44
+!     Potential ET                            2122.18
+
+!     Initial mulch water content                0.35
+!     Final mulch water content                  0.05
+
+!     Final Balance                             0.008
+
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   8        : N120 P60                  MZCER045 GHWA0401    8              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  8   : N120 P60                  MZCER045                            
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2003/283    123.00
+!     Soil H20 (final) on Year/day 2004/294     91.47
+!     Effective Irrigation                       0.00
+!     Precipitation                           1154.90
+!     Water added with new mulch                 0.00
+!     Drainage                                 436.26
+!     Tiledrain flow                             0.00
+!     Runoff                                    15.52
+!     Mulch evaporation                         22.16
+!     Soil Evaporation                         406.67
+!     Transpiration                            306.63
+!     Potential ET                            1944.11
+
+!     Initial mulch water content                0.88
+!     Final mulch water content                  0.06
+
+!     Final Balance                             0.013
+
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   9        : N120 P90                  MZCER045 GHWA0401    9              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  9   : N120 P90                  MZCER045                            
+  
+
+!     WATER BALANCE PARAMETERS
+!     ========================                 --mm--
+
+!     Soil H20 (start) on Year/day 2003/283    123.00
+!     Soil H20 (final) on Year/day 2004/294     91.15
+!     Effective Irrigation                       0.00
+!     Precipitation                           1154.90
+!     Water added with new mulch                 0.00
+!     Drainage                                 440.00
+!     Tiledrain flow                             0.00
+!     Runoff                                    15.13
+!     Mulch evaporation                         23.25
+!     Soil Evaporation                         398.20
+!     Transpiration                            311.02
+!     Potential ET                            1936.20
+
+!     Initial mulch water content                0.91
+!     Final mulch water content                  0.06
+
+!     Final Balance                             0.005
+

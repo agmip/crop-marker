@@ -1,0 +1,6 @@
+ApsimVersion = 7.5
+format = csv
+Title = GHWA0401_1-N0 P0 ACMO
+yield,biomass,AnthesisDate,MaturityDate,HarvestDate,LAIMax,InCropRain,SumEP,SumNO3Uptake,SumLeachNO3
+(kg/ha),(kg/ha),(yyyy-mm-dd),(yyyy-mm-dd),(yyyy-mm-dd),(m2/m2),(mm),(mm),(kg/ha),(kg/ha)
+0.000000,1101.358032,2004-08-26,2004-09-27,2004-09-28,0.572055,698.499997,16.336868,7.643698,17.734230

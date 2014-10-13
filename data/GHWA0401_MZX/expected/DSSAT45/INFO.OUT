@@ -1,0 +1,2377 @@
+*INFO DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:36
+                                                                                
+*RUN   1        : N0 P0                     MZCER045 GHWA0401    1              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  1   : N0 P0                     MZCER045                            
+  
+
+ CSM     YEAR DOY = 2003 283
+ RNMODE = B                                                                    
+ PATHEX =                                                                      
+ FILEX  = GHWA0401.MZX                                                         
+ FILEB  = dssbatch.v45                                                         
+ FILEIO = DSSAT45.INP                                                          
+ MODEL  = MZCER045                                                             
+ TRTNUM =     1                                                                
+
+ SOILDYN  YEAR DOY = 2003 283
+ The soil file has missing or invalid data.                                    
+ Default values have been used for these variables:                            
+   ADCOEF                                                                      
+ These defaults may or may not be important to your results.                   
+
+ SOILDYN  YEAR DOY = 2003 283
+ Soil layer classifications (used for soil P model)                            
+ Layer Depth Soil_Layer_Type   Backup_Data                                     
+   1      5  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   2     15  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   3     20  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   4     30  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:  14.5% 
+   5     40  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:  14.5% 
+   6     50  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.9 cmol/kg; CLAY:  40.9% 
+   7     60  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.9 cmol/kg; CLAY:  40.9% 
+   8     90  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.8 cmol/kg; CLAY:  52.9% 
+
+ SOILDYN  YEAR DOY = 2003 283
+ Soil ID: GHWA040001                                                           
+ 90 UNKNOWN                                                                    
+ UNKNOWN                                                                       
+   SALB SWCON    CN  DMOD  SLPF SMPX                                           
+   0.13  0.60  73.0  1.00  1.00 SA002                                          
+ Soil layer distribution method: 2                                             
+      DS DLAYR    LL   DUL   SAT  Root    BD    OC  CLAY  SILT  SAND           
+ LYR  cm    cm  frac  frac  frac  Grow g/cm3     %     %     %     %    pH     
+   1   5     5 0.085 0.155 0.383 1.000  1.54  0.48   7.5   8.3  84.2   6.3     
+   2  15    10 0.085 0.155 0.383 1.000  1.54  0.44   7.5   8.3  84.2   6.3     
+   3  20     5 0.085 0.155 0.383 1.000  1.54  0.44   7.5   8.3  84.2   6.3     
+   4  30    10 0.122 0.190 0.362 0.549  1.57  0.35  14.5   8.2  77.3   6.3     
+   5  40    10 0.122 0.190 0.362 0.549  1.57  0.35  14.5   8.2  77.3   6.3     
+   6  50    10 0.124 0.170 0.204 0.368  1.52  0.35  40.9  10.7  48.4   5.9     
+   7  60    10 0.124 0.170 0.204 0.368  1.52  0.35  40.9  10.7  48.4   5.9     
+   8  90    30 0.059 0.079 0.089 0.000  1.38  0.34  52.9  16.9  30.2   6.0     
+
+ SOILDYN  YEAR DOY = 2003 283
+ Additional soil properties                                                    
+                Convert                                                        
+    Cation Adsrp  ppm /  KSAT  SLCF  TOTN  OrgN  SASC  EXTP  EXCA   EXK        
+   L  Exch  Coef  kg/ha  cm/h     %     % kg/ha     % mg/kg cmo/k cmo/k        
+   1   1.0   0.0   1.30   2.6   4.3  0.06   459  0.47   2.2  1.50  0.10        
+   2   1.0   0.0   0.65   2.6   4.3  0.06   918  0.43   2.3  1.50  0.10        
+   3   1.0   0.0   1.30   2.6   4.3  0.06   459  0.43   2.3  1.50  0.10        
+   4   1.0   0.0   0.64   2.6   6.4  0.06   936  0.34   2.3  1.20  0.10        
+   5   1.0   0.0   0.64   2.6   6.4  0.06   936  0.34   2.3  1.20  0.10        
+   6   0.9   0.0   0.66   0.1  49.2  0.04   603  0.34   2.3  1.60  0.10        
+   7   0.9   0.0   0.66   0.1  49.2  0.04   603  0.34   2.3  1.60  0.10        
+   8   0.8   0.0   0.24   0.1  80.7  0.04  1641  0.33   2.3  1.90  0.10        
+
+ IPWTH   YEAR DOY = 2003 283
+ GHWA0302.WTH                                                                  
+ Found daily weather data headers for:                                         
+   SRAD           Col   7 -  11                                                
+   TMAX           Col  13 -  17                                                
+   TMIN           Col  19 -  23                                                
+   RAIN           Col  25 -  29                                                
+   DEWP           Col  31 -  35                                                
+   WIND           Col  37 -  41                                                
+   PAR            Col  43 -  47                                                
+
+ CO2VAL  YEAR DOY = 2003 283
+  643 CO2 data points read from file.                                          
+ C:\DSSAT45\StandardData\CO2045.WDA                                            
+
+ SOMINI  YEAR DOY = 2003 283
+ Initial SOM fractions (fraction of total soil organic matter):                
+                      SAND   TOC  FOMC  SOMC  SOM1  SOM2  SOM3                 
+  Lyr Dep Texture       %     %     %     %   frac  frac  frac Method          
+   1   5 LoamySand    84.2 0.480 0.001 0.479 0.001 0.019 0.980 Measured data   
+   2  15 LoamySand    84.2 0.440 0.001 0.439 0.001 0.019 0.979 Measured data   
+   3  20 LoamySand    84.2 0.440 0.001 0.439 0.001 0.020 0.979 Measured data   
+   4  30 SandyLoam    77.3 0.350 0.001 0.349 0.001 0.026 0.973 Measured data   
+   5  40 SandyLoam    77.3 0.350 0.000 0.350 0.001 0.026 0.973 Measured data   
+   6  50 SandyClay    48.4 0.350 0.000 0.350 0.001 0.026 0.972 Measured data   
+   7  60 SandyClay    48.4 0.350 0.000 0.350 0.001 0.027 0.972 Measured data   
+   8  90 Clay         30.2 0.340 0.000 0.340 0.001 0.028 0.971 Measured data   
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  1                                                                 
+ Organic P estimated:  17.67 ppm                                               
+ Organic C:   0.48 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  17.67                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  2                                                                 
+ Organic P estimated:  16.31 ppm                                               
+ Organic C:   0.44 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  16.31                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  3                                                                 
+ Organic P estimated:  16.31 ppm                                               
+ Organic C:   0.44 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  16.31                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  4                                                                 
+ Organic P estimated:  13.18 ppm                                               
+ Organic C:   0.35 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  13.18                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  5                                                                 
+ Organic P estimated:  13.18 ppm                                               
+ Organic C:   0.35 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  13.18                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  6                                                                 
+ Organic P estimated:  14.97 ppm                                               
+ Organic C:   0.35 ppm;  pH:   5.90                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.97                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  7                                                                 
+ Organic P estimated:  14.97 ppm                                               
+ Organic C:   0.35 ppm;  pH:   5.90                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.97                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  8                                                                 
+ Organic P estimated:  14.13 ppm                                               
+ Organic C:   0.34 ppm;  pH:   6.00                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.13                                                             
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  1                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.20 ppm                                                      
+ Labile P   =    6.45 ppm                                                      
+ Active P   =   46.36 ppm                                                      
+ Stable P   =  185.45 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  2                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =   46.66 ppm                                                      
+ Stable P   =  186.63 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  3                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =   46.66 ppm                                                      
+ Stable P   =  186.63 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  4                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =   58.74 ppm                                                      
+ Stable P   =  234.98 ppm                                                      
+ P Avail Index   =    0.33                                                     
+ Rate PLab->PAct = 0.04259/d                                                   
+ Rate PAct->PLab = 0.00471/d                                                   
+ Rate PAct->PSta = 0.00048/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  5                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =   58.74 ppm                                                      
+ Stable P   =  234.98 ppm                                                      
+ P Avail Index   =    0.33                                                     
+ Rate PLab->PAct = 0.04259/d                                                   
+ Rate PAct->PLab = 0.00471/d                                                   
+ Rate PAct->PSta = 0.00048/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  6                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =   99.14 ppm                                                      
+ Stable P   =  396.55 ppm                                                      
+ P Avail Index   =    0.20                                                     
+ Rate PLab->PAct = 0.06067/d                                                   
+ Rate PAct->PLab = 0.00397/d                                                   
+ Rate PAct->PSta = 0.00061/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  7                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =   99.14 ppm                                                      
+ Stable P   =  396.55 ppm                                                      
+ P Avail Index   =    0.20                                                     
+ Rate PLab->PAct = 0.06067/d                                                   
+ Rate PAct->PLab = 0.00397/d                                                   
+ Rate PAct->PSta = 0.00061/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  8                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =  119.53 ppm                                                      
+ Stable P   =  478.12 ppm                                                      
+ P Avail Index   =    0.16                                                     
+ Rate PLab->PAct = 0.06799/d                                                   
+ Rate PAct->PLab = 0.00369/d                                                   
+ Rate PAct->PSta = 0.00065/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ RTSOLV  YEAR DOY = 2003 283
+ Radius around root from which P can be extracted =  0.0028 mm                 
+
+ ENDRUN  YEAR DOY = 2004 294
+ Normal end of run        1                                                    
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   2        : N0 P60                    MZCER045 GHWA0401    2              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  2   : N0 P60                    MZCER045                            
+  
+
+ CSM     YEAR DOY = 2003 283
+ RNMODE = B                                                                    
+ PATHEX =                                                                      
+ FILEX  = GHWA0401.MZX                                                         
+ FILEB  = dssbatch.v45                                                         
+ FILEIO = DSSAT45.INP                                                          
+ MODEL  = MZCER045                                                             
+ TRTNUM =     2                                                                
+
+ SOILDYN  YEAR DOY = 2003 283
+ The soil file has missing or invalid data.                                    
+ Default values have been used for these variables:                            
+   ADCOEF                                                                      
+ These defaults may or may not be important to your results.                   
+
+ SOILDYN  YEAR DOY = 2003 283
+ Soil layer classifications (used for soil P model)                            
+ Layer Depth Soil_Layer_Type   Backup_Data                                     
+   1      5  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   2     15  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   3     20  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   4     30  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:  14.5% 
+   5     40  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:  14.5% 
+   6     50  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.9 cmol/kg; CLAY:  40.9% 
+   7     60  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.9 cmol/kg; CLAY:  40.9% 
+   8     90  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.8 cmol/kg; CLAY:  52.9% 
+
+ SOILDYN  YEAR DOY = 2003 283
+ Soil ID: GHWA040002                                                           
+ 90 UNKNOWN                                                                    
+ UNKNOWN                                                                       
+   SALB SWCON    CN  DMOD  SLPF SMPX                                           
+   0.13  0.60  73.0  1.00  1.00 SA002                                          
+ Soil layer distribution method: 2                                             
+      DS DLAYR    LL   DUL   SAT  Root    BD    OC  CLAY  SILT  SAND           
+ LYR  cm    cm  frac  frac  frac  Grow g/cm3     %     %     %     %    pH     
+   1   5     5 0.085 0.155 0.383 1.000  1.54  0.49   7.5   8.3  84.2   6.3     
+   2  15    10 0.085 0.155 0.383 1.000  1.54  0.44   7.5   8.3  84.2   6.3     
+   3  20     5 0.085 0.155 0.383 1.000  1.54  0.44   7.5   8.3  84.2   6.3     
+   4  30    10 0.122 0.190 0.362 0.549  1.57  0.35  14.5   8.2  77.3   6.3     
+   5  40    10 0.122 0.190 0.362 0.549  1.57  0.35  14.5   8.2  77.3   6.3     
+   6  50    10 0.124 0.170 0.204 0.368  1.52  0.35  40.9  10.7  48.4   5.9     
+   7  60    10 0.124 0.170 0.204 0.368  1.52  0.35  40.9  10.7  48.4   5.9     
+   8  90    30 0.059 0.079 0.089 0.000  1.38  0.34  52.9  16.9  30.2   6.0     
+
+ SOILDYN  YEAR DOY = 2003 283
+ Additional soil properties                                                    
+                Convert                                                        
+    Cation Adsrp  ppm /  KSAT  SLCF  TOTN  OrgN  SASC  EXTP  EXCA   EXK        
+   L  Exch  Coef  kg/ha  cm/h     %     % kg/ha     % mg/kg cmo/k cmo/k        
+   1   1.0   0.0   1.30   2.6   4.3  0.06   459  0.47   6.7  1.50  0.10        
+   2   1.0   0.0   0.65   2.6   4.3  0.06   918  0.43   3.8  1.50  0.10        
+   3   1.0   0.0   1.30   2.6   4.3  0.06   459  0.43   3.8  1.50  0.10        
+   4   1.0   0.0   0.64   2.6   6.4  0.06   936  0.34   2.4  1.20  0.10        
+   5   1.0   0.0   0.64   2.6   6.4  0.06   936  0.34   2.4  1.20  0.10        
+   6   0.9   0.0   0.66   0.1  49.2  0.04   603  0.34   2.3  1.60  0.10        
+   7   0.9   0.0   0.66   0.1  49.2  0.04   603  0.34   2.3  1.60  0.10        
+   8   0.8   0.0   0.24   0.1  80.7  0.04  1641  0.33   2.3  1.90  0.10        
+
+ SOMINI  YEAR DOY = 2003 283
+ Initial SOM fractions (fraction of total soil organic matter):                
+                      SAND   TOC  FOMC  SOMC  SOM1  SOM2  SOM3                 
+  Lyr Dep Texture       %     %     %     %   frac  frac  frac Method          
+   1   5 LoamySand    84.2 0.490 0.005 0.485 0.002 0.030 0.968 Measured data   
+   2  15 LoamySand    84.2 0.440 0.004 0.436 0.001 0.019 0.980 Measured data   
+   3  20 LoamySand    84.2 0.440 0.003 0.437 0.001 0.019 0.980 Measured data   
+   4  30 SandyLoam    77.3 0.350 0.002 0.348 0.001 0.021 0.977 Measured data   
+   5  40 SandyLoam    77.3 0.350 0.002 0.348 0.001 0.023 0.976 Measured data   
+   6  50 SandyClay    48.4 0.350 0.001 0.349 0.001 0.024 0.974 Measured data   
+   7  60 SandyClay    48.4 0.350 0.001 0.349 0.001 0.025 0.974 Measured data   
+   8  90 Clay         30.2 0.340 0.000 0.340 0.001 0.027 0.972 Measured data   
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  1                                                                 
+ Organic P estimated:  18.01 ppm                                               
+ Organic C:   0.49 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  18.01                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  2                                                                 
+ Organic P estimated:  16.31 ppm                                               
+ Organic C:   0.44 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  16.31                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  3                                                                 
+ Organic P estimated:  16.31 ppm                                               
+ Organic C:   0.44 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  16.31                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  4                                                                 
+ Organic P estimated:  13.18 ppm                                               
+ Organic C:   0.35 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  13.18                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  5                                                                 
+ Organic P estimated:  13.18 ppm                                               
+ Organic C:   0.35 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  13.18                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  6                                                                 
+ Organic P estimated:  14.97 ppm                                               
+ Organic C:   0.35 ppm;  pH:   5.90                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.97                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  7                                                                 
+ Organic P estimated:  14.97 ppm                                               
+ Organic C:   0.35 ppm;  pH:   5.90                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.97                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  8                                                                 
+ Organic P estimated:  14.13 ppm                                               
+ Organic C:   0.34 ppm;  pH:   6.00                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.13                                                             
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  1                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    6.70 ppm                                                      
+ Labile P   =    8.68 ppm                                                      
+ Active P   =   62.36 ppm                                                      
+ Stable P   =  249.44 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  2                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    3.80 ppm                                                      
+ Labile P   =    7.11 ppm                                                      
+ Active P   =   51.08 ppm                                                      
+ Stable P   =  204.31 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  3                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    3.80 ppm                                                      
+ Labile P   =    7.11 ppm                                                      
+ Active P   =   51.08 ppm                                                      
+ Stable P   =  204.31 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  4                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.40 ppm                                                      
+ Labile P   =    6.53 ppm                                                      
+ Active P   =   59.12 ppm                                                      
+ Stable P   =  236.46 ppm                                                      
+ P Avail Index   =    0.33                                                     
+ Rate PLab->PAct = 0.04259/d                                                   
+ Rate PAct->PLab = 0.00471/d                                                   
+ Rate PAct->PSta = 0.00048/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  5                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.40 ppm                                                      
+ Labile P   =    6.53 ppm                                                      
+ Active P   =   59.12 ppm                                                      
+ Stable P   =  236.46 ppm                                                      
+ P Avail Index   =    0.33                                                     
+ Rate PLab->PAct = 0.04259/d                                                   
+ Rate PAct->PLab = 0.00471/d                                                   
+ Rate PAct->PSta = 0.00048/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  6                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =   99.14 ppm                                                      
+ Stable P   =  396.55 ppm                                                      
+ P Avail Index   =    0.20                                                     
+ Rate PLab->PAct = 0.06067/d                                                   
+ Rate PAct->PLab = 0.00397/d                                                   
+ Rate PAct->PSta = 0.00061/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  7                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =   99.14 ppm                                                      
+ Stable P   =  396.55 ppm                                                      
+ P Avail Index   =    0.20                                                     
+ Rate PLab->PAct = 0.06067/d                                                   
+ Rate PAct->PLab = 0.00397/d                                                   
+ Rate PAct->PSta = 0.00061/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  8                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =  119.53 ppm                                                      
+ Stable P   =  478.12 ppm                                                      
+ P Avail Index   =    0.16                                                     
+ Rate PLab->PAct = 0.06799/d                                                   
+ Rate PAct->PLab = 0.00369/d                                                   
+ Rate PAct->PSta = 0.00065/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ RTSOLV  YEAR DOY = 2003 283
+ Radius around root from which P can be extracted =  0.0028 mm                 
+
+ SOILPI  YEAR DOY = 2004 167
+ Layer    Fertilizer P (kg/ha)                                                 
+     1     6.9 Added to root zone labile P                                     
+     1     6.1 Added to root zone active P                                     
+     2     6.9 Added to root zone labile P                                     
+     2     6.1 Added to root zone active P                                     
+ Total    26.0                                                                 
+
+ ENDRUN  YEAR DOY = 2004 294
+ Normal end of run        2                                                    
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   3        : N0 P90                    MZCER045 GHWA0401    3              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  3   : N0 P90                    MZCER045                            
+  
+
+ CSM     YEAR DOY = 2003 283
+ RNMODE = B                                                                    
+ PATHEX =                                                                      
+ FILEX  = GHWA0401.MZX                                                         
+ FILEB  = dssbatch.v45                                                         
+ FILEIO = DSSAT45.INP                                                          
+ MODEL  = MZCER045                                                             
+ TRTNUM =     3                                                                
+
+ SOILDYN  YEAR DOY = 2003 283
+ The soil file has missing or invalid data.                                    
+ Default values have been used for these variables:                            
+   ADCOEF                                                                      
+ These defaults may or may not be important to your results.                   
+
+ SOILDYN  YEAR DOY = 2003 283
+ Soil layer classifications (used for soil P model)                            
+ Layer Depth Soil_Layer_Type   Backup_Data                                     
+   1      5  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   2     15  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   3     20  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   4     30  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:  14.5% 
+   5     40  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:  14.5% 
+   6     50  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.9 cmol/kg; CLAY:  40.9% 
+   7     60  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.9 cmol/kg; CLAY:  40.9% 
+   8     90  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.8 cmol/kg; CLAY:  52.9% 
+
+ SOILDYN  YEAR DOY = 2003 283
+ Soil ID: GHWA040003                                                           
+ 90 UNKNOWN                                                                    
+ UNKNOWN                                                                       
+   SALB SWCON    CN  DMOD  SLPF SMPX                                           
+   0.13  0.60  73.0  1.00  1.00 SA002                                          
+ Soil layer distribution method: 2                                             
+      DS DLAYR    LL   DUL   SAT  Root    BD    OC  CLAY  SILT  SAND           
+ LYR  cm    cm  frac  frac  frac  Grow g/cm3     %     %     %     %    pH     
+   1   5     5 0.085 0.155 0.383 1.000  1.54  0.49   7.5   8.3  84.2   6.3     
+   2  15    10 0.085 0.155 0.383 1.000  1.54  0.44   7.5   8.3  84.2   6.3     
+   3  20     5 0.085 0.155 0.383 1.000  1.54  0.44   7.5   8.3  84.2   6.3     
+   4  30    10 0.122 0.190 0.362 0.549  1.57  0.35  14.5   8.2  77.3   6.3     
+   5  40    10 0.122 0.190 0.362 0.549  1.57  0.35  14.5   8.2  77.3   6.3     
+   6  50    10 0.124 0.170 0.204 0.368  1.52  0.35  40.9  10.7  48.4   5.9     
+   7  60    10 0.124 0.170 0.204 0.368  1.52  0.35  40.9  10.7  48.4   5.9     
+   8  90    30 0.059 0.079 0.089 0.000  1.38  0.34  52.9  16.9  30.2   6.0     
+
+ SOILDYN  YEAR DOY = 2003 283
+ Additional soil properties                                                    
+                Convert                                                        
+    Cation Adsrp  ppm /  KSAT  SLCF  TOTN  OrgN  SASC  EXTP  EXCA   EXK        
+   L  Exch  Coef  kg/ha  cm/h     %     % kg/ha     % mg/kg cmo/k cmo/k        
+   1   1.0   0.0   1.30   2.6   4.3  0.06   459  0.47   7.4  1.50  0.10        
+   2   1.0   0.0   0.65   2.6   4.3  0.06   918  0.43   4.6  1.50  0.10        
+   3   1.0   0.0   1.30   2.6   4.3  0.06   459  0.43   4.6  1.50  0.10        
+   4   1.0   0.0   0.64   2.6   6.4  0.06   936  0.34   2.4  1.20  0.10        
+   5   1.0   0.0   0.64   2.6   6.4  0.06   936  0.34   2.4  1.20  0.10        
+   6   0.9   0.0   0.66   0.1  49.2  0.04   603  0.34   2.3  1.60  0.10        
+   7   0.9   0.0   0.66   0.1  49.2  0.04   603  0.34   2.3  1.60  0.10        
+   8   0.8   0.0   0.24   0.1  80.7  0.04  1641  0.33   2.3  1.90  0.10        
+
+ SOMINI  YEAR DOY = 2003 283
+ Initial SOM fractions (fraction of total soil organic matter):                
+                      SAND   TOC  FOMC  SOMC  SOM1  SOM2  SOM3                 
+  Lyr Dep Texture       %     %     %     %   frac  frac  frac Method          
+   1   5 LoamySand    84.2 0.490 0.005 0.485 0.002 0.030 0.968 Measured data   
+   2  15 LoamySand    84.2 0.440 0.004 0.436 0.001 0.019 0.980 Measured data   
+   3  20 LoamySand    84.2 0.440 0.003 0.437 0.001 0.019 0.980 Measured data   
+   4  30 SandyLoam    77.3 0.350 0.002 0.348 0.001 0.021 0.977 Measured data   
+   5  40 SandyLoam    77.3 0.350 0.002 0.348 0.001 0.023 0.976 Measured data   
+   6  50 SandyClay    48.4 0.350 0.001 0.349 0.001 0.024 0.974 Measured data   
+   7  60 SandyClay    48.4 0.350 0.001 0.349 0.001 0.025 0.974 Measured data   
+   8  90 Clay         30.2 0.340 0.000 0.340 0.001 0.027 0.972 Measured data   
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  1                                                                 
+ Organic P estimated:  18.01 ppm                                               
+ Organic C:   0.49 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  18.01                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  2                                                                 
+ Organic P estimated:  16.31 ppm                                               
+ Organic C:   0.44 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  16.31                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  3                                                                 
+ Organic P estimated:  16.31 ppm                                               
+ Organic C:   0.44 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  16.31                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  4                                                                 
+ Organic P estimated:  13.18 ppm                                               
+ Organic C:   0.35 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  13.18                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  5                                                                 
+ Organic P estimated:  13.18 ppm                                               
+ Organic C:   0.35 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  13.18                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  6                                                                 
+ Organic P estimated:  14.97 ppm                                               
+ Organic C:   0.35 ppm;  pH:   5.90                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.97                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  7                                                                 
+ Organic P estimated:  14.97 ppm                                               
+ Organic C:   0.35 ppm;  pH:   5.90                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.97                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  8                                                                 
+ Organic P estimated:  14.13 ppm                                               
+ Organic C:   0.34 ppm;  pH:   6.00                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.13                                                             
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  1                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    7.40 ppm                                                      
+ Labile P   =    9.62 ppm                                                      
+ Active P   =   69.10 ppm                                                      
+ Stable P   =  276.40 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  2                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    4.60 ppm                                                      
+ Labile P   =    7.44 ppm                                                      
+ Active P   =   53.43 ppm                                                      
+ Stable P   =  213.74 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  3                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    4.60 ppm                                                      
+ Labile P   =    7.44 ppm                                                      
+ Active P   =   53.43 ppm                                                      
+ Stable P   =  213.74 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  4                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.40 ppm                                                      
+ Labile P   =    6.53 ppm                                                      
+ Active P   =   59.12 ppm                                                      
+ Stable P   =  236.46 ppm                                                      
+ P Avail Index   =    0.33                                                     
+ Rate PLab->PAct = 0.04259/d                                                   
+ Rate PAct->PLab = 0.00471/d                                                   
+ Rate PAct->PSta = 0.00048/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  5                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.40 ppm                                                      
+ Labile P   =    6.53 ppm                                                      
+ Active P   =   59.12 ppm                                                      
+ Stable P   =  236.46 ppm                                                      
+ P Avail Index   =    0.33                                                     
+ Rate PLab->PAct = 0.04259/d                                                   
+ Rate PAct->PLab = 0.00471/d                                                   
+ Rate PAct->PSta = 0.00048/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  6                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =   99.14 ppm                                                      
+ Stable P   =  396.55 ppm                                                      
+ P Avail Index   =    0.20                                                     
+ Rate PLab->PAct = 0.06067/d                                                   
+ Rate PAct->PLab = 0.00397/d                                                   
+ Rate PAct->PSta = 0.00061/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  7                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =   99.14 ppm                                                      
+ Stable P   =  396.55 ppm                                                      
+ P Avail Index   =    0.20                                                     
+ Rate PLab->PAct = 0.06067/d                                                   
+ Rate PAct->PLab = 0.00397/d                                                   
+ Rate PAct->PSta = 0.00061/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  8                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =  119.53 ppm                                                      
+ Stable P   =  478.12 ppm                                                      
+ P Avail Index   =    0.16                                                     
+ Rate PLab->PAct = 0.06799/d                                                   
+ Rate PAct->PLab = 0.00369/d                                                   
+ Rate PAct->PSta = 0.00065/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ RTSOLV  YEAR DOY = 2003 283
+ Radius around root from which P can be extracted =  0.0028 mm                 
+
+ SOILPI  YEAR DOY = 2004 167
+ Layer    Fertilizer P (kg/ha)                                                 
+     1    10.4 Added to root zone labile P                                     
+     1     9.1 Added to root zone active P                                     
+     2    10.4 Added to root zone labile P                                     
+     2     9.1 Added to root zone active P                                     
+ Total    39.0                                                                 
+
+ ENDRUN  YEAR DOY = 2004 294
+ Normal end of run        3                                                    
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   4        : N60 P0                    MZCER045 GHWA0401    4              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  4   : N60 P0                    MZCER045                            
+  
+
+ CSM     YEAR DOY = 2003 283
+ RNMODE = B                                                                    
+ PATHEX =                                                                      
+ FILEX  = GHWA0401.MZX                                                         
+ FILEB  = dssbatch.v45                                                         
+ FILEIO = DSSAT45.INP                                                          
+ MODEL  = MZCER045                                                             
+ TRTNUM =     4                                                                
+
+ SOILDYN  YEAR DOY = 2003 283
+ The soil file has missing or invalid data.                                    
+ Default values have been used for these variables:                            
+   ADCOEF                                                                      
+ These defaults may or may not be important to your results.                   
+
+ SOILDYN  YEAR DOY = 2003 283
+ Soil layer classifications (used for soil P model)                            
+ Layer Depth Soil_Layer_Type   Backup_Data                                     
+   1      5  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   2     15  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   3     20  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   4     30  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:  14.5% 
+   5     40  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:  14.5% 
+   6     50  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.9 cmol/kg; CLAY:  40.9% 
+   7     60  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.9 cmol/kg; CLAY:  40.9% 
+   8     90  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.8 cmol/kg; CLAY:  52.9% 
+
+ SOILDYN  YEAR DOY = 2003 283
+ Soil ID: GHWA040004                                                           
+ 90 UNKNOWN                                                                    
+ UNKNOWN                                                                       
+   SALB SWCON    CN  DMOD  SLPF SMPX                                           
+   0.13  0.60  73.0  1.00  1.00 SA002                                          
+ Soil layer distribution method: 2                                             
+      DS DLAYR    LL   DUL   SAT  Root    BD    OC  CLAY  SILT  SAND           
+ LYR  cm    cm  frac  frac  frac  Grow g/cm3     %     %     %     %    pH     
+   1   5     5 0.085 0.155 0.383 1.000  1.54  0.48   7.5   8.3  84.2   6.3     
+   2  15    10 0.085 0.155 0.383 1.000  1.54  0.44   7.5   8.3  84.2   6.3     
+   3  20     5 0.085 0.155 0.383 1.000  1.54  0.44   7.5   8.3  84.2   6.3     
+   4  30    10 0.122 0.190 0.362 0.549  1.57  0.35  14.5   8.2  77.3   6.3     
+   5  40    10 0.122 0.190 0.362 0.549  1.57  0.35  14.5   8.2  77.3   6.3     
+   6  50    10 0.124 0.170 0.204 0.368  1.52  0.35  40.9  10.7  48.4   5.9     
+   7  60    10 0.124 0.170 0.204 0.368  1.52  0.35  40.9  10.7  48.4   5.9     
+   8  90    30 0.059 0.079 0.089 0.000  1.38  0.34  52.9  16.9  30.2   6.0     
+
+ SOILDYN  YEAR DOY = 2003 283
+ Additional soil properties                                                    
+                Convert                                                        
+    Cation Adsrp  ppm /  KSAT  SLCF  TOTN  OrgN  SASC  EXTP  EXCA   EXK        
+   L  Exch  Coef  kg/ha  cm/h     %     % kg/ha     % mg/kg cmo/k cmo/k        
+   1   1.0   0.0   1.30   2.6   4.3  0.06   459  0.47   2.3  1.50  0.10        
+   2   1.0   0.0   0.65   2.6   4.3  0.06   918  0.43   1.9  1.50  0.10        
+   3   1.0   0.0   1.30   2.6   4.3  0.06   459  0.43   1.9  1.50  0.10        
+   4   1.0   0.0   0.64   2.6   6.4  0.06   936  0.34   2.4  1.20  0.10        
+   5   1.0   0.0   0.64   2.6   6.4  0.06   936  0.34   2.4  1.20  0.10        
+   6   0.9   0.0   0.66   0.1  49.2  0.04   603  0.34   2.3  1.60  0.10        
+   7   0.9   0.0   0.66   0.1  49.2  0.04   603  0.34   2.3  1.60  0.10        
+   8   0.8   0.0   0.24   0.1  80.7  0.04  1641  0.33   2.3  1.90  0.10        
+
+ SOMINI  YEAR DOY = 2003 283
+ Initial SOM fractions (fraction of total soil organic matter):                
+                      SAND   TOC  FOMC  SOMC  SOM1  SOM2  SOM3                 
+  Lyr Dep Texture       %     %     %     %   frac  frac  frac Method          
+   1   5 LoamySand    84.2 0.480 0.002 0.478 0.001 0.019 0.980 Measured data   
+   2  15 LoamySand    84.2 0.440 0.001 0.439 0.001 0.019 0.980 Measured data   
+   3  20 LoamySand    84.2 0.440 0.001 0.439 0.001 0.019 0.980 Measured data   
+   4  30 SandyLoam    77.3 0.350 0.001 0.349 0.001 0.025 0.974 Measured data   
+   5  40 SandyLoam    77.3 0.350 0.001 0.349 0.001 0.026 0.973 Measured data   
+   6  50 SandyClay    48.4 0.350 0.000 0.350 0.001 0.026 0.973 Measured data   
+   7  60 SandyClay    48.4 0.350 0.000 0.350 0.001 0.026 0.972 Measured data   
+   8  90 Clay         30.2 0.340 0.000 0.340 0.001 0.028 0.971 Measured data   
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  1                                                                 
+ Organic P estimated:  17.67 ppm                                               
+ Organic C:   0.48 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  17.67                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  2                                                                 
+ Organic P estimated:  16.31 ppm                                               
+ Organic C:   0.44 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  16.31                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  3                                                                 
+ Organic P estimated:  16.31 ppm                                               
+ Organic C:   0.44 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  16.31                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  4                                                                 
+ Organic P estimated:  13.18 ppm                                               
+ Organic C:   0.35 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  13.18                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  5                                                                 
+ Organic P estimated:  13.18 ppm                                               
+ Organic C:   0.35 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  13.18                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  6                                                                 
+ Organic P estimated:  14.97 ppm                                               
+ Organic C:   0.35 ppm;  pH:   5.90                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.97                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  7                                                                 
+ Organic P estimated:  14.97 ppm                                               
+ Organic C:   0.35 ppm;  pH:   5.90                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.97                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  8                                                                 
+ Organic P estimated:  14.13 ppm                                               
+ Organic C:   0.34 ppm;  pH:   6.00                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.13                                                             
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  1                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =   46.66 ppm                                                      
+ Stable P   =  186.63 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  2                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    1.90 ppm                                                      
+ Labile P   =    6.33 ppm                                                      
+ Active P   =   45.48 ppm                                                      
+ Stable P   =  181.92 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  3                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    1.90 ppm                                                      
+ Labile P   =    6.33 ppm                                                      
+ Active P   =   45.48 ppm                                                      
+ Stable P   =  181.92 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  4                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.40 ppm                                                      
+ Labile P   =    6.53 ppm                                                      
+ Active P   =   59.12 ppm                                                      
+ Stable P   =  236.46 ppm                                                      
+ P Avail Index   =    0.33                                                     
+ Rate PLab->PAct = 0.04259/d                                                   
+ Rate PAct->PLab = 0.00471/d                                                   
+ Rate PAct->PSta = 0.00048/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  5                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.40 ppm                                                      
+ Labile P   =    6.53 ppm                                                      
+ Active P   =   59.12 ppm                                                      
+ Stable P   =  236.46 ppm                                                      
+ P Avail Index   =    0.33                                                     
+ Rate PLab->PAct = 0.04259/d                                                   
+ Rate PAct->PLab = 0.00471/d                                                   
+ Rate PAct->PSta = 0.00048/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  6                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =   99.14 ppm                                                      
+ Stable P   =  396.55 ppm                                                      
+ P Avail Index   =    0.20                                                     
+ Rate PLab->PAct = 0.06067/d                                                   
+ Rate PAct->PLab = 0.00397/d                                                   
+ Rate PAct->PSta = 0.00061/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  7                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =   99.14 ppm                                                      
+ Stable P   =  396.55 ppm                                                      
+ P Avail Index   =    0.20                                                     
+ Rate PLab->PAct = 0.06067/d                                                   
+ Rate PAct->PLab = 0.00397/d                                                   
+ Rate PAct->PSta = 0.00061/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  8                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =  119.53 ppm                                                      
+ Stable P   =  478.12 ppm                                                      
+ P Avail Index   =    0.16                                                     
+ Rate PLab->PAct = 0.06799/d                                                   
+ Rate PAct->PLab = 0.00369/d                                                   
+ Rate PAct->PSta = 0.00065/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ RTSOLV  YEAR DOY = 2003 283
+ Radius around root from which P can be extracted =  0.0028 mm                 
+
+ ENDRUN  YEAR DOY = 2004 294
+ Normal end of run        4                                                    
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   5        : N60 P60                   MZCER045 GHWA0401    5              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  5   : N60 P60                   MZCER045                            
+  
+
+ CSM     YEAR DOY = 2003 283
+ RNMODE = B                                                                    
+ PATHEX =                                                                      
+ FILEX  = GHWA0401.MZX                                                         
+ FILEB  = dssbatch.v45                                                         
+ FILEIO = DSSAT45.INP                                                          
+ MODEL  = MZCER045                                                             
+ TRTNUM =     5                                                                
+
+ SOILDYN  YEAR DOY = 2003 283
+ The soil file has missing or invalid data.                                    
+ Default values have been used for these variables:                            
+   ADCOEF                                                                      
+ These defaults may or may not be important to your results.                   
+
+ SOILDYN  YEAR DOY = 2003 283
+ Soil layer classifications (used for soil P model)                            
+ Layer Depth Soil_Layer_Type   Backup_Data                                     
+   1      5  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   2     15  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   3     20  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   4     30  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:  14.5% 
+   5     40  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:  14.5% 
+   6     50  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.9 cmol/kg; CLAY:  40.9% 
+   7     60  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.9 cmol/kg; CLAY:  40.9% 
+   8     90  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.8 cmol/kg; CLAY:  52.9% 
+
+ SOILDYN  YEAR DOY = 2003 283
+ Soil ID: GHWA040005                                                           
+ 90 UNKNOWN                                                                    
+ UNKNOWN                                                                       
+   SALB SWCON    CN  DMOD  SLPF SMPX                                           
+   0.13  0.60  73.0  1.00  1.00 SA002                                          
+ Soil layer distribution method: 2                                             
+      DS DLAYR    LL   DUL   SAT  Root    BD    OC  CLAY  SILT  SAND           
+ LYR  cm    cm  frac  frac  frac  Grow g/cm3     %     %     %     %    pH     
+   1   5     5 0.085 0.155 0.383 1.000  1.54  0.49   7.5   8.3  84.2   6.3     
+   2  15    10 0.085 0.155 0.383 1.000  1.54  0.44   7.5   8.3  84.2   6.3     
+   3  20     5 0.085 0.155 0.383 1.000  1.54  0.44   7.5   8.3  84.2   6.3     
+   4  30    10 0.122 0.190 0.362 0.549  1.57  0.35  14.5   8.2  77.3   6.3     
+   5  40    10 0.122 0.190 0.362 0.549  1.57  0.35  14.5   8.2  77.3   6.3     
+   6  50    10 0.124 0.170 0.204 0.368  1.52  0.35  40.9  10.7  48.4   5.9     
+   7  60    10 0.124 0.170 0.204 0.368  1.52  0.35  40.9  10.7  48.4   5.9     
+   8  90    30 0.059 0.079 0.089 0.000  1.38  0.34  52.9  16.9  30.2   6.0     
+
+ SOILDYN  YEAR DOY = 2003 283
+ Additional soil properties                                                    
+                Convert                                                        
+    Cation Adsrp  ppm /  KSAT  SLCF  TOTN  OrgN  SASC  EXTP  EXCA   EXK        
+   L  Exch  Coef  kg/ha  cm/h     %     % kg/ha     % mg/kg cmo/k cmo/k        
+   1   1.0   0.0   1.30   2.6   4.3  0.06   459  0.47   5.4  1.50  0.10        
+   2   1.0   0.0   0.65   2.6   4.3  0.06   918  0.43   1.2  1.50  0.10        
+   3   1.0   0.0   1.30   2.6   4.3  0.06   459  0.43   1.2  1.50  0.10        
+   4   1.0   0.0   0.64   2.6   6.4  0.06   936  0.34   2.2  1.20  0.10        
+   5   1.0   0.0   0.64   2.6   6.4  0.06   936  0.34   2.2  1.20  0.10        
+   6   0.9   0.0   0.66   0.1  49.2  0.04   603  0.34   2.3  1.60  0.10        
+   7   0.9   0.0   0.66   0.1  49.2  0.04   603  0.34   2.3  1.60  0.10        
+   8   0.8   0.0   0.24   0.1  80.7  0.04  1641  0.33   2.3  1.90  0.10        
+
+ SOMINI  YEAR DOY = 2003 283
+ Initial SOM fractions (fraction of total soil organic matter):                
+                      SAND   TOC  FOMC  SOMC  SOM1  SOM2  SOM3                 
+  Lyr Dep Texture       %     %     %     %   frac  frac  frac Method          
+   1   5 LoamySand    84.2 0.490 0.011 0.479 0.001 0.019 0.980 Measured data   
+   2  15 LoamySand    84.2 0.440 0.009 0.431 0.001 0.019 0.980 Measured data   
+   3  20 LoamySand    84.2 0.440 0.007 0.433 0.001 0.019 0.980 Measured data   
+   4  30 SandyLoam    77.3 0.350 0.005 0.345 0.001 0.019 0.980 Measured data   
+   5  40 SandyLoam    77.3 0.350 0.004 0.346 0.001 0.019 0.980 Measured data   
+   6  50 SandyClay    48.4 0.350 0.003 0.347 0.001 0.020 0.979 Measured data   
+   7  60 SandyClay    48.4 0.350 0.002 0.348 0.001 0.022 0.977 Measured data   
+   8  90 Clay         30.2 0.340 0.001 0.339 0.001 0.025 0.973 Measured data   
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  1                                                                 
+ Organic P estimated:  18.01 ppm                                               
+ Organic C:   0.49 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  18.01                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  2                                                                 
+ Organic P estimated:  16.31 ppm                                               
+ Organic C:   0.44 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  16.31                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  3                                                                 
+ Organic P estimated:  16.31 ppm                                               
+ Organic C:   0.44 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  16.31                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  4                                                                 
+ Organic P estimated:  13.18 ppm                                               
+ Organic C:   0.35 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  13.18                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  5                                                                 
+ Organic P estimated:  13.18 ppm                                               
+ Organic C:   0.35 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  13.18                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  6                                                                 
+ Organic P estimated:  14.97 ppm                                               
+ Organic C:   0.35 ppm;  pH:   5.90                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.97                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  7                                                                 
+ Organic P estimated:  14.97 ppm                                               
+ Organic C:   0.35 ppm;  pH:   5.90                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.97                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  8                                                                 
+ Organic P estimated:  14.13 ppm                                               
+ Organic C:   0.34 ppm;  pH:   6.00                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.13                                                             
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  1                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    5.40 ppm                                                      
+ Labile P   =    7.76 ppm                                                      
+ Active P   =   55.79 ppm                                                      
+ Stable P   =  223.17 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  2                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    1.20 ppm                                                      
+ Labile P   =    6.04 ppm                                                      
+ Active P   =   43.42 ppm                                                      
+ Stable P   =  173.67 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  3                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    1.20 ppm                                                      
+ Labile P   =    6.04 ppm                                                      
+ Active P   =   43.42 ppm                                                      
+ Stable P   =  173.67 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  4                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.20 ppm                                                      
+ Labile P   =    6.45 ppm                                                      
+ Active P   =   58.37 ppm                                                      
+ Stable P   =  233.49 ppm                                                      
+ P Avail Index   =    0.33                                                     
+ Rate PLab->PAct = 0.04259/d                                                   
+ Rate PAct->PLab = 0.00471/d                                                   
+ Rate PAct->PSta = 0.00048/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  5                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.20 ppm                                                      
+ Labile P   =    6.45 ppm                                                      
+ Active P   =   58.37 ppm                                                      
+ Stable P   =  233.49 ppm                                                      
+ P Avail Index   =    0.33                                                     
+ Rate PLab->PAct = 0.04259/d                                                   
+ Rate PAct->PLab = 0.00471/d                                                   
+ Rate PAct->PSta = 0.00048/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  6                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =   99.14 ppm                                                      
+ Stable P   =  396.55 ppm                                                      
+ P Avail Index   =    0.20                                                     
+ Rate PLab->PAct = 0.06067/d                                                   
+ Rate PAct->PLab = 0.00397/d                                                   
+ Rate PAct->PSta = 0.00061/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  7                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =   99.14 ppm                                                      
+ Stable P   =  396.55 ppm                                                      
+ P Avail Index   =    0.20                                                     
+ Rate PLab->PAct = 0.06067/d                                                   
+ Rate PAct->PLab = 0.00397/d                                                   
+ Rate PAct->PSta = 0.00061/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  8                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =  119.53 ppm                                                      
+ Stable P   =  478.12 ppm                                                      
+ P Avail Index   =    0.16                                                     
+ Rate PLab->PAct = 0.06799/d                                                   
+ Rate PAct->PLab = 0.00369/d                                                   
+ Rate PAct->PSta = 0.00065/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ RTSOLV  YEAR DOY = 2003 283
+ Radius around root from which P can be extracted =  0.0028 mm                 
+
+ SOILPI  YEAR DOY = 2004 167
+ Layer    Fertilizer P (kg/ha)                                                 
+     1     7.0 Added to root zone labile P                                     
+     1     6.1 Added to root zone active P                                     
+     2     6.9 Added to root zone labile P                                     
+     2     6.0 Added to root zone active P                                     
+ Total    26.0                                                                 
+
+ ENDRUN  YEAR DOY = 2004 294
+ Normal end of run        5                                                    
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   6        : N60 P90                   MZCER045 GHWA0401    6              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  6   : N60 P90                   MZCER045                            
+  
+
+ CSM     YEAR DOY = 2003 283
+ RNMODE = B                                                                    
+ PATHEX =                                                                      
+ FILEX  = GHWA0401.MZX                                                         
+ FILEB  = dssbatch.v45                                                         
+ FILEIO = DSSAT45.INP                                                          
+ MODEL  = MZCER045                                                             
+ TRTNUM =     6                                                                
+
+ SOILDYN  YEAR DOY = 2003 283
+ The soil file has missing or invalid data.                                    
+ Default values have been used for these variables:                            
+   ADCOEF                                                                      
+ These defaults may or may not be important to your results.                   
+
+ SOILDYN  YEAR DOY = 2003 283
+ Soil layer classifications (used for soil P model)                            
+ Layer Depth Soil_Layer_Type   Backup_Data                                     
+   1      5  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   2     15  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   3     20  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   4     30  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:  14.5% 
+   5     40  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:  14.5% 
+   6     50  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.9 cmol/kg; CLAY:  40.9% 
+   7     60  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.9 cmol/kg; CLAY:  40.9% 
+   8     90  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.8 cmol/kg; CLAY:  52.9% 
+
+ SOILDYN  YEAR DOY = 2003 283
+ Soil ID: GHWA040006                                                           
+ 90 UNKNOWN                                                                    
+ UNKNOWN                                                                       
+   SALB SWCON    CN  DMOD  SLPF SMPX                                           
+   0.13  0.60  73.0  1.00  1.00 SA002                                          
+ Soil layer distribution method: 2                                             
+      DS DLAYR    LL   DUL   SAT  Root    BD    OC  CLAY  SILT  SAND           
+ LYR  cm    cm  frac  frac  frac  Grow g/cm3     %     %     %     %    pH     
+   1   5     5 0.085 0.155 0.383 1.000  1.54  0.49   7.5   8.3  84.2   6.3     
+   2  15    10 0.085 0.155 0.383 1.000  1.54  0.45   7.5   8.3  84.2   6.3     
+   3  20     5 0.085 0.155 0.383 1.000  1.54  0.45   7.5   8.3  84.2   6.3     
+   4  30    10 0.122 0.190 0.362 0.549  1.57  0.35  14.5   8.2  77.3   6.3     
+   5  40    10 0.122 0.190 0.362 0.549  1.57  0.35  14.5   8.2  77.3   6.3     
+   6  50    10 0.124 0.170 0.204 0.368  1.52  0.35  40.9  10.7  48.4   5.9     
+   7  60    10 0.124 0.170 0.204 0.368  1.52  0.35  40.9  10.7  48.4   5.9     
+   8  90    30 0.059 0.079 0.089 0.000  1.38  0.34  52.9  16.9  30.2   6.0     
+
+ SOILDYN  YEAR DOY = 2003 283
+ Additional soil properties                                                    
+                Convert                                                        
+    Cation Adsrp  ppm /  KSAT  SLCF  TOTN  OrgN  SASC  EXTP  EXCA   EXK        
+   L  Exch  Coef  kg/ha  cm/h     %     % kg/ha     % mg/kg cmo/k cmo/k        
+   1   1.0   0.0   1.30   2.6   4.3  0.06   459  0.47   6.6  1.50  0.10        
+   2   1.0   0.0   0.65   2.6   4.3  0.06   918  0.43   1.9  1.50  0.10        
+   3   1.0   0.0   1.30   2.6   4.3  0.06   459  0.43   1.9  1.50  0.10        
+   4   1.0   0.0   0.64   2.6   6.4  0.06   936  0.34   2.2  1.20  0.10        
+   5   1.0   0.0   0.64   2.6   6.4  0.06   936  0.34   2.2  1.20  0.10        
+   6   0.9   0.0   0.66   0.1  49.2  0.04   603  0.34   2.3  1.60  0.10        
+   7   0.9   0.0   0.66   0.1  49.2  0.04   603  0.34   2.3  1.60  0.10        
+   8   0.8   0.0   0.24   0.1  80.7  0.04  1641  0.33   2.3  1.90  0.10        
+
+ SOMINI  YEAR DOY = 2003 283
+ Initial SOM fractions (fraction of total soil organic matter):                
+                      SAND   TOC  FOMC  SOMC  SOM1  SOM2  SOM3                 
+  Lyr Dep Texture       %     %     %     %   frac  frac  frac Method          
+   1   5 LoamySand    84.2 0.490 0.011 0.479 0.001 0.019 0.980 Measured data   
+   2  15 LoamySand    84.2 0.450 0.009 0.441 0.001 0.024 0.974 Measured data   
+   3  20 LoamySand    84.2 0.450 0.007 0.443 0.001 0.028 0.970 Measured data   
+   4  30 SandyLoam    77.3 0.350 0.005 0.345 0.001 0.019 0.980 Measured data   
+   5  40 SandyLoam    77.3 0.350 0.004 0.346 0.001 0.019 0.980 Measured data   
+   6  50 SandyClay    48.4 0.350 0.003 0.347 0.001 0.020 0.979 Measured data   
+   7  60 SandyClay    48.4 0.350 0.002 0.348 0.001 0.022 0.977 Measured data   
+   8  90 Clay         30.2 0.340 0.001 0.339 0.001 0.025 0.973 Measured data   
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  1                                                                 
+ Organic P estimated:  18.01 ppm                                               
+ Organic C:   0.49 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  18.01                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  2                                                                 
+ Organic P estimated:  16.65 ppm                                               
+ Organic C:   0.45 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  16.65                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  3                                                                 
+ Organic P estimated:  16.65 ppm                                               
+ Organic C:   0.45 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  16.65                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  4                                                                 
+ Organic P estimated:  13.18 ppm                                               
+ Organic C:   0.35 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  13.18                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  5                                                                 
+ Organic P estimated:  13.18 ppm                                               
+ Organic C:   0.35 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  13.18                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  6                                                                 
+ Organic P estimated:  14.97 ppm                                               
+ Organic C:   0.35 ppm;  pH:   5.90                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.97                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  7                                                                 
+ Organic P estimated:  14.97 ppm                                               
+ Organic C:   0.35 ppm;  pH:   5.90                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.97                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  8                                                                 
+ Organic P estimated:  14.13 ppm                                               
+ Organic C:   0.34 ppm;  pH:   6.00                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.13                                                             
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  1                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    6.60 ppm                                                      
+ Labile P   =    8.54 ppm                                                      
+ Active P   =   61.40 ppm                                                      
+ Stable P   =  245.59 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  2                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    1.90 ppm                                                      
+ Labile P   =    6.33 ppm                                                      
+ Active P   =   45.48 ppm                                                      
+ Stable P   =  181.92 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  3                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    1.90 ppm                                                      
+ Labile P   =    6.33 ppm                                                      
+ Active P   =   45.48 ppm                                                      
+ Stable P   =  181.92 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  4                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.20 ppm                                                      
+ Labile P   =    6.45 ppm                                                      
+ Active P   =   58.37 ppm                                                      
+ Stable P   =  233.49 ppm                                                      
+ P Avail Index   =    0.33                                                     
+ Rate PLab->PAct = 0.04259/d                                                   
+ Rate PAct->PLab = 0.00471/d                                                   
+ Rate PAct->PSta = 0.00048/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  5                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.20 ppm                                                      
+ Labile P   =    6.45 ppm                                                      
+ Active P   =   58.37 ppm                                                      
+ Stable P   =  233.49 ppm                                                      
+ P Avail Index   =    0.33                                                     
+ Rate PLab->PAct = 0.04259/d                                                   
+ Rate PAct->PLab = 0.00471/d                                                   
+ Rate PAct->PSta = 0.00048/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  6                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =   99.14 ppm                                                      
+ Stable P   =  396.55 ppm                                                      
+ P Avail Index   =    0.20                                                     
+ Rate PLab->PAct = 0.06067/d                                                   
+ Rate PAct->PLab = 0.00397/d                                                   
+ Rate PAct->PSta = 0.00061/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  7                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =   99.14 ppm                                                      
+ Stable P   =  396.55 ppm                                                      
+ P Avail Index   =    0.20                                                     
+ Rate PLab->PAct = 0.06067/d                                                   
+ Rate PAct->PLab = 0.00397/d                                                   
+ Rate PAct->PSta = 0.00061/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  8                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =  119.53 ppm                                                      
+ Stable P   =  478.12 ppm                                                      
+ P Avail Index   =    0.16                                                     
+ Rate PLab->PAct = 0.06799/d                                                   
+ Rate PAct->PLab = 0.00369/d                                                   
+ Rate PAct->PSta = 0.00065/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ RTSOLV  YEAR DOY = 2003 283
+ Radius around root from which P can be extracted =  0.0028 mm                 
+
+ SOILPI  YEAR DOY = 2004 167
+ Layer    Fertilizer P (kg/ha)                                                 
+     1    10.4 Added to root zone labile P                                     
+     1     9.1 Added to root zone active P                                     
+     2    10.4 Added to root zone labile P                                     
+     2     9.1 Added to root zone active P                                     
+ Total    39.0                                                                 
+
+ ENDRUN  YEAR DOY = 2004 294
+ Normal end of run        6                                                    
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   7        : N120 P0                   MZCER045 GHWA0401    7              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  7   : N120 P0                   MZCER045                            
+  
+
+ CSM     YEAR DOY = 2003 283
+ RNMODE = B                                                                    
+ PATHEX =                                                                      
+ FILEX  = GHWA0401.MZX                                                         
+ FILEB  = dssbatch.v45                                                         
+ FILEIO = DSSAT45.INP                                                          
+ MODEL  = MZCER045                                                             
+ TRTNUM =     7                                                                
+
+ SOILDYN  YEAR DOY = 2003 283
+ The soil file has missing or invalid data.                                    
+ Default values have been used for these variables:                            
+   ADCOEF                                                                      
+ These defaults may or may not be important to your results.                   
+
+ SOILDYN  YEAR DOY = 2003 283
+ Soil layer classifications (used for soil P model)                            
+ Layer Depth Soil_Layer_Type   Backup_Data                                     
+   1      5  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   2     15  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   3     20  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   4     30  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:  14.5% 
+   5     40  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:  14.5% 
+   6     50  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.9 cmol/kg; CLAY:  40.9% 
+   7     60  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.9 cmol/kg; CLAY:  40.9% 
+   8     90  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.8 cmol/kg; CLAY:  52.9% 
+
+ SOILDYN  YEAR DOY = 2003 283
+ Soil ID: GHWA040004                                                           
+ 90 UNKNOWN                                                                    
+ UNKNOWN                                                                       
+   SALB SWCON    CN  DMOD  SLPF SMPX                                           
+   0.13  0.60  73.0  1.00  1.00 SA002                                          
+ Soil layer distribution method: 2                                             
+      DS DLAYR    LL   DUL   SAT  Root    BD    OC  CLAY  SILT  SAND           
+ LYR  cm    cm  frac  frac  frac  Grow g/cm3     %     %     %     %    pH     
+   1   5     5 0.085 0.155 0.383 1.000  1.54  0.48   7.5   8.3  84.2   6.3     
+   2  15    10 0.085 0.155 0.383 1.000  1.54  0.44   7.5   8.3  84.2   6.3     
+   3  20     5 0.085 0.155 0.383 1.000  1.54  0.44   7.5   8.3  84.2   6.3     
+   4  30    10 0.122 0.190 0.362 0.549  1.57  0.35  14.5   8.2  77.3   6.3     
+   5  40    10 0.122 0.190 0.362 0.549  1.57  0.35  14.5   8.2  77.3   6.3     
+   6  50    10 0.124 0.170 0.204 0.368  1.52  0.35  40.9  10.7  48.4   5.9     
+   7  60    10 0.124 0.170 0.204 0.368  1.52  0.35  40.9  10.7  48.4   5.9     
+   8  90    30 0.059 0.079 0.089 0.000  1.38  0.34  52.9  16.9  30.2   6.0     
+
+ SOILDYN  YEAR DOY = 2003 283
+ Additional soil properties                                                    
+                Convert                                                        
+    Cation Adsrp  ppm /  KSAT  SLCF  TOTN  OrgN  SASC  EXTP  EXCA   EXK        
+   L  Exch  Coef  kg/ha  cm/h     %     % kg/ha     % mg/kg cmo/k cmo/k        
+   1   1.0   0.0   1.30   2.6   4.3  0.06   459  0.47   2.3  1.50  0.10        
+   2   1.0   0.0   0.65   2.6   4.3  0.06   918  0.43   1.9  1.50  0.10        
+   3   1.0   0.0   1.30   2.6   4.3  0.06   459  0.43   1.9  1.50  0.10        
+   4   1.0   0.0   0.64   2.6   6.4  0.06   936  0.34   2.4  1.20  0.10        
+   5   1.0   0.0   0.64   2.6   6.4  0.06   936  0.34   2.4  1.20  0.10        
+   6   0.9   0.0   0.66   0.1  49.2  0.04   603  0.34   2.3  1.60  0.10        
+   7   0.9   0.0   0.66   0.1  49.2  0.04   603  0.34   2.3  1.60  0.10        
+   8   0.8   0.0   0.24   0.1  80.7  0.04  1641  0.33   2.3  1.90  0.10        
+
+ SOMINI  YEAR DOY = 2003 283
+ Initial SOM fractions (fraction of total soil organic matter):                
+                      SAND   TOC  FOMC  SOMC  SOM1  SOM2  SOM3                 
+  Lyr Dep Texture       %     %     %     %   frac  frac  frac Method          
+   1   5 LoamySand    84.2 0.480 0.002 0.478 0.001 0.019 0.980 Measured data   
+   2  15 LoamySand    84.2 0.440 0.001 0.439 0.001 0.019 0.980 Measured data   
+   3  20 LoamySand    84.2 0.440 0.001 0.439 0.001 0.020 0.979 Measured data   
+   4  30 SandyLoam    77.3 0.350 0.001 0.349 0.001 0.025 0.973 Measured data   
+   5  40 SandyLoam    77.3 0.350 0.001 0.349 0.001 0.026 0.973 Measured data   
+   6  50 SandyClay    48.4 0.350 0.000 0.350 0.001 0.026 0.972 Measured data   
+   7  60 SandyClay    48.4 0.350 0.000 0.350 0.001 0.026 0.972 Measured data   
+   8  90 Clay         30.2 0.340 0.000 0.340 0.001 0.028 0.971 Measured data   
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  1                                                                 
+ Organic P estimated:  17.67 ppm                                               
+ Organic C:   0.48 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  17.67                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  2                                                                 
+ Organic P estimated:  16.31 ppm                                               
+ Organic C:   0.44 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  16.31                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  3                                                                 
+ Organic P estimated:  16.31 ppm                                               
+ Organic C:   0.44 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  16.31                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  4                                                                 
+ Organic P estimated:  13.18 ppm                                               
+ Organic C:   0.35 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  13.18                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  5                                                                 
+ Organic P estimated:  13.18 ppm                                               
+ Organic C:   0.35 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  13.18                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  6                                                                 
+ Organic P estimated:  14.97 ppm                                               
+ Organic C:   0.35 ppm;  pH:   5.90                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.97                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  7                                                                 
+ Organic P estimated:  14.97 ppm                                               
+ Organic C:   0.35 ppm;  pH:   5.90                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.97                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  8                                                                 
+ Organic P estimated:  14.13 ppm                                               
+ Organic C:   0.34 ppm;  pH:   6.00                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.13                                                             
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  1                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =   46.66 ppm                                                      
+ Stable P   =  186.63 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  2                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    1.90 ppm                                                      
+ Labile P   =    6.33 ppm                                                      
+ Active P   =   45.48 ppm                                                      
+ Stable P   =  181.92 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  3                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    1.90 ppm                                                      
+ Labile P   =    6.33 ppm                                                      
+ Active P   =   45.48 ppm                                                      
+ Stable P   =  181.92 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  4                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.40 ppm                                                      
+ Labile P   =    6.53 ppm                                                      
+ Active P   =   59.12 ppm                                                      
+ Stable P   =  236.46 ppm                                                      
+ P Avail Index   =    0.33                                                     
+ Rate PLab->PAct = 0.04259/d                                                   
+ Rate PAct->PLab = 0.00471/d                                                   
+ Rate PAct->PSta = 0.00048/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  5                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.40 ppm                                                      
+ Labile P   =    6.53 ppm                                                      
+ Active P   =   59.12 ppm                                                      
+ Stable P   =  236.46 ppm                                                      
+ P Avail Index   =    0.33                                                     
+ Rate PLab->PAct = 0.04259/d                                                   
+ Rate PAct->PLab = 0.00471/d                                                   
+ Rate PAct->PSta = 0.00048/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  6                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =   99.14 ppm                                                      
+ Stable P   =  396.55 ppm                                                      
+ P Avail Index   =    0.20                                                     
+ Rate PLab->PAct = 0.06067/d                                                   
+ Rate PAct->PLab = 0.00397/d                                                   
+ Rate PAct->PSta = 0.00061/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  7                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =   99.14 ppm                                                      
+ Stable P   =  396.55 ppm                                                      
+ P Avail Index   =    0.20                                                     
+ Rate PLab->PAct = 0.06067/d                                                   
+ Rate PAct->PLab = 0.00397/d                                                   
+ Rate PAct->PSta = 0.00061/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  8                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =  119.53 ppm                                                      
+ Stable P   =  478.12 ppm                                                      
+ P Avail Index   =    0.16                                                     
+ Rate PLab->PAct = 0.06799/d                                                   
+ Rate PAct->PLab = 0.00369/d                                                   
+ Rate PAct->PSta = 0.00065/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ RTSOLV  YEAR DOY = 2003 283
+ Radius around root from which P can be extracted =  0.0028 mm                 
+
+ ENDRUN  YEAR DOY = 2004 294
+ Normal end of run        7                                                    
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   8        : N120 P60                  MZCER045 GHWA0401    8              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  8   : N120 P60                  MZCER045                            
+  
+
+ CSM     YEAR DOY = 2003 283
+ RNMODE = B                                                                    
+ PATHEX =                                                                      
+ FILEX  = GHWA0401.MZX                                                         
+ FILEB  = dssbatch.v45                                                         
+ FILEIO = DSSAT45.INP                                                          
+ MODEL  = MZCER045                                                             
+ TRTNUM =     8                                                                
+
+ SOILDYN  YEAR DOY = 2003 283
+ The soil file has missing or invalid data.                                    
+ Default values have been used for these variables:                            
+   ADCOEF                                                                      
+ These defaults may or may not be important to your results.                   
+
+ SOILDYN  YEAR DOY = 2003 283
+ Soil layer classifications (used for soil P model)                            
+ Layer Depth Soil_Layer_Type   Backup_Data                                     
+   1      5  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   2     15  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   3     20  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   4     30  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:  14.5% 
+   5     40  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:  14.5% 
+   6     50  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.9 cmol/kg; CLAY:  40.9% 
+   7     60  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.9 cmol/kg; CLAY:  40.9% 
+   8     90  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.8 cmol/kg; CLAY:  52.9% 
+
+ SOILDYN  YEAR DOY = 2003 283
+ Soil ID: GHWA040007                                                           
+ 90 UNKNOWN                                                                    
+ UNKNOWN                                                                       
+   SALB SWCON    CN  DMOD  SLPF SMPX                                           
+   0.13  0.60  73.0  1.00  1.00 SA002                                          
+ Soil layer distribution method: 2                                             
+      DS DLAYR    LL   DUL   SAT  Root    BD    OC  CLAY  SILT  SAND           
+ LYR  cm    cm  frac  frac  frac  Grow g/cm3     %     %     %     %    pH     
+   1   5     5 0.085 0.155 0.383 1.000  1.54  0.49   7.5   8.3  84.2   6.3     
+   2  15    10 0.085 0.155 0.383 1.000  1.54  0.45   7.5   8.3  84.2   6.3     
+   3  20     5 0.085 0.155 0.383 1.000  1.54  0.45   7.5   8.3  84.2   6.3     
+   4  30    10 0.122 0.190 0.362 0.549  1.57  0.36  14.5   8.2  77.3   6.3     
+   5  40    10 0.122 0.190 0.362 0.549  1.57  0.36  14.5   8.2  77.3   6.3     
+   6  50    10 0.124 0.170 0.204 0.368  1.52  0.35  40.9  10.7  48.4   5.9     
+   7  60    10 0.124 0.170 0.204 0.368  1.52  0.35  40.9  10.7  48.4   5.9     
+   8  90    30 0.059 0.079 0.089 0.000  1.38  0.34  52.9  16.9  30.2   6.0     
+
+ SOILDYN  YEAR DOY = 2003 283
+ Additional soil properties                                                    
+                Convert                                                        
+    Cation Adsrp  ppm /  KSAT  SLCF  TOTN  OrgN  SASC  EXTP  EXCA   EXK        
+   L  Exch  Coef  kg/ha  cm/h     %     % kg/ha     % mg/kg cmo/k cmo/k        
+   1   1.0   0.0   1.30   2.6   4.3  0.06   459  0.47   3.4  1.50  0.10        
+   2   1.0   0.0   0.65   2.6   4.3  0.06   918  0.43   0.9  1.50  0.10        
+   3   1.0   0.0   1.30   2.6   4.3  0.06   459  0.43   0.9  1.50  0.10        
+   4   1.0   0.0   0.64   2.6   6.4  0.06   936  0.34   1.8  1.20  0.10        
+   5   1.0   0.0   0.64   2.6   6.4  0.06   936  0.34   1.8  1.20  0.10        
+   6   0.9   0.0   0.66   0.1  49.2  0.04   603  0.34   2.2  1.60  0.10        
+   7   0.9   0.0   0.66   0.1  49.2  0.04   603  0.34   2.2  1.60  0.10        
+   8   0.8   0.0   0.24   0.1  80.7  0.04  1641  0.33   2.3  1.90  0.10        
+
+ SOMINI  YEAR DOY = 2003 283
+ Initial SOM fractions (fraction of total soil organic matter):                
+                      SAND   TOC  FOMC  SOMC  SOM1  SOM2  SOM3                 
+  Lyr Dep Texture       %     %     %     %   frac  frac  frac Method          
+   1   5 LoamySand    84.2 0.490 0.011 0.479 0.001 0.019 0.980 Measured data   
+   2  15 LoamySand    84.2 0.450 0.008 0.442 0.001 0.025 0.974 Measured data   
+   3  20 LoamySand    84.2 0.450 0.007 0.443 0.002 0.029 0.970 Measured data   
+   4  30 SandyLoam    77.3 0.360 0.005 0.355 0.002 0.040 0.958 Measured data   
+   5  40 SandyLoam    77.3 0.360 0.004 0.356 0.002 0.044 0.954 Measured data   
+   6  50 SandyClay    48.4 0.350 0.003 0.347 0.001 0.020 0.979 Measured data   
+   7  60 SandyClay    48.4 0.350 0.002 0.348 0.001 0.022 0.977 Measured data   
+   8  90 Clay         30.2 0.340 0.001 0.339 0.001 0.025 0.973 Measured data   
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  1                                                                 
+ Organic P estimated:  18.01 ppm                                               
+ Organic C:   0.49 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  18.01                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  2                                                                 
+ Organic P estimated:  16.65 ppm                                               
+ Organic C:   0.45 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  16.65                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  3                                                                 
+ Organic P estimated:  16.65 ppm                                               
+ Organic C:   0.45 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  16.65                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  4                                                                 
+ Organic P estimated:  13.53 ppm                                               
+ Organic C:   0.36 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  13.53                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  5                                                                 
+ Organic P estimated:  13.53 ppm                                               
+ Organic C:   0.36 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  13.53                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  6                                                                 
+ Organic P estimated:  14.97 ppm                                               
+ Organic C:   0.35 ppm;  pH:   5.90                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.97                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  7                                                                 
+ Organic P estimated:  14.97 ppm                                               
+ Organic C:   0.35 ppm;  pH:   5.90                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.97                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  8                                                                 
+ Organic P estimated:  14.13 ppm                                               
+ Organic C:   0.34 ppm;  pH:   6.00                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.13                                                             
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  1                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    3.40 ppm                                                      
+ Labile P   =    6.94 ppm                                                      
+ Active P   =   49.90 ppm                                                      
+ Stable P   =  199.60 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  2                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    0.90 ppm                                                      
+ Labile P   =    5.36 ppm                                                      
+ Active P   =   38.55 ppm                                                      
+ Stable P   =  154.18 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  3                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    0.90 ppm                                                      
+ Labile P   =    5.36 ppm                                                      
+ Active P   =   38.55 ppm                                                      
+ Stable P   =  154.18 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  4                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    1.80 ppm                                                      
+ Labile P   =    6.29 ppm                                                      
+ Active P   =   56.89 ppm                                                      
+ Stable P   =  227.56 ppm                                                      
+ P Avail Index   =    0.33                                                     
+ Rate PLab->PAct = 0.04259/d                                                   
+ Rate PAct->PLab = 0.00471/d                                                   
+ Rate PAct->PSta = 0.00048/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  5                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    1.80 ppm                                                      
+ Labile P   =    6.29 ppm                                                      
+ Active P   =   56.89 ppm                                                      
+ Stable P   =  227.56 ppm                                                      
+ P Avail Index   =    0.33                                                     
+ Rate PLab->PAct = 0.04259/d                                                   
+ Rate PAct->PLab = 0.00471/d                                                   
+ Rate PAct->PSta = 0.00048/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  6                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.20 ppm                                                      
+ Labile P   =    6.45 ppm                                                      
+ Active P   =   98.51 ppm                                                      
+ Stable P   =  394.05 ppm                                                      
+ P Avail Index   =    0.20                                                     
+ Rate PLab->PAct = 0.06067/d                                                   
+ Rate PAct->PLab = 0.00397/d                                                   
+ Rate PAct->PSta = 0.00061/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  7                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.20 ppm                                                      
+ Labile P   =    6.45 ppm                                                      
+ Active P   =   98.51 ppm                                                      
+ Stable P   =  394.05 ppm                                                      
+ P Avail Index   =    0.20                                                     
+ Rate PLab->PAct = 0.06067/d                                                   
+ Rate PAct->PLab = 0.00397/d                                                   
+ Rate PAct->PSta = 0.00061/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  8                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =  119.53 ppm                                                      
+ Stable P   =  478.12 ppm                                                      
+ P Avail Index   =    0.16                                                     
+ Rate PLab->PAct = 0.06799/d                                                   
+ Rate PAct->PLab = 0.00369/d                                                   
+ Rate PAct->PSta = 0.00065/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ RTSOLV  YEAR DOY = 2003 283
+ Radius around root from which P can be extracted =  0.0028 mm                 
+
+ SOILPI  YEAR DOY = 2004 167
+ Layer    Fertilizer P (kg/ha)                                                 
+     1     7.0 Added to root zone labile P                                     
+     1     6.1 Added to root zone active P                                     
+     2     6.9 Added to root zone labile P                                     
+     2     6.0 Added to root zone active P                                     
+ Total    26.0                                                                 
+
+ ENDRUN  YEAR DOY = 2004 294
+ Normal end of run        8                                                    
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+                                                                                
+*RUN   9        : N120 P90                  MZCER045 GHWA0401    9              
+ MODEL          : MZCER045 - Maize                                              
+ EXPERIMENT     : GHWA0401 MZ                                                   
+ DATA PATH      :                                                               
+ TREATMENT  9   : N120 P90                  MZCER045                            
+  
+
+ CSM     YEAR DOY = 2003 283
+ RNMODE = B                                                                    
+ PATHEX =                                                                      
+ FILEX  = GHWA0401.MZX                                                         
+ FILEB  = dssbatch.v45                                                         
+ FILEIO = DSSAT45.INP                                                          
+ MODEL  = MZCER045                                                             
+ TRTNUM =     9                                                                
+
+ SOILDYN  YEAR DOY = 2003 283
+ The soil file has missing or invalid data.                                    
+ Default values have been used for these variables:                            
+   ADCOEF                                                                      
+ These defaults may or may not be important to your results.                   
+
+ SOILDYN  YEAR DOY = 2003 283
+ Soil layer classifications (used for soil P model)                            
+ Layer Depth Soil_Layer_Type   Backup_Data                                     
+   1      5  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   2     15  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   3     20  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:   7.5% 
+   4     30  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:  14.5% 
+   5     40  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   1.0 cmol/kg; CLAY:  14.5% 
+   6     50  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.9 cmol/kg; CLAY:  40.9% 
+   7     60  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.9 cmol/kg; CLAY:  40.9% 
+   8     90  HIGHLYWEATHERED   CaCO3:-99.00%; CEC:   0.8 cmol/kg; CLAY:  52.9% 
+
+ SOILDYN  YEAR DOY = 2003 283
+ Soil ID: GHWA040008                                                           
+ 90 UNKNOWN                                                                    
+ UNKNOWN                                                                       
+   SALB SWCON    CN  DMOD  SLPF SMPX                                           
+   0.13  0.60  73.0  1.00  1.00 SA002                                          
+ Soil layer distribution method: 2                                             
+      DS DLAYR    LL   DUL   SAT  Root    BD    OC  CLAY  SILT  SAND           
+ LYR  cm    cm  frac  frac  frac  Grow g/cm3     %     %     %     %    pH     
+   1   5     5 0.085 0.155 0.383 1.000  1.54  0.49   7.5   8.3  84.2   6.3     
+   2  15    10 0.085 0.155 0.383 1.000  1.54  0.45   7.5   8.3  84.2   6.3     
+   3  20     5 0.085 0.155 0.383 1.000  1.54  0.45   7.5   8.3  84.2   6.3     
+   4  30    10 0.122 0.190 0.362 0.549  1.57  0.36  14.5   8.2  77.3   6.3     
+   5  40    10 0.122 0.190 0.362 0.549  1.57  0.36  14.5   8.2  77.3   6.3     
+   6  50    10 0.124 0.170 0.204 0.368  1.52  0.35  40.9  10.7  48.4   5.9     
+   7  60    10 0.124 0.170 0.204 0.368  1.52  0.35  40.9  10.7  48.4   5.9     
+   8  90    30 0.059 0.079 0.089 0.000  1.38  0.34  52.9  16.9  30.2   6.0     
+
+ SOILDYN  YEAR DOY = 2003 283
+ Additional soil properties                                                    
+                Convert                                                        
+    Cation Adsrp  ppm /  KSAT  SLCF  TOTN  OrgN  SASC  EXTP  EXCA   EXK        
+   L  Exch  Coef  kg/ha  cm/h     %     % kg/ha     % mg/kg cmo/k cmo/k        
+   1   1.0   0.0   1.30   2.6   4.3  0.06   459  0.47   5.8  1.50  0.10        
+   2   1.0   0.0   0.65   2.6   4.3  0.06   918  0.43   1.4  1.50  0.10        
+   3   1.0   0.0   1.30   2.6   4.3  0.06   459  0.43   1.4  1.50  0.10        
+   4   1.0   0.0   0.64   2.6   6.4  0.06   936  0.34   2.0  1.20  0.10        
+   5   1.0   0.0   0.64   2.6   6.4  0.06   936  0.34   2.0  1.20  0.10        
+   6   0.9   0.0   0.66   0.1  49.2  0.04   603  0.34   2.2  1.60  0.10        
+   7   0.9   0.0   0.66   0.1  49.2  0.04   603  0.34   2.2  1.60  0.10        
+   8   0.8   0.0   0.24   0.1  80.7  0.04  1641  0.33   2.3  1.90  0.10        
+
+ SOMINI  YEAR DOY = 2003 283
+ Initial SOM fractions (fraction of total soil organic matter):                
+                      SAND   TOC  FOMC  SOMC  SOM1  SOM2  SOM3                 
+  Lyr Dep Texture       %     %     %     %   frac  frac  frac Method          
+   1   5 LoamySand    84.2 0.490 0.012 0.478 0.001 0.019 0.980 Measured data   
+   2  15 LoamySand    84.2 0.450 0.009 0.441 0.001 0.024 0.975 Measured data   
+   3  20 LoamySand    84.2 0.450 0.007 0.443 0.001 0.028 0.971 Measured data   
+   4  30 SandyLoam    77.3 0.360 0.006 0.354 0.002 0.039 0.959 Measured data   
+   5  40 SandyLoam    77.3 0.360 0.004 0.356 0.002 0.043 0.955 Measured data   
+   6  50 SandyClay    48.4 0.350 0.003 0.347 0.001 0.020 0.979 Measured data   
+   7  60 SandyClay    48.4 0.350 0.002 0.348 0.001 0.022 0.977 Measured data   
+   8  90 Clay         30.2 0.340 0.001 0.339 0.001 0.025 0.974 Measured data   
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  1                                                                 
+ Organic P estimated:  18.01 ppm                                               
+ Organic C:   0.49 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  18.01                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  2                                                                 
+ Organic P estimated:  16.65 ppm                                               
+ Organic C:   0.45 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  16.65                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  3                                                                 
+ Organic P estimated:  16.65 ppm                                               
+ Organic C:   0.45 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  16.65                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  4                                                                 
+ Organic P estimated:  13.53 ppm                                               
+ Organic C:   0.36 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  13.53                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  5                                                                 
+ Organic P estimated:  13.53 ppm                                               
+ Organic C:   0.36 ppm;  pH:   6.30                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  13.53                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  6                                                                 
+ Organic P estimated:  14.97 ppm                                               
+ Organic C:   0.35 ppm;  pH:   5.90                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.97                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  7                                                                 
+ Organic P estimated:  14.97 ppm                                               
+ Organic C:   0.35 ppm;  pH:   5.90                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.97                                                             
+
+ SOMINI  YEAR DOY = 2003 283
+ Soil layer  8                                                                 
+ Organic P estimated:  14.13 ppm                                               
+ Organic C:   0.34 ppm;  pH:   6.00                                            
+ C:P ratio for microbial SOM P below acceptable range.                         
+ Organic P:  14.13                                                             
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  1                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    5.80 ppm                                                      
+ Labile P   =    7.93 ppm                                                      
+ Active P   =   56.97 ppm                                                      
+ Stable P   =  227.88 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  2                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    1.40 ppm                                                      
+ Labile P   =    6.12 ppm                                                      
+ Active P   =   44.01 ppm                                                      
+ Stable P   =  176.03 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  3                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    1.40 ppm                                                      
+ Labile P   =    6.12 ppm                                                      
+ Active P   =   44.01 ppm                                                      
+ Stable P   =  176.03 ppm                                                      
+ P Avail Index   =    0.42                                                     
+ Rate PLab->PAct = 0.03544/d                                                   
+ Rate PAct->PLab = 0.00493/d                                                   
+ Rate PAct->PSta = 0.00041/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  4                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.00 ppm                                                      
+ Labile P   =    6.37 ppm                                                      
+ Active P   =   57.63 ppm                                                      
+ Stable P   =  230.53 ppm                                                      
+ P Avail Index   =    0.33                                                     
+ Rate PLab->PAct = 0.04259/d                                                   
+ Rate PAct->PLab = 0.00471/d                                                   
+ Rate PAct->PSta = 0.00048/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  5                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.00 ppm                                                      
+ Labile P   =    6.37 ppm                                                      
+ Active P   =   57.63 ppm                                                      
+ Stable P   =  230.53 ppm                                                      
+ P Avail Index   =    0.33                                                     
+ Rate PLab->PAct = 0.04259/d                                                   
+ Rate PAct->PLab = 0.00471/d                                                   
+ Rate PAct->PSta = 0.00048/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  6                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.20 ppm                                                      
+ Labile P   =    6.45 ppm                                                      
+ Active P   =   98.51 ppm                                                      
+ Stable P   =  394.05 ppm                                                      
+ P Avail Index   =    0.20                                                     
+ Rate PLab->PAct = 0.06067/d                                                   
+ Rate PAct->PLab = 0.00397/d                                                   
+ Rate PAct->PSta = 0.00061/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  7                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.20 ppm                                                      
+ Labile P   =    6.45 ppm                                                      
+ Active P   =   98.51 ppm                                                      
+ Stable P   =  394.05 ppm                                                      
+ P Avail Index   =    0.20                                                     
+ Rate PLab->PAct = 0.06067/d                                                   
+ Rate PAct->PLab = 0.00397/d                                                   
+ Rate PAct->PSta = 0.00061/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ SPINIT  YEAR DOY = 2003 283
+ Soil layer:  8                                                                
+ Soil type: HIGHLYWEATHERED                                                    
+ P extraction method: SA002                                                    
+ Measured P =    2.30 ppm                                                      
+ Labile P   =    6.49 ppm                                                      
+ Active P   =  119.53 ppm                                                      
+ Stable P   =  478.12 ppm                                                      
+ P Avail Index   =    0.16                                                     
+ Rate PLab->PAct = 0.06799/d                                                   
+ Rate PAct->PLab = 0.00369/d                                                   
+ Rate PAct->PSta = 0.00065/d                                                   
+ Rate PSta->PAct = 0.00010/d                                                   
+
+ RTSOLV  YEAR DOY = 2003 283
+ Radius around root from which P can be extracted =  0.0028 mm                 
+
+ SOILPI  YEAR DOY = 2004 167
+ Layer    Fertilizer P (kg/ha)                                                 
+     1    10.4 Added to root zone labile P                                     
+     1     9.1 Added to root zone active P                                     
+     2    10.4 Added to root zone labile P                                     
+     2     9.1 Added to root zone active P                                     
+ Total    39.0                                                                 
+
+ ENDRUN  YEAR DOY = 2004 294
+ Normal end of run        9                                                    

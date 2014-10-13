@@ -1,0 +1,6 @@
+ApsimVersion = 7.5
+format = csv
+Title = KSAS8101_3-DRYLAND  - 180 KG N_HA SP ACMO
+yield,biomass,AnthesisDate,MaturityDate,HarvestDate,LAIMax,InCropRain,SumEP,SumNO3Uptake,SumLeachNO3
+(kg/ha),(kg/ha),(yyyy-mm-dd),(yyyy-mm-dd),(yyyy-mm-dd),(m2/m2),(mm),(mm),(kg/ha),(kg/ha)
+2993.193359,9060.803711,1982-06-04,1982-07-02,1982-07-03,2.740328,663.400002,162.794248,102.358095,217.306935

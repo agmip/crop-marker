@@ -1,0 +1,97 @@
+*WARNING DETAIL FILE
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:42:03
+                                                                                
+*RUN   1        : 0 N check plot            SGCER045 ITHY8001    1              
+ MODEL          : SGCER045 - Grain sorghum                                      
+ EXPERIMENT     : ITHY8001 SG                                                   
+ DATA PATH      :                                                               
+ TREATMENT  1   : 0 N check plot            SGCER045                            
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1980 165
+ The CENTURY-based soil-organic-matter module needs                            
+ soil texture data, but the specified soil profile                             
+ does not have those for some layers. The model will                           
+ run with the default 30% clay, 30% silt, 40% sand.                            
+ This may give incorrect results.                                              
+
+ SOILNI  YEAR DOY = 1980 165
+ N content of residue was changed from value in initial conditions             
+   section of experiment file to maintain allowable C:N ratio.                 
+   - Previous crop code                 :    SG                                
+   - Recommended N content for surface residue (%):   1.1                      
+   - Value read from file               : 0.500%                               
+   - Value changed to                   : 0.880%                               
+ To change allowable N content, modify SCN parameter                           
+   in RESCH045.SDA file.                                                       
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:42:03
+                                                                                
+*RUN   2        : 80 kg Urea-N Incorporated SGCER045 ITHY8001    2              
+ MODEL          : SGCER045 - Grain sorghum                                      
+ EXPERIMENT     : ITHY8001 SG                                                   
+ DATA PATH      :                                                               
+ TREATMENT  2   : 80 kg Urea-N Incorporated SGCER045                            
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1980 165
+ The CENTURY-based soil-organic-matter module needs                            
+ soil texture data, but the specified soil profile                             
+ does not have those for some layers. The model will                           
+ run with the default 30% clay, 30% silt, 40% sand.                            
+ This may give incorrect results.                                              
+
+ SOILNI  YEAR DOY = 1980 165
+ N content of residue was changed from value in initial conditions             
+   section of experiment file to maintain allowable C:N ratio.                 
+   - Previous crop code                 :    SG                                
+   - Recommended N content for surface residue (%):   1.1                      
+   - Value read from file               : 0.500%                               
+   - Value changed to                   : 0.880%                               
+ To change allowable N content, modify SCN parameter                           
+   in RESCH045.SDA file.                                                       
+
+******************************************************************************
+
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:42:03
+                                                                                
+*RUN   3        : 80 kg Urea-N Split Applic SGCER045 ITHY8001    3              
+ MODEL          : SGCER045 - Grain sorghum                                      
+ EXPERIMENT     : ITHY8001 SG                                                   
+ DATA PATH      :                                                               
+ TREATMENT  3   : 80 kg Urea-N Split Applic SGCER045                            
+  
+
+ IPSOIL  YEAR DOY =    0   0
+ Saturated hydraulic conductivity equal to zero for one or more soil layers.   
+ Data will be treated as missing.                                              
+
+ SOILDYN  YEAR DOY = 1980 165
+ The CENTURY-based soil-organic-matter module needs                            
+ soil texture data, but the specified soil profile                             
+ does not have those for some layers. The model will                           
+ run with the default 30% clay, 30% silt, 40% sand.                            
+ This may give incorrect results.                                              
+
+ SOILNI  YEAR DOY = 1980 165
+ N content of residue was changed from value in initial conditions             
+   section of experiment file to maintain allowable C:N ratio.                 
+   - Previous crop code                 :    SG                                
+   - Recommended N content for surface residue (%):   1.1                      
+   - Value read from file               : 0.500%                               
+   - Value changed to                   : 0.880%                               
+ To change allowable N content, modify SCN parameter                           
+   in RESCH045.SDA file.                                                       

@@ -1,0 +1,6 @@
+ApsimVersion = 7.5
+format = csv
+Title = ITHY8001_2-80 kg Urea-N Incorporated ACMO
+yield,biomass,AnthesisDate,MaturityDate,HarvestDate,LAIMax,InCropRain,SumEP,SumNO3Uptake,SumLeachNO3
+(kg/ha),(kg/ha),(yyyy-mm-dd),(yyyy-mm-dd),(yyyy-mm-dd),(m2/m2),(mm),(mm),(kg/ha),(kg/ha)
+0.000000,47.314609,0-12-30,0-12-30,1980-07-31,0.003389,132.499999,0.163803,0.075288,0.000000

@@ -1,0 +1,341 @@
+ CSCER  Cropsim-Ceres Crop Module 
+  
+ RUN OVERVIEW     
+  MODEL   DSCSM045
+  MODULE  CSCER045
+  VERSION     4.50
+  
+  N SWITCH   Y
+  N METHOD   CSM
+  H2O SWITCH Y
+  PLANTING SWITCH R
+  
+  RUN            6
+  
+  EXPERIMENT           KSAS8101WH
+  TREATMENT            6
+  CROP COMPONENT       1
+  PLANTING DATE TARGET 1981289
+  
+ DERIVED COEFFICIENTS
+   PD2,PD2FR1    285.0000      0.2500000    
+   PD4,PD4FR1,PD4FR2    200.0000      0.2500000      0.1000000    
+   Pd2(1)      :     71.25000    
+   Pd4(1)      :     50.00000    
+   Pd4(2)      :     20.00000    
+   Pd4(3)      :     130.0000    
+   G2          :    4.4247787E-02
+   Astage      :     4.250000    
+   Astagend    :     4.350000    
+  
+ DERIVED DATA
+   Seedrs,Seedn:   36.8    0.9 kg/ha
+  
+ EXPERIMENTAL DETAILS
+   TRUNNAME      N x IR ASHLAND, CSCER045                
+   PLTPOP,ROWSP  162.0   16.0
+   SDEPTH,SDRAT    5.5   46.0
+   SEEDRS,SEEDN   36.8    0.9 kg/ha
+   PLMAGE          0.0
+   YRHARF,IHARI    -99      M
+   HPC,HBPC      100.0    0.0
+   CROP,VARNO       WH IB0488
+  
+ CULTIVAR DETAILS FROM: DSSAT45.INH 
+  Originals from: C:\DSSAT45\GENOTYPE\WHCER045.CUL                            
+   Varno,econo :  IB0488 USWH01
+   P1v,p1d,p5  :     45.00000       75.00000       500.0000    
+   G1,g2kwt,g3 :     26.00000       25.00000       2.000000    
+   G2 mg/oC.d  :    4.4247787E-02
+   Phint,Veff  :     95.00000       1.000000    
+  
+ ECOTYPE DETAILS FROM: 
+ C:\DSSAT45\GENOTYPE\WHCER045.ECO                                
+   TIl#S,TIPHE :     4.500000       2.000000    
+   P1,2,3      :     400.0000       285.0000       190.0000    
+   P4,5,6      :     200.0000       500.0000       200.0000    
+   P2(1)       :     71.25000    
+   P4(1),P4(2) :     50.00000       20.00000    
+   P4(1),P4(2) :     50.00000       20.00000    
+   PHL2,PHF3   :     13.00000       1.000000    
+   PARUE,PARU2 :     2.700000       2.700000    
+   WFGU,WFPU   :     1.300000       1.000000    
+   WFPGF       :     1.000000    
+   NFPU,NFPL   :     1.000000      0.0000000E+00
+   KCAN,KEP    :    0.8500000      0.6854839    
+   LA1S,LLIFE  :     2.000000               4
+   LAFV,LAFR   :    0.1500000      9.9999998E-03
+   AWNS,SGPHE  :     5.000000       4.450000    
+   TKFH        :    -20.00000    
+   HTSTD       :     100.0000    
+   LAWS,LAWCF  :     400.0000      2.0000000E-02
+   RS%S        :     30.00000    
+   GN%S        :     2.200000    
+   NB.This is the percentage of stem assimilates going to reserves
+      instead of structural material.Approximate equivalences are:
+      10 -> 10% reserves at anthesis 80 -> 60% reserves at anthesis
+   LSPHS,LSPHE :     5.300000       6.500000    
+  
+ SPECIES DETAILS  FROM: 
+ C:\DSSAT45\GENOTYPE\WHCER045.SPE                                
+   PGERM,PEMRG :    10.00    8.00
+   P0          :    0.0000000E+00
+   PPTHR,PPFPE :     20.00000       1.000000    
+   PPEND       :     2.000000    
+   P6          :   200.00
+   TDFAC       :     4.000000    
+   LWLOS,LRPHS :    0.5000000       3.000000    
+   TGO02       :    0.8000000    
+   TRGEM    1.0   26.0   50.0   60.0
+   TRDV1    0.0   26.0   50.0   60.0
+   TRDV2    0.0   30.0   50.0   60.0
+   TRLFG    0.0   10.0   20.0   35.0
+   TRPHS    0.0    5.0   25.0   35.0
+   TRVRN   -5.0    0.0    7.0   15.0
+   TRHAR   -5.0    0.0    5.0   10.0
+   TRGFW    0.0   16.0   35.0   45.0
+   TRGFN    0.0   16.0   35.0   45.0
+   CO2RF    0.0  220.0  330.0  440.0  550.0  660.0  770.0  880.0  990.0 9999.0
+   CO2F     0.0    0.7    1.0    1.1    1.2    1.2    1.3    1.4    1.4    1.5
+   PTFS    0.65   0.70   0.75   0.80   0.98   0.98 -99.00 -99.00 -99.00 -99.00
+   PTFA    0.10   0.10   0.10   0.10   0.35   0.35 -99.00 -99.00 -99.00 -99.00
+   STFR    0.00   0.15   0.51   1.00   1.00   1.00 -99.00 -99.00 -99.00 -99.00
+   LASF    0.00   0.10   0.10   0.10   0.10   1.00 -99.00 -99.00 -99.00 -99.00
+   CHT%    0.00  50.00 100.00 -99.00 -99.00 -99.00 -99.00 -99.00 -99.00 -99.00
+   CLA%    0.00  50.00 100.00 -99.00 -99.00 -99.00 -99.00 -99.00 -99.00 -99.00
+   LCNCS 0.0800 0.0640 0.0530 0.0400 0.0310 0.0270 0.0150
+   SCNCS 0.0250 0.0200 0.0100 0.0080 0.0060 0.0050 0.0040
+   RCNCS 0.0204 0.0197 0.0189 0.0182 0.0177 0.0173 0.0168
+   LMNCS 0.0080 0.0075 0.0070 0.0065 0.0060 0.0065 0.0060
+   SMNCS 0.0065 0.0060 0.0055 0.0050 0.0045 0.0040 0.0040
+   RMNCS 0.0153 0.0147 0.0141 0.0136 0.0133 0.0129 0.0126
+   L,S,R LIGNIN     10.00   10.00   10.00
+   GRAIN LIGNIN     10.00
+   RWUMXS,RWUMX      0.03    0.03
+   RWUPM             0.02
+   RLWR cm/g         0.98
+   WFRGU,NCRG      0.2500 30.0000
+   WFGEU,SDAFR       0.50    0.50
+   SDWT,SDN%I      0.0284  1.9000
+   RDGTH           275.00
+   RDGS,RDG2         3.00    3.00
+   RLDGR,RRESP     500.00    0.40
+   WFTU,WFTL         1.00    0.50
+   NFTU,NFTL         1.00    0.00
+   NFGU,NFGL         1.00    0.00
+   WFSU,LLOSW        0.60    0.02
+   NFSU,LLOSN        0.40    0.02
+   NFSF              0.10
+   WFNUU,WFNUL       1.00    0.00
+   NO3MN,NH4MN       0.00    0.00
+   RLFNU,NCNU        2.00   30.00
+   TKUH,HDUR        -6.00   10.00
+   PTFMX             0.98
+   SSEN%,RSEN%       0.53    0.80
+   SAWS,LSHAWS      25.00   70.00
+   LSHFR,LAXS        0.33  900.00
+   PHL1,PHF1         2.00    0.80
+   SSPHS             5.80
+   NLAB%,GN%MX      20.00    3.20
+   NTUPF             0.05
+   CHFR,CHSTG        0.65    3.80
+   TPAR,TSRAD        0.07    0.25
+  
+ PHASE DURATIONS                                       
+  CERES INPUTS     =  400.0 285.0 190.0 200.0 500.0
+  CERES from PHINT =  400.0 285.0 190.0 200.0 500.0
+  ZADOKS FROM CERES INPUTS AND PHINT  
+   P1   ->TS  2 400.0  400.0
+   P2   ->Jt  3  71.2   71.2
+   P3  TS->LL 4 213.8  213.8
+   P4  LL->SE 5 190.0  190.0
+   P5 ESG->AN 6  50.0   50.0
+   P6  AN->EA 7  20.0   20.0
+   P7  EA->EL 8 130.0  130.0
+   P8  EL->PM 9 500.0  500.0
+  
+ File name switch N
+ Planting on:      1981289
+ Initialising soil profile and other N aspects on:      1981289
+ Fertilizer N pre-plant   90 kg/ha
+ Leaves damaged by cold on day 351 Fraction lost 0.5
+ Leaves damaged by cold on day 352 Fraction lost 0.7
+ Leaves damaged by cold on day 353 Fraction lost 0.3
+ Leaves damaged by cold on day   6 Fraction lost 0.2
+ Leaves damaged by cold on day   7 Fraction lost 0.3
+ Leaves damaged by cold on day  10 Fraction lost 0.9
+ Leaves damaged by cold on day  23 Fraction lost 0.0
+ Leaves damaged by cold on day  34 Fraction lost 0.2
+ Fertilizer N   90 kg/ha on   1982056     To date  180 kg/ha
+  
+ Double ridges. Stage,Leaf#:    1.600000       8.029474    
+  
+ Leaf number when size increment changed    8.029474    
+ Leaf p.size when size increment changed    6.118045    
+ Next p.size when size increment changed   -99.00000    
+  
+ Terminal spikelet            1982109
+  Terminal spilelet leaf #          10.44474    
+  Final leaf # (Aitken formula)     13.99900    
+  P2 Durations Input,From Aitken    285.0000       337.6549    
+  
+ Jointing:                    1982116
+ Last leaf emergence:         1982129
+ Inflorescence emergence:     1982139
+ Anthesis:                    1982141
+ End of anthesis:             1982142
+ Prior 20d mean temperature   19.5
+ Prior 20d mean stress fact    1.0
+  NB. 1.0 = 0 stress       
+ Grain #/m2,Nfg    17645.71       1.000000    
+ Start of linear kernel growth    
+  Original kernel growth rate (G2)   4.4247787E-02
+  Adjusted kernel growth rate (G2)   4.5153081E-02
+ Temperature limit on grain growth at xstage  5.09
+ Temperature limit on grain growth at xstage  5.12
+ Temperature limit on grain growth at xstage  5.15
+ N limit on grain growth. N at minimum of 1.90
+ N limit on grain growth. N at minimum of 1.90
+ N limit on grain growth. N at minimum of 1.90
+ N limit on grain growth. N at minimum of 1.90
+ N limit on grain growth. N at minimum of 1.90
+ N limit on grain growth. N at minimum of 1.90
+ N limit on grain growth. N at minimum of 1.90
+ N limit on grain growth. N at minimum of 1.90
+  
+ HARVEST REACHED      1982174
+  
+ OVERALL PAR USE EFFICIENCY (INCIDENT,INTERCEPTED) =   0.7 2.1
+  
+ INORGANIC NO3 AND NH4 (kg/ha)
+  PROFILE:  
+  SEASON START: 141.7  38.9
+  SEASON END:    42.9   9.6
+  ROOTZONE: 
+  SEASON END:    42.9   9.6
+  
+ TOTAL AND AVAILABLE WATER (mm) 
+  PROFILE:  
+  SEASON START: 162.4  90.7
+  SEASON END:   222.0 150.3
+  ROOTZONE: 
+  SEASON END:   222.0 150.3
+  
+ CROP COMPONENT:  1
+  DEAD MATERIAL LEFT ON SURFACE    146.7
+  DEAD MATERIAL LEFT IN SOIL       371.1
+  ROOT WEIGHT AT HARVEST           596.2
+  
+ ROOTS BY LAYER FOR KSAS8101WH  6
+  LAYER  RTWT   RLV
+     1   83.9  1.64
+     2  171.1  1.68
+     3  175.1  1.14
+     4   55.6  0.36
+     5   69.2  0.45
+     6   26.8  0.09
+     7   13.0  0.04
+     8    1.3  0.00
+     9    0.2  0.00
+  FINAL SOIL LAYER REACHED ON 1982147
+  (MATURITY ON 1982174)
+  
+ N BALANCE FOR KSAS8101WH  6
+   N UPTAKE + SEED        97.0394
+   TOTAL N SENESCED        6.2687  1.2984  4.9703
+   N IN DEAD MATTER        8.1059
+   TOTAL N IN PLANT       90.7693
+   BALANCE (A-(B+C+D))     0.0014
+  
+ CH2O BALANCE FOR KSAS8101WH  6
+   SEED + CH2O FIXED A      12966.4062
+   CH2O RESPIRED B            637.4429
+   CH2O SENESCED C  Tops,rt   517.7706   146.6942   371.0764
+   CH2O LF RESERVES LOST C2   633.2982
+   CH2O IN LIVE+DEAD D      11177.8945
+   CH2O IN DEAD MATTER        749.1483
+   CH2O IN LIVE PLANT       10428.7461
+   POST MATURITY RESERVES E     0.0000
+   BALANCE (A-(B+C+C2+D+E))    -0.0004
+  
+ STAGE CONDITIONS FOR KSAS8101WH  6
+  Temperature mean,germ+emergence       13.6
+  Temperature mean,first 20 days        11.6
+  Temperature mean,20d around anthesis  19.5
+  Solar radn. mean,20d around anthesis  18.4
+  Stress fac. mean,20d around anthesis   1.0
+  Temperature mean,grain filling        20.0
+  Temperature mean,grain maturing       20.8
+  
+ STAGE DATES FOR KSAS8101WH  6
+  STAGE   DATE  STAGE NAME
+      1 1982109 Term Spklt
+      2 1982129 End Veg   
+      3 1982139 End Ear Gr
+      4 1982149 Beg Gr Fil
+      5 1982174 End Gr Fil
+      6 1982174 Harvest   
+      7 1981289 Sowing    
+      8 1981290 Germinate 
+      9 1981294 Emergence 
+     10     -99 Failure   
+     11 1982174 End crop  
+  
+ LEAF NUMBER AND SIZES FOR KSAS8101WH  6
+   LEAF NUMBER 13.5
+   LEAF AREAP AREA1 AREAT AREAS TNUML  WFLF  NFLF  AFLF
+      1   2.0   1.7   1.7   1.7   1.0   0.0   0.0   0.0
+      2   2.3   2.3   2.3   2.3   1.0   0.0   0.0   0.0
+      3   2.6   2.3   2.3   2.3   1.0   0.0   0.0   0.0
+      4   3.0   2.8   2.8   2.8   1.0   0.0   0.0   0.0
+      5   3.5   1.5   1.5   1.5   1.3   0.0   0.0   0.1
+      6   4.0   0.3   0.5   0.5   2.1   0.0   0.0   0.8
+      7   4.6   1.1   2.9   2.9   3.0   0.0   0.0   0.6
+      8   5.3   3.3  10.7  10.7   3.9   0.0   0.0   0.1
+      9   6.1   5.2  21.2  21.2   6.1   0.0   0.0   0.0
+     10   6.2   5.5  28.5  28.5   8.4   0.0   0.0   0.0
+     11   6.2   5.8  36.8  36.8   9.6   0.0   0.0   0.0
+     12   6.3   5.9  37.7  37.7   8.6   0.0   0.0   0.1
+     13   6.4   5.1  30.5  30.5   7.8   0.0   0.0   0.1
+     14   6.4   2.7  15.3  15.3   4.4   0.0   0.0   0.0
+  
+ STRESS FACTOR AVERAGES FOR KSAS8101WH  6
+  PHASE  H2O(PS)   H2O(GR)   N(PS)     N(GR)  PHASE END
+     1    0.00      0.00      0.00      0.00  Term Spklt
+     2    0.00      0.00      0.00      0.00  End Veg   
+     3    0.00      0.00      0.00      0.00  End Ear Gr
+     4    0.00      0.00      0.00      0.00  Beg Gr Fil
+     5    0.00      0.00      0.13      0.13  End Gr Fil
+  NB 0.0 = minimum ; 1.0 = maximum stress.
+  
+  RESERVES STATUS FOR KSAS8101WH  6
+  Kg/ha at anthesis   3505
+  Kg/ha at maturity   4081
+  % at anthesis       53.0
+  % at maturity       64.1
+  
+  Reserves coeff     30.00
+  Stem gr end stage   4.45
+  Anthesis stage      4.25
+  
+  Grain weight mg     19.6
+  Grain weight coeff  25.0
+  Some limitation on grain growth!
+   Days of Ch2o limit    0
+   Days of N limit       8
+   Days of temp limit    3
+  Grain N %            1.9
+  Minimum grain N %    1.9
+  Standard grain N %   2.2
+  
+ WRITING HARVEST DAY OUTPUTS         
+  Harvest percentage (Technology coeff)    100.0000    
+  
+ Writing PLANT SUMMARY
+ Trying to read T-file and write MEASURED.OUT
+ Writing EVALUATION
+ Writing OVERVIEW
+  
+ END OF HARVEST DAY OUTPUTS
+ WILL BEGIN NEW CYCLE (IF CALLED FOR)
+  
