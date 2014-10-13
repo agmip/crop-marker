@@ -8,13 +8,20 @@ import java.util.HashMap;
 import java.util.Properties;
 import java.util.Stack;
 import java.util.prefs.Preferences;
+import org.agmip.common.Functions;
+import org.apache.pivot.beans.BXMLSerializer;
 import org.apache.pivot.beans.Bindable;
 import org.apache.pivot.collections.Map;
+import org.apache.pivot.serialization.SerializationException;
 import org.apache.pivot.util.Resources;
 import org.apache.pivot.wtk.Action;
+import org.apache.pivot.wtk.ApplicationContext;
 import org.apache.pivot.wtk.Component;
 import org.apache.pivot.wtk.DesktopApplicationContext;
+import org.apache.pivot.wtk.Dialog;
+import org.apache.pivot.wtk.Display;
 import org.apache.pivot.wtk.Label;
+import org.apache.pivot.wtk.MenuBar;
 import org.apache.pivot.wtk.Window;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -59,6 +66,23 @@ public abstract class Page extends Window implements Bindable {
             @Override
             public void perform(Component src) {
                 DesktopApplicationContext.exit();
+            }
+        });
+        
+        final Window curWindow = this.getWindow();
+        Action.getNamedActions().put("pathConfig", new Action() {
+            @Override
+            public void perform(Component src) {
+                BXMLSerializer bxml = new BXMLSerializer();
+                Dialog dialog;
+                try {
+                    dialog = (Dialog) bxml.readObject(getClass().getResource("/dialog_config.bxml"));
+                    dialog.open(curWindow);
+                } catch (IOException ex) {
+                    LOG.error(Functions.getStackTrace(ex));
+                } catch (SerializationException ex) {
+                    LOG.error(Functions.getStackTrace(ex));
+                }
             }
         });
     }
