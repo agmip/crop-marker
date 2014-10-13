@@ -9,10 +9,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import org.agmip.common.Functions;
-import org.agmip.utility.testframe.comparator.TestComparator;
 import org.apache.pivot.beans.Bindable;
 import org.apache.pivot.collections.Map;
 import org.apache.pivot.util.Resources;
@@ -76,7 +73,7 @@ public class DiffRetDialog extends Dialog implements Bindable {
                 }
             });
             reportListBP.add(linkBox);
-        };
+        }
     }
 
     public void setApplyBtn(final HashMap<File, File> applyFiles) {
@@ -95,6 +92,13 @@ public class DiffRetDialog extends Dialog implements Bindable {
                     File exp = entry.getValue();
                     File act = entry.getKey();
                     try {
+                        if (!act.exists()) {
+                            if (!exp.delete()) {
+                                LOG.warn("Fail to remove {} in the expeceted folder", exp.getName());
+                                copyErrors.add(exp.getName());
+                            }
+                            continue;
+                        }
                         BufferedWriter bw = new BufferedWriter(new FileWriter(exp, false));
                         BufferedReader br = new BufferedReader(new FileReader(act));
                         String line;

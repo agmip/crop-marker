@@ -61,8 +61,10 @@ public class BuildTestPage extends Page {
     private Checkbox modelWofost = null;
 //    private Checkbox modelCgnau = null; 
     private Checkbox modelJson = null;
+    private Checkbox comparatorAll = null;
     private Checkbox comparatorAcmo = null;
     private Checkbox comparatorYield = null;
+    private Checkbox comparatorNone = null;
     DiffRetDialog diffRetDialog = null;
     private Label txtStatus = null;
 //    private Label txtAutoDomeApplyMsg = null;
@@ -123,8 +125,10 @@ public class BuildTestPage extends Page {
         modelWofost = (Checkbox) ns.get("model-wofost");
 //        modelCgnau          = (Checkbox) ns.get("model-cgnau");
         modelJson = (Checkbox) ns.get("model-json");
+        comparatorAll = (Checkbox) ns.get("comparator-all");
         comparatorAcmo = (Checkbox) ns.get("comparator-acmo");
         comparatorYield = (Checkbox) ns.get("comparator-yield");
+        comparatorNone = (Checkbox) ns.get("comparator-none");
         diffRetDialog = (DiffRetDialog) ns.get("diffRet");
 
         modelCBGroup.add(modelApsim);
@@ -133,8 +137,10 @@ public class BuildTestPage extends Page {
         modelCBGroup.add(modelWofost);
 //        checkboxGroup.add(modelCgnau);
         modelCBGroup.add(modelJson);
+        comparatorCBGroup.add(comparatorAll);
         comparatorCBGroup.add(comparatorAcmo);
         comparatorCBGroup.add(comparatorYield);
+        comparatorCBGroup.add(comparatorNone);
 
         File f;
         if (!(f = new File(DEF_WORK_PATH)).exists()) {
@@ -252,8 +258,10 @@ public class BuildTestPage extends Page {
 //        initCheckBox(modelStics, "last_model_select_stics");
         initModelCheckBox(modelWofost, "last_model_select_wofost");
         initModelCheckBox(modelJson, "last_model_select_json");
+        initComparatorCheckBox(comparatorAll, "last_comparator_select_all");
         initComparatorCheckBox(comparatorAcmo, "last_comparator_select_acmo");
         initComparatorCheckBox(comparatorYield, "last_comparator_select_yield");
+        initComparatorCheckBox(comparatorNone, "last_comparator_select_none");
     }
 
     private void switchDataConfig(String dataName) {
@@ -397,7 +405,7 @@ public class BuildTestPage extends Page {
             if (!comparator.getLastCompareResult()) {
                 LOG.info("{}: mismatched result has been detected.", comparator.getTitle());
                 reportFiles.add(comparator.getReport());
-                applyFiles.put(comparator.getActual(), comparator.getExpected());
+                applyFiles.putAll(comparator.getDiffFiles());
             } else {
                 LOG.info("{}: All results matched with expected data", comparator.getTitle());
             }

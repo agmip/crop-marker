@@ -85,8 +85,10 @@
                                 <bxml:define>
                                     <ButtonGroup bxml:id="comparators"/>
                                 </bxml:define>
-                                <Checkbox bxml:id="comparator-acmo" buttonData="ACMO"/>
-                                <Checkbox bxml:id="comparator-yield" buttonData="Yield" />
+                                <Checkbox bxml:id="comparator-all" buttonData="ALL" tooltipDelay="50" tooltipText="Include model input, output and ACMO files"/>
+                                <Checkbox bxml:id="comparator-acmo" buttonData="ACMO" tooltipDelay="50" tooltipText="Only compare ACMO file"/>
+                                <Checkbox bxml:id="comparator-yield" buttonData="Yield" tooltipDelay="50" tooltipText="Only compare the yeild variable"/>
+                                <Checkbox bxml:id="comparator-none" buttonData="None" tooltipDelay="50" tooltipText="Only run translation tool and model to get ACMO report"/>
                             </BoxPane>
                         </Border>
                     </BoxPane>
