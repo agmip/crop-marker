@@ -2,10 +2,12 @@ package org.agmip.ui.cropmarker;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import org.agmip.common.Functions;
 import org.agmip.ui.cropmarker.BuildTestPage.DataSpecConfig;
 import static org.agmip.ui.cropmarker.Page.DEF_DATA_PATH;
+import org.agmip.utility.testframe.comparator.AcmoCsvFileComparator;
 import org.agmip.utility.testframe.comparator.TestComparator;
 import static org.agmip.utility.testframe.comparator.TestComparator.Type.*;
 import org.agmip.utility.testframe.model.TestDefBuilder;
@@ -150,7 +152,6 @@ public class TestBuilderTask extends Task<TestDefBuilder> {
         for (String comparatorName : testConfig.getComparators()) {
             if (comparatorName.equalsIgnoreCase("ALL")) {
                 try {
-//                    String expectedPath = String.format(expectedDataPath, dataName, model, "ACMO", "ACMO-MACHAKOS-1-0XFX-0-0-" + modelName + ".csv");
                     String expectedPath = String.format(expectedDataPath, dataName, model);
                     String actualPath = String.format(acmoInputDir, dataName, model);
                     TestComparator comparator = builder.addTestComparator(FOLDER, expectedPath, actualPath);
@@ -161,7 +162,6 @@ public class TestBuilderTask extends Task<TestDefBuilder> {
             } else if (comparatorName.equalsIgnoreCase("ACMO")) {
                 // Preparing ACMO CSV file comparator
                 try {
-//                    String expectedPath = String.format(expectedDataPath, dataName, model, "ACMO", "ACMO-MACHAKOS-1-0XFX-0-0-" + modelName + ".csv");
                     String expectedPath = String.format(expectedDataPath, dataName, model);
                     String actualPath = String.format(acmoInputDir, dataName, model);
                     File expDir = new File(expectedPath);
@@ -174,13 +174,31 @@ public class TestBuilderTask extends Task<TestDefBuilder> {
                         }
                     }
                     TestComparator comparator = builder.addTestComparator(FILE, acmoFile.getAbsolutePath(), actualPath + File.separator + acmoFile.getName());
+                    ((AcmoCsvFileComparator) comparator).setCompareAllOutputCols();
                     comparator.setTitle(comparatorName + "_" + dataName + "_" + model + "_Comparator");
                 } catch (Exception ex) {
                     LOG.error(Functions.getStackTrace(ex));
                 }
             } else if (comparatorName.equalsIgnoreCase("Yield")) {
-                // TODO
                 // Preparing Yield variable comparator
+                try {
+                    String expectedPath = String.format(expectedDataPath, dataName, model);
+                    String actualPath = String.format(acmoInputDir, dataName, model);
+                    File expDir = new File(expectedPath);
+                    File acmoFile = new File(expectedPath + "ACMO-" + modelName + ".csv");
+                    for (File f : expDir.listFiles()) {
+                        String fname = f.getName().toUpperCase();
+                        if (fname.startsWith("ACMO") && fname.endsWith(".CSV")) {
+                            acmoFile = f;
+                            break;
+                        }
+                    }
+                    TestComparator comparator = builder.addTestComparator(FILE, acmoFile.getAbsolutePath(), actualPath + File.separator + acmoFile.getName());
+                    ((AcmoCsvFileComparator) comparator).setCompareHeaderNames(new ArrayList(Arrays.asList("HWAH_S")));
+                    comparator.setTitle(comparatorName + "_" + dataName + "_" + model + "_Comparator");
+                } catch (Exception ex) {
+                    LOG.error(Functions.getStackTrace(ex));
+                }
             }
         }
     }
