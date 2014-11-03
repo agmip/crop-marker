@@ -306,7 +306,7 @@ public class BuildTestPage extends Page {
             for (Object key : postParams.keySet()) {
                 LOG.debug("{} : {}", key, postParams.get(key));
             }
-            ArrayList arr;
+            ArrayList<String> arr;
             ArrayList postArr = MapUtil.getObjectOr(postParams, "testDataList", new ArrayList());
             if (postArr.size() < 2) {
                 arr = postArr;
@@ -318,6 +318,7 @@ public class BuildTestPage extends Page {
             LOG.debug("postParams: {}", arr.toString());
             testDataListBtn.setListData(toListDataStr(arr));
             testDataListBtn.setSelectedIndex(0);
+            dataSpecConfig.put(arr.get(0), curConfig);
         } else {
             LOG.debug("postParams = null");
         }
