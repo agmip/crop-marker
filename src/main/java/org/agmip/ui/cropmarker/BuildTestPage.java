@@ -2,6 +2,8 @@ package org.agmip.ui.cropmarker;
 
 import java.io.File;
 import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -20,9 +22,7 @@ import org.apache.pivot.wtk.ActivityIndicator;
 import org.apache.pivot.wtk.Alert;
 import org.apache.pivot.wtk.BoxPane;
 import org.apache.pivot.wtk.Button;
-import org.apache.pivot.wtk.Button.State;
 import org.apache.pivot.wtk.ButtonPressListener;
-import org.apache.pivot.wtk.ButtonStateListener;
 import org.apache.pivot.wtk.Checkbox;
 import org.apache.pivot.wtk.Dialog;
 import org.apache.pivot.wtk.DialogCloseListener;
@@ -162,19 +162,27 @@ public class BuildTestPage extends Page {
             }
         });
 
-        outputCB.getButtonStateListeners().add(new ButtonStateListener() {
+        outputCB.getButtonPressListeners().add(new ButtonPressListener() {
 
             @Override
-            public void stateChanged(Button button, State state) {
+            public void buttonPressed(Button button) {
                 boolean isOutputUseDef = button.isSelected();
                 if (isOutputUseDef) {
                     outputText.setText(DEF_WORK_PATH);
-                    curConfig.setOutputDir(outputText.getText());
+                    if (isCurDataAll()) {
+                        applyToAll("setOutputDir", outputText.getText());
+                    } else {
+                        curConfig.setOutputDir(outputText.getText());
+                    }
                 } else {
                     outputText.setText(curConfig.getOutputDir());
                 }
                 browseOutputDir.setEnabled(!isOutputUseDef);
-                curConfig.setIsOutputUseDef(isOutputUseDef);
+                if (isCurDataAll()) {
+                    applyToAll("setIsOutputUseDef", isOutputUseDef);
+                } else {
+                    curConfig.setIsOutputUseDef(isOutputUseDef);
+                }
             }
         });
 
@@ -244,7 +252,12 @@ public class BuildTestPage extends Page {
                         if (sheet.getResult()) {
                             File outputDir = browse.getSelectedFile();
                             outputText.setText(outputDir.getPath());
-                            curConfig.setOutputDir(outputDir.getPath());
+                            if (isCurDataAll()) {
+                                applyToAll("setOutputDir", outputDir.getPath());
+                                applyToAll("setIsOutputUseDef", false);
+                            } else {
+                                curConfig.setOutputDir(outputDir.getPath());
+                            }
 //                            pref.put("last_output", outputDir.getPath());
                         }
                     }
@@ -278,8 +291,8 @@ public class BuildTestPage extends Page {
             dataSpecConfig.put(curDataName, curConfig);
         }
         switchCheckboxesSelection();
-//        switchOutputBox(config.getIsOutputUseDef());
-        outputCB.setSelected(curConfig.getIsOutputUseDef());
+        switchOutputBox();
+//        outputCB.setSelected(curConfig.getIsOutputUseDef());
     }
 
     private void switchCheckboxesSelection() {
@@ -297,6 +310,12 @@ public class BuildTestPage extends Page {
                 cbox.setSelected(false);
             }
         }
+    }
+
+    private void switchOutputBox() {
+        outputCB.setSelected(curConfig.getIsOutputUseDef());
+        outputText.setText(curConfig.getOutputDir());
+        browseOutputDir.setEnabled(!curConfig.getIsOutputUseDef());
     }
 
     @Override
@@ -513,9 +532,17 @@ public class BuildTestPage extends Page {
 //                pref.putBoolean(lastSelectId, button.isSelected());
                 String model = (String) button.getButtonData();
                 if (button.isSelected()) {
-                    curConfig.selecteModel(model);
+                    if (isCurDataAll()) {
+                        applyToAll("selecteModel", model);
+                    } else {
+                        curConfig.selecteModel(model);
+                    }
                 } else {
-                    curConfig.unselecteModel(model);
+                    if (isCurDataAll()) {
+                        applyToAll("unselecteModel", model);
+                    } else {
+                        curConfig.unselecteModel(model);
+                    }
                 }
             }
         });
@@ -531,12 +558,52 @@ public class BuildTestPage extends Page {
 //                pref.putBoolean(lastSelectId, button.isSelected());
                 String model = (String) button.getButtonData();
                 if (button.isSelected()) {
-                    curConfig.selecteComparator(model);
+                    if (isCurDataAll()) {
+                        applyToAll("selecteComparator", model);
+                    } else {
+                        curConfig.selecteComparator(model);
+                    }
                 } else {
-                    curConfig.unselecteComparator(model);
+                    if (isCurDataAll()) {
+                        applyToAll("unselecteComparator", model);
+                    } else {
+                        curConfig.unselecteComparator(model);
+                    }
                 }
             }
         });
+    }
+
+    private boolean isCurDataAll() {
+        String curName = testDataListBtn.getSelectedItem().toString();
+        return curName != null && curName.equals(DEF_SELECTED_DATA_NAME);
+    }
+
+    private void applyToAll(String methodName, Object... params) {
+        try {
+            Method m;
+            if (params == null || params.length == 0) {
+                m = DataSpecConfig.class.getMethod(methodName);
+            } else {
+                Class[] parameterTypes = new Class[params.length];
+                for (int i = 0; i < params.length; i++) {
+                    parameterTypes[i] = params[i].getClass();
+                }
+                m = DataSpecConfig.class.getMethod(methodName, parameterTypes);
+            }
+            for (String key : dataSpecConfig.keySet()) {
+                DataSpecConfig config = dataSpecConfig.get(key);
+                m.invoke(config, params);
+            }
+        } catch (NoSuchMethodException ex) {
+            LOG.warn(Functions.getStackTrace(ex));
+        } catch (IllegalAccessException ex) {
+            LOG.warn(Functions.getStackTrace(ex));
+        } catch (IllegalArgumentException ex) {
+            LOG.warn(Functions.getStackTrace(ex));
+        } catch (InvocationTargetException ex) {
+            LOG.warn(Functions.getStackTrace(ex));
+        }
     }
 
     protected class DataSpecConfig {
@@ -546,7 +613,7 @@ public class BuildTestPage extends Page {
         private HashSet<String> models = new HashSet();
         private HashSet<String> comparators = new HashSet();
 
-        public void setIsOutputUseDef(boolean isOutputUseDef) {
+        public void setIsOutputUseDef(Boolean isOutputUseDef) {
             this.isOutputUseDef = isOutputUseDef;
         }
 
