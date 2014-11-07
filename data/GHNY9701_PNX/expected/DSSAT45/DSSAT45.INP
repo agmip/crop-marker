@@ -24,13 +24,13 @@ OUTPUT         OVERVIEW
                 100.     1   20.
                      0 1998149  100.    0.
 *EXP.DETAILS        
-  1GHNY9701 PN able [sltx] with oversized content [1 SALO], only first 5 bi
+  1GHNY9701 PN 1997 VARIETY X PLANTING DATE EXPERIMENT                     
 *TREATMENTS         
   6 0 0 0 97 DATE3 F-MIX           
 *CULTIVARS          
    PN GH0002 F_MIX3,short bun
 *FIELDS             
-   GHNY0002 GHNY9702   0.0    0. DR000    0. 100.0 00000 SAL      9. GH00970002
+   GHNY0002 GHNY9702   0.0    0. DR000    0. 100.0 00000 SL      90. GH00970002
           -0.92000         9.42000      0.00               1.0  100.   1.0   0.0   -99   -99
 *INITIAL CONDITIONS 
    PN    1997205   100     0  1.00  1.00   0.0  1000  0.53  0.00    0.   15.
@@ -51,7 +51,7 @@ OUTPUT         OVERVIEW
 *ENVIRONMENT        
 *HARVEST            
 *SOIL               
- GH00970002  Naab site1D SAL      9. 0 SAVANNA OCHROSOL                                
+ GH00970002  Naab st1D23 SL      90. SAVANNA OCHROSOL                                  
  NYANKPALA   GHANA         9.410   0.966 PALEUSTALF                                        
  BN     0.13   6.0  0.65   76.  1.00  0.86 IB001 IB001 IB001 -99  
     5.       0.095 0.257 0.359 1.000  -99.  1.39 0.410   7.0  18.2   6.2  -9.0  6.70-99.00-99.00-99.00

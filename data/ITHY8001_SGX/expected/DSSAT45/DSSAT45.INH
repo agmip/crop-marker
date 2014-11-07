@@ -1,46 +1,46 @@
-*EXP.DETAILS: ITHY8001SG                                                             
+*EXP.DETAILS: ITHY8001SG ICRISAT ALFISOL N 1980 EXPT 80-1                            
 
 *FILES
 @N  EXP.DATA    AFILE        ADIR
-  3 EXP         ITHY8001.SGA                                                                                 
+  1 EXP         ITHY8001.SGA                                                                                 
 @N  SPECIES     SPFILE       SPDIR
-  3 SPE         SGCER045.SPE C:\DSSAT45\GENOTYPE\                                                            
+  1 SPE         SGCER045.SPE C:\DSSAT45\GENOTYPE\                                                            
 @N  ECOTYPE     EFILE        EDIR
-  3 ECO         SGCER045.ECO C:\DSSAT45\GENOTYPE\                                                            
+  1 ECO         SGCER045.ECO C:\DSSAT45\GENOTYPE\                                                            
 @N  CULTIVAR    CFILE        CDIR
-  3 CUL         SGCER045.CUL C:\DSSAT45\GENOTYPE\                                                            
+  1 CUL         SGCER045.CUL C:\DSSAT45\GENOTYPE\                                                            
 @N  SOIL        SFILE        SDIR
-  3 SOIL        IB.SOL                                                                                       
+  1 SOIL        IB.SOL                                                                                       
 @N  WEATHER     WFILE        WDIR
-  3 WEATH       ITHY8002.WTH                                                                                 
+  1 WEATH       ITHY8002.WTH                                                                                 
 
 *SIMULATION CONTROL
 @N  GENERAL     NYERS NREPS START   SDATE RSEED SNAME.................... MODEL...
-  3 GE              1     1     S 1980165  2150 ICRISAT Alfisol N 1980 E  SGCER045
+  1 GE              1     1     S 1980165  2150 ICRISAT Alfisol N 1980 E  SGCER045
 @N  OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
-  3 OP              Y     Y     N     N     N     N     N     N     M
+  1 OP              Y     Y     N     N     N     N     N     N     M
 @N  METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT SOMDY MESEV MESOL
-  3 ME              M     M     E     R     S     C     R     1     P     S     2
+  1 ME              M     M     E     R     S     C     R     1     P     S     2
 @N  MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
-  3 MA              R     N     R     N     M
+  1 MA              R     N     R     N     M
 @N  OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT  LONG CHOUT OPOUT
-  3 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N
+  1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N
 
 !AUTOMATIC MANAGEM
 @N  PLANTING      PFRST   PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
-  3 PL          1980162 1980176   40.  100.   30.   40.   10.
+  1 PL          1980162 1980176   40.  100.   30.   40.   10.
 @N  IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
-  3 IR            30.   50.  100. GS000 IR001  10.0 1.000
+  1 IR            30.   50.  100. GS000 IR001  10.0 1.000
 @N  NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
-  3 NI            30.   50.   25. FE001 GS000
+  1 NI            30.   50.   25. FE001 GS000
 @N  RESIDUES    RIPCN RTIME RIDEP
-  3 RE           100.     1   20.
+  1 RE           100.     1   20.
 @N  HARVEST     HFRST   HLAST HPCNP HRCNR
-  3 HA              0 1981168  100.    0.
+  1 HA              0 1981168  100.    0.
 
 *TREATMENTS
 @N   R O C TNAME....................  CU  FL  SA  IC  MP  MI  MF  MR  MC  MT  ME  MH  SM
-  3  1 0 0 80 kg Urea-N Split Applic   1   1   0   2   1   0   3   0   0   0   0   0   3
+  3  1 0 0 80 kg Urea-N Split Applic   1   1   0   2   1   0   3   0   0   0   0   0   1
 
 *CULTIVARS
 @C  CR INGENO CNAME

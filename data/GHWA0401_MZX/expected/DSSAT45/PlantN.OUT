@@ -1,10 +1,10 @@
 *PLANT N OUTPUT FILE
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:36
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:44:25
                                                                                 
 *RUN   1        : N0 P0                     MZCER045 GHWA0401    1              
  MODEL          : MZCER045 - Maize                                              
- EXPERIMENT     : GHWA0401 MZ                                                   
+ EXPERIMENT     : GHWA0401 MZ ON-STATION NXP (EXPERIMENT NO.2) 9 TRT            
  DATA PATH      :                                                               
  TREATMENT  1   : N0 P0                     MZCER045                            
   
@@ -136,11 +136,11 @@
  2004 293   376   124   11.6    4.9    6.7   0.86   0.59   11.6    2.9    3.8    0.6   0.59   0.62    0.00    0.22
  2004 294   377   125   11.6    4.9    6.7   0.86   0.59   11.6    2.9    3.8    0.6   0.59   0.62    0.00    0.22
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:44:25
                                                                                 
 *RUN   2        : N0 P60                    MZCER045 GHWA0401    2              
  MODEL          : MZCER045 - Maize                                              
- EXPERIMENT     : GHWA0401 MZ                                                   
+ EXPERIMENT     : GHWA0401 MZ ON-STATION NXP (EXPERIMENT NO.2) 9 TRT            
  DATA PATH      :                                                               
  TREATMENT  2   : N0 P60                    MZCER045                            
   
@@ -272,11 +272,11 @@
  2004 293   376   124   14.2    2.6   11.6   0.68   0.58   15.4    6.1    5.5    0.6   0.58   0.34    0.00    0.41
  2004 294   377   125   14.2    2.6   11.6   0.68   0.58   15.4    6.1    5.5    0.6   0.58   0.34    0.00    0.41
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:44:26
                                                                                 
 *RUN   3        : N0 P90                    MZCER045 GHWA0401    3              
  MODEL          : MZCER045 - Maize                                              
- EXPERIMENT     : GHWA0401 MZ                                                   
+ EXPERIMENT     : GHWA0401 MZ ON-STATION NXP (EXPERIMENT NO.2) 9 TRT            
  DATA PATH      :                                                               
  TREATMENT  3   : N0 P90                    MZCER045                            
   
@@ -408,11 +408,11 @@
  2004 293   376   124   14.2    2.6   11.6   0.68   0.58   15.4    6.1    5.5    0.6   0.58   0.34    0.00    0.41
  2004 294   377   125   14.2    2.6   11.6   0.68   0.58   15.4    6.1    5.5    0.6   0.58   0.34    0.00    0.41
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:44:26
                                                                                 
 *RUN   4        : N60 P0                    MZCER045 GHWA0401    4              
  MODEL          : MZCER045 - Maize                                              
- EXPERIMENT     : GHWA0401 MZ                                                   
+ EXPERIMENT     : GHWA0401 MZ ON-STATION NXP (EXPERIMENT NO.2) 9 TRT            
  DATA PATH      :                                                               
  TREATMENT  4   : N60 P0                    MZCER045                            
   
@@ -544,11 +544,11 @@
  2004 293   376   124   28.0   16.6   11.4   1.77   1.21   28.3    6.6    4.8    1.2   1.21   1.13    0.00    0.14
  2004 294   377   125   28.0   16.6   11.4   1.77   1.21   28.3    6.6    4.8    1.2   1.21   1.13    0.00    0.14
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:44:26
                                                                                 
 *RUN   5        : N60 P60                   MZCER045 GHWA0401    5              
  MODEL          : MZCER045 - Maize                                              
- EXPERIMENT     : GHWA0401 MZ                                                   
+ EXPERIMENT     : GHWA0401 MZ ON-STATION NXP (EXPERIMENT NO.2) 9 TRT            
  DATA PATH      :                                                               
  TREATMENT  5   : N60 P60                   MZCER045                            
   
@@ -680,11 +680,11 @@
  2004 293   376   124   66.9   24.6   42.3   1.10   0.71   75.5   19.1   23.2    0.7   0.71   0.41    0.00    1.84
  2004 294   377   125   66.9   24.6   42.3   1.10   0.71   75.5   19.1   23.2    0.7   0.71   0.41    0.00    1.84
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:44:26
                                                                                 
 *RUN   6        : N60 P90                   MZCER045 GHWA0401    6              
  MODEL          : MZCER045 - Maize                                              
- EXPERIMENT     : GHWA0401 MZ                                                   
+ EXPERIMENT     : GHWA0401 MZ ON-STATION NXP (EXPERIMENT NO.2) 9 TRT            
  DATA PATH      :                                                               
  TREATMENT  6   : N60 P90                   MZCER045                            
   
@@ -816,11 +816,11 @@
  2004 293   376   124   68.1   24.7   43.3   1.11   0.72   75.8   19.8   23.5    0.7   0.72   0.38    0.00    1.67
  2004 294   377   125   68.1   24.7   43.3   1.11   0.72   75.8   19.8   23.5    0.7   0.72   0.38    0.00    1.67
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:44:26
                                                                                 
 *RUN   7        : N120 P0                   MZCER045 GHWA0401    7              
  MODEL          : MZCER045 - Maize                                              
- EXPERIMENT     : GHWA0401 MZ                                                   
+ EXPERIMENT     : GHWA0401 MZ ON-STATION NXP (EXPERIMENT NO.2) 9 TRT            
  DATA PATH      :                                                               
  TREATMENT  7   : N120 P0                   MZCER045                            
   
@@ -952,11 +952,11 @@
  2004 293   376   124   27.6   16.3   11.3   1.76   1.21   27.9    6.5    4.8    1.2   1.21   1.16    0.00    0.14
  2004 294   377   125   27.6   16.3   11.3   1.76   1.21   27.9    6.5    4.8    1.2   1.21   1.16    0.00    0.14
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:44:26
                                                                                 
 *RUN   8        : N120 P60                  MZCER045 GHWA0401    8              
  MODEL          : MZCER045 - Maize                                              
- EXPERIMENT     : GHWA0401 MZ                                                   
+ EXPERIMENT     : GHWA0401 MZ ON-STATION NXP (EXPERIMENT NO.2) 9 TRT            
  DATA PATH      :                                                               
  TREATMENT  8   : N120 P60                  MZCER045                            
   
@@ -1088,11 +1088,11 @@
  2004 293   376   124  116.2   69.5   46.7   1.61   0.76  131.3   21.7   25.0    0.8   0.76   0.58    0.00    2.92
  2004 294   377   125  116.2   69.5   46.7   1.61   0.76  131.3   21.7   25.0    0.8   0.76   0.58    0.00    2.92
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:44:26
                                                                                 
 *RUN   9        : N120 P90                  MZCER045 GHWA0401    9              
  MODEL          : MZCER045 - Maize                                              
- EXPERIMENT     : GHWA0401 MZ                                                   
+ EXPERIMENT     : GHWA0401 MZ ON-STATION NXP (EXPERIMENT NO.2) 9 TRT            
  DATA PATH      :                                                               
  TREATMENT  9   : N120 P90                  MZCER045                            
   

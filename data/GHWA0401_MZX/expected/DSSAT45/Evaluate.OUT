@@ -1,4 +1,4 @@
-*EVALUATION : GHWA0401MZ                                                              DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:39:37
+*EVALUATION : GHWA0401MZ ON-STATION NXP (EXPERIMENT NO.2) 9 TRT                       DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:44:25
 
 @RUN EXCODE        TN RN CR   ADAPS   ADAPM   PD1PS   PD1PM   PDFPS   PDFPM   MDAPS   MDAPM   HWAMS   HWAMM   PWAMS   PWAMM   H#AMS   H#AMM   HWUMS   HWUMM   H#UMS   H#UMM   CWAMS   CWAMM   BWAMS   BWAMM   LAIXS   LAIXM   HIAMS   HIAMM   THAMS   THAMM   GNAMS   GNAMM   CNAMS   CNAMM   SNAMS   SNAMM   GN%MS   GN%MM   CWAAS   CWAAM   CNAAS   CNAAM   L#SMS   L#SMM   EDAPS   EDAPM
    1 GHWA0401MZ     1  1 MZ      57      56     -99     -99     -99     -99     100     -99     572     427     -99     -99     244     -99  0.2349     -99    48.7     -99    1828    2081    1273     -99    0.49     -99   0.313     -99     -99     -99       5     -99      12     -99       7     -99     0.9     -99    1065     -99      11     -99   24.37     -99       5     -99

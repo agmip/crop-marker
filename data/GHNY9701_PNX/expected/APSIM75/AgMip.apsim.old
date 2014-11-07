@@ -16,7 +16,7 @@
             <Latitude description="Latitude (WGS84)">9.416</Latitude>
             <Longitude>0.966</Longitude>
             <LocationAccuracy description="Location accuracy" />
-            <DataSource type="multiedit" description="Data source">Naab site1D</DataSource>
+            <DataSource type="multiedit" description="Data source">Naab st1D1</DataSource>
             <Comments />
             <Water>
                 <Layer>
@@ -358,7 +358,7 @@
             <Latitude description="Latitude (WGS84)">9.416</Latitude>
             <Longitude>0.966</Longitude>
             <LocationAccuracy description="Location accuracy" />
-            <DataSource type="multiedit" description="Data source">Naab site1D2</DataSource>
+            <DataSource type="multiedit" description="Data source">Naab st1D23</DataSource>
             <Comments />
             <Water>
                 <Layer>

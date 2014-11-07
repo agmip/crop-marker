@@ -1,46 +1,46 @@
-*EXP.DETAILS: KSAS8101WH                                                             
+*EXP.DETAILS: KSAS8101WH N RESPONSE,KANSAS STATE  3FE(N)*2IR  (DSSAT3)               
 
 *FILES
 @N  EXP.DATA    AFILE        ADIR
-  6 EXP         KSAS8101.WHA                                                                                 
+  1 EXP         KSAS8101.WHA                                                                                 
 @N  SPECIES     SPFILE       SPDIR
-  6 SPE         WHCER045.SPE C:\DSSAT45\GENOTYPE\                                                            
+  1 SPE         WHCER045.SPE C:\DSSAT45\GENOTYPE\                                                            
 @N  ECOTYPE     EFILE        EDIR
-  6 ECO         WHCER045.ECO C:\DSSAT45\GENOTYPE\                                                            
+  1 ECO         WHCER045.ECO C:\DSSAT45\GENOTYPE\                                                            
 @N  CULTIVAR    CFILE        CDIR
-  6 CUL         WHCER045.CUL C:\DSSAT45\GENOTYPE\                                                            
+  1 CUL         WHCER045.CUL C:\DSSAT45\GENOTYPE\                                                            
 @N  SOIL        SFILE        SDIR
-  6 SOIL        IB.SOL                                                                                       
+  1 SOIL        IB.SOL                                                                                       
 @N  WEATHER     WFILE        WDIR
-  6 WEATH       KSAS8102.WTH                                                                                 
+  1 WEATH       KSAS8102.WTH                                                                                 
 
 *SIMULATION CONTROL
 @N  GENERAL     NYERS NREPS START   SDATE RSEED SNAME.................... MODEL...
-  6 GE              1     1     S 1981279  2150 N x IR ASHLAND,KS         CSCER045
+  1 GE              1     1     S 1981279  2150 N x IR ASHLAND,KS         CSCER045
 @N  OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
-  6 OP              Y     Y     N     N     N     N     N     N     M
+  1 OP              Y     Y     N     N     N     N     N     N     M
 @N  METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT SOMDY MESEV MESOL
-  6 ME              M     M     E     R     S     C     R     1     G     S     2
+  1 ME              M     M     E     R     S     C     R     1     G     S     2
 @N  MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
-  6 MA              R     R     R     N     M
+  1 MA              R     R     R     N     M
 @N  OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT  LONG CHOUT OPOUT
-  6 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N
+  1 OU              N     Y     Y     1     Y     N     Y     Y     N     N     Y     N     N
 
 !AUTOMATIC MANAGEM
 @N  PLANTING      PFRST   PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
-  6 PL          1981282 1981296   40.  100.   30.   40.   10.
+  1 PL          1981282 1981296   40.  100.   30.   40.   10.
 @N  IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
-  6 IR            30.   50.  100. GS000 IR001  10.0 1.000
+  1 IR            30.   50.  100. GS000 IR001  10.0 1.000
 @N  NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
-  6 NI            30.   50.   25. FE001 GS000
+  1 NI            30.   50.   25. FE001 GS000
 @N  RESIDUES    RIPCN RTIME RIDEP
-  6 RE           100.     1   20.
+  1 RE           100.     1   20.
 @N  HARVEST     HFRST   HLAST HPCNP HRCNR
-  6 HA              0 1982289  100.    0.
+  1 HA              0 1982289  100.    0.
 
 *TREATMENTS
 @N   R O C TNAME....................  CU  FL  SA  IC  MP  MI  MF  MR  MC  MT  ME  MH  SM
-  6  1 0 0 IRRIGATED 180 KG N/HA SPL   1   1   0   1   1   1   3   0   0   0   0   0   6
+  6  1 0 0 IRRIGATED 180 KG N/HA SPL   1   1   0   1   1   1   3   0   0   0   0   0   1
 
 *CULTIVARS
 @C  CR INGENO CNAME...   ECO#   P1V   P1D    P5    G1    G2    G3 PHINT

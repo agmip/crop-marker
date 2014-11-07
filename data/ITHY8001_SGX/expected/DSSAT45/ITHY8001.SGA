@@ -1,11 +1,11 @@
-! Waring: Incompleted record because missing data : [adat]
-! Waring: Incompleted record because missing data : [mdat]
-! Waring: Incompleted record because missing data : [adat]
-! Waring: Incompleted record because missing data : [mdat]
-! Waring: Incompleted record because missing data : [adat]
-! Waring: Incompleted record because missing data : [mdat]
 *EXP.DATA (A): ITHY8001SGA ICRISAT ALFISOL N 1980 EXPT 80-1
 
+! Waring: Incompleted record because missing data : [adat]
+! Waring: Incompleted record because missing data : [mdat]
+! Waring: Incompleted record because missing data : [adat]
+! Waring: Incompleted record because missing data : [mdat]
+! Waring: Incompleted record because missing data : [adat]
+! Waring: Incompleted record because missing data : [mdat]
 @TRNO   GNAM  GN%M  CWAM  CNAM  SNAM  HWAM  BWAH
      1  63.9  1.22 10770  89.0  25.5  5230  5540
      2  91.0  1.49 11860 124.0  33.2  6120  5740

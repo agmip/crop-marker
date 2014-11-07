@@ -1,10 +1,10 @@
 *GROWTH ASPECTS OUTPUT FILE
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 06, 2014; 23:59:41
                                                                                 
 *RUN   1        : 97 DATE1 CHINESE          CRGRO045 GHNY9701    1              
  MODEL          : CRGRO045 - Peanut                                             
- EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ EXPERIMENT     : GHNY9701 PN 1997 VARIETY X PLANTING DATE EXPERIMENT           
  DATA PATH      :                                                               
  TREATMENT  1   : 97 DATE1 CHINESE          CRGRO045                            
   
@@ -112,11 +112,11 @@
  1997 247    99    98   23.7      5  2.152    933   1575   1970    255   2508   5203    736   267.8  0.379   2695    467  0.000  0.000  0.000  0.000  0.000  0.000  0.000    2.88  73.11   0.52      0   2695  230.8   0.47   0.50   74.6   0.90    0.58    0.59    0.41    0.20    0.14    0.03      152     149
  1997 248   100    99   23.8      8  2.146    943   1625   2006    252   2568   5298    736   272.7  0.379   2730    467  0.000  0.000  0.559  0.000  0.000  0.000  0.000    2.81  73.50   0.52      0   2730  227.5   0.47   0.50   74.6   0.90    0.58    0.58    0.41    0.20    0.14    0.03      154     152
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 06, 2014; 23:59:41
                                                                                 
 *RUN   2        : 97 DATE1 F-MIX            CRGRO045 GHNY9701    2              
  MODEL          : CRGRO045 - Peanut                                             
- EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ EXPERIMENT     : GHNY9701 PN 1997 VARIETY X PLANTING DATE EXPERIMENT           
  DATA PATH      :                                                               
  TREATMENT  2   : 97 DATE1 F-MIX            CRGRO045                            
   
@@ -246,11 +246,11 @@
  1997 269   121   120   27.5      5  3.356   1579   3191   2738    350   4770   8638    820   333.7  0.317   3868    519  0.000  0.000  0.000  0.000  0.000  0.000  0.000    3.03  70.79   0.45      0   3868  212.6   0.40   0.50   92.1   0.90    0.80    0.81    0.57    0.28    0.20    0.04      294     254
  1997 270   122   121   27.5      8  3.344   1591   3272   2782    346   4863   8773    827   336.3  0.317   3910    522  0.000  0.000  0.533  0.000  0.000  0.000  0.000    2.97  71.16   0.45      0   3910  210.2   0.40   0.50   92.1   0.90    0.79    0.80    0.56    0.28    0.19    0.04      296     257
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 06, 2014; 23:59:41
                                                                                 
 *RUN   3        : 97 DATE2 CHINESE          CRGRO045 GHNY9701    3              
  MODEL          : CRGRO045 - Peanut                                             
- EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ EXPERIMENT     : GHNY9701 PN 1997 VARIETY X PLANTING DATE EXPERIMENT           
  DATA PATH      :                                                               
  TREATMENT  3   : 97 DATE2 CHINESE          CRGRO045                            
   
@@ -359,11 +359,11 @@
  1997 276   100    99   24.8      5  2.214    977   1728   2013    262   2705   5479    769   261.9  0.367   2774    497  0.000  0.000  0.000  0.000  0.000  0.000  0.000    3.01  72.57   0.51      0   2774  226.6   0.49   0.50   75.5   0.90    0.59    0.61    0.42    0.21    0.15    0.03      179     148
  1997 277   101   100   24.8      8  2.205    986   1776   2055    260   2762   5575    781   263.2  0.369   2814    501  0.000  0.000  0.472  0.000  0.000  0.000  0.000    2.94  73.03   0.50      0   2814  223.8   0.49   0.50   75.5   0.90    0.59    0.60    0.42    0.21    0.14    0.03      181     150
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 06, 2014; 23:59:41
                                                                                 
 *RUN   4        : 97 DATE2 F-MIX            CRGRO045 GHNY9701    4              
  MODEL          : CRGRO045 - Peanut                                             
- EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ EXPERIMENT     : GHNY9701 PN 1997 VARIETY X PLANTING DATE EXPERIMENT           
  DATA PATH      :                                                               
  TREATMENT  4   : 97 DATE2 F-MIX            CRGRO045                            
   
@@ -493,11 +493,11 @@
  1997 297   121   120   27.7      5  3.361   1595   3239   2735    350   4833   8664    817   334.6  0.316   3831    508  0.000  0.000  0.000  0.000  0.000  0.000  0.000    2.95  71.39   0.44      0   3831  210.8   0.40   0.50   94.0   0.90    0.80    0.81    0.57    0.28    0.20    0.04      304     256
  1997 298   122   121   27.7      8  3.351   1603   3300   2781    346   4903   8778    823   337.8  0.317   3875    508  0.000  0.000  0.496  0.000  0.000  0.000  0.000    2.90  71.76   0.44      0   3875  209.0   0.40   0.50   94.0   0.90    0.79    0.80    0.56    0.28    0.19    0.04      306     259
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 06, 2014; 23:59:41
                                                                                 
 *RUN   5        : 97 DATE3 CHINESE          CRGRO045 GHNY9701    5              
  MODEL          : CRGRO045 - Peanut                                             
- EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ EXPERIMENT     : GHNY9701 PN 1997 VARIETY X PLANTING DATE EXPERIMENT           
  DATA PATH      :                                                               
  TREATMENT  5   : 97 DATE3 CHINESE          CRGRO045                            
   
@@ -606,11 +606,11 @@
  1997 304   100    99   24.4      5  2.124    945   1687   1988    241   2632   5340    707   281.1  0.372   2708    448  0.000  0.000  0.000  0.000  0.000  0.000  0.000    2.96  73.42   0.51      0   2708  224.8   0.48   0.50   74.5   0.90    0.56    0.56    0.39    0.19    0.13    0.03      171     141
  1997 305   101   100   24.4      8  2.116    956   1746   2021    238   2703   5442    707   285.8  0.371   2739    448  0.000  0.000  0.580  0.000  0.000  0.000  0.000    2.89  73.77   0.50      0   2739  221.3   0.48   0.50   74.5   0.90    0.55    0.55    0.38    0.19    0.13    0.03      173     143
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 06, 2014; 23:59:41
                                                                                 
 *RUN   6        : 97 DATE3 F-MIX            CRGRO045 GHNY9701    6              
  MODEL          : CRGRO045 - Peanut                                             
- EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ EXPERIMENT     : GHNY9701 PN 1997 VARIETY X PLANTING DATE EXPERIMENT           
  DATA PATH      :                                                               
  TREATMENT  6   : 97 DATE3 F-MIX            CRGRO045                            
   

@@ -1,10 +1,10 @@
 *PLANT N BALANCE
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 06, 2014; 23:59:41
                                                                                 
 *RUN   1        : 97 DATE1 CHINESE          CRGRO045 GHNY9701    1              
  MODEL          : CRGRO045 - Peanut                                             
- EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ EXPERIMENT     : GHNY9701 PN 1997 VARIETY X PLANTING DATE EXPERIMENT           
  DATA PATH      :                                                               
  TREATMENT  1   : 97 DATE1 CHINESE          CRGRO045                            
                                                                                 
@@ -13,7 +13,7 @@
  STARTING DATE  : MAY 29 1997                                                   
  PLANTING DATE  : MAY 29 1997        PLANTS/m2 : 10.0     ROW SPACING :  50.cm  
  WEATHER        : GHNY   1997                                                   
- SOIL           : GH00970001     TEXTURE : SAL   - 0 SAVANNA OCHROSOL           
+ SOIL           : GH00970001     TEXTURE : SL    - SAVANNA OCHROSOL             
  SOIL INITIAL C : DEPTH: 90cm EXTR. H2O:102.4mm  NO3:  0.1kg/ha  NH4:  0.1kg/ha 
  WATER BALANCE  : IRRIGATE ON REPORTED DATE(S)                                  
  IRRIGATION     :        0 mm IN     0 APPLICATIONS                             
@@ -75,11 +75,11 @@ RUNOFF CURVE # :76.00      DRAINAGE RATE     : 0.40         FERT. FACTOR : 0.86
 
 *******************************************************************************
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 06, 2014; 23:59:41
                                                                                 
 *RUN   2        : 97 DATE1 F-MIX            CRGRO045 GHNY9701    2              
  MODEL          : CRGRO045 - Peanut                                             
- EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ EXPERIMENT     : GHNY9701 PN 1997 VARIETY X PLANTING DATE EXPERIMENT           
  DATA PATH      :                                                               
  TREATMENT  2   : 97 DATE1 F-MIX            CRGRO045                            
                                                                                 
@@ -88,7 +88,7 @@ RUNOFF CURVE # :76.00      DRAINAGE RATE     : 0.40         FERT. FACTOR : 0.86
  STARTING DATE  : MAY 29 1997                                                   
  PLANTING DATE  : MAY 29 1997        PLANTS/m2 : 10.0     ROW SPACING :  50.cm  
  WEATHER        : GHNY   1997                                                   
- SOIL           : GH00970001     TEXTURE : SAL   - 0 SAVANNA OCHROSOL           
+ SOIL           : GH00970001     TEXTURE : SL    - SAVANNA OCHROSOL             
  SOIL INITIAL C : DEPTH: 90cm EXTR. H2O:102.4mm  NO3:  0.1kg/ha  NH4:  0.1kg/ha 
  WATER BALANCE  : IRRIGATE ON REPORTED DATE(S)                                  
  IRRIGATION     :        0 mm IN     0 APPLICATIONS                             
@@ -150,11 +150,11 @@ RUNOFF CURVE # :76.00      DRAINAGE RATE     : 0.40         FERT. FACTOR : 0.86
 
 *******************************************************************************
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 06, 2014; 23:59:41
                                                                                 
 *RUN   3        : 97 DATE2 CHINESE          CRGRO045 GHNY9701    3              
  MODEL          : CRGRO045 - Peanut                                             
- EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ EXPERIMENT     : GHNY9701 PN 1997 VARIETY X PLANTING DATE EXPERIMENT           
  DATA PATH      :                                                               
  TREATMENT  3   : 97 DATE2 CHINESE          CRGRO045                            
                                                                                 
@@ -163,7 +163,7 @@ RUNOFF CURVE # :76.00      DRAINAGE RATE     : 0.40         FERT. FACTOR : 0.86
  STARTING DATE  : JUN 26 1997                                                   
  PLANTING DATE  : JUN 26 1997        PLANTS/m2 : 10.0     ROW SPACING :  50.cm  
  WEATHER        : GHNY   1997                                                   
- SOIL           : GH00970002     TEXTURE : SAL   - 0 SAVANNA OCHROSOL           
+ SOIL           : GH00970002     TEXTURE : SL    - SAVANNA OCHROSOL             
  SOIL INITIAL C : DEPTH: 90cm EXTR. H2O:108.8mm  NO3:  0.1kg/ha  NH4:  0.1kg/ha 
  WATER BALANCE  : IRRIGATE ON REPORTED DATE(S)                                  
  IRRIGATION     :        0 mm IN     0 APPLICATIONS                             
@@ -225,11 +225,11 @@ RUNOFF CURVE # :76.00      DRAINAGE RATE     : 0.65         FERT. FACTOR : 0.86
 
 *******************************************************************************
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 06, 2014; 23:59:41
                                                                                 
 *RUN   4        : 97 DATE2 F-MIX            CRGRO045 GHNY9701    4              
  MODEL          : CRGRO045 - Peanut                                             
- EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ EXPERIMENT     : GHNY9701 PN 1997 VARIETY X PLANTING DATE EXPERIMENT           
  DATA PATH      :                                                               
  TREATMENT  4   : 97 DATE2 F-MIX            CRGRO045                            
                                                                                 
@@ -238,7 +238,7 @@ RUNOFF CURVE # :76.00      DRAINAGE RATE     : 0.65         FERT. FACTOR : 0.86
  STARTING DATE  : JUN 26 1997                                                   
  PLANTING DATE  : JUN 26 1997        PLANTS/m2 : 10.0     ROW SPACING :  50.cm  
  WEATHER        : GHNY   1997                                                   
- SOIL           : GH00970002     TEXTURE : SAL   - 0 SAVANNA OCHROSOL           
+ SOIL           : GH00970002     TEXTURE : SL    - SAVANNA OCHROSOL             
  SOIL INITIAL C : DEPTH: 90cm EXTR. H2O:108.8mm  NO3:  0.1kg/ha  NH4:  0.1kg/ha 
  WATER BALANCE  : IRRIGATE ON REPORTED DATE(S)                                  
  IRRIGATION     :        0 mm IN     0 APPLICATIONS                             
@@ -300,11 +300,11 @@ RUNOFF CURVE # :76.00      DRAINAGE RATE     : 0.65         FERT. FACTOR : 0.86
 
 *******************************************************************************
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 06, 2014; 23:59:41
                                                                                 
 *RUN   5        : 97 DATE3 CHINESE          CRGRO045 GHNY9701    5              
  MODEL          : CRGRO045 - Peanut                                             
- EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ EXPERIMENT     : GHNY9701 PN 1997 VARIETY X PLANTING DATE EXPERIMENT           
  DATA PATH      :                                                               
  TREATMENT  5   : 97 DATE3 CHINESE          CRGRO045                            
                                                                                 
@@ -313,7 +313,7 @@ RUNOFF CURVE # :76.00      DRAINAGE RATE     : 0.65         FERT. FACTOR : 0.86
  STARTING DATE  : JUL 24 1997                                                   
  PLANTING DATE  : JUL 24 1997        PLANTS/m2 : 10.0     ROW SPACING :  50.cm  
  WEATHER        : GHNY   1997                                                   
- SOIL           : GH00970002     TEXTURE : SAL   - 0 SAVANNA OCHROSOL           
+ SOIL           : GH00970002     TEXTURE : SL    - SAVANNA OCHROSOL             
  SOIL INITIAL C : DEPTH: 90cm EXTR. H2O:108.8mm  NO3:  0.1kg/ha  NH4:  0.1kg/ha 
  WATER BALANCE  : IRRIGATE ON REPORTED DATE(S)                                  
  IRRIGATION     :        0 mm IN     0 APPLICATIONS                             
@@ -375,11 +375,11 @@ RUNOFF CURVE # :76.00      DRAINAGE RATE     : 0.65         FERT. FACTOR : 0.86
 
 *******************************************************************************
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 06, 2014; 23:59:41
                                                                                 
 *RUN   6        : 97 DATE3 F-MIX            CRGRO045 GHNY9701    6              
  MODEL          : CRGRO045 - Peanut                                             
- EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ EXPERIMENT     : GHNY9701 PN 1997 VARIETY X PLANTING DATE EXPERIMENT           
  DATA PATH      :                                                               
  TREATMENT  6   : 97 DATE3 F-MIX            CRGRO045                            
                                                                                 
@@ -388,7 +388,7 @@ RUNOFF CURVE # :76.00      DRAINAGE RATE     : 0.65         FERT. FACTOR : 0.86
  STARTING DATE  : JUL 24 1997                                                   
  PLANTING DATE  : JUL 24 1997        PLANTS/m2 : 10.0     ROW SPACING :  50.cm  
  WEATHER        : GHNY   1997                                                   
- SOIL           : GH00970002     TEXTURE : SAL   - 0 SAVANNA OCHROSOL           
+ SOIL           : GH00970002     TEXTURE : SL    - SAVANNA OCHROSOL             
  SOIL INITIAL C : DEPTH: 90cm EXTR. H2O:108.8mm  NO3:  0.1kg/ha  NH4:  0.1kg/ha 
  WATER BALANCE  : IRRIGATE ON REPORTED DATE(S)                                  
  IRRIGATION     :        0 mm IN     0 APPLICATIONS                             

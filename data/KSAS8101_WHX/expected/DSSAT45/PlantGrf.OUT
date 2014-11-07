@@ -1,10 +1,10 @@
 $GROWTH FACTOR OUTPUT FILE
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:51:55
                                                                                 
 *RUN   1        : DRYLAND  - 0 KG N/HA      CSCER045 KSAS8101    1              
  MODEL          : CSCER045 - Wheat                                              
- EXPERIMENT     : KSAS8101 WH                                                   
+ EXPERIMENT     : KSAS8101 WH N RESPONSE,KANSAS STATE  3FE(N)*2IR  (DSSAT3)     
  DATA PATH      :                                                               
  TREATMENT  1   : DRYLAND  - 0 KG N/HA      CSCER045                            
   
@@ -262,11 +262,11 @@ $GROWTH FACTOR OUTPUT FILE
  1982 173   259   249  20.8  89.7  20.8  0.00  0.00  0.00  0.00  0.00 -0.01  0.00  0.06  0.00  0.00  0.00  0.00 99.90 15.00 148.8   0.0  63.1  0.00  0.99  0.76
  1982 174   260   250  21.7  90.4  21.7  0.00  0.00  0.00  0.00  0.00 -0.01  0.00  0.11  0.00  0.00  0.00  0.00 99.90 15.00 145.7   0.0  63.1  0.00  1.00  0.76
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:51:55
                                                                                 
 *RUN   2        : DRYLAND  - 60 KG N/HA     CSCER045 KSAS8101    2              
  MODEL          : CSCER045 - Wheat                                              
- EXPERIMENT     : KSAS8101 WH                                                   
+ EXPERIMENT     : KSAS8101 WH N RESPONSE,KANSAS STATE  3FE(N)*2IR  (DSSAT3)     
  DATA PATH      :                                                               
  TREATMENT  2   : DRYLAND  - 60 KG N/HA     CSCER045                            
   
@@ -524,11 +524,11 @@ $GROWTH FACTOR OUTPUT FILE
  1982 173   259   249  20.8  89.7  20.8  0.00  0.00  0.00  0.00  0.00 -0.01  0.00  0.06  0.00  0.00  0.00  0.00 99.90 15.00 152.7   0.0  88.2  0.00  1.00  0.79
  1982 174   260   250  21.7  90.4  21.7  0.00  0.00  0.00  0.00  0.00 -0.01  0.00  0.11  0.00  0.00  0.00  0.00 99.90 15.00 149.7   0.0  87.9  0.00  1.00  0.78
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:51:55
                                                                                 
 *RUN   3        : DRYLAND  - 180 KG N/HA SP CSCER045 KSAS8101    3              
  MODEL          : CSCER045 - Wheat                                              
- EXPERIMENT     : KSAS8101 WH                                                   
+ EXPERIMENT     : KSAS8101 WH N RESPONSE,KANSAS STATE  3FE(N)*2IR  (DSSAT3)     
  DATA PATH      :                                                               
  TREATMENT  3   : DRYLAND  - 180 KG N/HA SP CSCER045                            
   
@@ -786,11 +786,11 @@ $GROWTH FACTOR OUTPUT FILE
  1982 173   259   249  20.8  89.7  20.8  0.00  0.00  0.00  0.00  0.00 -0.01  0.00  0.06  0.00  0.00  0.00  0.00 99.90 15.00 148.6   0.0 181.6  0.00  1.00  1.00
  1982 174   260   250  21.7  90.4  21.7  0.00  0.00  0.00  0.00  0.00 -0.01  0.00  0.11  0.00  0.00  0.00  0.00 99.90 15.00 145.6   0.0 178.7  0.00  1.00  1.00
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:51:55
                                                                                 
 *RUN   4        : IRRIGATED - 0 KG N/HA     CSCER045 KSAS8101    4              
  MODEL          : CSCER045 - Wheat                                              
- EXPERIMENT     : KSAS8101 WH                                                   
+ EXPERIMENT     : KSAS8101 WH N RESPONSE,KANSAS STATE  3FE(N)*2IR  (DSSAT3)     
  DATA PATH      :                                                               
  TREATMENT  4   : IRRIGATED - 0 KG N/HA     CSCER045                            
   
@@ -1048,11 +1048,11 @@ $GROWTH FACTOR OUTPUT FILE
  1982 173   259   249  20.8  89.7  20.8  0.00  0.00  0.00  0.00  0.00 -0.01  0.00  0.06  0.00  0.00  0.00  0.00 99.90 15.00 149.2   0.0  23.7  0.00  0.99  0.75
  1982 174   260   250  21.7  90.4  21.7  0.00  0.00  0.00  0.00  0.00 -0.01  0.00  0.11  0.00  0.00  0.00  0.00 99.90 15.00 146.2   0.0  23.8  0.00  1.00  0.75
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:51:55
                                                                                 
 *RUN   5        : IRRIGATED - 60 KG N/HA    CSCER045 KSAS8101    5              
  MODEL          : CSCER045 - Wheat                                              
- EXPERIMENT     : KSAS8101 WH                                                   
+ EXPERIMENT     : KSAS8101 WH N RESPONSE,KANSAS STATE  3FE(N)*2IR  (DSSAT3)     
  DATA PATH      :                                                               
  TREATMENT  5   : IRRIGATED - 60 KG N/HA    CSCER045                            
   
@@ -1310,11 +1310,11 @@ $GROWTH FACTOR OUTPUT FILE
  1982 173   259   249  20.8  89.7  20.8  0.00  0.00  0.00  0.00  0.00 -0.01  0.00  0.06  0.00  0.00  0.00  0.00 99.90 15.00 149.6   0.0  26.0  0.00  0.99  0.75
  1982 174   260   250  21.7  90.4  21.7  0.00  0.00  0.00  0.00  0.00 -0.01  0.00  0.11  0.00  0.00  0.00  0.00 99.90 15.00 146.6   0.0  25.9  0.00  1.00  0.75
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:51:56
                                                                                 
 *RUN   6        : IRRIGATED 180 KG N/HA SPL CSCER045 KSAS8101    6              
  MODEL          : CSCER045 - Wheat                                              
- EXPERIMENT     : KSAS8101 WH                                                   
+ EXPERIMENT     : KSAS8101 WH N RESPONSE,KANSAS STATE  3FE(N)*2IR  (DSSAT3)     
  DATA PATH      :                                                               
  TREATMENT  6   : IRRIGATED 180 KG N/HA SPL CSCER045                            
   

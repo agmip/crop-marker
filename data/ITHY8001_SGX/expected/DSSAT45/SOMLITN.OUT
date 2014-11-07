@@ -1,10 +1,10 @@
 *SOM N DAILY OUTPUT FILE
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:42:03
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:51:49
                                                                                 
 *RUN   1        : 0 N check plot            SGCER045 ITHY8001    1              
  MODEL          : SGCER045 - Grain sorghum                                      
- EXPERIMENT     : ITHY8001 SG                                                   
+ EXPERIMENT     : ITHY8001 SG ICRISAT ALFISOL N 1980 EXPT 80-1                  
  DATA PATH      :                                                               
  TREATMENT  1   : 0 N check plot            SGCER045                            
   
@@ -128,11 +128,11 @@
  1980 277   113    3180   0.099    2342   0.072   13368       0   13368     968    1590     872    1744    8194       0      17       4       4       1       2       7     109       9      14       7      14      64   13240     954    1572     864    1728    8122    0.00    1.86    0.45    0.47    0.08    0.17    0.69    0.00    0.74    0.05    0.06    0.04    0.10    0.48    0.00    1.12    0.40    0.41    0.04    0.07    0.21       0
  1980 278   114    3180   0.099    2342   0.072   13368       0   13368     968    1590     872    1744    8194       0      17       4       4       1       2       7     109       9      14       7      14      64   13240     954    1572     864    1728    8122    0.00    1.83    0.45    0.46    0.08    0.17    0.67    0.00    0.71    0.05    0.06    0.04    0.10    0.46    0.00    1.12    0.39    0.41    0.04    0.07    0.21       0
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:42:03
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:51:49
                                                                                 
 *RUN   2        : 80 kg Urea-N Incorporated SGCER045 ITHY8001    2              
  MODEL          : SGCER045 - Grain sorghum                                      
- EXPERIMENT     : ITHY8001 SG                                                   
+ EXPERIMENT     : ITHY8001 SG ICRISAT ALFISOL N 1980 EXPT 80-1                  
  DATA PATH      :                                                               
  TREATMENT  2   : 80 kg Urea-N Incorporated SGCER045                            
   
@@ -256,11 +256,11 @@
  1980 277   113    3181   0.099    2341   0.072   13366       0   13366     969    1591     872    1744    8191       0      18       5       4       1       2       7     109       9      14       7      14      65   13237     954    1572     864    1728    8119    0.00    1.75    0.45    0.49    0.09    0.17    0.56    0.00    0.66    0.06    0.08    0.05    0.11    0.36    0.00    1.09    0.39    0.41    0.03    0.06    0.19       0
  1980 278   114    3181   0.099    2341   0.072   13366       0   13366     969    1591     872    1744    8191       0      18       5       4       1       2       7     109       9      14       7      14      65   13236     954    1571     864    1728    8119    0.00    1.72    0.45    0.49    0.09    0.16    0.54    0.00    0.64    0.05    0.08    0.05    0.10    0.35    0.00    1.09    0.39    0.41    0.03    0.06    0.19       0
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:42:03
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:51:49
                                                                                 
 *RUN   3        : 80 kg Urea-N Split Applic SGCER045 ITHY8001    3              
  MODEL          : SGCER045 - Grain sorghum                                      
- EXPERIMENT     : ITHY8001 SG                                                   
+ EXPERIMENT     : ITHY8001 SG ICRISAT ALFISOL N 1980 EXPT 80-1                  
  DATA PATH      :                                                               
  TREATMENT  3   : 80 kg Urea-N Split Applic SGCER045                            
   
