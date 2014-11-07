@@ -13,6 +13,7 @@ import static org.agmip.utility.testframe.comparator.TestComparator.Type.*;
 import org.agmip.utility.testframe.model.TestDefBuilder;
 import static org.agmip.utility.testframe.runner.AppRunner.Type.*;
 import org.agmip.utility.testframe.runner.ApsimRunner;
+import org.agmip.utility.testframe.runner.DssatRunner;
 import org.agmip.utility.testframe.runner.ExeRunner;
 import org.agmip.utility.testframe.runner.JarRunner;
 import org.agmip.utility.testframe.runner.QuadUIJarRunner;
@@ -105,7 +106,8 @@ public class TestBuilderTask extends Task<TestDefBuilder> {
                 // DSSAT45
                 if (model.equals("DSSAT45")) {
                     String workPath = String.format(modelWorkDir, quaduiTitle, "DSSAT");
-                    ExeRunner dssat = (ExeRunner) builder.addAppRunner(EXE, dssat45ExePath, workPath, workPath); // TODO copy dssat input to somewhere
+                    String outputPath = String.format(modelWorkDir, quaduiTitle, model);
+                    DssatRunner dssat = (DssatRunner) builder.addAppRunner(DSSAT, dssat45ExePath, workPath, outputPath); // TODO copy dssat input to somewhere
                     dssat.setTitle(dataName + "_" + model);
                     dssat.setArguments("b", dssat45BatchFileName);
                     // ACMO and comparator
@@ -113,7 +115,8 @@ public class TestBuilderTask extends Task<TestDefBuilder> {
                 } // APSIM
                 else if (model.equals("APSIM75")) {
                     String workPath = String.format(modelWorkDir, quaduiTitle, "APSIM");
-                    ApsimRunner apsim = (ApsimRunner) builder.addAppRunner(APSIM, apsim75ExePath, workPath, workPath); // TODO copy dssat input to somewhere
+                    String outputPath = String.format(modelWorkDir, quaduiTitle, model);
+                    ApsimRunner apsim = (ApsimRunner) builder.addAppRunner(APSIM, apsim75ExePath, workPath, outputPath); // TODO copy dssat input to somewhere
                     apsim.setTitle(dataName + "_" + model);
                     apsim.setArguments("AgMip.apsim");
                     // ACMO and comparator
