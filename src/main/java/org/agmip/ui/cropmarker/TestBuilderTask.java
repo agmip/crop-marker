@@ -176,8 +176,8 @@ public class TestBuilderTask extends Task<TestDefBuilder> {
                             break;
                         }
                     }
-                    TestComparator comparator = builder.addTestComparator(FILE, acmoFile.getAbsolutePath(), actualPath + File.separator + acmoFile.getName());
-                    ((AcmoCsvFileComparator) comparator).setCompareAllOutputCols();
+                    AcmoCsvFileComparator comparator = (AcmoCsvFileComparator) builder.addTestComparator(FILE, acmoFile.getAbsolutePath(), actualPath + File.separator + acmoFile.getName());
+                    comparator.setCompareAllOutputCols();
                     comparator.setTitle(comparatorName + "_" + dataName + "_" + model + "_Comparator");
                 } catch (Exception ex) {
                     LOG.error(Functions.getStackTrace(ex));
