@@ -1,4 +1,4 @@
-!This soil file is created by DSSAT translator tool on Thu Nov 06 23:59:39 EST 2014.
+!This soil file is created by DSSAT translator tool on Sat Nov 08 00:45:25 EST 2014.
 *SOILS: Ghana Soils; Ghana Soils; 
 
 !The ACE ID is N/A.

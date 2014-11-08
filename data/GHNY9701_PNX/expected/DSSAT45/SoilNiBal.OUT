@@ -1,6 +1,6 @@
 *SOIL INORGANIC N BALANCE
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 06, 2014; 23:59:41
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 08, 2014; 00:45:26
                                                                                 
 *RUN   1        : 97 DATE1 CHINESE          CRGRO045 GHNY9701    1              
  MODEL          : CRGRO045 - Peanut                                             
@@ -11,28 +11,28 @@
 
 
 !                                        INITIAL Year/Doy      FINAL Year/Doy
-!                                                1997/149            1997/248
+!                                                1997/148            1997/249
 !SOIL INORGANIC N BALANCE                       -----------kg N/ha-----------
 
-!   Soil NO3                                         0.14                8.01
-!   Soil NH4                                         0.14                3.66
+!   Soil NO3                                         0.14                8.02
+!   Soil NH4                                         0.14                3.68
 !   Soil Urea                                        0.00                0.00
 
 !   Added to / Removed from Soil:
 !   Fertilizer N                                     0.00
-!   Mineralized N                                   23.87
-!   Leached NO3                                                          2.31
-!   N Denitrified                                                        0.01
-!   N Uptake From Soil                                                  10.15
+!   Mineralized N                                   24.27
+!   Leached NO3                                                          2.39
+!   N Denitrified                                                        0.02
+!   N Uptake From Soil                                                  10.43
 !   Ammonia volatilization                                               0.00
 !   N immobilized                                                        0.00
 
-!   Total N balance                                 24.14               24.14
+!   Total N balance                                 24.54               24.54
 !   Balance                                                             0.000
 
 !===============================================================================
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 06, 2014; 23:59:41
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 08, 2014; 00:45:26
                                                                                 
 *RUN   2        : 97 DATE1 F-MIX            CRGRO045 GHNY9701    2              
  MODEL          : CRGRO045 - Peanut                                             
@@ -43,28 +43,28 @@
 
 
 !                                        INITIAL Year/Doy      FINAL Year/Doy
-!                                                1997/149            1997/270
+!                                                1997/148            1997/270
 !SOIL INORGANIC N BALANCE                       -----------kg N/ha-----------
 
-!   Soil NO3                                         0.14                6.99
-!   Soil NH4                                         0.14                4.07
+!   Soil NO3                                         0.14                6.96
+!   Soil NH4                                         0.14                4.08
 !   Soil Urea                                        0.00                0.00
 
 !   Added to / Removed from Soil:
 !   Fertilizer N                                     0.00
-!   Mineralized N                                   30.02
-!   Leached NO3                                                          5.57
+!   Mineralized N                                   30.23
+!   Leached NO3                                                          5.63
 !   N Denitrified                                                        0.07
-!   N Uptake From Soil                                                  13.59
+!   N Uptake From Soil                                                  13.77
 !   Ammonia volatilization                                               0.00
 !   N immobilized                                                        0.00
 
-!   Total N balance                                 30.30               30.30
+!   Total N balance                                 30.51               30.51
 !   Balance                                                             0.000
 
 !===============================================================================
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 06, 2014; 23:59:41
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 08, 2014; 00:45:26
                                                                                 
 *RUN   3        : 97 DATE2 CHINESE          CRGRO045 GHNY9701    3              
  MODEL          : CRGRO045 - Peanut                                             
@@ -75,28 +75,28 @@
 
 
 !                                        INITIAL Year/Doy      FINAL Year/Doy
-!                                                1997/177            1997/277
+!                                                1997/176            1997/277
 !SOIL INORGANIC N BALANCE                       -----------kg N/ha-----------
 
-!   Soil NO3                                         0.14                7.38
+!   Soil NO3                                         0.14                7.39
 !   Soil NH4                                         0.14                3.70
 !   Soil Urea                                        0.00                0.00
 
 !   Added to / Removed from Soil:
 !   Fertilizer N                                     0.00
-!   Mineralized N                                   25.19
-!   Leached NO3                                                          6.12
+!   Mineralized N                                   25.36
+!   Leached NO3                                                          6.21
 !   N Denitrified                                                        0.00
-!   N Uptake From Soil                                                   8.26
+!   N Uptake From Soil                                                   8.33
 !   Ammonia volatilization                                               0.00
 !   N immobilized                                                        0.00
 
-!   Total N balance                                 25.46               25.46
+!   Total N balance                                 25.63               25.63
 !   Balance                                                             0.000
 
 !===============================================================================
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 06, 2014; 23:59:41
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 08, 2014; 00:45:26
                                                                                 
 *RUN   4        : 97 DATE2 F-MIX            CRGRO045 GHNY9701    4              
  MODEL          : CRGRO045 - Peanut                                             
@@ -107,7 +107,7 @@
 
 
 !                                        INITIAL Year/Doy      FINAL Year/Doy
-!                                                1997/177            1997/298
+!                                                1997/176            1997/298
 !SOIL INORGANIC N BALANCE                       -----------kg N/ha-----------
 
 !   Soil NO3                                         0.14                7.51
@@ -116,19 +116,19 @@
 
 !   Added to / Removed from Soil:
 !   Fertilizer N                                     0.00
-!   Mineralized N                                   31.22
-!   Leached NO3                                                          7.12
+!   Mineralized N                                   31.39
+!   Leached NO3                                                          7.20
 !   N Denitrified                                                        0.00
-!   N Uptake From Soil                                                  13.20
+!   N Uptake From Soil                                                  13.29
 !   Ammonia volatilization                                               0.00
 !   N immobilized                                                        0.00
 
-!   Total N balance                                 31.49               31.49
+!   Total N balance                                 31.66               31.66
 !   Balance                                                             0.000
 
 !===============================================================================
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 06, 2014; 23:59:41
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 08, 2014; 00:45:26
                                                                                 
 *RUN   5        : 97 DATE3 CHINESE          CRGRO045 GHNY9701    5              
  MODEL          : CRGRO045 - Peanut                                             
@@ -139,7 +139,7 @@
 
 
 !                                        INITIAL Year/Doy      FINAL Year/Doy
-!                                                1997/205            1997/305
+!                                                1997/204            1997/305
 !SOIL INORGANIC N BALANCE                       -----------kg N/ha-----------
 
 !   Soil NO3                                         0.14                8.72
@@ -148,19 +148,19 @@
 
 !   Added to / Removed from Soil:
 !   Fertilizer N                                     0.00
-!   Mineralized N                                   25.56
-!   Leached NO3                                                          5.59
+!   Mineralized N                                   25.81
+!   Leached NO3                                                          5.72
 !   N Denitrified                                                        0.00
-!   N Uptake From Soil                                                   8.21
+!   N Uptake From Soil                                                   8.32
 !   Ammonia volatilization                                               0.00
 !   N immobilized                                                        0.00
 
-!   Total N balance                                 25.84               25.84
+!   Total N balance                                 26.09               26.09
 !   Balance                                                             0.000
 
 !===============================================================================
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 06, 2014; 23:59:41
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 08, 2014; 00:45:26
                                                                                 
 *RUN   6        : 97 DATE3 F-MIX            CRGRO045 GHNY9701    6              
  MODEL          : CRGRO045 - Peanut                                             
@@ -171,21 +171,21 @@
 
 
 !                                        INITIAL Year/Doy      FINAL Year/Doy
-!                                                1997/205            1997/324
+!                                                1997/204            1997/324
 !SOIL INORGANIC N BALANCE                       -----------kg N/ha-----------
 
-!   Soil NO3                                         0.14               11.10
-!   Soil NH4                                         0.14                2.84
+!   Soil NO3                                         0.14               11.11
+!   Soil NH4                                         0.14                2.85
 !   Soil Urea                                        0.00                0.00
 
 !   Added to / Removed from Soil:
 !   Fertilizer N                                     0.00
-!   Mineralized N                                   29.05
-!   Leached NO3                                                          5.54
+!   Mineralized N                                   29.30
+!   Leached NO3                                                          5.67
 !   N Denitrified                                                        0.00
-!   N Uptake From Soil                                                   9.83
+!   N Uptake From Soil                                                   9.94
 !   Ammonia volatilization                                               0.00
 !   N immobilized                                                        0.00
 
-!   Total N balance                                 29.32               29.32
+!   Total N balance                                 29.57               29.57
 !   Balance                                                             0.000

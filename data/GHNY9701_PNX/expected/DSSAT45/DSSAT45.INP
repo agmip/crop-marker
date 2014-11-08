@@ -12,7 +12,7 @@ SOILS          GH.SOL
 WEATHER        GHNY9702.WTH                                                                                 
 OUTPUT         OVERVIEW
 *SIMULATION CONTROL 
-                   1     1     S 1997205  2150 DEFAULT SIMULATION CONTR 
+                   1     1     S 1997204  2150 DEFAULT SIMULATION CONTR 
                    Y     Y     Y     N     N     Y     N     N     M
                    M     M     E     R     S     L     R     1     G     S     2
                    R     R     N     N     M
