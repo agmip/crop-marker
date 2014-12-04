@@ -1,9 +1,9 @@
 *EXP.DETAILS: ITHY8001SG ICRISAT ALFISOL N 1980 EXPT 80-1
 
 ! APPLIED DOME INFO
-! 0 N check plot Field    	DS2AP-1----FIELD
-! 80 kg Urea-N Incorporated Field    	DS2AP-1----FIELD
-! 80 kg Urea-N Split Applic Field    	DS2AP-1----FIELD
+! 0 N check plot Field    	DS2AP-1-----FIELD
+! 80 kg Urea-N Incorporated Field    	DS2AP-1-----FIELD
+! 80 kg Urea-N Split Applic Field    	DS2AP-1-----FIELD
 
 *GENERAL
 @ADDRESS

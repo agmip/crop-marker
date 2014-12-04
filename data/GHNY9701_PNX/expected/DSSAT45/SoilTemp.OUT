@@ -1,6 +1,6 @@
 *SOIL TEMPERATURE OUTPUT FILE (DAILY)
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 08, 2014; 00:45:26
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:34
                                                                                 
 *RUN   1        : 97 DATE1 CHINESE          CRGRO045 GHNY9701    1              
  MODEL          : CRGRO045 - Peanut                                             
@@ -114,7 +114,7 @@
  1997 248   101    29.7    29.7    29.6    29.6    29.6    29.5    29.5
  1997 249   102    29.4    29.4    29.4    29.3    29.3    29.3    29.2
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 08, 2014; 00:45:26
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:35
                                                                                 
 *RUN   2        : 97 DATE1 F-MIX            CRGRO045 GHNY9701    2              
  MODEL          : CRGRO045 - Peanut                                             
@@ -249,7 +249,7 @@
  1997 269   122    29.6    29.6    29.6    29.6    29.5    29.5    29.5
  1997 270   123    29.8    29.8    29.7    29.7    29.7    29.7    29.6
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 08, 2014; 00:45:26
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:35
                                                                                 
 *RUN   3        : 97 DATE2 CHINESE          CRGRO045 GHNY9701    3              
  MODEL          : CRGRO045 - Peanut                                             
@@ -363,7 +363,7 @@
  1997 276   101    31.6    31.6    31.5    31.5    31.4    31.3    31.1
  1997 277   102    31.0    31.0    31.0    30.9    30.8    30.8    30.6
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 08, 2014; 00:45:26
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:35
                                                                                 
 *RUN   4        : 97 DATE2 F-MIX            CRGRO045 GHNY9701    4              
  MODEL          : CRGRO045 - Peanut                                             
@@ -498,7 +498,7 @@
  1997 297   122    31.7    31.6    31.6    31.5    31.4    31.3    31.1
  1997 298   123    32.0    32.0    32.0    31.9    31.7    31.6    31.4
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 08, 2014; 00:45:26
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:35
                                                                                 
 *RUN   5        : 97 DATE3 CHINESE          CRGRO045 GHNY9701    5              
  MODEL          : CRGRO045 - Peanut                                             
@@ -612,7 +612,7 @@
  1997 304   101    32.0    31.9    31.9    31.8    31.6    31.5    31.3
  1997 305   102    31.8    31.8    31.7    31.6    31.5    31.4    31.2
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 08, 2014; 00:45:26
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:35
                                                                                 
 *RUN   6        : 97 DATE3 F-MIX            CRGRO045 GHNY9701    6              
  MODEL          : CRGRO045 - Peanut                                             

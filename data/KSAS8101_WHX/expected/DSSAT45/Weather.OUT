@@ -1,6 +1,6 @@
 *WEATHER MODULE DAILY OUTPUT FILE
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:51:55
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:36:04
                                                                                 
 *RUN   1        : DRYLAND  - 0 KG N/HA      CSCER045 KSAS8101    1              
  MODEL          : CSCER045 - Wheat                                              
@@ -271,7 +271,7 @@
  1982 173   260   16.0   14.6   15.8   28.0   56.0   0.16   27.8   13.9   21.1   23.2   13.9   21.1   23.2   86.4  341.0
  1982 174   261    1.0   14.6   15.8   16.5   33.0   0.50   26.7   16.7   21.9   23.4   16.7   21.9   23.4   86.4  341.0
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:51:55
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:36:04
                                                                                 
 *RUN   2        : DRYLAND  - 60 KG N/HA     CSCER045 KSAS8101    2              
  MODEL          : CSCER045 - Wheat                                              
@@ -542,7 +542,7 @@
  1982 173   260   16.0   14.6   15.8   28.0   56.0   0.16   27.8   13.9   21.1   23.2   13.9   21.1   23.2   86.4  341.0
  1982 174   261    1.0   14.6   15.8   16.5   33.0   0.50   26.7   16.7   21.9   23.4   16.7   21.9   23.4   86.4  341.0
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:51:55
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:36:04
                                                                                 
 *RUN   3        : DRYLAND  - 180 KG N/HA SP CSCER045 KSAS8101    3              
  MODEL          : CSCER045 - Wheat                                              
@@ -813,7 +813,7 @@
  1982 173   260   16.0   14.6   15.8   28.0   56.0   0.16   27.8   13.9   21.1   23.2   13.9   21.1   23.2   86.4  341.0
  1982 174   261    1.0   14.6   15.8   16.5   33.0   0.50   26.7   16.7   21.9   23.4   16.7   21.9   23.4   86.4  341.0
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:51:55
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:36:04
                                                                                 
 *RUN   4        : IRRIGATED - 0 KG N/HA     CSCER045 KSAS8101    4              
  MODEL          : CSCER045 - Wheat                                              
@@ -1084,7 +1084,7 @@
  1982 173   260   16.0   14.6   15.8   28.0   56.0   0.16   27.8   13.9   21.1   23.2   13.9   21.1   23.2   86.4  341.0
  1982 174   261    1.0   14.6   15.8   16.5   33.0   0.50   26.7   16.7   21.9   23.4   16.7   21.9   23.4   86.4  341.0
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:51:55
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:36:04
                                                                                 
 *RUN   5        : IRRIGATED - 60 KG N/HA    CSCER045 KSAS8101    5              
  MODEL          : CSCER045 - Wheat                                              
@@ -1355,7 +1355,7 @@
  1982 173   260   16.0   14.6   15.8   28.0   56.0   0.16   27.8   13.9   21.1   23.2   13.9   21.1   23.2   86.4  341.0
  1982 174   261    1.0   14.6   15.8   16.5   33.0   0.50   26.7   16.7   21.9   23.4   16.7   21.9   23.4   86.4  341.0
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:51:56
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:36:05
                                                                                 
 *RUN   6        : IRRIGATED 180 KG N/HA SPL CSCER045 KSAS8101    6              
  MODEL          : CSCER045 - Wheat                                              

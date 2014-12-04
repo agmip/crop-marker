@@ -1,6 +1,6 @@
 *WATER BALANCE OUTPUT FILE
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:51:55
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:36:04
                                                                                 
 *RUN   1        : DRYLAND  - 0 KG N/HA      CSCER045 KSAS8101    1              
  MODEL          : CSCER045 - Wheat                                              
@@ -31,7 +31,7 @@
 !     Final Balance                            -0.011
 
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:51:55
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:36:04
                                                                                 
 *RUN   2        : DRYLAND  - 60 KG N/HA     CSCER045 KSAS8101    2              
  MODEL          : CSCER045 - Wheat                                              
@@ -62,7 +62,7 @@
 !     Final Balance                            -0.014
 
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:51:55
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:36:04
                                                                                 
 *RUN   3        : DRYLAND  - 180 KG N/HA SP CSCER045 KSAS8101    3              
  MODEL          : CSCER045 - Wheat                                              
@@ -93,7 +93,7 @@
 !     Final Balance                            -0.012
 
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:51:55
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:36:04
                                                                                 
 *RUN   4        : IRRIGATED - 0 KG N/HA     CSCER045 KSAS8101    4              
  MODEL          : CSCER045 - Wheat                                              
@@ -124,7 +124,7 @@
 !     Final Balance                            -0.011
 
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:51:55
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:36:04
                                                                                 
 *RUN   5        : IRRIGATED - 60 KG N/HA    CSCER045 KSAS8101    5              
  MODEL          : CSCER045 - Wheat                                              
@@ -155,7 +155,7 @@
 !     Final Balance                            -0.008
 
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:51:56
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:36:05
                                                                                 
 *RUN   6        : IRRIGATED 180 KG N/HA SPL CSCER045 KSAS8101    6              
  MODEL          : CSCER045 - Wheat                                              

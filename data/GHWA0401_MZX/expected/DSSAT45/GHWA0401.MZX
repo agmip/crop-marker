@@ -1,15 +1,15 @@
 *EXP.DETAILS: GHWA0401MZ ON-STATION NXP (EXPERIMENT NO.2) 9 TRT
 
 ! APPLIED DOME INFO
-! N0 P0 Field    	APSIM-1----FIELD
-! N0 P60 Field    	APSIM-1----FIELD
-! N0 P90 Field    	APSIM-1----FIELD
-! N60 P0 Field    	APSIM-1----FIELD
-! N60 P60 Field    	APSIM-1----FIELD
-! N60 P90 Field    	APSIM-1----FIELD
-! N120 P0 Field    	APSIM-1----FIELD
-! N120 P60 Field    	APSIM-1----FIELD
-! N120 P90 Field    	APSIM-1----FIELD
+! N0 P0 Field    	APSIM-1-----FIELD
+! N0 P60 Field    	APSIM-1-----FIELD
+! N0 P90 Field    	APSIM-1-----FIELD
+! N60 P0 Field    	APSIM-1-----FIELD
+! N60 P60 Field    	APSIM-1-----FIELD
+! N60 P90 Field    	APSIM-1-----FIELD
+! N120 P0 Field    	APSIM-1-----FIELD
+! N120 P60 Field    	APSIM-1-----FIELD
+! N120 P90 Field    	APSIM-1-----FIELD
 
 *GENERAL
 @PEOPLE

@@ -1,6 +1,6 @@
 *SIMULATION OVERVIEW FILE
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:51:49
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:57
                                                                                 
 *RUN   1        : 0 N check plot            SGCER045 ITHY8001    1              
  MODEL          : SGCER045 - Grain sorghum                                      
@@ -141,7 +141,7 @@ RUNOFF CURVE # :80.00      DRAINAGE RATE     : 0.30         FERT. FACTOR : 1.00
 
 **************************************************************************************************************
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:51:49
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:57
                                                                                 
 *RUN   2        : 80 kg Urea-N Incorporated SGCER045 ITHY8001    2              
  MODEL          : SGCER045 - Grain sorghum                                      
@@ -286,7 +286,7 @@ RUNOFF CURVE # :80.00      DRAINAGE RATE     : 0.30         FERT. FACTOR : 1.00
 
 **************************************************************************************************************
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:51:49
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:57
                                                                                 
 *RUN   3        : 80 kg Urea-N Split Applic SGCER045 ITHY8001    3              
  MODEL          : SGCER045 - Grain sorghum                                      

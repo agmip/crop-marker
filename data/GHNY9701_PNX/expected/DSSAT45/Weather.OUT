@@ -1,6 +1,6 @@
 *WEATHER MODULE DAILY OUTPUT FILE
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 08, 2014; 00:45:26
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:34
                                                                                 
 *RUN   1        : 97 DATE1 CHINESE          CRGRO045 GHNY9701    1              
  MODEL          : CRGRO045 - Peanut                                             
@@ -112,7 +112,7 @@
  1997 248   101   20.5   12.1   13.0   18.8   37.6   0.36   32.5   22.5   27.3   29.0   22.5   27.3   29.0   86.4  364.0
  1997 249   102    0.0   12.1   13.0   14.0   28.0   0.52   31.5   22.0   26.6   28.1   22.0   26.6   28.1   86.4  364.0
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 08, 2014; 00:45:26
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:35
                                                                                 
 *RUN   2        : 97 DATE1 F-MIX            CRGRO045 GHNY9701    2              
  MODEL          : CRGRO045 - Peanut                                             
@@ -245,7 +245,7 @@
  1997 269   122    0.0   12.0   12.8   16.0   32.0   0.43   33.5   21.7   27.3   29.7   21.7   27.3   29.7   86.4  364.2
  1997 270   123   67.5   11.9   12.8   24.7   49.4   0.12   34.5   24.5   29.3   31.3   24.5   29.3   31.3   86.4  364.2
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 08, 2014; 00:45:26
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:35
                                                                                 
 *RUN   3        : 97 DATE2 CHINESE          CRGRO045 GHNY9701    3              
  MODEL          : CRGRO045 - Peanut                                             
@@ -357,7 +357,7 @@
  1997 276   101    0.0   11.9   12.7   15.1   30.2   0.46   28.0   20.0   23.8   25.4   20.0   23.8   25.4   86.4  364.2
  1997 277   102    0.0   11.9   12.7   18.1   36.2   0.35   32.0   20.0   25.7   28.1   20.0   25.7   28.1   86.4  364.2
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 08, 2014; 00:45:26
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:35
                                                                                 
 *RUN   4        : 97 DATE2 F-MIX            CRGRO045 GHNY9701    4              
  MODEL          : CRGRO045 - Peanut                                             
@@ -490,7 +490,7 @@
  1997 297   122   11.0   11.7   12.6   20.6   41.2   0.22   34.0   23.6   28.5   30.6   23.6   28.5   30.6   86.4  364.4
  1997 298   123    0.0   11.7   12.5   19.8   39.6   0.24   34.0   22.0   27.7   30.1   22.0   27.7   30.1   86.4  364.4
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 08, 2014; 00:45:26
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:35
                                                                                 
 *RUN   5        : 97 DATE3 CHINESE          CRGRO045 GHNY9701    5              
  MODEL          : CRGRO045 - Peanut                                             
@@ -602,7 +602,7 @@
  1997 304   101    0.0   11.7   12.5   15.5   31.0   0.40   32.7   22.5   27.3   29.3   22.5   27.3   29.3   86.4  364.4
  1997 305   102    0.0   11.7   12.5   22.6   45.2   0.12   31.7   23.0   27.1   28.8   23.0   27.1   28.8   86.4  364.4
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 08, 2014; 00:45:26
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:35
                                                                                 
 *RUN   6        : 97 DATE3 F-MIX            CRGRO045 GHNY9701    6              
  MODEL          : CRGRO045 - Peanut                                             

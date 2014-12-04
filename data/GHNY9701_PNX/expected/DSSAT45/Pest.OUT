@@ -1,7 +1,7 @@
 *PEST AND DISEASE DAMAGE OUTPUT FILE
 
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 08, 2014; 00:45:26
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:34
                                                                                 
 *RUN   1        : 97 DATE1 CHINESE          CRGRO045 GHNY9701    1              
  MODEL          : CRGRO045 - Peanut                                             
@@ -113,7 +113,7 @@
  1997 248   101    99      0    0.0     0.0       0       0      0    0.0    0.0    0.0    0.0   0.00   0.00   0.00   0.00    0.0       0       0      0      0     0.      0     0.    0.0    0.0     0.0    0.0
  1997 249   102   100      0    0.0     0.0       0       0      0    0.0    0.0    0.0    0.0   0.00   0.00   0.00   0.00    0.0       0       0      0      0     0.      0     0.    0.0    0.0     0.0    0.0
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 08, 2014; 00:45:26
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:35
                                                                                 
 *RUN   2        : 97 DATE1 F-MIX            CRGRO045 GHNY9701    2              
  MODEL          : CRGRO045 - Peanut                                             
@@ -246,7 +246,7 @@
  1997 269   122   120      0    0.0     0.0       0       0      0    0.0    0.0    0.0    0.0   0.00   0.00   0.00   0.00    0.0       0       0      0      0     0.      0     0.    0.0    0.0     0.0    0.0
  1997 270   123   121      0    0.0     0.0       0       0      0    0.0    0.0    0.0    0.0   0.00   0.00   0.00   0.00    0.0       0       0      0      0     0.      0     0.    0.0    0.0     0.0    0.0
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 08, 2014; 00:45:26
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:35
                                                                                 
 *RUN   3        : 97 DATE2 CHINESE          CRGRO045 GHNY9701    3              
  MODEL          : CRGRO045 - Peanut                                             
@@ -358,7 +358,7 @@
  1997 276   101    99      0    0.0     0.0       0       0      0    0.0    0.0    0.0    0.0   0.00   0.00   0.00   0.00    0.0       0       0      0      0     0.      0     0.    0.0    0.0     0.0    0.0
  1997 277   102   100      0    0.0     0.0       0       0      0    0.0    0.0    0.0    0.0   0.00   0.00   0.00   0.00    0.0       0       0      0      0     0.      0     0.    0.0    0.0     0.0    0.0
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 08, 2014; 00:45:26
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:35
                                                                                 
 *RUN   4        : 97 DATE2 F-MIX            CRGRO045 GHNY9701    4              
  MODEL          : CRGRO045 - Peanut                                             
@@ -491,7 +491,7 @@
  1997 297   122   120      0    0.0     0.0       0       0      0    0.0    0.0    0.0    0.0   0.00   0.00   0.00   0.00    0.0       0       0      0      0     0.      0     0.    0.0    0.0     0.0    0.0
  1997 298   123   121      0    0.0     0.0       0       0      0    0.0    0.0    0.0    0.0   0.00   0.00   0.00   0.00    0.0       0       0      0      0     0.      0     0.    0.0    0.0     0.0    0.0
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 08, 2014; 00:45:26
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:35
                                                                                 
 *RUN   5        : 97 DATE3 CHINESE          CRGRO045 GHNY9701    5              
  MODEL          : CRGRO045 - Peanut                                             
@@ -603,7 +603,7 @@
  1997 304   101    99      0    0.0     0.0       0       0      0    0.0    0.0    0.0    0.0   0.00   0.00   0.00   0.00    0.0       0       0      0      0     0.      0     0.    0.0    0.0     0.0    0.0
  1997 305   102   100      0    0.0     0.0       0       0      0    0.0    0.0    0.0    0.0   0.00   0.00   0.00   0.00    0.0       0       0      0      0     0.      0     0.    0.0    0.0     0.0    0.0
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 08, 2014; 00:45:26
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:35
                                                                                 
 *RUN   6        : 97 DATE3 F-MIX            CRGRO045 GHNY9701    6              
  MODEL          : CRGRO045 - Peanut                                             

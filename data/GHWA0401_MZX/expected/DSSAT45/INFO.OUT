@@ -2,7 +2,7 @@
 
 ******************************************************************************
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:44:25
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:45
                                                                                 
 *RUN   1        : N0 P0                     MZCER045 GHWA0401    1              
  MODEL          : MZCER045 - Maize                                              
@@ -274,7 +274,7 @@
 
 ******************************************************************************
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:44:25
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:45
                                                                                 
 *RUN   2        : N0 P60                    MZCER045 GHWA0401    2              
  MODEL          : MZCER045 - Maize                                              
@@ -539,7 +539,7 @@
 
 ******************************************************************************
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:44:26
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:45
                                                                                 
 *RUN   3        : N0 P90                    MZCER045 GHWA0401    3              
  MODEL          : MZCER045 - Maize                                              
@@ -804,7 +804,7 @@
 
 ******************************************************************************
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:44:26
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:45
                                                                                 
 *RUN   4        : N60 P0                    MZCER045 GHWA0401    4              
  MODEL          : MZCER045 - Maize                                              
@@ -1061,7 +1061,7 @@
 
 ******************************************************************************
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:44:26
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:45
                                                                                 
 *RUN   5        : N60 P60                   MZCER045 GHWA0401    5              
  MODEL          : MZCER045 - Maize                                              
@@ -1326,7 +1326,7 @@
 
 ******************************************************************************
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:44:26
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:45
                                                                                 
 *RUN   6        : N60 P90                   MZCER045 GHWA0401    6              
  MODEL          : MZCER045 - Maize                                              
@@ -1591,7 +1591,7 @@
 
 ******************************************************************************
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:44:26
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:45
                                                                                 
 *RUN   7        : N120 P0                   MZCER045 GHWA0401    7              
  MODEL          : MZCER045 - Maize                                              
@@ -1848,7 +1848,7 @@
 
 ******************************************************************************
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:44:26
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:45
                                                                                 
 *RUN   8        : N120 P60                  MZCER045 GHWA0401    8              
  MODEL          : MZCER045 - Maize                                              
@@ -2113,7 +2113,7 @@
 
 ******************************************************************************
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:44:26
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:45
                                                                                 
 *RUN   9        : N120 P90                  MZCER045 GHWA0401    9              
  MODEL          : MZCER045 - Maize                                              

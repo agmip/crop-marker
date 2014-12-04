@@ -1,7 +1,7 @@
 
 *SOIL N BALANCE - CENTURY ROUTINES
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         NOV 07, 2014; 01:51:49
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:57
 
 !                     |------------------- N State Variables -------------------| |------------ N Additions ------------| |---------- N Subtractions -----------| |-Mineralization--|
 !                                                                                   Harvest   Applied                                  Denit-             Ammonia    Miner-    Immob-  Seasonal
