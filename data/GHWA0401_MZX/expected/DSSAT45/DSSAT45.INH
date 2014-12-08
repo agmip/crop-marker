@@ -1,46 +1,46 @@
-*EXP.DETAILS: GHWA0401MZ                                                             
+*EXP.DETAILS: GHWA0401MZ ON-STATION NXP (EXPERIMENT NO.2) 9 TRT                      
 
 *FILES
 @N  EXP.DATA    AFILE        ADIR
-  9 EXP         GHWA0401.MZA                                                                                 
+  1 EXP         GHWA0401.MZA                                                                                 
 @N  SPECIES     SPFILE       SPDIR
-  9 SPE         MZCER045.SPE C:\DSSAT45\GENOTYPE\                                                            
+  1 SPE         MZCER045.SPE C:\DSSAT45\GENOTYPE\                                                            
 @N  ECOTYPE     EFILE        EDIR
-  9 ECO         MZCER045.ECO C:\DSSAT45\GENOTYPE\                                                            
+  1 ECO         MZCER045.ECO C:\DSSAT45\GENOTYPE\                                                            
 @N  CULTIVAR    CFILE        CDIR
-  9 CUL         MZCER045.CUL C:\DSSAT45\GENOTYPE\                                                            
+  1 CUL         MZCER045.CUL C:\DSSAT45\GENOTYPE\                                                            
 @N  SOIL        SFILE        SDIR
-  9 SOIL        GH.SOL                                                                                       
+  1 SOIL        GH.SOL                                                                                       
 @N  WEATHER     WFILE        WDIR
-  9 WEATH       GHWA0302.WTH                                                                                 
+  1 WEATH       GHWA0302.WTH                                                                                 
 
 *SIMULATION CONTROL
 @N  GENERAL     NYERS NREPS START   SDATE RSEED SNAME.................... MODEL...
-  9 GE              1     1     S 2003283  5242 Maize (2004)              MZCER045
+  1 GE              1     1     S 2003283  5242 Maize (2004)              MZCER045
 @N  OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
-  9 OP              Y     Y     N     Y     N     N     N     N     M
+  1 OP              Y     Y     N     Y     N     N     N     N     M
 @N  METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT SOMDY MESEV MESOL
-  9 ME              M     M     E     R     S     C     R     1     P     S     2
+  1 ME              M     M     E     R     S     C     R     1     P     S     2
 @N  MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
-  9 MA              R     N     R     N     R
+  1 MA              R     N     R     N     R
 @N  OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT  LONG CHOUT OPOUT
-  9 OU              N     Y     Y     1     Y     Y     Y     Y     Y     N     Y     N     Y
+  1 OU              N     Y     Y     1     Y     Y     Y     Y     Y     N     Y     N     Y
 
 !AUTOMATIC MANAGEM
 @N  PLANTING      PFRST   PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
-  9 PL          2004001 2004001   40.  100.   30.   40.   10.
+  1 PL          2004001 2004001   40.  100.   30.   40.   10.
 @N  IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
-  9 IR             0.    0.    0. GS000 IR001   0.0 1.000
+  1 IR             0.    0.    0. GS000 IR001   0.0 1.000
 @N  NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
-  9 NI            30.   50.   25. FE001 GS000
+  1 NI            30.   50.   25. FE001 GS000
 @N  RESIDUES    RIPCN RTIME RIDEP
-  9 RE           100.     0    0.
+  1 RE           100.     0    0.
 @N  HARVEST     HFRST   HLAST HPCNP HRCNR
-  9 HA              0 2000001  100.    0.
+  1 HA              0 2000001  100.    0.
 
 *TREATMENTS
 @N   R O C TNAME....................  CU  FL  SA  IC  MP  MI  MF  MR  MC  MT  ME  MH  SM
-  9  1 1 0 N120 P90                    1   8   4   8   1   0   8   0   0   0   0   1   9
+  9  1 1 0 N120 P90                    1   8   4   8   1   0   8   0   0   0   0   1   1
 
 *CULTIVARS
 @C  CR INGENO CNAME

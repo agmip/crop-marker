@@ -57,7 +57,13 @@ public class PathConfigDialog extends Dialog implements Bindable {
             @Override
             public void buttonPressed(Button button) {
                 final FileBrowserSheet browse;
-                browse = new FileBrowserSheet(FileBrowserSheet.Mode.OPEN, new File(text.getText()).getParent());
+                File dir = new File(text.getText()).getParentFile();
+                if (dir == null || !dir.exists()) {
+                    browse = new FileBrowserSheet(FileBrowserSheet.Mode.OPEN);
+                } else {
+                    browse = new FileBrowserSheet(FileBrowserSheet.Mode.OPEN, dir.getPath());
+                }
+                
                 browse.setDisabledFileFilter(new Filter<File>() {
 
                     @Override

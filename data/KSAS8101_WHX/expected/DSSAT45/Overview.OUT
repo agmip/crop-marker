@@ -1,11 +1,11 @@
 *SIMULATION OVERVIEW FILE
   
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:36:04
                                                                                 
 *RUN   1        : DRYLAND  - 0 KG N/HA      CSCER045 KSAS8101    1              
  MODEL          : CSCER045 - Wheat                                              
- EXPERIMENT     : KSAS8101 WH                                                   
+ EXPERIMENT     : KSAS8101 WH N RESPONSE,KANSAS STATE  3FE(N)*2IR  (DSSAT3)     
  DATA PATH      :                                                               
  TREATMENT  1   : DRYLAND  - 0 KG N/HA      CSCER045                            
                                                                                 
@@ -56,7 +56,7 @@ RUNOFF CURVE # :60.00      DRAINAGE RATE     : 0.60         FERT. FACTOR : 1.00
 
 *SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
   
- RUN NO.      1   -99                                                         
+ RUN NO.      1   N RESPONSE,KANSAS STATE  3FE(N)*2IR  (DSSAT3)               
 
  ...... DATE ......  GROWTH STAGE BIOMASS   LEAF       CROP N      STRESS
  YEARDOY DOM MON DAP ............. kg/ha AREA NUMBER  kg/ha   %   H2O    N
@@ -180,11 +180,11 @@ RUNOFF CURVE # :60.00      DRAINAGE RATE     : 0.60         FERT. FACTOR : 1.00
 **************************************************************************************************************
   
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:36:04
                                                                                 
 *RUN   2        : DRYLAND  - 60 KG N/HA     CSCER045 KSAS8101    2              
  MODEL          : CSCER045 - Wheat                                              
- EXPERIMENT     : KSAS8101 WH                                                   
+ EXPERIMENT     : KSAS8101 WH N RESPONSE,KANSAS STATE  3FE(N)*2IR  (DSSAT3)     
  DATA PATH      :                                                               
  TREATMENT  2   : DRYLAND  - 60 KG N/HA     CSCER045                            
                                                                                 
@@ -235,7 +235,7 @@ RUNOFF CURVE # :60.00      DRAINAGE RATE     : 0.60         FERT. FACTOR : 1.00
 
 *SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
   
- RUN NO.      2   -99                                                         
+ RUN NO.      2   N RESPONSE,KANSAS STATE  3FE(N)*2IR  (DSSAT3)               
 
  ...... DATE ......  GROWTH STAGE BIOMASS   LEAF       CROP N      STRESS
  YEARDOY DOM MON DAP ............. kg/ha AREA NUMBER  kg/ha   %   H2O    N
@@ -333,11 +333,11 @@ RUNOFF CURVE # :60.00      DRAINAGE RATE     : 0.60         FERT. FACTOR : 1.00
 **************************************************************************************************************
   
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:36:04
                                                                                 
 *RUN   3        : DRYLAND  - 180 KG N/HA SP CSCER045 KSAS8101    3              
  MODEL          : CSCER045 - Wheat                                              
- EXPERIMENT     : KSAS8101 WH                                                   
+ EXPERIMENT     : KSAS8101 WH N RESPONSE,KANSAS STATE  3FE(N)*2IR  (DSSAT3)     
  DATA PATH      :                                                               
  TREATMENT  3   : DRYLAND  - 180 KG N/HA SP CSCER045                            
                                                                                 
@@ -388,7 +388,7 @@ RUNOFF CURVE # :60.00      DRAINAGE RATE     : 0.60         FERT. FACTOR : 1.00
 
 *SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
   
- RUN NO.      3   -99                                                         
+ RUN NO.      3   N RESPONSE,KANSAS STATE  3FE(N)*2IR  (DSSAT3)               
 
  ...... DATE ......  GROWTH STAGE BIOMASS   LEAF       CROP N      STRESS
  YEARDOY DOM MON DAP ............. kg/ha AREA NUMBER  kg/ha   %   H2O    N
@@ -486,11 +486,11 @@ RUNOFF CURVE # :60.00      DRAINAGE RATE     : 0.60         FERT. FACTOR : 1.00
 **************************************************************************************************************
   
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:36:04
                                                                                 
 *RUN   4        : IRRIGATED - 0 KG N/HA     CSCER045 KSAS8101    4              
  MODEL          : CSCER045 - Wheat                                              
- EXPERIMENT     : KSAS8101 WH                                                   
+ EXPERIMENT     : KSAS8101 WH N RESPONSE,KANSAS STATE  3FE(N)*2IR  (DSSAT3)     
  DATA PATH      :                                                               
  TREATMENT  4   : IRRIGATED - 0 KG N/HA     CSCER045                            
                                                                                 
@@ -541,7 +541,7 @@ RUNOFF CURVE # :60.00      DRAINAGE RATE     : 0.60         FERT. FACTOR : 1.00
 
 *SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
   
- RUN NO.      4   -99                                                         
+ RUN NO.      4   N RESPONSE,KANSAS STATE  3FE(N)*2IR  (DSSAT3)               
 
  ...... DATE ......  GROWTH STAGE BIOMASS   LEAF       CROP N      STRESS
  YEARDOY DOM MON DAP ............. kg/ha AREA NUMBER  kg/ha   %   H2O    N
@@ -639,11 +639,11 @@ RUNOFF CURVE # :60.00      DRAINAGE RATE     : 0.60         FERT. FACTOR : 1.00
 **************************************************************************************************************
   
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:36:04
                                                                                 
 *RUN   5        : IRRIGATED - 60 KG N/HA    CSCER045 KSAS8101    5              
  MODEL          : CSCER045 - Wheat                                              
- EXPERIMENT     : KSAS8101 WH                                                   
+ EXPERIMENT     : KSAS8101 WH N RESPONSE,KANSAS STATE  3FE(N)*2IR  (DSSAT3)     
  DATA PATH      :                                                               
  TREATMENT  5   : IRRIGATED - 60 KG N/HA    CSCER045                            
                                                                                 
@@ -694,7 +694,7 @@ RUNOFF CURVE # :60.00      DRAINAGE RATE     : 0.60         FERT. FACTOR : 1.00
 
 *SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
   
- RUN NO.      5   -99                                                         
+ RUN NO.      5   N RESPONSE,KANSAS STATE  3FE(N)*2IR  (DSSAT3)               
 
  ...... DATE ......  GROWTH STAGE BIOMASS   LEAF       CROP N      STRESS
  YEARDOY DOM MON DAP ............. kg/ha AREA NUMBER  kg/ha   %   H2O    N
@@ -796,11 +796,11 @@ RUNOFF CURVE # :60.00      DRAINAGE RATE     : 0.60         FERT. FACTOR : 1.00
 **************************************************************************************************************
   
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:36:05
                                                                                 
 *RUN   6        : IRRIGATED 180 KG N/HA SPL CSCER045 KSAS8101    6              
  MODEL          : CSCER045 - Wheat                                              
- EXPERIMENT     : KSAS8101 WH                                                   
+ EXPERIMENT     : KSAS8101 WH N RESPONSE,KANSAS STATE  3FE(N)*2IR  (DSSAT3)     
  DATA PATH      :                                                               
  TREATMENT  6   : IRRIGATED 180 KG N/HA SPL CSCER045                            
                                                                                 
@@ -851,7 +851,7 @@ RUNOFF CURVE # :60.00      DRAINAGE RATE     : 0.60         FERT. FACTOR : 1.00
 
 *SIMULATED CROP AND SOIL STATUS AT MAIN DEVELOPMENT STAGES
   
- RUN NO.      6   -99                                                         
+ RUN NO.      6   N RESPONSE,KANSAS STATE  3FE(N)*2IR  (DSSAT3)               
 
  ...... DATE ......  GROWTH STAGE BIOMASS   LEAF       CROP N      STRESS
  YEARDOY DOM MON DAP ............. kg/ha AREA NUMBER  kg/ha   %   H2O    N

@@ -16,14 +16,14 @@
             <Latitude description="Latitude (WGS84)">9.416</Latitude>
             <Longitude>0.966</Longitude>
             <LocationAccuracy description="Location accuracy" />
-            <DataSource type="multiedit" description="Data source">Naab site1D</DataSource>
+            <DataSource type="multiedit" description="Data source">Naab st1D1</DataSource>
             <Comments />
             <Water>
                 <Layer>
                     <Thickness units="mm">50.0</Thickness>
                     <KS units="mm/day"></KS>
                     <BD units="g/cc">1.39</BD>
-                    <AirDry units="mm/mm">-99.999</AirDry>
+                    <AirDry units="mm/mm">0.038</AirDry>
                     <LL15 units="mm/mm">0.095</LL15>
                     <DUL units="mm/mm">0.257</DUL>
                     <SAT units="mm/mm">0.359</SAT>
@@ -32,7 +32,7 @@
                     <Thickness units="mm">100.0</Thickness>
                     <KS units="mm/day"></KS>
                     <BD units="g/cc">1.39</BD>
-                    <AirDry units="mm/mm">-99.999</AirDry>
+                    <AirDry units="mm/mm">0.024</AirDry>
                     <LL15 units="mm/mm">0.06</LL15>
                     <DUL units="mm/mm">0.227</DUL>
                     <SAT units="mm/mm">0.359</SAT>
@@ -41,7 +41,7 @@
                     <Thickness units="mm">150.0</Thickness>
                     <KS units="mm/day"></KS>
                     <BD units="g/cc">1.59</BD>
-                    <AirDry units="mm/mm">-99.999</AirDry>
+                    <AirDry units="mm/mm">0.024</AirDry>
                     <LL15 units="mm/mm">0.06</LL15>
                     <DUL units="mm/mm">0.228</DUL>
                     <SAT units="mm/mm">0.34</SAT>
@@ -50,7 +50,7 @@
                     <Thickness units="mm">150.0</Thickness>
                     <KS units="mm/day"></KS>
                     <BD units="g/cc">1.59</BD>
-                    <AirDry units="mm/mm">-99.999</AirDry>
+                    <AirDry units="mm/mm">0.042</AirDry>
                     <LL15 units="mm/mm">0.105</LL15>
                     <DUL units="mm/mm">0.229</DUL>
                     <SAT units="mm/mm">0.342</SAT>
@@ -59,7 +59,7 @@
                     <Thickness units="mm">150.0</Thickness>
                     <KS units="mm/day"></KS>
                     <BD units="g/cc">1.63</BD>
-                    <AirDry units="mm/mm">-99.999</AirDry>
+                    <AirDry units="mm/mm">0.048</AirDry>
                     <LL15 units="mm/mm">0.12</LL15>
                     <DUL units="mm/mm">0.205</DUL>
                     <SAT units="mm/mm">0.342</SAT>
@@ -68,7 +68,7 @@
                     <Thickness units="mm">300.0</Thickness>
                     <KS units="mm/day"></KS>
                     <BD units="g/cc">1.45</BD>
-                    <AirDry units="mm/mm">-99.999</AirDry>
+                    <AirDry units="mm/mm">0.052</AirDry>
                     <LL15 units="mm/mm">0.13</LL15>
                     <DUL units="mm/mm">0.2</DUL>
                     <SAT units="mm/mm">0.347</SAT>
@@ -77,37 +77,37 @@
                     <Layer>
                         <Thickness units="mm">50.0</Thickness>
                         <LL units="mm/mm">0.095</LL>
-                        <KL units="/day">-99.999</KL>
+                        <KL units="/day">0.06</KL>
                         <XF units="0-1">1.0</XF>
                     </Layer>
                     <Layer>
                         <Thickness units="mm">100.0</Thickness>
                         <LL units="mm/mm">0.06</LL>
-                        <KL units="/day">-99.999</KL>
+                        <KL units="/day">0.06</KL>
                         <XF units="0-1">1.0</XF>
                     </Layer>
                     <Layer>
                         <Thickness units="mm">150.0</Thickness>
                         <LL units="mm/mm">0.06</LL>
-                        <KL units="/day">-99.999</KL>
+                        <KL units="/day">0.06</KL>
                         <XF units="0-1">0.7</XF>
                     </Layer>
                     <Layer>
                         <Thickness units="mm">150.0</Thickness>
                         <LL units="mm/mm">0.105</LL>
-                        <KL units="/day">-99.999</KL>
+                        <KL units="/day">0.06</KL>
                         <XF units="0-1">0.35</XF>
                     </Layer>
                     <Layer>
                         <Thickness units="mm">150.0</Thickness>
                         <LL units="mm/mm">0.12</LL>
-                        <KL units="/day">-99.999</KL>
+                        <KL units="/day">0.06</KL>
                         <XF units="0-1">0.25</XF>
                     </Layer>
                     <Layer>
                         <Thickness units="mm">300.0</Thickness>
                         <LL units="mm/mm">0.13</LL>
-                        <KL units="/day">-99.999</KL>
+                        <KL units="/day">0.06</KL>
                         <XF units="0-1">0.05</XF>
                     </Layer>
                 </SoilCrop>
@@ -119,8 +119,8 @@
                 <WinterCona>3.5</WinterCona>
                 <WinterU>6.0</WinterU>
                 <WinterDate>21-Sep</WinterDate>
-                <DiffusConst>-99.999</DiffusConst>
-                <DiffusSlope>-99.999</DiffusSlope>
+                <DiffusConst>40.0</DiffusConst>
+                <DiffusSlope>16.0</DiffusSlope>
                 <Salb>0.13</Salb>
                 <Cn2Bare>76.0</Cn2Bare>
                 <CnRed>20</CnRed>
@@ -179,38 +179,38 @@
                 <Layer>                                            
                     <Thickness units="mm">50.0</Thickness>                                                
                     <OC units="Total %">0.41</OC>
-                    <FBiom units="0-1">-243.9</FBiom>
-                    <FInert units="0-1">-243.9</FInert>
+                    <FBiom units="0-1">0.04878048780487805</FBiom>
+                    <FInert units="0-1">0.882</FInert>
                 </Layer>
                 <Layer>                                            
                     <Thickness units="mm">100.0</Thickness>                                                
                     <OC units="Total %">0.41</OC>
-                    <FBiom units="0-1">-243.9</FBiom>
-                    <FInert units="0-1">-243.9</FInert>
+                    <FBiom units="0-1">0.04878048780487805</FBiom>
+                    <FInert units="0-1">0.882</FInert>
                 </Layer>
                 <Layer>                                            
                     <Thickness units="mm">150.0</Thickness>                                                
                     <OC units="Total %">0.32</OC>
-                    <FBiom units="0-1">-312.496875</FBiom>
-                    <FInert units="0-1">-312.496875</FInert>
+                    <FBiom units="0-1">0.0625</FBiom>
+                    <FInert units="0-1">0.882</FInert>
                 </Layer>
                 <Layer>                                            
                     <Thickness units="mm">150.0</Thickness>                                                
                     <OC units="Total %">0.28</OC>
-                    <FBiom units="0-1">-357.1392857142857</FBiom>
-                    <FInert units="0-1">-357.1392857142857</FInert>
+                    <FBiom units="0-1">0.07142857142857142</FBiom>
+                    <FInert units="0-1">0.882</FInert>
                 </Layer>
                 <Layer>                                            
                     <Thickness units="mm">150.0</Thickness>                                                
                     <OC units="Total %">0.28</OC>
-                    <FBiom units="0-1">-357.1392857142857</FBiom>
-                    <FInert units="0-1">-357.1392857142857</FInert>
+                    <FBiom units="0-1">0.07142857142857142</FBiom>
+                    <FInert units="0-1">0.882</FInert>
                 </Layer>
                 <Layer>                                            
                     <Thickness units="mm">300.0</Thickness>                                                
                     <OC units="Total %">0.17</OC>
-                    <FBiom units="0-1">-588.2294117647058</FBiom>
-                    <FInert units="0-1">-588.2294117647058</FInert>
+                    <FBiom units="0-1">0.11764705882352941</FBiom>
+                    <FInert units="0-1">0.8819999999999999</FInert>
                 </Layer>
             </SoilOrganicMatter>
             <Analysis>
@@ -358,14 +358,14 @@
             <Latitude description="Latitude (WGS84)">9.416</Latitude>
             <Longitude>0.966</Longitude>
             <LocationAccuracy description="Location accuracy" />
-            <DataSource type="multiedit" description="Data source">Naab site1D2</DataSource>
+            <DataSource type="multiedit" description="Data source">Naab st1D23</DataSource>
             <Comments />
             <Water>
                 <Layer>
                     <Thickness units="mm">50.0</Thickness>
                     <KS units="mm/day"></KS>
                     <BD units="g/cc">1.39</BD>
-                    <AirDry units="mm/mm">-99.999</AirDry>
+                    <AirDry units="mm/mm">0.038</AirDry>
                     <LL15 units="mm/mm">0.095</LL15>
                     <DUL units="mm/mm">0.257</DUL>
                     <SAT units="mm/mm">0.359</SAT>
@@ -374,7 +374,7 @@
                     <Thickness units="mm">100.0</Thickness>
                     <KS units="mm/day"></KS>
                     <BD units="g/cc">1.39</BD>
-                    <AirDry units="mm/mm">-99.999</AirDry>
+                    <AirDry units="mm/mm">0.024</AirDry>
                     <LL15 units="mm/mm">0.06</LL15>
                     <DUL units="mm/mm">0.227</DUL>
                     <SAT units="mm/mm">0.359</SAT>
@@ -383,7 +383,7 @@
                     <Thickness units="mm">150.0</Thickness>
                     <KS units="mm/day"></KS>
                     <BD units="g/cc">1.59</BD>
-                    <AirDry units="mm/mm">-99.999</AirDry>
+                    <AirDry units="mm/mm">0.024</AirDry>
                     <LL15 units="mm/mm">0.06</LL15>
                     <DUL units="mm/mm">0.228</DUL>
                     <SAT units="mm/mm">0.34</SAT>
@@ -392,7 +392,7 @@
                     <Thickness units="mm">150.0</Thickness>
                     <KS units="mm/day"></KS>
                     <BD units="g/cc">1.59</BD>
-                    <AirDry units="mm/mm">-99.999</AirDry>
+                    <AirDry units="mm/mm">0.042</AirDry>
                     <LL15 units="mm/mm">0.105</LL15>
                     <DUL units="mm/mm">0.229</DUL>
                     <SAT units="mm/mm">0.342</SAT>
@@ -401,7 +401,7 @@
                     <Thickness units="mm">150.0</Thickness>
                     <KS units="mm/day"></KS>
                     <BD units="g/cc">1.63</BD>
-                    <AirDry units="mm/mm">-99.999</AirDry>
+                    <AirDry units="mm/mm">0.048</AirDry>
                     <LL15 units="mm/mm">0.12</LL15>
                     <DUL units="mm/mm">0.216</DUL>
                     <SAT units="mm/mm">0.342</SAT>
@@ -410,7 +410,7 @@
                     <Thickness units="mm">300.0</Thickness>
                     <KS units="mm/day"></KS>
                     <BD units="g/cc">1.45</BD>
-                    <AirDry units="mm/mm">-99.999</AirDry>
+                    <AirDry units="mm/mm">0.052</AirDry>
                     <LL15 units="mm/mm">0.13</LL15>
                     <DUL units="mm/mm">0.216</DUL>
                     <SAT units="mm/mm">0.347</SAT>
@@ -419,37 +419,37 @@
                     <Layer>
                         <Thickness units="mm">50.0</Thickness>
                         <LL units="mm/mm">0.095</LL>
-                        <KL units="/day">-99.999</KL>
+                        <KL units="/day">0.06</KL>
                         <XF units="0-1">1.0</XF>
                     </Layer>
                     <Layer>
                         <Thickness units="mm">100.0</Thickness>
                         <LL units="mm/mm">0.06</LL>
-                        <KL units="/day">-99.999</KL>
+                        <KL units="/day">0.06</KL>
                         <XF units="0-1">1.0</XF>
                     </Layer>
                     <Layer>
                         <Thickness units="mm">150.0</Thickness>
                         <LL units="mm/mm">0.06</LL>
-                        <KL units="/day">-99.999</KL>
+                        <KL units="/day">0.06</KL>
                         <XF units="0-1">0.7</XF>
                     </Layer>
                     <Layer>
                         <Thickness units="mm">150.0</Thickness>
                         <LL units="mm/mm">0.105</LL>
-                        <KL units="/day">-99.999</KL>
+                        <KL units="/day">0.06</KL>
                         <XF units="0-1">0.35</XF>
                     </Layer>
                     <Layer>
                         <Thickness units="mm">150.0</Thickness>
                         <LL units="mm/mm">0.12</LL>
-                        <KL units="/day">-99.999</KL>
+                        <KL units="/day">0.06</KL>
                         <XF units="0-1">0.25</XF>
                     </Layer>
                     <Layer>
                         <Thickness units="mm">300.0</Thickness>
                         <LL units="mm/mm">0.13</LL>
-                        <KL units="/day">-99.999</KL>
+                        <KL units="/day">0.06</KL>
                         <XF units="0-1">0.05</XF>
                     </Layer>
                 </SoilCrop>
@@ -461,8 +461,8 @@
                 <WinterCona>3.5</WinterCona>
                 <WinterU>6.0</WinterU>
                 <WinterDate>21-Sep</WinterDate>
-                <DiffusConst>-99.999</DiffusConst>
-                <DiffusSlope>-99.999</DiffusSlope>
+                <DiffusConst>40.0</DiffusConst>
+                <DiffusSlope>16.0</DiffusSlope>
                 <Salb>0.13</Salb>
                 <Cn2Bare>76.0</Cn2Bare>
                 <CnRed>20</CnRed>
@@ -521,38 +521,38 @@
                 <Layer>                                            
                     <Thickness units="mm">50.0</Thickness>                                                
                     <OC units="Total %">0.41</OC>
-                    <FBiom units="0-1">-243.9</FBiom>
-                    <FInert units="0-1">-243.9</FInert>
+                    <FBiom units="0-1">0.04878048780487805</FBiom>
+                    <FInert units="0-1">0.882</FInert>
                 </Layer>
                 <Layer>                                            
                     <Thickness units="mm">100.0</Thickness>                                                
                     <OC units="Total %">0.41</OC>
-                    <FBiom units="0-1">-243.9</FBiom>
-                    <FInert units="0-1">-243.9</FInert>
+                    <FBiom units="0-1">0.04878048780487805</FBiom>
+                    <FInert units="0-1">0.882</FInert>
                 </Layer>
                 <Layer>                                            
                     <Thickness units="mm">150.0</Thickness>                                                
                     <OC units="Total %">0.32</OC>
-                    <FBiom units="0-1">-312.496875</FBiom>
-                    <FInert units="0-1">-312.496875</FInert>
+                    <FBiom units="0-1">0.0625</FBiom>
+                    <FInert units="0-1">0.882</FInert>
                 </Layer>
                 <Layer>                                            
                     <Thickness units="mm">150.0</Thickness>                                                
                     <OC units="Total %">0.28</OC>
-                    <FBiom units="0-1">-357.1392857142857</FBiom>
-                    <FInert units="0-1">-357.1392857142857</FInert>
+                    <FBiom units="0-1">0.07142857142857142</FBiom>
+                    <FInert units="0-1">0.882</FInert>
                 </Layer>
                 <Layer>                                            
                     <Thickness units="mm">150.0</Thickness>                                                
                     <OC units="Total %">0.28</OC>
-                    <FBiom units="0-1">-357.1392857142857</FBiom>
-                    <FInert units="0-1">-357.1392857142857</FInert>
+                    <FBiom units="0-1">0.07142857142857142</FBiom>
+                    <FInert units="0-1">0.882</FInert>
                 </Layer>
                 <Layer>                                            
                     <Thickness units="mm">300.0</Thickness>                                                
                     <OC units="Total %">0.17</OC>
-                    <FBiom units="0-1">-588.2294117647058</FBiom>
-                    <FInert units="0-1">-588.2294117647058</FInert>
+                    <FBiom units="0-1">0.11764705882352941</FBiom>
+                    <FInert units="0-1">0.8819999999999999</FInert>
                 </Layer>
             </SoilOrganicMatter>
             <Analysis>
@@ -690,35 +690,7 @@
 		<memo name="LOG">
 This .apsim file was created by the APSIM AgMIP translator.
 Log messages:
-  * Clock ERROR: Missing a simulation start date (sdat).
-  * Clock ERROR: Missing a simulation end date (endat).
   * Met WARNING: No CO2 found in weather data (aco2 or co2y).
-  * Soil layer 1 ERROR: Missing airdry.
-  * Soil layer 1 ERROR: Missing KL (apsim_kl).
-  * Soil layer 1 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 1 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 2 ERROR: Missing airdry.
-  * Soil layer 2 ERROR: Missing KL (apsim_kl).
-  * Soil layer 2 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 2 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 3 ERROR: Missing airdry.
-  * Soil layer 3 ERROR: Missing KL (apsim_kl).
-  * Soil layer 3 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 3 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 4 ERROR: Missing airdry.
-  * Soil layer 4 ERROR: Missing KL (apsim_kl).
-  * Soil layer 4 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 4 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 5 ERROR: Missing airdry.
-  * Soil layer 5 ERROR: Missing KL (apsim_kl).
-  * Soil layer 5 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 5 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 6 ERROR: Missing airdry.
-  * Soil layer 6 ERROR: Missing KL (apsim_kl).
-  * Soil layer 6 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 6 ERROR: Missing InertC (both slic and slfic).
-  * Soil ERROR: Missing diffusConst (diffusConst).
-  * Soil ERROR: Missing diffusSlope (diffusSlope).
   * Initial conditions layer 1 ERROR: Missing NO3 (icno3).
   * Initial conditions layer 1 ERROR: Missing NH4 (icnh4).
   * Initial conditions layer 2 ERROR: Missing NO3 (icno3).
@@ -734,8 +706,8 @@ Log messages:
    
 		</memo>
 		<clock>
-			<start_date type="date" description="Enter the start date of the simulation">?</start_date>
-			<end_date type="date" description="Enter the end date of the simulation">?</end_date>
+			<start_date type="date" description="Enter the start date of the simulation">28/05/1997</start_date>
+			<end_date type="date" description="Enter the end date of the simulation">15/12/1997</end_date>
 		</clock>
 		<metfile name="met">
 			<filename name="filename" input="yes">GHNY.met</filename>
@@ -838,7 +810,7 @@ Log messages:
 				<operations name="Operations">
 					<operation condition="start_of_day">
 						<date>29/05/1997</date>
-						<action>peanut sow plants = 10.0, sowing_depth = 50.0 (mm), cultivar = GH0001, row_spacing = 500.0 (mm), crop_class = plant</action>
+						<action>peanut sow plants = 10.0, sowing_depth = 50.0 (mm), cultivar = VIRGINIA_BUNCH, row_spacing = 500.0 (mm), crop_class = plant</action>
 					</operation>
 				</operations>
                 <manager name="Harvesting rule">
@@ -977,35 +949,7 @@ public class Script
 		<memo name="LOG">
 This .apsim file was created by the APSIM AgMIP translator.
 Log messages:
-  * Clock ERROR: Missing a simulation start date (sdat).
-  * Clock ERROR: Missing a simulation end date (endat).
   * Met WARNING: No CO2 found in weather data (aco2 or co2y).
-  * Soil layer 1 ERROR: Missing airdry.
-  * Soil layer 1 ERROR: Missing KL (apsim_kl).
-  * Soil layer 1 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 1 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 2 ERROR: Missing airdry.
-  * Soil layer 2 ERROR: Missing KL (apsim_kl).
-  * Soil layer 2 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 2 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 3 ERROR: Missing airdry.
-  * Soil layer 3 ERROR: Missing KL (apsim_kl).
-  * Soil layer 3 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 3 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 4 ERROR: Missing airdry.
-  * Soil layer 4 ERROR: Missing KL (apsim_kl).
-  * Soil layer 4 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 4 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 5 ERROR: Missing airdry.
-  * Soil layer 5 ERROR: Missing KL (apsim_kl).
-  * Soil layer 5 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 5 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 6 ERROR: Missing airdry.
-  * Soil layer 6 ERROR: Missing KL (apsim_kl).
-  * Soil layer 6 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 6 ERROR: Missing InertC (both slic and slfic).
-  * Soil ERROR: Missing diffusConst (diffusConst).
-  * Soil ERROR: Missing diffusSlope (diffusSlope).
   * Initial conditions layer 1 ERROR: Missing NO3 (icno3).
   * Initial conditions layer 1 ERROR: Missing NH4 (icnh4).
   * Initial conditions layer 2 ERROR: Missing NO3 (icno3).
@@ -1021,8 +965,8 @@ Log messages:
    
 		</memo>
 		<clock>
-			<start_date type="date" description="Enter the start date of the simulation">?</start_date>
-			<end_date type="date" description="Enter the end date of the simulation">?</end_date>
+			<start_date type="date" description="Enter the start date of the simulation">28/05/1997</start_date>
+			<end_date type="date" description="Enter the end date of the simulation">15/12/1997</end_date>
 		</clock>
 		<metfile name="met">
 			<filename name="filename" input="yes">GHNY.met</filename>
@@ -1125,7 +1069,7 @@ Log messages:
 				<operations name="Operations">
 					<operation condition="start_of_day">
 						<date>29/05/1997</date>
-						<action>peanut sow plants = 10.0, sowing_depth = 50.0 (mm), cultivar = GH0002, row_spacing = 500.0 (mm), crop_class = plant</action>
+						<action>peanut sow plants = 10.0, sowing_depth = 50.0 (mm), cultivar = MCCUBBIN, row_spacing = 500.0 (mm), crop_class = plant</action>
 					</operation>
 				</operations>
                 <manager name="Harvesting rule">
@@ -1264,35 +1208,7 @@ public class Script
 		<memo name="LOG">
 This .apsim file was created by the APSIM AgMIP translator.
 Log messages:
-  * Clock ERROR: Missing a simulation start date (sdat).
-  * Clock ERROR: Missing a simulation end date (endat).
   * Met WARNING: No CO2 found in weather data (aco2 or co2y).
-  * Soil layer 1 ERROR: Missing airdry.
-  * Soil layer 1 ERROR: Missing KL (apsim_kl).
-  * Soil layer 1 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 1 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 2 ERROR: Missing airdry.
-  * Soil layer 2 ERROR: Missing KL (apsim_kl).
-  * Soil layer 2 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 2 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 3 ERROR: Missing airdry.
-  * Soil layer 3 ERROR: Missing KL (apsim_kl).
-  * Soil layer 3 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 3 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 4 ERROR: Missing airdry.
-  * Soil layer 4 ERROR: Missing KL (apsim_kl).
-  * Soil layer 4 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 4 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 5 ERROR: Missing airdry.
-  * Soil layer 5 ERROR: Missing KL (apsim_kl).
-  * Soil layer 5 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 5 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 6 ERROR: Missing airdry.
-  * Soil layer 6 ERROR: Missing KL (apsim_kl).
-  * Soil layer 6 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 6 ERROR: Missing InertC (both slic and slfic).
-  * Soil ERROR: Missing diffusConst (diffusConst).
-  * Soil ERROR: Missing diffusSlope (diffusSlope).
   * Initial conditions layer 1 ERROR: Missing NO3 (icno3).
   * Initial conditions layer 1 ERROR: Missing NH4 (icnh4).
   * Initial conditions layer 2 ERROR: Missing NO3 (icno3).
@@ -1308,8 +1224,8 @@ Log messages:
    
 		</memo>
 		<clock>
-			<start_date type="date" description="Enter the start date of the simulation">?</start_date>
-			<end_date type="date" description="Enter the end date of the simulation">?</end_date>
+			<start_date type="date" description="Enter the start date of the simulation">25/06/1997</start_date>
+			<end_date type="date" description="Enter the end date of the simulation">12/01/1998</end_date>
 		</clock>
 		<metfile name="met">
 			<filename name="filename" input="yes">GHNY.met</filename>
@@ -1412,7 +1328,7 @@ Log messages:
 				<operations name="Operations">
 					<operation condition="start_of_day">
 						<date>26/06/1997</date>
-						<action>peanut sow plants = 10.0, sowing_depth = 50.0 (mm), cultivar = GH0001, row_spacing = 500.0 (mm), crop_class = plant</action>
+						<action>peanut sow plants = 10.0, sowing_depth = 50.0 (mm), cultivar = VIRGINIA_BUNCH, row_spacing = 500.0 (mm), crop_class = plant</action>
 					</operation>
 				</operations>
                 <manager name="Harvesting rule">
@@ -1551,35 +1467,7 @@ public class Script
 		<memo name="LOG">
 This .apsim file was created by the APSIM AgMIP translator.
 Log messages:
-  * Clock ERROR: Missing a simulation start date (sdat).
-  * Clock ERROR: Missing a simulation end date (endat).
   * Met WARNING: No CO2 found in weather data (aco2 or co2y).
-  * Soil layer 1 ERROR: Missing airdry.
-  * Soil layer 1 ERROR: Missing KL (apsim_kl).
-  * Soil layer 1 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 1 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 2 ERROR: Missing airdry.
-  * Soil layer 2 ERROR: Missing KL (apsim_kl).
-  * Soil layer 2 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 2 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 3 ERROR: Missing airdry.
-  * Soil layer 3 ERROR: Missing KL (apsim_kl).
-  * Soil layer 3 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 3 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 4 ERROR: Missing airdry.
-  * Soil layer 4 ERROR: Missing KL (apsim_kl).
-  * Soil layer 4 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 4 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 5 ERROR: Missing airdry.
-  * Soil layer 5 ERROR: Missing KL (apsim_kl).
-  * Soil layer 5 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 5 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 6 ERROR: Missing airdry.
-  * Soil layer 6 ERROR: Missing KL (apsim_kl).
-  * Soil layer 6 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 6 ERROR: Missing InertC (both slic and slfic).
-  * Soil ERROR: Missing diffusConst (diffusConst).
-  * Soil ERROR: Missing diffusSlope (diffusSlope).
   * Initial conditions layer 1 ERROR: Missing NO3 (icno3).
   * Initial conditions layer 1 ERROR: Missing NH4 (icnh4).
   * Initial conditions layer 2 ERROR: Missing NO3 (icno3).
@@ -1595,8 +1483,8 @@ Log messages:
    
 		</memo>
 		<clock>
-			<start_date type="date" description="Enter the start date of the simulation">?</start_date>
-			<end_date type="date" description="Enter the end date of the simulation">?</end_date>
+			<start_date type="date" description="Enter the start date of the simulation">25/06/1997</start_date>
+			<end_date type="date" description="Enter the end date of the simulation">12/01/1998</end_date>
 		</clock>
 		<metfile name="met">
 			<filename name="filename" input="yes">GHNY.met</filename>
@@ -1699,7 +1587,7 @@ Log messages:
 				<operations name="Operations">
 					<operation condition="start_of_day">
 						<date>26/06/1997</date>
-						<action>peanut sow plants = 10.0, sowing_depth = 50.0 (mm), cultivar = GH0002, row_spacing = 500.0 (mm), crop_class = plant</action>
+						<action>peanut sow plants = 10.0, sowing_depth = 50.0 (mm), cultivar = MCCUBBIN, row_spacing = 500.0 (mm), crop_class = plant</action>
 					</operation>
 				</operations>
                 <manager name="Harvesting rule">
@@ -1838,35 +1726,7 @@ public class Script
 		<memo name="LOG">
 This .apsim file was created by the APSIM AgMIP translator.
 Log messages:
-  * Clock ERROR: Missing a simulation start date (sdat).
-  * Clock ERROR: Missing a simulation end date (endat).
   * Met WARNING: No CO2 found in weather data (aco2 or co2y).
-  * Soil layer 1 ERROR: Missing airdry.
-  * Soil layer 1 ERROR: Missing KL (apsim_kl).
-  * Soil layer 1 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 1 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 2 ERROR: Missing airdry.
-  * Soil layer 2 ERROR: Missing KL (apsim_kl).
-  * Soil layer 2 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 2 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 3 ERROR: Missing airdry.
-  * Soil layer 3 ERROR: Missing KL (apsim_kl).
-  * Soil layer 3 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 3 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 4 ERROR: Missing airdry.
-  * Soil layer 4 ERROR: Missing KL (apsim_kl).
-  * Soil layer 4 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 4 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 5 ERROR: Missing airdry.
-  * Soil layer 5 ERROR: Missing KL (apsim_kl).
-  * Soil layer 5 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 5 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 6 ERROR: Missing airdry.
-  * Soil layer 6 ERROR: Missing KL (apsim_kl).
-  * Soil layer 6 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 6 ERROR: Missing InertC (both slic and slfic).
-  * Soil ERROR: Missing diffusConst (diffusConst).
-  * Soil ERROR: Missing diffusSlope (diffusSlope).
   * Initial conditions layer 1 ERROR: Missing NO3 (icno3).
   * Initial conditions layer 1 ERROR: Missing NH4 (icnh4).
   * Initial conditions layer 2 ERROR: Missing NO3 (icno3).
@@ -1882,8 +1742,8 @@ Log messages:
    
 		</memo>
 		<clock>
-			<start_date type="date" description="Enter the start date of the simulation">?</start_date>
-			<end_date type="date" description="Enter the end date of the simulation">?</end_date>
+			<start_date type="date" description="Enter the start date of the simulation">23/07/1997</start_date>
+			<end_date type="date" description="Enter the end date of the simulation">09/02/1998</end_date>
 		</clock>
 		<metfile name="met">
 			<filename name="filename" input="yes">GHNY.met</filename>
@@ -1986,7 +1846,7 @@ Log messages:
 				<operations name="Operations">
 					<operation condition="start_of_day">
 						<date>24/07/1997</date>
-						<action>peanut sow plants = 10.0, sowing_depth = 50.0 (mm), cultivar = GH0001, row_spacing = 500.0 (mm), crop_class = plant</action>
+						<action>peanut sow plants = 10.0, sowing_depth = 50.0 (mm), cultivar = VIRGINIA_BUNCH, row_spacing = 500.0 (mm), crop_class = plant</action>
 					</operation>
 				</operations>
                 <manager name="Harvesting rule">
@@ -2125,35 +1985,7 @@ public class Script
 		<memo name="LOG">
 This .apsim file was created by the APSIM AgMIP translator.
 Log messages:
-  * Clock ERROR: Missing a simulation start date (sdat).
-  * Clock ERROR: Missing a simulation end date (endat).
   * Met WARNING: No CO2 found in weather data (aco2 or co2y).
-  * Soil layer 1 ERROR: Missing airdry.
-  * Soil layer 1 ERROR: Missing KL (apsim_kl).
-  * Soil layer 1 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 1 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 2 ERROR: Missing airdry.
-  * Soil layer 2 ERROR: Missing KL (apsim_kl).
-  * Soil layer 2 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 2 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 3 ERROR: Missing airdry.
-  * Soil layer 3 ERROR: Missing KL (apsim_kl).
-  * Soil layer 3 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 3 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 4 ERROR: Missing airdry.
-  * Soil layer 4 ERROR: Missing KL (apsim_kl).
-  * Soil layer 4 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 4 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 5 ERROR: Missing airdry.
-  * Soil layer 5 ERROR: Missing KL (apsim_kl).
-  * Soil layer 5 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 5 ERROR: Missing InertC (both slic and slfic).
-  * Soil layer 6 ERROR: Missing airdry.
-  * Soil layer 6 ERROR: Missing KL (apsim_kl).
-  * Soil layer 6 ERROR: Missing FBIOM (both slacc and slfac).
-  * Soil layer 6 ERROR: Missing InertC (both slic and slfic).
-  * Soil ERROR: Missing diffusConst (diffusConst).
-  * Soil ERROR: Missing diffusSlope (diffusSlope).
   * Initial conditions layer 1 ERROR: Missing NO3 (icno3).
   * Initial conditions layer 1 ERROR: Missing NH4 (icnh4).
   * Initial conditions layer 2 ERROR: Missing NO3 (icno3).
@@ -2169,8 +2001,8 @@ Log messages:
    
 		</memo>
 		<clock>
-			<start_date type="date" description="Enter the start date of the simulation">?</start_date>
-			<end_date type="date" description="Enter the end date of the simulation">?</end_date>
+			<start_date type="date" description="Enter the start date of the simulation">23/07/1997</start_date>
+			<end_date type="date" description="Enter the end date of the simulation">09/02/1998</end_date>
 		</clock>
 		<metfile name="met">
 			<filename name="filename" input="yes">GHNY.met</filename>
@@ -2273,7 +2105,7 @@ Log messages:
 				<operations name="Operations">
 					<operation condition="start_of_day">
 						<date>24/07/1997</date>
-						<action>peanut sow plants = 10.0, sowing_depth = 50.0 (mm), cultivar = GH0002, row_spacing = 500.0 (mm), crop_class = plant</action>
+						<action>peanut sow plants = 10.0, sowing_depth = 50.0 (mm), cultivar = MCCUBBIN, row_spacing = 500.0 (mm), crop_class = plant</action>
 					</operation>
 				</operations>
                 <manager name="Harvesting rule">

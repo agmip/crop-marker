@@ -33,7 +33,7 @@ public class AppRunnerTask extends Task<ArrayList<TestComparator>> {
             return c.getComparators();
         } catch (Exception ex) {
             LOG.error(Functions.getStackTrace(ex));
-            return new ArrayList();
+            return null;
         }
     }
 

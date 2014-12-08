@@ -1,0 +1,6 @@
+ApsimVersion = 7.5
+format = csv
+Title = GHNY9701_8-97 DATE1 F-MIX ACMO
+yield,biomass,AnthesisDate,MaturityDate,HarvestDate,LAIMax,InCropRain,SumEP,SumNO3Uptake,SumLeachNO3
+(kg/ha),(kg/ha),(yyyy-mm-dd),(yyyy-mm-dd),(yyyy-mm-dd),(m2/m2),(mm),(mm),(kg/ha),(kg/ha)
+491.650269,1791.728027,1997-07-14,1997-09-02,1997-09-03,1.255115,465.200001,63.100100,7.584425,2.504256

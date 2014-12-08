@@ -1,4 +1,4 @@
-!This soil file is created by DSSAT translator tool on Mon Oct 13 10:45:15 EDT 2014.
+!This soil file is created by DSSAT translator tool on Thu Dec 04 01:36:02 EST 2014.
 *SOILS: General DSSAT Soil Input File; 
 
 !The ACE ID is N/A.

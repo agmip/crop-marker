@@ -1,10 +1,10 @@
 *WATER BALANCE OUTPUT FILE
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:34
                                                                                 
 *RUN   1        : 97 DATE1 CHINESE          CRGRO045 GHNY9701    1              
  MODEL          : CRGRO045 - Peanut                                             
- EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ EXPERIMENT     : GHNY9701 PN 1997 VARIETY X PLANTING DATE EXPERIMENT           
  DATA PATH      :                                                               
  TREATMENT  1   : 97 DATE1 CHINESE          CRGRO045                            
   
@@ -12,30 +12,30 @@
 !     WATER BALANCE PARAMETERS
 !     ========================                 --mm--
 
-!     Soil H20 (start) on Year/day 1997/149    157.20
-!     Soil H20 (final) on Year/day 1997/248    197.11
+!     Soil H20 (start) on Year/day 1997/148    157.20
+!     Soil H20 (final) on Year/day 1997/249    193.79
 !     Effective Irrigation                       0.00
 !     Precipitation                            492.00
 !     Water added with new mulch                 0.03
-!     Drainage                                  82.10
+!     Drainage                                  82.26
 !     Tiledrain flow                             0.00
-!     Runoff                                    37.66
-!     Mulch evaporation                          6.58
-!     Soil Evaporation                         151.34
-!     Transpiration                            174.20
-!     Potential ET                             411.58
+!     Runoff                                    37.68
+!     Mulch evaporation                          6.69
+!     Soil Evaporation                         154.70
+!     Transpiration                            173.99
+!     Potential ET                             420.79
 
 !     Initial mulch water content                0.19
-!     Final mulch water content                  0.42
+!     Final mulch water content                  0.31
 
-!     Final Balance                             0.001
+!     Final Balance                             0.000
 
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:35
                                                                                 
 *RUN   2        : 97 DATE1 F-MIX            CRGRO045 GHNY9701    2              
  MODEL          : CRGRO045 - Peanut                                             
- EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ EXPERIMENT     : GHNY9701 PN 1997 VARIETY X PLANTING DATE EXPERIMENT           
  DATA PATH      :                                                               
  TREATMENT  2   : 97 DATE1 F-MIX            CRGRO045                            
   
@@ -43,30 +43,30 @@
 !     WATER BALANCE PARAMETERS
 !     ========================                 --mm--
 
-!     Soil H20 (start) on Year/day 1997/149    157.20
+!     Soil H20 (start) on Year/day 1997/148    157.20
 !     Soil H20 (final) on Year/day 1997/270    235.33
 !     Effective Irrigation                       0.00
 !     Precipitation                            716.80
 !     Water added with new mulch                 0.06
-!     Drainage                                 156.72
+!     Drainage                                 156.53
 !     Tiledrain flow                             0.00
-!     Runoff                                    57.20
+!     Runoff                                    57.19
 !     Mulch evaporation                          8.65
-!     Soil Evaporation                         153.28
-!     Transpiration                            262.55
-!     Potential ET                             503.26
+!     Soil Evaporation                         153.41
+!     Transpiration                            262.61
+!     Potential ET                             508.84
 
 !     Initial mulch water content                0.19
 !     Final mulch water content                  0.52
 
-!     Final Balance                            -0.002
+!     Final Balance                             0.000
 
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:35
                                                                                 
 *RUN   3        : 97 DATE2 CHINESE          CRGRO045 GHNY9701    3              
  MODEL          : CRGRO045 - Peanut                                             
- EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ EXPERIMENT     : GHNY9701 PN 1997 VARIETY X PLANTING DATE EXPERIMENT           
  DATA PATH      :                                                               
  TREATMENT  3   : 97 DATE2 CHINESE          CRGRO045                            
   
@@ -74,30 +74,30 @@
 !     WATER BALANCE PARAMETERS
 !     ========================                 --mm--
 
-!     Soil H20 (start) on Year/day 1997/177    202.50
+!     Soil H20 (start) on Year/day 1997/176    202.50
 !     Soil H20 (final) on Year/day 1997/277    195.81
 !     Effective Irrigation                       0.00
 !     Precipitation                            632.00
 !     Water added with new mulch                 0.03
-!     Drainage                                 236.30
+!     Drainage                                 236.78
 !     Tiledrain flow                             0.00
-!     Runoff                                    53.20
-!     Mulch evaporation                          7.20
-!     Soil Evaporation                         155.51
-!     Transpiration                            186.46
-!     Potential ET                             418.59
+!     Runoff                                    53.15
+!     Mulch evaporation                          7.22
+!     Soil Evaporation                         155.04
+!     Transpiration                            186.48
+!     Potential ET                             422.77
 
 !     Initial mulch water content                0.19
 !     Final mulch water content                  0.25
 
-!     Final Balance                            -0.002
+!     Final Balance                            -0.001
 
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:35
                                                                                 
 *RUN   4        : 97 DATE2 F-MIX            CRGRO045 GHNY9701    4              
  MODEL          : CRGRO045 - Peanut                                             
- EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ EXPERIMENT     : GHNY9701 PN 1997 VARIETY X PLANTING DATE EXPERIMENT           
  DATA PATH      :                                                               
  TREATMENT  4   : 97 DATE2 F-MIX            CRGRO045                            
   
@@ -105,30 +105,30 @@
 !     WATER BALANCE PARAMETERS
 !     ========================                 --mm--
 
-!     Soil H20 (start) on Year/day 1997/177    202.50
+!     Soil H20 (start) on Year/day 1997/176    202.50
 !     Soil H20 (final) on Year/day 1997/298    177.78
 !     Effective Irrigation                       0.00
 !     Precipitation                            736.20
 !     Water added with new mulch                 0.06
-!     Drainage                                 266.83
+!     Drainage                                 267.32
 !     Tiledrain flow                             0.00
-!     Runoff                                    56.59
-!     Mulch evaporation                          8.92
-!     Soil Evaporation                         151.31
-!     Transpiration                            277.16
-!     Potential ET                             506.90
+!     Runoff                                    56.54
+!     Mulch evaporation                          8.93
+!     Soil Evaporation                         150.80
+!     Transpiration                            277.21
+!     Potential ET                             511.08
 
 !     Initial mulch water content                0.19
 !     Final mulch water content                  0.36
 
-!     Final Balance                            -0.002
+!     Final Balance                            -0.001
 
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:35
                                                                                 
 *RUN   5        : 97 DATE3 CHINESE          CRGRO045 GHNY9701    5              
  MODEL          : CRGRO045 - Peanut                                             
- EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ EXPERIMENT     : GHNY9701 PN 1997 VARIETY X PLANTING DATE EXPERIMENT           
  DATA PATH      :                                                               
  TREATMENT  5   : 97 DATE3 CHINESE          CRGRO045                            
   
@@ -136,30 +136,30 @@
 !     WATER BALANCE PARAMETERS
 !     ========================                 --mm--
 
-!     Soil H20 (start) on Year/day 1997/205    175.35
-!     Soil H20 (final) on Year/day 1997/305    153.94
+!     Soil H20 (start) on Year/day 1997/204    175.35
+!     Soil H20 (final) on Year/day 1997/305    153.96
 !     Effective Irrigation                       0.00
-!     Precipitation                            589.10
+!     Precipitation                            594.20
 !     Water added with new mulch                 0.03
-!     Drainage                                 197.69
+!     Drainage                                 200.00
 !     Tiledrain flow                             0.00
-!     Runoff                                    45.53
-!     Mulch evaporation                          7.03
-!     Soil Evaporation                         164.93
-!     Transpiration                            195.43
-!     Potential ET                             438.46
+!     Runoff                                    45.54
+!     Mulch evaporation                          7.11
+!     Soil Evaporation                         167.69
+!     Transpiration                            195.33
+!     Potential ET                             443.10
 
 !     Initial mulch water content                0.19
 !     Final mulch water content                  0.14
 
-!     Final Balance                            -0.002
+!     Final Balance                            -0.003
 
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:35
                                                                                 
 *RUN   6        : 97 DATE3 F-MIX            CRGRO045 GHNY9701    6              
  MODEL          : CRGRO045 - Peanut                                             
- EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ EXPERIMENT     : GHNY9701 PN 1997 VARIETY X PLANTING DATE EXPERIMENT           
  DATA PATH      :                                                               
  TREATMENT  6   : 97 DATE3 F-MIX            CRGRO045                            
   
@@ -167,18 +167,18 @@
 !     WATER BALANCE PARAMETERS
 !     ========================                 --mm--
 
-!     Soil H20 (start) on Year/day 1997/205    175.35
+!     Soil H20 (start) on Year/day 1997/204    175.35
 !     Soil H20 (final) on Year/day 1997/324    117.12
 !     Effective Irrigation                       0.00
-!     Precipitation                            589.60
+!     Precipitation                            594.70
 !     Water added with new mulch                 0.10
-!     Drainage                                 197.97
+!     Drainage                                 200.29
 !     Tiledrain flow                             0.00
-!     Runoff                                    45.72
-!     Mulch evaporation                          7.44
-!     Soil Evaporation                         150.32
-!     Transpiration                            246.66
-!     Potential ET                             539.05
+!     Runoff                                    45.74
+!     Mulch evaporation                          7.52
+!     Soil Evaporation                         153.03
+!     Transpiration                            246.62
+!     Potential ET                             543.69
 
 !     Initial mulch water content                0.19
 !     Final mulch water content                  0.02

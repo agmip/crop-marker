@@ -1,0 +1,6 @@
+ApsimVersion = 7.5
+format = csv
+Title = GHNY9701_11-97 DATE3 CHINESE ACMO
+yield,biomass,AnthesisDate,MaturityDate,HarvestDate,LAIMax,InCropRain,SumEP,SumNO3Uptake,SumLeachNO3
+(kg/ha),(kg/ha),(yyyy-mm-dd),(yyyy-mm-dd),(yyyy-mm-dd),(m2/m2),(mm),(mm),(kg/ha),(kg/ha)
+1386.525635,3391.694580,1997-09-13,1997-11-26,1997-11-27,1.891878,589.600001,148.066443,10.695881,2.956001

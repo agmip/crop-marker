@@ -1,4 +1,4 @@
-*EVALUATION : ITHY8001SG                                                              DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:42:03
+*EVALUATION : ITHY8001SG ICRISAT ALFISOL N 1980 EXPT 80-1                             DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:57
 
 @RUN EXCODE        TN RN CR   IDAPS   IDAPM   ADAPS   ADAPM   PD1TS   PD1TM   PDFTS   PDFTM   MDAPS   MDAPM   HWAMS   HWAMM   PWAMS   PWAMM   H#AMS   H#AMM   HWUMS   HWUMM   H#UMS   H#UMM   CWAMS   CWAMM   BWAMS   BWAMM   LAIXS   LAIXM   HIAMS   HIAMM   THAMS   THAMM   GNAMS   GNAMM   CNAMS   CNAMM   SNAMS   SNAMM   GN%MS   GN%MM   CWAAS   CWAAM   CNAAS   CNAAM   L#SMS   L#SMM   EDAPS   EDAPM
    1 ITHY8001SG     1  1 SG      31     -99      67     -99     -99     -99     -99     -99     109     -99    5400    5230     -99     -99   19741     -99  0.0274     -99  1096.7     -99   12096   10770    6696    5540    3.69     -99   0.446     -99     -99     -99      74    63.9      98    89.0      24    25.5     1.4    1.22    5792     -99      71     -99   21.39     -99       5     -99

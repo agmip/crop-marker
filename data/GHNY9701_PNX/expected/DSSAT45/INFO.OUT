@@ -2,16 +2,16 @@
 
 ******************************************************************************
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:34
                                                                                 
 *RUN   1        : 97 DATE1 CHINESE          CRGRO045 GHNY9701    1              
  MODEL          : CRGRO045 - Peanut                                             
- EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ EXPERIMENT     : GHNY9701 PN 1997 VARIETY X PLANTING DATE EXPERIMENT           
  DATA PATH      :                                                               
  TREATMENT  1   : 97 DATE1 CHINESE          CRGRO045                            
   
 
- CSM     YEAR DOY = 1997 149
+ CSM     YEAR DOY = 1997 148
  RNMODE = B                                                                    
  PATHEX =                                                                      
  FILEX  = GHNY9701.PNX                                                         
@@ -20,15 +20,15 @@
  MODEL  = CRGRO045                                                             
  TRTNUM =     1                                                                
 
- SOILDYN  YEAR DOY = 1997 149
+ SOILDYN  YEAR DOY = 1997 148
  The soil file has missing or invalid data.                                    
  Default values have been used for these variables:                            
    CEC, ADCOEF                                                                 
  These defaults may or may not be important to your results.                   
 
- SOILDYN  YEAR DOY = 1997 149
+ SOILDYN  YEAR DOY = 1997 148
  Soil ID: GH00970001                                                           
- 0 SAVANNA OCHROSOL                                                            
+ SAVANNA OCHROSOL                                                              
  PALEUSTALF                                                                    
    SALB SWCON    CN  DMOD  SLPF SMPX                                           
    0.13  0.40  76.0  1.00  0.86 IB001                                          
@@ -42,7 +42,7 @@
    5  60    15 0.120 0.205 0.342 0.250  1.63  0.28  15.5  27.5  57.0   6.1     
    6  90    30 0.130 0.200 0.347 0.050  1.45  0.17  18.2  27.7  54.1   6.0     
 
- SOILDYN  YEAR DOY = 1997 149
+ SOILDYN  YEAR DOY = 1997 148
  Additional soil properties                                                    
                 Convert                                                        
     Cation Adsrp  ppm /  SLCF                                                  
@@ -54,7 +54,7 @@
    5  15.5   0.0   0.41  47.1                                                  
    6  15.5   0.0   0.23  47.5                                                  
 
- IPWTH   YEAR DOY = 1997 149
+ IPWTH   YEAR DOY = 1997 148
  GHNY9702.WTH                                                                  
  Found daily weather data headers for:                                         
    SRAD           Col   7 -  11                                                
@@ -65,28 +65,28 @@
    WIND           Col  37 -  41                                                
    PAR            Col  43 -  47                                                
 
- CO2VAL  YEAR DOY = 1997 149
+ CO2VAL  YEAR DOY = 1997 148
   643 CO2 data points read from file.                                          
  C:\DSSAT45\StandardData\CO2045.WDA                                            
 
- READA   YEAR DOY = 1997 248
+ READA   YEAR DOY = 1997 249
   Error in FILEA - Measured data not used                                      
 
- ENDRUN  YEAR DOY = 1997 248
+ ENDRUN  YEAR DOY = 1997 249
  Normal end of run        1                                                    
 
 ******************************************************************************
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:35
                                                                                 
 *RUN   2        : 97 DATE1 F-MIX            CRGRO045 GHNY9701    2              
  MODEL          : CRGRO045 - Peanut                                             
- EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ EXPERIMENT     : GHNY9701 PN 1997 VARIETY X PLANTING DATE EXPERIMENT           
  DATA PATH      :                                                               
  TREATMENT  2   : 97 DATE1 F-MIX            CRGRO045                            
   
 
- CSM     YEAR DOY = 1997 149
+ CSM     YEAR DOY = 1997 148
  RNMODE = B                                                                    
  PATHEX =                                                                      
  FILEX  = GHNY9701.PNX                                                         
@@ -95,15 +95,15 @@
  MODEL  = CRGRO045                                                             
  TRTNUM =     2                                                                
 
- SOILDYN  YEAR DOY = 1997 149
+ SOILDYN  YEAR DOY = 1997 148
  The soil file has missing or invalid data.                                    
  Default values have been used for these variables:                            
    CEC, ADCOEF                                                                 
  These defaults may or may not be important to your results.                   
 
- SOILDYN  YEAR DOY = 1997 149
+ SOILDYN  YEAR DOY = 1997 148
  Soil ID: GH00970001                                                           
- 0 SAVANNA OCHROSOL                                                            
+ SAVANNA OCHROSOL                                                              
  PALEUSTALF                                                                    
    SALB SWCON    CN  DMOD  SLPF SMPX                                           
    0.13  0.40  76.0  1.00  0.86 IB001                                          
@@ -117,7 +117,7 @@
    5  60    15 0.120 0.205 0.342 0.250  1.63  0.28  15.5  27.5  57.0   6.1     
    6  90    30 0.130 0.200 0.347 0.050  1.45  0.17  18.2  27.7  54.1   6.0     
 
- SOILDYN  YEAR DOY = 1997 149
+ SOILDYN  YEAR DOY = 1997 148
  Additional soil properties                                                    
                 Convert                                                        
     Cation Adsrp  ppm /  SLCF                                                  
@@ -137,16 +137,16 @@
 
 ******************************************************************************
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:35
                                                                                 
 *RUN   3        : 97 DATE2 CHINESE          CRGRO045 GHNY9701    3              
  MODEL          : CRGRO045 - Peanut                                             
- EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ EXPERIMENT     : GHNY9701 PN 1997 VARIETY X PLANTING DATE EXPERIMENT           
  DATA PATH      :                                                               
  TREATMENT  3   : 97 DATE2 CHINESE          CRGRO045                            
   
 
- CSM     YEAR DOY = 1997 177
+ CSM     YEAR DOY = 1997 176
  RNMODE = B                                                                    
  PATHEX =                                                                      
  FILEX  = GHNY9701.PNX                                                         
@@ -155,15 +155,15 @@
  MODEL  = CRGRO045                                                             
  TRTNUM =     3                                                                
 
- SOILDYN  YEAR DOY = 1997 177
+ SOILDYN  YEAR DOY = 1997 176
  The soil file has missing or invalid data.                                    
  Default values have been used for these variables:                            
    CEC, ADCOEF                                                                 
  These defaults may or may not be important to your results.                   
 
- SOILDYN  YEAR DOY = 1997 177
+ SOILDYN  YEAR DOY = 1997 176
  Soil ID: GH00970002                                                           
- 0 SAVANNA OCHROSOL                                                            
+ SAVANNA OCHROSOL                                                              
  PALEUSTALF                                                                    
    SALB SWCON    CN  DMOD  SLPF SMPX                                           
    0.13  0.65  76.0  1.00  0.86 IB001                                          
@@ -177,7 +177,7 @@
    5  60    15 0.120 0.216 0.342 0.250  1.63  0.28  15.5  27.5  57.0   6.1     
    6  90    30 0.130 0.216 0.347 0.050  1.45  0.17  18.2  27.7  54.1   6.0     
 
- SOILDYN  YEAR DOY = 1997 177
+ SOILDYN  YEAR DOY = 1997 176
  Additional soil properties                                                    
                 Convert                                                        
     Cation Adsrp  ppm /  SLCF                                                  
@@ -197,16 +197,16 @@
 
 ******************************************************************************
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:35
                                                                                 
 *RUN   4        : 97 DATE2 F-MIX            CRGRO045 GHNY9701    4              
  MODEL          : CRGRO045 - Peanut                                             
- EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ EXPERIMENT     : GHNY9701 PN 1997 VARIETY X PLANTING DATE EXPERIMENT           
  DATA PATH      :                                                               
  TREATMENT  4   : 97 DATE2 F-MIX            CRGRO045                            
   
 
- CSM     YEAR DOY = 1997 177
+ CSM     YEAR DOY = 1997 176
  RNMODE = B                                                                    
  PATHEX =                                                                      
  FILEX  = GHNY9701.PNX                                                         
@@ -215,15 +215,15 @@
  MODEL  = CRGRO045                                                             
  TRTNUM =     4                                                                
 
- SOILDYN  YEAR DOY = 1997 177
+ SOILDYN  YEAR DOY = 1997 176
  The soil file has missing or invalid data.                                    
  Default values have been used for these variables:                            
    CEC, ADCOEF                                                                 
  These defaults may or may not be important to your results.                   
 
- SOILDYN  YEAR DOY = 1997 177
+ SOILDYN  YEAR DOY = 1997 176
  Soil ID: GH00970002                                                           
- 0 SAVANNA OCHROSOL                                                            
+ SAVANNA OCHROSOL                                                              
  PALEUSTALF                                                                    
    SALB SWCON    CN  DMOD  SLPF SMPX                                           
    0.13  0.65  76.0  1.00  0.86 IB001                                          
@@ -237,7 +237,7 @@
    5  60    15 0.120 0.216 0.342 0.250  1.63  0.28  15.5  27.5  57.0   6.1     
    6  90    30 0.130 0.216 0.347 0.050  1.45  0.17  18.2  27.7  54.1   6.0     
 
- SOILDYN  YEAR DOY = 1997 177
+ SOILDYN  YEAR DOY = 1997 176
  Additional soil properties                                                    
                 Convert                                                        
     Cation Adsrp  ppm /  SLCF                                                  
@@ -257,16 +257,16 @@
 
 ******************************************************************************
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:35
                                                                                 
 *RUN   5        : 97 DATE3 CHINESE          CRGRO045 GHNY9701    5              
  MODEL          : CRGRO045 - Peanut                                             
- EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ EXPERIMENT     : GHNY9701 PN 1997 VARIETY X PLANTING DATE EXPERIMENT           
  DATA PATH      :                                                               
  TREATMENT  5   : 97 DATE3 CHINESE          CRGRO045                            
   
 
- CSM     YEAR DOY = 1997 205
+ CSM     YEAR DOY = 1997 204
  RNMODE = B                                                                    
  PATHEX =                                                                      
  FILEX  = GHNY9701.PNX                                                         
@@ -275,15 +275,15 @@
  MODEL  = CRGRO045                                                             
  TRTNUM =     5                                                                
 
- SOILDYN  YEAR DOY = 1997 205
+ SOILDYN  YEAR DOY = 1997 204
  The soil file has missing or invalid data.                                    
  Default values have been used for these variables:                            
    CEC, ADCOEF                                                                 
  These defaults may or may not be important to your results.                   
 
- SOILDYN  YEAR DOY = 1997 205
+ SOILDYN  YEAR DOY = 1997 204
  Soil ID: GH00970002                                                           
- 0 SAVANNA OCHROSOL                                                            
+ SAVANNA OCHROSOL                                                              
  PALEUSTALF                                                                    
    SALB SWCON    CN  DMOD  SLPF SMPX                                           
    0.13  0.65  76.0  1.00  0.86 IB001                                          
@@ -297,7 +297,7 @@
    5  60    15 0.120 0.216 0.342 0.250  1.63  0.28  15.5  27.5  57.0   6.1     
    6  90    30 0.130 0.216 0.347 0.050  1.45  0.17  18.2  27.7  54.1   6.0     
 
- SOILDYN  YEAR DOY = 1997 205
+ SOILDYN  YEAR DOY = 1997 204
  Additional soil properties                                                    
                 Convert                                                        
     Cation Adsrp  ppm /  SLCF                                                  
@@ -317,16 +317,16 @@
 
 ******************************************************************************
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:48:17
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:35
                                                                                 
 *RUN   6        : 97 DATE3 F-MIX            CRGRO045 GHNY9701    6              
  MODEL          : CRGRO045 - Peanut                                             
- EXPERIMENT     : GHNY9701 PN able [sltx] with oversized content [1 SALO], only 
+ EXPERIMENT     : GHNY9701 PN 1997 VARIETY X PLANTING DATE EXPERIMENT           
  DATA PATH      :                                                               
  TREATMENT  6   : 97 DATE3 F-MIX            CRGRO045                            
   
 
- CSM     YEAR DOY = 1997 205
+ CSM     YEAR DOY = 1997 204
  RNMODE = B                                                                    
  PATHEX =                                                                      
  FILEX  = GHNY9701.PNX                                                         
@@ -335,15 +335,15 @@
  MODEL  = CRGRO045                                                             
  TRTNUM =     6                                                                
 
- SOILDYN  YEAR DOY = 1997 205
+ SOILDYN  YEAR DOY = 1997 204
  The soil file has missing or invalid data.                                    
  Default values have been used for these variables:                            
    CEC, ADCOEF                                                                 
  These defaults may or may not be important to your results.                   
 
- SOILDYN  YEAR DOY = 1997 205
+ SOILDYN  YEAR DOY = 1997 204
  Soil ID: GH00970002                                                           
- 0 SAVANNA OCHROSOL                                                            
+ SAVANNA OCHROSOL                                                              
  PALEUSTALF                                                                    
    SALB SWCON    CN  DMOD  SLPF SMPX                                           
    0.13  0.65  76.0  1.00  0.86 IB001                                          
@@ -357,7 +357,7 @@
    5  60    15 0.120 0.216 0.342 0.250  1.63  0.28  15.5  27.5  57.0   6.1     
    6  90    30 0.130 0.216 0.347 0.050  1.45  0.17  18.2  27.7  54.1   6.0     
 
- SOILDYN  YEAR DOY = 1997 205
+ SOILDYN  YEAR DOY = 1997 204
  Additional soil properties                                                    
                 Convert                                                        
     Cation Adsrp  ppm /  SLCF                                                  

@@ -1,46 +1,46 @@
-*EXP.DETAILS: GHNY9701PN able [sltx] with oversized content [1 SALO], only first 5 bi
+*EXP.DETAILS: GHNY9701PN 1997 VARIETY X PLANTING DATE EXPERIMENT                     
 
 *FILES
 @N  EXP.DATA    AFILE        ADIR
-  6 EXP         GHNY9701.PNA                                                                                 
+  3 EXP         GHNY9701.PNA                                                                                 
 @N  SPECIES     SPFILE       SPDIR
-  6 SPE         PNGRO045.SPE C:\DSSAT45\GENOTYPE\                                                            
+  3 SPE         PNGRO045.SPE C:\DSSAT45\GENOTYPE\                                                            
 @N  ECOTYPE     EFILE        EDIR
-  6 ECO         PNGRO045.ECO C:\DSSAT45\GENOTYPE\                                                            
+  3 ECO         PNGRO045.ECO C:\DSSAT45\GENOTYPE\                                                            
 @N  CULTIVAR    CFILE        CDIR
-  6 CUL         PNGRO045.CUL C:\DSSAT45\GENOTYPE\                                                            
+  3 CUL         PNGRO045.CUL C:\DSSAT45\GENOTYPE\                                                            
 @N  SOIL        SFILE        SDIR
-  6 SOIL        GH.SOL                                                                                       
+  3 SOIL        GH.SOL                                                                                       
 @N  WEATHER     WFILE        WDIR
-  6 WEATH       GHNY9702.WTH                                                                                 
+  3 WEATH       GHNY9702.WTH                                                                                 
 
 *SIMULATION CONTROL
 @N  GENERAL     NYERS NREPS START   SDATE RSEED SNAME.................... MODEL...
-  6 GE              1     1     S 1997205  2150 DEFAULT SIMULATION CONTR  CRGRO045
+  3 GE              1     1     S 1997204  2150 DEFAULT SIMULATION CONTR  CRGRO045
 @N  OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
-  6 OP              Y     Y     Y     N     N     Y     N     N     M
+  3 OP              Y     Y     Y     N     N     Y     N     N     M
 @N  METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT SOMDY MESEV MESOL
-  6 ME              M     M     E     R     S     L     R     1     G     S     2
+  3 ME              M     M     E     R     S     L     R     1     G     S     2
 @N  MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
-  6 MA              R     R     N     N     M
+  3 MA              R     R     N     N     M
 @N  OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT  LONG CHOUT OPOUT
-  6 OU              N     Y     Y     1     Y     N     Y     Y     N     Y     Y     N     N
+  3 OU              N     Y     Y     1     Y     N     Y     Y     N     Y     Y     N     N
 
 !AUTOMATIC MANAGEM
 @N  PLANTING      PFRST   PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
-  6 PL          1997142 1997156   40.  100.   30.   40.   10.
+  3 PL          1997142 1997156   40.  100.   30.   40.   10.
 @N  IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
-  6 IR            30.   50.  100. GS000 IR001  10.0 1.000
+  3 IR            30.   50.  100. GS000 IR001  10.0 1.000
 @N  NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
-  6 NI            30.   50.   25. FE001 GS000
+  3 NI            30.   50.   25. FE001 GS000
 @N  RESIDUES    RIPCN RTIME RIDEP
-  6 RE           100.     1   20.
+  3 RE           100.     1   20.
 @N  HARVEST     HFRST   HLAST HPCNP HRCNR
-  6 HA              0 1998149  100.    0.
+  3 HA              0 1998149  100.    0.
 
 *TREATMENTS
 @N   R O C TNAME....................  CU  FL  SA  IC  MP  MI  MF  MR  MC  MT  ME  MH  SM
-  6  0 0 0 97 DATE3 F-MIX              2   2   0   3   3   0   0   0   0   0   0   0   6
+  6  0 0 0 97 DATE3 F-MIX              2   2   0   3   3   0   0   0   0   0   0   0   3
 
 *CULTIVARS
 @C  CR INGENO CNAME
@@ -48,7 +48,7 @@
 
 *FIELDS
 @L  ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX   SLDP ID_SOIL
-  2 GHNY0002 GHNY9702   0.0    0. DR000    0.  100. 00000 SAL      9. GH00970002
+  2 GHNY0002 GHNY9702   0.0    0. DR000    0.  100. 00000 SL      90. GH00970002
 @L             XCRD            YCRD      ELEV              AREA  SLEN  FLWR  SLAS PRMGT
   2        -0.92000         9.42000      0.00               1.0  100.   1.0   0.0   -99   -99
 

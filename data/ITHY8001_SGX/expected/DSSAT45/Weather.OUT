@@ -1,10 +1,10 @@
 *WEATHER MODULE DAILY OUTPUT FILE
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:42:03
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:57
                                                                                 
 *RUN   1        : 0 N check plot            SGCER045 ITHY8001    1              
  MODEL          : SGCER045 - Grain sorghum                                      
- EXPERIMENT     : ITHY8001 SG                                                   
+ EXPERIMENT     : ITHY8001 SG ICRISAT ALFISOL N 1980 EXPT 80-1                  
  DATA PATH      :                                                               
  TREATMENT  1   : 0 N check plot            SGCER045                            
   
@@ -124,11 +124,11 @@
  1980 277   113    0.0   11.8   12.6   23.1   46.2   0.12   32.3   17.3   24.4   27.4   17.3   24.4   27.4   86.4  339.0
  1980 278   114    0.0   11.8   12.6   20.8   41.6   0.20   33.0   20.5   26.4   28.9   20.5   26.4   28.9   86.4  339.0
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:42:03
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:57
                                                                                 
 *RUN   2        : 80 kg Urea-N Incorporated SGCER045 ITHY8001    2              
  MODEL          : SGCER045 - Grain sorghum                                      
- EXPERIMENT     : ITHY8001 SG                                                   
+ EXPERIMENT     : ITHY8001 SG ICRISAT ALFISOL N 1980 EXPT 80-1                  
  DATA PATH      :                                                               
  TREATMENT  2   : 80 kg Urea-N Incorporated SGCER045                            
   
@@ -248,11 +248,11 @@
  1980 277   113    0.0   11.8   12.6   23.1   46.2   0.12   32.3   17.3   24.4   27.4   17.3   24.4   27.4   86.4  339.0
  1980 278   114    0.0   11.8   12.6   20.8   41.6   0.20   33.0   20.5   26.4   28.9   20.5   26.4   28.9   86.4  339.0
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:42:03
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:35:57
                                                                                 
 *RUN   3        : 80 kg Urea-N Split Applic SGCER045 ITHY8001    3              
  MODEL          : SGCER045 - Grain sorghum                                      
- EXPERIMENT     : ITHY8001 SG                                                   
+ EXPERIMENT     : ITHY8001 SG ICRISAT ALFISOL N 1980 EXPT 80-1                  
  DATA PATH      :                                                               
  TREATMENT  3   : 80 kg Urea-N Split Applic SGCER045                            
   

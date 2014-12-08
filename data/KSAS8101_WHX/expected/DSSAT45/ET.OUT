@@ -1,10 +1,10 @@
 *SOIL-PLANT-ATMOSPHERE MODULE OUTPUT FILE
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:36:04
                                                                                 
 *RUN   1        : DRYLAND  - 0 KG N/HA      CSCER045 KSAS8101    1              
  MODEL          : CSCER045 - Wheat                                              
- EXPERIMENT     : KSAS8101 WH                                                   
+ EXPERIMENT     : KSAS8101 WH N RESPONSE,KANSAS STATE  3FE(N)*2IR  (DSSAT3)     
  DATA PATH      :                                                               
  TREATMENT  1   : DRYLAND  - 0 KG N/HA      CSCER045                            
   
@@ -273,11 +273,11 @@
  1982 173   260  28.00  27.80  13.90  6.837  0.000  6.837  4.851  0.000  4.849  0.000  0.003  577.88  411.07  165.10  245.74    0.00    0.22   1.166   1.035   0.962   0.440   0.345   0.311   0.231   0.192   0.167
  1982 174   261  16.50  26.70  16.70  4.177  0.000  4.177  4.040  0.000  4.037  0.000  0.003  582.06  415.11  165.10  249.78    0.00    0.23   1.108   0.846   0.766   0.347   0.271   0.243   0.178   0.148   0.129
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:36:04
                                                                                 
 *RUN   2        : DRYLAND  - 60 KG N/HA     CSCER045 KSAS8101    2              
  MODEL          : CSCER045 - Wheat                                              
- EXPERIMENT     : KSAS8101 WH                                                   
+ EXPERIMENT     : KSAS8101 WH N RESPONSE,KANSAS STATE  3FE(N)*2IR  (DSSAT3)     
  DATA PATH      :                                                               
  TREATMENT  2   : DRYLAND  - 60 KG N/HA     CSCER045                            
   
@@ -546,11 +546,11 @@
  1982 173   260  28.00  27.80  13.90  6.833  0.000  6.833  4.926  0.000  4.923  0.000  0.003  574.97  413.86  185.10  228.52    0.00    0.25   1.179   1.054   0.984   0.450   0.351   0.311   0.233   0.193   0.169
  1982 174   261  16.50  26.70  16.70  4.168  0.000  4.168  4.019  0.000  4.015  0.000  0.004  579.14  417.88  185.10  232.53    0.00    0.26   1.094   0.836   0.763   0.350   0.273   0.240   0.182   0.147   0.129
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:36:04
                                                                                 
 *RUN   3        : DRYLAND  - 180 KG N/HA SP CSCER045 KSAS8101    3              
  MODEL          : CSCER045 - Wheat                                              
- EXPERIMENT     : KSAS8101 WH                                                   
+ EXPERIMENT     : KSAS8101 WH N RESPONSE,KANSAS STATE  3FE(N)*2IR  (DSSAT3)     
  DATA PATH      :                                                               
  TREATMENT  3   : DRYLAND  - 180 KG N/HA SP CSCER045                            
   
@@ -819,11 +819,11 @@
  1982 173   260  28.00  27.80  13.90  6.820  0.000  6.820  4.833  0.000  4.829  0.000  0.003  574.26  418.92  188.25  230.40    0.00    0.26   1.165   1.035   0.959   0.440   0.344   0.309   0.220   0.190   0.167
  1982 174   261  16.50  26.70  16.70  4.166  0.000  4.166  4.011  0.000  4.007  0.000  0.004  578.43  422.93  188.25  234.41    0.00    0.27   1.104   0.843   0.762   0.345   0.269   0.240   0.169   0.146   0.129
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:36:04
                                                                                 
 *RUN   4        : IRRIGATED - 0 KG N/HA     CSCER045 KSAS8101    4              
  MODEL          : CSCER045 - Wheat                                              
- EXPERIMENT     : KSAS8101 WH                                                   
+ EXPERIMENT     : KSAS8101 WH N RESPONSE,KANSAS STATE  3FE(N)*2IR  (DSSAT3)     
  DATA PATH      :                                                               
  TREATMENT  4   : IRRIGATED - 0 KG N/HA     CSCER045                            
   
@@ -1092,11 +1092,11 @@
  1982 173   260  28.00  27.80  13.90  6.838  0.000  6.838  4.864  0.000  4.861  0.000  0.003  579.89  433.18  157.75  275.20    0.00    0.22   1.165   1.035   0.962   0.441   0.348   0.310   0.235   0.195   0.171
  1982 174   261  16.50  26.70  16.70  4.177  0.000  4.177  4.041  0.000  4.038  0.000  0.003  584.07  437.22  157.75  279.24    0.00    0.23   1.106   0.845   0.764   0.347   0.271   0.243   0.181   0.151   0.132
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:36:04
                                                                                 
 *RUN   5        : IRRIGATED - 60 KG N/HA    CSCER045 KSAS8101    5              
  MODEL          : CSCER045 - Wheat                                              
- EXPERIMENT     : KSAS8101 WH                                                   
+ EXPERIMENT     : KSAS8101 WH N RESPONSE,KANSAS STATE  3FE(N)*2IR  (DSSAT3)     
  DATA PATH      :                                                               
  TREATMENT  5   : IRRIGATED - 60 KG N/HA    CSCER045                            
   
@@ -1365,11 +1365,11 @@
  1982 173   260  28.00  27.80  13.90  6.813  0.000  6.813  0.909  0.000  0.906  0.000  0.003  576.78  432.98  177.33  255.39    0.00    0.25   0.745   0.110   0.036   0.008   0.004   0.002   0.001   0.001   0.000
  1982 174   261  16.50  26.70  16.70  4.179  0.000  4.179  4.030  0.000  4.026  0.000  0.004  580.96  437.01  177.33  259.42    0.00    0.26   1.122   0.850   0.758   0.342   0.264   0.237   0.177   0.148   0.128
 
-*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         OCT 13, 2014; 10:45:28
+*DSSAT Cropping System Model Ver. 4.5.1.023 -Stub         DEC 04, 2014; 01:36:05
                                                                                 
 *RUN   6        : IRRIGATED 180 KG N/HA SPL CSCER045 KSAS8101    6              
  MODEL          : CSCER045 - Wheat                                              
- EXPERIMENT     : KSAS8101 WH                                                   
+ EXPERIMENT     : KSAS8101 WH N RESPONSE,KANSAS STATE  3FE(N)*2IR  (DSSAT3)     
  DATA PATH      :                                                               
  TREATMENT  6   : IRRIGATED 180 KG N/HA SPL CSCER045                            
   
